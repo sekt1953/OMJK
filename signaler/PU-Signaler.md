@@ -6,7 +6,7 @@
 
 ## Signal Sokkel
 
-|til Signal|Pin Nr.|til Krydsfelt|
+||Pin Nr.||
 |:---|:---:|:---|
 |Orange/Gul|1|Orange/Hvid|
 |Orange/Grøn|2|Orange/Grøn|
