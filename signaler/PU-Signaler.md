@@ -2,7 +2,7 @@
 
 ## Signal Sokkel
 
-|Kabel farve|Pin Nr.|Kabel farve|
+|til Signal|Pin Nr.|til Krydsfelt|
 |:---:|:---:|:---:|
 |Orange/Gul|1|Orange/Hvid|
 |Orange/Grøn|2|Orange/Grøn|
