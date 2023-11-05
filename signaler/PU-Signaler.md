@@ -1,5 +1,9 @@
 # PU-Signaler
 
+|PU-Signal|Signal Sokkel|
+|:---:|:---:|
+|![PU](./Images/pu.png)|![](./Images/SignalSokkel.png)|
+
 ## Signal Sokkel
 
 |til Signal|Pin Nr.|til Krydsfelt|
