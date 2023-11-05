@@ -3,7 +3,7 @@
 ## Signal Sokkel
 
 |til Signal|Pin Nr.|til Krydsfelt|
-|:---:|:---:|:---:|
+|:---|:---:|:---|
 |Orange/Gul|1|Orange/Hvid|
 |Orange/Grøn|2|Orange/Grøn|
 |Orange/Blå|3|Orange/Blå|
@@ -18,8 +18,8 @@
 ## Cat5 kabel til PU-signal
 
 |Cat5 4x2|PU Lampe|PU farve|Sokkel Nr.|Sokkel  Farve|Eller|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|Brun|1.| 0V/Stel/GND|1.| Gul/Grøn|Hvid/Orange|
+|:---:|:---:|:---:|:---:|:---|:---|
+|Brun|1.| 0V/Stel/GND|1.| Gul/Grøn|Orange/Hvid|
 |Brun/Hvid|2.|Gul|2.|Gul/Sort|Orange/Grøn|
 |||||||
 |Blå|3.|Gul|3.|Orange/Blå|Orange/Blå|
@@ -28,9 +28,8 @@
 |Grøn|5.|Gul|5.|Hvid/Orange|Gul/Grøn|
 |Grøn/Hvid|6.|Gul|6.|Gul/Blå|Gul/Blå|
 |||||||
-|Orange|7.|Rød|7.|Hvid/Gul|Hvid/Gul|
-|Orange/Hvid|
+|Orange|7.|Rød|7.|Gul/Hvid|Gul/Hvid|
 |||||||
 ||||8.|Grøn/Sort|Grøn/Sort|
-||||9.|Blå/Grøn|Blå/Grøn|
-||||10.|Grøn/Blå|Grøn/Blå|
+||||9.|Grøn/Blå|Grøn/Blå|
+||||10.|Grøn/Blå|Grøn/Grå|
