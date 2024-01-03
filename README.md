@@ -1,11 +1,19 @@
 # OMJK
 
-## Kilde
+## Home Assistant
+
+### [Lovelace](./Lovelace/lovelace.md)
+
+* [Home](./Lovelace/lovelace.md)
+
+[![](./Lovelace/images/Skærmbillede%20fra%202024-01-03%2021-52-45.png)](./Lovelace/lovelace.md)
+
+## Signaler
+
+### Kilde
 
 * Blokposten
   * [Elektriske sikringsanlæg](https://www.blokposten.dk/sikr/elek/elek-index.htm)
-
-## Signaler
 
 * Daglyssignaler
   * Dværgsignal
