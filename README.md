@@ -12,6 +12,8 @@
 
 ### [ESPHome](./HomeAssistant/ESPHome/esphome.md)
 
+#### [secrets.yaml](./HomeAssistant/ESPHome/esphome.md)
+
 #### [LedDriver](./HomeAssistant/ESPHome/esphome.md)
 
 * [Leddriver Files:](./HomeAssistant/ESPHome/esphome.md)

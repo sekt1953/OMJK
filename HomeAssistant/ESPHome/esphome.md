@@ -1,5 +1,27 @@
 # ESPHome
 
+## secrets.yaml
+
+```code
+# SSID & PASSWORD for local-wifi
+# omjk
+wifi_ssid_omjk: ""
+wifi_password_omjk: ""
+
+# sekt
+wifi_ssid_sekt: ""
+wifi_password_sekt: ""
+
+# Secure Password Generator: https://passwordsgenerator.net/
+# omjk
+api_password_omjk: "F7SHdwmg36pGvKxc2juNnzPRU9BQ5ytZ"
+ota_pass_omjk: "F7SHdwmg36pGvKxc2juNnzPRU9BQ5ytZ"
+ap_password_omjk: "pjF79PSmRN6t5cL3"
+
+# 32Byte Base64 String https://generate.plus/en/base64
+api_key_omjk: "LTMfTQ2GwmBURmIWOL3Czw=="
+```
+
 ## Leddriver
 
 * Leddriver Files:

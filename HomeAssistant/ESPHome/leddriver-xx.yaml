@@ -69,8 +69,6 @@ wifi:
     password: !secret wifi_password_omjk
   - ssid: !secret wifi_ssid_sekt
     password: !secret wifi_password_sekt
-  - ssid: !secret wifi_ssid_finn
-    password: !secret wifi_password_finn
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
