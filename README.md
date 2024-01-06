@@ -1,8 +1,8 @@
 # OMJK
 
-## Home Assistant
+## [Home Assistant](./HomeAssistant/)
 
-### CONFIG
+### [CONFIG](./HomeAssistant/CONFIG/)
 
 ### [Lovelace](./HomeAssistant/Lovelace/lovelace.md)
 
