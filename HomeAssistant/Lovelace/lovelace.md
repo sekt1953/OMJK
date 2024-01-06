@@ -1,6 +1,6 @@
 # Lovelace
 
-## Views Raw configuration editor
+## Views as seen in 'Raw configuration editor'
 
 ```code
 title: Hjem
