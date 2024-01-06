@@ -1,0 +1,12 @@
+- id: '1683045478482'
+  alias: Train occupied sensor 00_00
+  description: ''
+  use_blueprint:
+    path: train/train_occupied_sensor.yaml
+    input:
+      reserved_sensor: input_boolean.track_reserved_00_00
+      occupied_sensor: binary_sensor.tracksensor_00_00
+      green_light_target:
+        entity_id: switch.trackdisplay_00_00
+      red_light_target:
+        entity_id: switch.trackdisplay_00_10
