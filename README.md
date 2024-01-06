@@ -2,11 +2,27 @@
 
 ## Home Assistant
 
-### [Lovelace](./Lovelace/lovelace.md)
+### [Lovelace](./HomeAssistant/Lovelace/lovelace.md)
 
-* [Home](./Lovelace/lovelace.md)
+* [Home](./HomeAssistant/Lovelace/lovelace.md)
+  * [![](./HomeAssistant/Lovelace/images/Skærmbillede%20fra%202024-01-03%2021-52-45.png)](./HomeAssistant/Lovelace/lovelace.md)
 
-[![](./Lovelace/images/Skærmbillede%20fra%202024-01-03%2021-52-45.png)](./Lovelace/lovelace.md)
+* [LedDriver]()
+  * ![LEDDRIVER](./HomeAssistant/Lovelace/images/Skærmbillede%20fra%202024-01-06%2012-04-10.png)
+
+### [ESPHome](./HomeAssistant/ESPHome/)
+
+#### [LedDriver](./HomeAssistant/ESPHome/)
+
+* Leddriver Files:
+  * ESPHome files:
+    * [leddriver-xx.yaml](./leddriver-xx.yaml)
+  * Fritzing Files;
+    * [PCB-LedDriver-V6.1.fzz](https://github.com/sekt1953/Fritzing/blob/main/My_PCB/LedDriver/v6.1/PCB-LedDriver-V6.1.fzz)
+  * FreeCAD Files:
+    * [LedDriverv6.1a.FCStd](https://github.com/sekt1953/FreeCAD/blob/main/LeadDriverv6.1/LedDriverv6.1a.FCStd)
+
+<hr/><hr/>
 
 ## Signaler
 
