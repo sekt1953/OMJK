@@ -10,11 +10,11 @@
 * [LedDriver]()
   * ![LEDDRIVER](./HomeAssistant/Lovelace/images/Skærmbillede%20fra%202024-01-06%2012-04-10.png)
 
-### [ESPHome](./HomeAssistant/ESPHome/)
+### [ESPHome](./HomeAssistant/ESPHome/esphome.md)
 
-#### [LedDriver](./HomeAssistant/ESPHome/)
+#### [LedDriver](./HomeAssistant/ESPHome/esphome.md)
 
-* Leddriver Files:
+* [Leddriver Files:](./HomeAssistant/ESPHome/esphome.md)
   * ESPHome files:
     * [leddriver-xx.yaml](./leddriver-xx.yaml)
   * Fritzing Files;
