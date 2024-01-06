@@ -7,7 +7,7 @@
 ### [Lovelace](./HomeAssistant/Lovelace/lovelace.md)
 
 * [Home](./HomeAssistant/Lovelace/lovelace.md#home)
-  * [![Skærmbillede%20fra%202024-01-03%2021-52-45.png](./HomeAssistant/Lovelace/images/Skærmbillede%20fra%202024-01-03%2021-52-45.png)](./HomeAssistant/Lovelace/lovelace.md)
+  * [![Skærmbillede%20fra%202024-01-03%2021-52-45.png](./HomeAssistant/Lovelace/images/Skærmbillede%20fra%202024-01-06%2014-11-27.png)](./HomeAssistant/Lovelace/lovelace.md)
 
 * [LedDriver](./HomeAssistant/Lovelace/lovelace.md#leddriver)
   * ![LEDDRIVER](./HomeAssistant/Lovelace/images/Skærmbillede%20fra%202024-01-06%2012-04-10.png)
