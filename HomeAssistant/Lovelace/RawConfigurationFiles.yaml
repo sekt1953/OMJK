@@ -42,7 +42,7 @@ views:
                   navigation_path: /lovelace/leddriver
                 icon: mdi:led-on
                 entity: ''
-                show_state: false
+                show_state: true
                 name: LedDriver-00
               - show_name: true
                 show_icon: true
@@ -270,6 +270,7 @@ views:
           - entity: switch.leddriver_01_07
             name: _07
         title: leddriver-01-0x
+        state_color: true
       - type: entities
         entities:
           - entity: switch.leddriver_01_10
@@ -289,6 +290,7 @@ views:
           - entity: switch.leddriver_01_17
             name: _17
         title: leddriver-01-1x
+        state_color: true
       - type: entities
         entities:
           - entity: switch.leddriver_01_20
@@ -308,6 +310,7 @@ views:
           - entity: switch.leddriver_01_27
             name: _27
         title: leddriver-01-2x
+        state_color: true
       - type: entities
         entities:
           - entity: switch.leddriver_01_30
@@ -327,6 +330,7 @@ views:
           - entity: switch.leddriver_01_37
             name: _37
         title: leddriver-01-3x
+        state_color: true
       - type: entities
         entities:
           - entity: switch.leddriver_01_40
@@ -346,6 +350,7 @@ views:
           - entity: switch.leddriver_01_47
             name: _47
         title: leddriver-01-4x
+        state_color: true
       - type: entities
         entities:
           - entity: switch.leddriver_01_50
@@ -365,6 +370,7 @@ views:
           - entity: switch.leddriver_01_57
             name: _57
         title: leddriver-01-5x
+        state_color: true
       - type: entities
         entities:
           - entity: switch.leddriver_01_60
@@ -384,6 +390,7 @@ views:
           - entity: switch.leddriver_01_67
             name: _67
         title: leddriver-01-6x
+        state_color: true
       - type: entities
         entities:
           - entity: switch.leddriver_01_70
@@ -403,6 +410,7 @@ views:
           - entity: switch.leddriver_01_77
             name: _77
         title: leddriver-01-7x
+        state_color: true
       - type: entities
         entities:
           - entity: update.leddriver_01_firmware
@@ -418,6 +426,7 @@ views:
           - entity: sensor.leddriver_01_mac_wifi_address_leddriver_01
             name: Mac Wifi Address leddriver-01
         title: leddriver-01
+        state_color: true
   - title: LedDriver-02
     path: leddriver-02
     subview: true
@@ -442,6 +451,7 @@ views:
           - entity: switch.leddriver_02_07
             name: _07
         title: leddriver-02-0x
+        state_color: true
       - type: entities
         entities:
           - entity: switch.leddriver_02_10
@@ -461,6 +471,7 @@ views:
           - entity: switch.leddriver_02_17
             name: _17
         title: leddriver-02-1x
+        state_color: true
       - type: entities
         entities:
           - entity: switch.leddriver_02_20
@@ -480,6 +491,7 @@ views:
           - entity: switch.leddriver_02_27
             name: _27
         title: leddriver-02-2x
+        state_color: true
       - type: entities
         entities:
           - entity: switch.leddriver_02_30
@@ -499,6 +511,7 @@ views:
           - entity: switch.leddriver_02_37
             name: _37
         title: leddriver-02-3x
+        state_color: true
       - type: entities
         entities:
           - entity: switch.leddriver_02_40
@@ -518,6 +531,7 @@ views:
           - entity: switch.leddriver_02_47
             name: _47
         title: leddriver-02-4x
+        state_color: true
       - type: entities
         entities:
           - entity: switch.leddriver_02_50
@@ -537,6 +551,7 @@ views:
           - entity: switch.leddriver_02_57
             name: _57
         title: leddriver-02-5x
+        state_color: true
       - type: entities
         entities:
           - entity: switch.leddriver_02_60
@@ -556,6 +571,7 @@ views:
           - entity: switch.leddriver_02_67
             name: _67
         title: leddriver-02-6x
+        state_color: true
       - type: entities
         entities:
           - entity: switch.leddriver_02_70
@@ -575,6 +591,7 @@ views:
           - entity: switch.leddriver_02_77
             name: _77
         title: leddriver-02-7x
+        state_color: true
       - type: entities
         entities:
           - entity: update.leddriver_02_firmware
@@ -590,3 +607,4 @@ views:
           - entity: sensor.leddriver_02_mac_wifi_address_leddriver_02
             name: Mac Wifi Address leddriver-02
         title: leddriver-02
+        state_color: true
