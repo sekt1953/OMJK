@@ -1,21 +1,6 @@
-# Lovelace - Overview
-
-* Overview - 'Raw configuration files'
-  * [Raw configuration files:](./RawConfigurationFiles.yaml)
-
-## Views as seen in 'Raw configuration editor'
-
-```code
 title: Hjem
 views:
   - path: default_view
-```
-
-### Home
-
-![Home](./images/Skærmbillede%20fra%202024-01-06%2014-11-27.png)
-
-```code
     title: Home
     cards:
       - type: vertical-stack
@@ -79,15 +64,6 @@ views:
                 entity: ''
                 name: LedDriver-02
                 show_state: false
-```
-
-### LedDriver
-
-|||
-|:---:|:---:|
-|![LedDriver-00-xx](./images/Skærmbillede%20fra%202024-01-06%2012-04-10.png)|![LedDriver-00](./images/Skærmbillede%20fra%202024-01-06%2012-10-11.png)|
-
-```code
   - title: LedDriver-00
     path: leddriver
     subview: true
@@ -270,9 +246,6 @@ views:
           - entity: sensor.leddriver_00_mac_wifi_address_leddriver_00_3
             name: Mac Wifi Address leddriver-00
         title: leddriver-00
-```
-
-```code
   - title: LedDriver-01
     path: leddriver-01
     subview: true
@@ -445,10 +418,7 @@ views:
           - entity: sensor.leddriver_01_mac_wifi_address_leddriver_01
             name: Mac Wifi Address leddriver-01
         title: leddriver-01
-  ```
-
-```code
-- title: LedDriver-02
+  - title: LedDriver-02
     path: leddriver-02
     subview: true
     badges: []
@@ -620,5 +590,3 @@ views:
           - entity: sensor.leddriver_02_mac_wifi_address_leddriver_02
             name: Mac Wifi Address leddriver-02
         title: leddriver-02
-
-```
