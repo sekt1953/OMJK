@@ -41,10 +41,9 @@
 
 ## Signaler
 
-### Kilde
-
-* Blokposten
-  * [Elektriske sikringsanlæg](https://www.blokposten.dk/sikr/elek/elek-index.htm)
+* Kilde
+  * Blokposten
+    * [Elektriske sikringsanlæg](https://www.blokposten.dk/sikr/elek/elek-index.htm)
 
 * Daglyssignaler
   * Dværgsignal
@@ -53,3 +52,10 @@
     * Perronudkørselssignaler er en sammensmeltning af et togvejssignal og et dværgsignal. Perronudkørselsignal finder anvendelse på stort se samtlige stationer og er dermed den mest anvendte signaltypen.
   * Hovedsignal
     * Hovedsignaler er, hvis vi ser bort fra PU-signalet, alle opbygge af et antal løse lanternehuse der monteres på en sort bagplade.
+
+## Togvej
+
+* Kilde:
+  * Blokposten
+    * [Indkørselstogvej - type DSB 1953](https://www.blokposten.dk/sikr/elek/elek-dsb53-indk-betj.htm)
+
