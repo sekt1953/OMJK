@@ -2,7 +2,14 @@
 
 ## [Home Assistant](./HomeAssistant/)
 
-### [CONFIG](./HomeAssistant/CONFIG/)
+### Configurations
+
+* [CONFIG](./HomeAssistant/CONFIG/)
+  * [configuration.yaml](./HomeAssistant/CONFIG/configuration.yaml)
+* [Blueprints](./HomeAssistant/CONFIG/Blueprints/)
+  * [track_section_occupied.yaml](./HomeAssistant/CONFIG/Blueprints/train_occupied_sensor.yaml)
+* [Automations](./HomeAssistant/CONFIG/Automations/)
+  * [track section occupied 00_00](./HomeAssistant/CONFIG/Automations/Train%20occupied%20sensor%2000_00)
 
 ### [Lovelace](./HomeAssistant/Lovelace/lovelace.md)
 
