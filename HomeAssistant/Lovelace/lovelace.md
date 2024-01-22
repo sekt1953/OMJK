@@ -81,6 +81,59 @@ views:
                 show_state: false
 ```
 
+### PWM with pca9685
+
+|||
+|:---:|:---:|
+|![pca9685-00-xx](./images/Skærmbillede%20fra%202024-01-22%2020-42-27.png)||
+
+```code
+type: vertical-stack
+cards:
+  - type: horizontal-stack
+    cards:
+      - type: light
+        entity: light.pca9685_00_00
+      - type: light
+        entity: light.pca9685_00_01
+      - type: light
+        entity: light.pca9685_00_02
+      - type: light
+        entity: light.pca9685_00_03
+  - type: horizontal-stack
+    cards:
+      - type: light
+        entity: light.pca9685_00_04
+      - type: light
+        entity: light.pca9685_00_05
+      - type: light
+        entity: light.pca9685_00_06
+      - type: light
+        entity: light.pca9685_00_07
+  - type: horizontal-stack
+    cards:
+      - type: light
+        entity: light.pca9685_00_08
+      - type: light
+        entity: light.pca9685_00_09
+      - type: light
+        entity: light.pca9685_00_0a
+      - type: light
+        entity: light.pca9685_00_0b
+  - type: horizontal-stack
+    cards:
+      - type: light
+        entity: light.pca9685_00_0c
+      - type: light
+        entity: light.pca9685_00_0d
+      - type: light
+        entity: light.pca9685_00_0e
+      - type: light
+        entity: light.pca9685_00_0f
+
+```
+
+
 ### LedDriver
 
 |||
@@ -298,7 +351,10 @@ views:
             name: _07
         title: leddriver-01-0x
       - type: entities
-        entities:
+        entities:|||
+|:---:|:---:|
+|![LedDriver-00-xx](./images/Skærmbillede%20fra%202024-01-06%2012-04-10.png)|![LedDriver-00](./images/Skærmbillede%20fra%202024-01-06%2012-10-11.png)|
+
           - entity: switch.leddriver_01_10
             name: _10
           - entity: switch.leddriver_01_11
@@ -622,3 +678,5 @@ views:
         title: leddriver-02
 
 ```
+
+
