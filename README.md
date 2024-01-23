@@ -38,6 +38,7 @@
     * Fritzing Files:
       * [occupied_sensor](https://github.com/sekt1953/Fritzing/blob/main/My_PCB/README.md#occupied_sensor-work-in-progress)
   * PWM with pca9685
+    * ![PCA9685](./HomeAssistant/ESPHome/Images/Skærmbillede%20fra%202024-01-23%2013-13-27.png)
     * ESPHome Files:
       * [/pca9685-xx.yaml](./HomeAssistant/ESPHome/pca9685-00.yaml)
 
