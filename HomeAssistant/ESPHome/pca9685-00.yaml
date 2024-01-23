@@ -1,11 +1,7 @@
 substitutions:
   esphome_name: "pca9685-00"
 
-# PCA9685 Kilde: 
-#   nxp:      https://www.nxp.com/docs/en/data-sheet/PCA9685.pdf
-#   adafruit: https://www.adafruit.com/product/815
-#   ESPHome:  https://esphome.io/components/output/pca9685
-#
+# PCA9685 Kilde: https://esphome.io/components/output/pca9685
 # id (Optional, ID): 
 #   The id to use for this pca9685 component. 
 #   Use this if you have multiple PCA9685s connected at the same time
@@ -39,6 +35,8 @@ substitutions:
 #   frequency (Optional, float): Set the frequency the I²C bus should operate on.
 #     Defaults to 50kHz. Values are 10kHz, 50kHz, 100kHz, 200kHz, … 800kHz
 #   id (Optional, ID): Manually specify the ID for this I²C bus if you need multiple I²C buses.
+#
+# i2c bus_a
   i2c_sda: "21"
   i2c_scl: "22"
   i2c_scan: "true"
@@ -95,10 +93,10 @@ button:
     name: "Restart ${esphome_name}"
 
 i2c:
+  id: ${i2c_id}
   sda: ${i2c_sda}
   scl: ${i2c_scl}
   scan: ${i2c_scan}  
-  id: ${i2c_id}
 
 # Example configuration entry
 pca9685:
@@ -183,6 +181,7 @@ output:
     channel: 15
     inverted: true
     id: pwm0f
+
 # Hub1
   - platform: pca9685
     pca9685_id: ${id_hub1}
@@ -310,18 +309,18 @@ light:
     name: '_0C'
     default_transition_length: 0s
     output: pwm0c
-  - platform: monochromatic
-    name: '_0D'
-    default_transition_length: 0s
-    output: pwm0d
-  - platform: monochromatic
-    name: '_0E'
-    default_transition_length: 0s
-    output: pwm0e
-  - platform: monochromatic
-    name: '_0F'
-    default_transition_length: 0s
-    output: pwm0f
+#  - platform: monochromatic
+#    name: '_0D'
+#    default_transition_length: 0s
+#    output: pwm0d
+#  - platform: monochromatic
+#    name: '_0E'
+#    default_transition_length: 0s
+#    output: pwm0e
+#  - platform: monochromatic
+#    name: '_0F'
+#    default_transition_length: 0s
+#    output: pwm0f
 
   - platform: monochromatic
     name: '_10'
@@ -387,3 +386,10 @@ light:
     name: '_1F'
     default_transition_length: 0s
     output: pwm1f
+
+# RGB
+  - platform: rgb
+    name: '_Color'
+    red: pwm0d
+    green: pwm0e
+    blue: pwm0f

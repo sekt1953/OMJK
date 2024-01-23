@@ -125,7 +125,7 @@ cards:
       - type: light
         entity: light.pca9685_00_0c
       - type: light
-        entity: light.pca9685_00_0d
+        entity: light.pca9685_00_color
       - type: light
         entity: light.pca9685_00_0e
       - type: light
