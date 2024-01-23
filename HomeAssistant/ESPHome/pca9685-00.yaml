@@ -108,6 +108,15 @@ pca9685:
     frequency: ${frequency_hub1}
   
 # Individual outputs
+# Output Component Kilde: https://esphome.io/components/output/
+#   Configuration variables:
+#     id (Required, ID): The id to use for this output component.
+#     power_supply (Optional, ID): The power supply to connect to this output. When the output is enabled, the power supply will automatically be switched on too.
+#     inverted (Optional, boolean): If the output should be treated as inverted. Defaults to false.
+#   Float outputs only:
+#     min_power (Optional, float): Sets the minimum output value of this output platform. Must be in range from 0 to max_power. Defaults to 0. If zero_means_zero is false this will be output value when the entity is turned off.
+#     max_power (Optional, float): Sets the maximum output value of this output platform. Must be in range from min_power to 1. Defaults to 1.
+#     zero_means_zero (Optional, boolean): Sets the output to use actual 0 instead of min_power. Defaults to false.
 output:
   - platform: pca9685
     pca9685_id: ${id_hub0}
@@ -255,7 +264,14 @@ output:
     channel: 15
     inverted: true
     id: pwm1f
-    
+
+# Light Component kilde: https://esphome.io/components/light/
+# Monochromatic Light Kilde: https://esphome.io/components/light/monochromatic#monochromatic-light
+#   Configuration variables:
+#     name (Required, string): The name of the light.
+#     output (Required, ID): The id of the float Output Component to use for this light.
+#     effects (Optional, list): A list of light effects to use for this light.
+#     id (Optional, ID): Manually specify the ID used for code generation.
 light:
   - platform: monochromatic
     name: '_00'
@@ -387,7 +403,14 @@ light:
     default_transition_length: 0s
     output: pwm1f
 
-# RGB
+# RGB Light Kilde: https://esphome.io/components/light/rgb.html?highlight=rgb
+#   Configuration variables:
+#     name (Required, string): The name of the light.
+#     red (Required, ID): The id of the float Output Component to use for the red channel.
+#     green (Required, ID): The id of the float Output Component to use for the green channel.
+#     blue (Required, ID): The id of the float Output Component to use for the blue channel.
+#     effects (Optional, list): A list of light effects to use for this light.
+#     id (Optional, ID): Manually specify the ID used for code generation.
   - platform: rgb
     name: '_Color'
     red: pwm0d
