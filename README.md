@@ -14,7 +14,7 @@
 ### [Lovelace](./HomeAssistant/Lovelace/lovelace.md)
 
 * [Home](./HomeAssistant/Lovelace/lovelace.md#home)
-  * [![Skærmbillede%20fra%202024-01-03%2021-52-45.png](./HomeAssistant/Lovelace/images/Skærmbillede%20fra%202024-01-06%2014-11-27.png)](./HomeAssistant/Lovelace/lovelace.md)
+  * [![](./HomeAssistant/Lovelace/images/Skærmbillede%20fra%202024-02-02%2021-38-09.png)](./HomeAssistant/Lovelace/lovelace.md)
 * [pwm-with-pca9685](./HomeAssistant/Lovelace/lovelace.md#pwm-with-pca9685)
   * ![pwm-with-pca9685png](./HomeAssistant/Lovelace/images/Skærmbillede%20fra%202024-01-22%2020-42-27.png)
 * [LedDriver](./HomeAssistant/Lovelace/lovelace.md#leddriver)
@@ -35,6 +35,7 @@
   * OccupiedSensor Files:
     * ESPHome Files:
       * [occupied-xx.yaml](./HomeAssistant/ESPHome/occupied-xx.yaml)
+      * [Occupied-Hp.yaml "Holmstrup"](./HomeAssistant/ESPHome/Occupied-Hp.yaml)
     * Fritzing Files:
       * [occupied_sensor](https://github.com/sekt1953/Fritzing/blob/main/My_PCB/README.md#occupied_sensor-work-in-progress)
   * PWM with pca9685

@@ -13,72 +13,130 @@ views:
 
 ### Home
 
-![Home](./images/Skærmbillede%20fra%202024-01-06%2014-11-27.png)
+![Home](./images/Skærmbillede%20fra%202024-02-02%2021-38-09.png)
 
 ```code
-    title: Home
+type: vertical-stack
+cards:
+  - type: horizontal-stack
     cards:
-      - type: vertical-stack
-        cards:
-          - type: horizontal-stack
-            cards:
-              - type: entities
-                entities:
-                  - person.omjk
-                state_color: true
-          - type: horizontal-stack
-            cards:
-              - type: button
-                tap_action:
-                  action: call-service
-                  service: hassio.host_shutdown
-                  target: {}
-                icon: mdi:power-plug-off
-                entity: ''
-                show_state: true
-                show_name: true
-                show_icon: true
-              - type: button
-                tap_action:
-                  action: call-service
-                  service: hassio.host_reboot
-                  target: {}
-                icon: mdi:restart
-                entity: ''
-                show_name: true
-                show_icon: true
-          - type: horizontal-stack
-            cards:
-              - show_name: true
-                show_icon: true
-                type: button
-                tap_action:
-                  action: navigate
-                  navigation_path: /lovelace/leddriver
-                icon: mdi:led-on
-                entity: ''
-                show_state: false
-                name: LedDriver-00
-              - show_name: true
-                show_icon: true
-                type: button
-                tap_action:
-                  action: navigate
-                  navigation_path: /lovelace/leddriver-01
-                icon: mdi:led-on
-                entity: ''
-                name: LedDriver-01
-                show_state: false
-              - show_name: true
-                show_icon: true
-                type: button
-                tap_action:
-                  action: navigate
-                  navigation_path: /lovelace/leddriver-02
-                icon: mdi:led-on
-                entity: ''
-                name: LedDriver-02
-                show_state: false
+      - type: entities
+        entities:
+          - person.omjk
+        state_color: true
+      - type: custom:simple-clock-card
+        hide_seconds: null
+        use_military: true
+        font_size: 3rem
+        paddingBottom_size: 25px
+        paddingTop_size: 25px
+  - type: horizontal-stack
+    cards:
+      - type: button
+        tap_action:
+          action: call-service
+          service: hassio.host_shutdown
+          target: {}
+        icon: mdi:power-plug-off
+        entity: ''
+        show_state: true
+        show_name: true
+        show_icon: true
+      - type: button
+        tap_action:
+          action: call-service
+          service: hassio.host_reboot
+          target: {}
+        icon: mdi:restart
+        entity: ''
+        show_name: true
+        show_icon: true
+  - type: horizontal-stack
+    cards:
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/leddriver
+        icon: mdi:led-on
+        entity: ''
+        show_state: true
+        name: LedDriver-00
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/leddriver-01
+        icon: mdi:led-on
+        entity: ''
+        name: LedDriver-01
+        show_state: false
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/leddriver-02
+        icon: mdi:led-on
+        entity: ''
+        name: LedDriver-02
+        show_state: false
+  - type: horizontal-stack
+    cards:
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/occupied-00
+        icon: mdi:train
+        name: Occupied-00
+        hold_action:
+          action: none
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/occupied-hp
+        icon: mdi:train
+        name: Occupied-Hp
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/occupied-00
+        icon: ''
+  - type: horizontal-stack
+    cards:
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/reserved-00
+        icon: mdi:fence
+        name: Reserved
+        hold_action:
+          action: none
+        show_state: false
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/occupied-00
+        icon: ''
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/occupied-00
+        icon: ''
 ```
 
 ### PWM with pca9685

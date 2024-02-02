@@ -1,0 +1,473 @@
+substitutions:
+  esphome_name: "occupied-hp"
+  esphome_friendly_name: "Occupied-Hp"
+
+  id_hub0: "pcf8574_hub0"
+  id_hub1: "pcf8574_hub1"
+  id_hub2: "pcf8574_hub2"
+  id_hub3: "pcf8574_hub3"
+#  id_hub4: "pcf8574_hub4"
+#  id_hub5: "pcf8574_hub5"
+#  id_hub6: "pcf8574_hub6"
+#  id_hub7: "pcf8574_hub7"
+
+# PCF8574P & PCF8575
+# 8bit portudvidelse I2C (2 wire) interface DIL16 Adresserbar til 
+# hex:  0x20 0x21 0x22 0x23 0x24 0x25 0x26 0x27
+
+  addr_hub0: "0x20"
+  addr_hub1: "0x21"
+  addr_hub2: "0x22"
+  addr_hub3: "0x23"
+#  addr_hub4: "0x24"
+#  addr_hub5: "0x25"
+#  addr_hub6: "0x26"
+#  addr_hub7: "0x27"
+  
+# PCF8574AP
+# 8bit portudvidelse I2C (2 wire) interface DIL16 Adresserbar til 
+# hex: 0x38 0x39 0x3a 0x3b 0x3c 0x3d 0x3e 0x3f   
+
+#  addr_hub0: "0x38"
+#  addr_hub1: "0x39"
+#  addr_hub2: "0x3a"
+#  addr_hub3: "0x3b"
+#  addr_hub4: "0x3c"
+#  addr_hub5: "0x3d"
+#  addr_hub6: "0x3e"
+#  addr_hub7: "0x3f"  
+
+  i2c_sda: "21"
+  i2c_scl: "22"
+  i2c_scan: "true"
+  i2c_id: "bus_a"
+  i2c_frequency: "50kHz"
+
+  track_delayed_off: 1000ms
+
+esphome:
+  name: ${esphome_name}
+  friendly_name: ${esphome_friendly_name}
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: !secret api_key_omjk
+
+ota:
+  password: !secret ota_pass_omjk
+
+wifi:
+  networks:
+  - ssid: !secret wifi_ssid_omjk
+    password: !secret wifi_password_omjk
+  - ssid: !secret wifi_ssid_sekt
+    password: !secret wifi_password_sekt
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "${esphome_name} Fallback Hotspot"
+    password: !secret ap_password_omjk
+    
+captive_portal:
+
+text_sensor:
+  - platform: wifi_info
+    ip_address:
+      name: "IP Address ${esphome_name}"
+    ssid:
+      name: "Connected SSID ${esphome_name}"
+    bssid:
+      name: "Connected BSSID ${esphome_name}"
+    mac_address:
+      name: "Mac Wifi Address ${esphome_name}"
+
+button:
+  - platform: restart
+    name: "Restart ${esphome_name}"
+    
+i2c:
+  - id: ${i2c_id}
+    sda: ${i2c_sda}
+    scl: ${i2c_scl}
+    scan: ${i2c_scan}  
+    frequency : ${i2c_frequency}
+    
+pcf8574:
+  - id: ${id_hub0}
+    address: ${addr_hub0}
+    pcf8575: false
+  - id: ${id_hub1}
+    address: ${addr_hub1}
+    pcf8575: false
+  - id: ${id_hub2}
+    address: ${addr_hub2}
+    pcf8575: false
+  - id: ${id_hub3}
+    address: ${addr_hub3}
+    pcf8575: false
+
+# Occupied-Sensor
+# Individual input hub0
+binary_sensor:
+  - platform: gpio
+    name: "_00"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub0}
+      number: 0
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_01"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub0}
+      number: 1
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_02"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub0}
+      number: 2
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_03"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub0}
+      number: 3
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_04"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub0}
+      number: 4
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_05"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub0}
+      number: 5
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_06"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub0}
+      number: 6
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_07"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub0}
+      number: 7
+      mode:
+        input: true
+      inverted: true
+
+# Individual input hub1
+#binary_sensor:
+  - platform: gpio
+    name: "_10"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub1}
+      number: 0
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_11"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub1}
+      number: 1
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_12"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub1}
+      number: 2
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_13"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub1}
+      number: 3
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_14"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub1}
+      number: 4
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_15"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub1}
+      number: 5
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_16"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub1}
+      number: 6
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_17"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub1}
+      number: 7
+      mode:
+        input: true
+      inverted: true
+
+# Individual input hub2
+#binary_sensor:
+  - platform: gpio
+    name: "_20"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub2}
+      number: 0
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_21"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub2}
+      number: 1
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_22"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub2}
+      number: 2
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_23"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub2}
+      number: 3
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_24"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub2}
+      number: 4
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_25"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub2}
+      number: 5
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_26"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub2}
+      number: 6
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_27"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub2}
+      number: 7
+      mode:
+        input: true
+      inverted: true
+
+# Individual input hub3
+# binary_sensor:
+  - platform: gpio
+    name: "_30"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub3}
+      number: 0
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_31"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub3}
+      number: 1
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_32"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub3}
+      number: 2
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_33"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub3}
+      number: 3
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_34"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub3}
+      number: 4
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_35"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub3}
+      number: 5
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_36"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub3}
+      number: 6
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_37"
+    device_class: occupancy
+    pin:
+      pcf8574: ${id_hub3}
+      number: 7
+      mode:
+        input: true
+      inverted: true
