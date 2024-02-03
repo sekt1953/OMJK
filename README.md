@@ -14,11 +14,13 @@
 ### [Lovelace](./HomeAssistant/Lovelace/lovelace.md)
 
 * [Home](./HomeAssistant/Lovelace/lovelace.md#home)
-  * [![](./HomeAssistant/Lovelace/images/Skærmbillede%20fra%202024-02-02%2021-38-09.png)](./HomeAssistant/Lovelace/lovelace.md)
+  * [![](./HomeAssistant/Lovelace/images/Skærmbillede%20fra%202024-02-03%2009-36-05.png)](./HomeAssistant/Lovelace/lovelace.md)
 * [pwm-with-pca9685](./HomeAssistant/Lovelace/lovelace.md#pwm-with-pca9685)
   * ![pwm-with-pca9685png](./HomeAssistant/Lovelace/images/Skærmbillede%20fra%202024-01-22%2020-42-27.png)
 * [LedDriver](./HomeAssistant/Lovelace/lovelace.md#leddriver)
   * ![LEDDRIVER](./HomeAssistant/Lovelace/images/Skærmbillede%20fra%202024-01-06%2012-04-10.png)
+* [Track Reserved](./HomeAssistant/Lovelace/lovelace.md#track-reserved)
+  * ![Track Reserved](./HomeAssistant/Lovelace/images/Skærmbillede%20fra%202024-02-03%2009-31-35.png)
 
 ### [ESPHome](./HomeAssistant/ESPHome/esphome.md)
 

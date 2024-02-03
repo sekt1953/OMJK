@@ -13,7 +13,7 @@ views:
 
 ### Home
 
-![Home](./images/Skærmbillede%20fra%202024-02-02%2021-38-09.png)
+![Home](./images/Skærmbillede%20fra%202024-02-03%2009-36-05.png)
 
 ```code
 type: vertical-stack
