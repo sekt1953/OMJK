@@ -191,6 +191,23 @@ cards:
 
 ```
 
+```code
+type: entities
+entities:
+  - entity: update.pca9685_00_firmware
+    name: Firmware
+  - entity: button.pca9685_00_restart_pca9685_00
+    name: Restart pca9685-00
+  - entity: sensor.pca9685_00_connected_bssid_pca9685_00
+    name: Connected BSSID pca9685-00
+  - entity: sensor.pca9685_00_connected_ssid_pca9685_00
+    name: Connected SSID pca9685-00
+  - entity: sensor.pca9685_00_ip_address_pca9685_00
+    name: IP Address pca9685-00
+  - entity: sensor.pca9685_00_mac_wifi_address_pca9685_00
+    name: Mac Wifi Address pca9685-00
+title: pca9685-00
+```
 
 ### LedDriver
 
@@ -383,358 +400,71 @@ cards:
         title: leddriver-00
 ```
 
-```code
-  - title: LedDriver-01
-    path: leddriver-01
-    subview: true
-    badges: []
-    cards:
-      - type: entities
-        entities:
-          - entity: switch.leddriver_01_00
-            name: _00
-          - entity: switch.leddriver_01_01
-            name: _01
-          - entity: switch.leddriver_01_02
-            name: _02
-          - entity: switch.leddriver_01_03
-            name: _03
-          - entity: switch.leddriver_01_04
-            name: _04
-          - entity: switch.leddriver_01_05
-            name: _05
-          - entity: switch.leddriver_01_06
-            name: _06
-          - entity: switch.leddriver_01_07
-            name: _07
-        title: leddriver-01-0x
-      - type: entities
-        entities:|||
+### Occupied
+
+|||
 |:---:|:---:|
-|![LedDriver-00-xx](./images/Skærmbillede%20fra%202024-01-06%2012-04-10.png)|![LedDriver-00](./images/Skærmbillede%20fra%202024-01-06%2012-10-11.png)|
-
-          - entity: switch.leddriver_01_10
-            name: _10
-          - entity: switch.leddriver_01_11
-            name: _11
-          - entity: switch.leddriver_01_12
-            name: _12
-          - entity: switch.leddriver_01_13
-            name: _13
-          - entity: switch.leddriver_01_14
-            name: _14
-          - entity: switch.leddriver_01_15
-            name: _15
-          - entity: switch.leddriver_01_16
-            name: _16
-          - entity: switch.leddriver_01_17
-            name: _17
-        title: leddriver-01-1x
-      - type: entities
-        entities:
-          - entity: switch.leddriver_01_20
-            name: _20
-          - entity: switch.leddriver_01_21
-            name: _21
-          - entity: switch.leddriver_01_22
-            name: _22
-          - entity: switch.leddriver_01_23
-            name: _23
-          - entity: switch.leddriver_01_24
-            name: _24
-          - entity: switch.leddriver_01_25
-            name: _25
-          - entity: switch.leddriver_01_26
-            name: _26
-          - entity: switch.leddriver_01_27
-            name: _27
-        title: leddriver-01-2x
-      - type: entities
-        entities:
-          - entity: switch.leddriver_01_30
-            name: _30
-          - entity: switch.leddriver_01_31
-            name: _31
-          - entity: switch.leddriver_01_32
-            name: _32
-          - entity: switch.leddriver_01_33
-            name: _33
-          - entity: switch.leddriver_01_34
-            name: _34
-          - entity: switch.leddriver_01_35
-            name: _35
-          - entity: switch.leddriver_01_36
-            name: _36
-          - entity: switch.leddriver_01_37
-            name: _37
-        title: leddriver-01-3x
-      - type: entities
-        entities:
-          - entity: switch.leddriver_01_40
-            name: _40
-          - entity: switch.leddriver_01_41
-            name: _41
-          - entity: switch.leddriver_01_42
-            name: _42
-          - entity: switch.leddriver_01_43
-            name: _43
-          - entity: switch.leddriver_01_44
-            name: _44
-          - entity: switch.leddriver_01_45
-            name: _45
-          - entity: switch.leddriver_01_46
-            name: _46
-          - entity: switch.leddriver_01_47
-            name: _47
-        title: leddriver-01-4x
-      - type: entities
-        entities:
-          - entity: switch.leddriver_01_50
-            name: _50
-          - entity: switch.leddriver_01_51
-            name: _51
-          - entity: switch.leddriver_01_52
-            name: _52
-          - entity: switch.leddriver_01_53
-            name: _53
-          - entity: switch.leddriver_01_54
-            name: _54
-          - entity: switch.leddriver_01_55
-            name: _55
-          - entity: switch.leddriver_01_56
-            name: _56
-          - entity: switch.leddriver_01_57
-            name: _57
-        title: leddriver-01-5x
-      - type: entities
-        entities:
-          - entity: switch.leddriver_01_60
-            name: _60
-          - entity: switch.leddriver_01_61
-            name: _61
-          - entity: switch.leddriver_01_62
-            name: _62
-          - entity: switch.leddriver_01_63
-            name: _63
-          - entity: switch.leddriver_01_64
-            name: _64
-          - entity: switch.leddriver_01_65
-            name: _65
-          - entity: switch.leddriver_01_66
-            name: _66
-          - entity: switch.leddriver_01_67
-            name: _67
-        title: leddriver-01-6x
-      - type: entities
-        entities:
-          - entity: switch.leddriver_01_70
-            name: _70
-          - entity: switch.leddriver_01_71
-            name: _71
-          - entity: switch.leddriver_01_72
-            name: _72
-          - entity: switch.leddriver_01_73
-            name: _73
-          - entity: switch.leddriver_01_74
-            name: _74
-          - entity: switch.leddriver_01_75
-            name: _75
-          - entity: switch.leddriver_01_76
-            name: _76
-          - entity: switch.leddriver_01_77
-            name: _77
-        title: leddriver-01-7x
-      - type: entities
-        entities:
-          - entity: update.leddriver_01_firmware
-            name: Firmware
-          - entity: button.leddriver_01_restart_leddriver_01
-            name: Restart leddriver-01
-          - entity: sensor.leddriver_01_connected_bssid_leddriver_01
-            name: Connected BSSID leddriver-01
-          - entity: sensor.leddriver_01_connected_ssid_leddriver_01
-            name: Connected SSID leddriver-01
-          - entity: sensor.leddriver_01_ip_address_leddriver_01
-            name: IP Address leddriver-01
-          - entity: sensor.leddriver_01_mac_wifi_address_leddriver_01
-            name: Mac Wifi Address leddriver-01
-        title: leddriver-01
-  ```
+|![Occupied-Hp-xx](./images/Skærmbillede%20fra%202024-02-03%2009-28-41.png)|![LedDriver-00](./images/Skærmbillede%20fra%202024-02-03%2009-28-52.png)|
 
 ```code
-- title: LedDriver-02
-    path: leddriver-02
-    subview: true
-    badges: []
-    cards:
-      - type: entities
-        entities:
-          - entity: switch.leddriver_02_00
-            name: _00
-          - entity: switch.leddriver_02_01
-            name: _01
-          - entity: switch.leddriver_02_02
-            name: _02
-          - entity: switch.leddriver_02_03
-            name: _03
-          - entity: switch.leddriver_02_04
-            name: _04
-          - entity: switch.leddriver_02_05
-            name: _05
-          - entity: switch.leddriver_02_06
-            name: _06
-          - entity: switch.leddriver_02_07
-            name: _07
-        title: leddriver-02-0x
-      - type: entities
-        entities:
-          - entity: switch.leddriver_02_10
-            name: _10
-          - entity: switch.leddriver_02_11
-            name: _11
-          - entity: switch.leddriver_02_12
-            name: _12
-          - entity: switch.leddriver_02_13
-            name: _13
-          - entity: switch.leddriver_02_14
-            name: _14
-          - entity: switch.leddriver_02_15
-            name: _15
-          - entity: switch.leddriver_02_16
-            name: _16
-          - entity: switch.leddriver_02_17
-            name: _17
-        title: leddriver-02-1x
-      - type: entities
-        entities:
-          - entity: switch.leddriver_02_20
-            name: _20
-          - entity: switch.leddriver_02_21
-            name: _21
-          - entity: switch.leddriver_02_22
-            name: _22
-          - entity: switch.leddriver_02_23
-            name: _23
-          - entity: switch.leddriver_02_24
-            name: _24
-          - entity: switch.leddriver_02_25
-            name: _25
-          - entity: switch.leddriver_02_26
-            name: _26
-          - entity: switch.leddriver_02_27
-            name: _27
-        title: leddriver-02-2x
-      - type: entities
-        entities:
-          - entity: switch.leddriver_02_30
-            name: _30
-          - entity: switch.leddriver_02_31
-            name: _31
-          - entity: switch.leddriver_02_32
-            name: _32
-          - entity: switch.leddriver_02_33
-            name: _33
-          - entity: switch.leddriver_02_34
-            name: _34
-          - entity: switch.leddriver_02_35
-            name: _35
-          - entity: switch.leddriver_02_36
-            name: _36
-          - entity: switch.leddriver_02_37
-            name: _37
-        title: leddriver-02-3x
-      - type: entities
-        entities:
-          - entity: switch.leddriver_02_40
-            name: _40
-          - entity: switch.leddriver_02_41
-            name: _41
-          - entity: switch.leddriver_02_42
-            name: _42
-          - entity: switch.leddriver_02_43
-            name: _43
-          - entity: switch.leddriver_02_44
-            name: _44
-          - entity: switch.leddriver_02_45
-            name: _45
-          - entity: switch.leddriver_02_46
-            name: _46
-          - entity: switch.leddriver_02_47
-            name: _47
-        title: leddriver-02-4x
-      - type: entities
-        entities:
-          - entity: switch.leddriver_02_50
-            name: _50
-          - entity: switch.leddriver_02_51
-            name: _51
-          - entity: switch.leddriver_02_52
-            name: _52
-          - entity: switch.leddriver_02_53
-            name: _53
-          - entity: switch.leddriver_02_54
-            name: _54
-          - entity: switch.leddriver_02_55
-            name: _55
-          - entity: switch.leddriver_02_56
-            name: _56
-          - entity: switch.leddriver_02_57
-            name: _57
-        title: leddriver-02-5x
-      - type: entities
-        entities:
-          - entity: switch.leddriver_02_60
-            name: _60
-          - entity: switch.leddriver_02_61
-            name: _61
-          - entity: switch.leddriver_02_62
-            name: _62
-          - entity: switch.leddriver_02_63
-            name: _63
-          - entity: switch.leddriver_02_64
-            name: _64
-          - entity: switch.leddriver_02_65
-            name: _65
-          - entity: switch.leddriver_02_66
-            name: _66
-          - entity: switch.leddriver_02_67
-            name: _67
-        title: leddriver-02-6x
-      - type: entities
-        entities:
-          - entity: switch.leddriver_02_70
-            name: _70
-          - entity: switch.leddriver_02_71
-            name: _71
-          - entity: switch.leddriver_02_72
-            name: _72
-          - entity: switch.leddriver_02_73
-            name: _73
-          - entity: switch.leddriver_02_74
-            name: _74
-          - entity: switch.leddriver_02_75
-            name: _75
-          - entity: switch.leddriver_02_76
-            name: _76
-          - entity: switch.leddriver_02_77
-            name: _77
-        title: leddriver-02-7x
-      - type: entities
-        entities:
-          - entity: update.leddriver_02_firmware
-            name: Firmware
-          - entity: button.leddriver_02_restart_leddriver_02
-            name: Restart leddriver-02
-          - entity: sensor.leddriver_02_connected_bssid_leddriver_02
-            name: Connected BSSID leddriver-02
-          - entity: sensor.leddriver_02_connected_ssid_leddriver_02
-            name: Connected SSID leddriver-02
-          - entity: sensor.leddriver_02_ip_address_leddriver_02
-            name: IP Address leddriver-02
-          - entity: sensor.leddriver_02_mac_wifi_address_leddriver_02
-            name: Mac Wifi Address leddriver-02
-        title: leddriver-02
+type: entities
+entities:
+  - entity: binary_sensor.occupied_hp_00
+    name: _00
+  - entity: binary_sensor.occupied_hp_01
+    name: _01
+  - entity: binary_sensor.occupied_hp_02
+    name: _02
+  - entity: binary_sensor.occupied_hp_03
+    name: _03
+  - entity: binary_sensor.occupied_hp_04
+    name: _04
+  - entity: binary_sensor.occupied_hp_05
+    name: _05
+  - entity: binary_sensor.occupied_hp_06
+    name: _06
+  - entity: binary_sensor.occupied_hp_07
+    name: _07
+title: Occupied-Hp-0x
 
 ```
 
+```code
+type: entities
+entities:
+  - entity: update.occupied_hp_firmware
+    name: Firmware
+  - entity: button.occupied_hp_restart_occupied_hp
+    name: Restart occupied-hp
+  - entity: sensor.occupied_hp_connected_bssid_occupied_hp
+    name: Connected BSSID occupied-hp
+  - entity: sensor.occupied_hp_connected_ssid_occupied_hp
+    name: Connected SSID occupied-hp
+  - entity: sensor.occupied_hp_ip_address_occupied_hp
+    name: IP Address occupied-hp
+  - entity: sensor.occupied_hp_mac_wifi_address_occupied_hp
+    name: Mac Wifi Address occupied-hp
+title: Occupied-Hp
+```
 
+### Track Reserved
+
+|||
+|:---:|:---:|
+|![Track Reserved-xx](./images/Skærmbillede%20fra%202024-02-03%2009-31-35.png)||
+
+```code
+type: entities
+entities:
+  - entity: input_boolean.track_reserved_00_00
+  - entity: input_boolean.track_reserved_00_01
+  - entity: input_boolean.track_reserved_00_02
+  - entity: input_boolean.track_reserved_00_03
+  - entity: input_boolean.track_reserved_00_04
+  - entity: input_boolean.track_reserved_00_05
+  - entity: input_boolean.track_reserved_00_06
+  - entity: input_boolean.track_reserved_00_07
+show_header_toggle: true
+state_color: true
+title: Track Reserved 00_0x
+```
