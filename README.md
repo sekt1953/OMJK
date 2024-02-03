@@ -19,6 +19,8 @@
   * ![pwm-with-pca9685png](./HomeAssistant/Lovelace/images/Skærmbillede%20fra%202024-01-22%2020-42-27.png)
 * [LedDriver](./HomeAssistant/Lovelace/lovelace.md#leddriver)
   * ![LEDDRIVER](./HomeAssistant/Lovelace/images/Skærmbillede%20fra%202024-01-06%2012-04-10.png)
+* [Occupied](./HomeAssistant/Lovelace/lovelace.md#occupied)
+  * ![Occupied](./HomeAssistant/Lovelace/images/Skærmbillede%20fra%202024-02-03%2009-28-41.png)
 * [Track Reserved](./HomeAssistant/Lovelace/lovelace.md#track-reserved)
   * ![Track Reserved](./HomeAssistant/Lovelace/images/Skærmbillede%20fra%202024-02-03%2009-31-35.png)
 
