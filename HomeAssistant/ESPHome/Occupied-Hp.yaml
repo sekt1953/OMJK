@@ -37,6 +37,20 @@ substitutions:
 #  addr_hub6: "0x3e"
 #  addr_hub7: "0x3f"  
 
+# ESPHome I2C Bus https://esphome.io/components/i2c
+# I2C-bus specification and user manual https://www.nxp.com/docs/en/user-guide/UM10204.pdf
+#
+# Configuration variables:
+# sda: (Optional, Pin): The pin for the data line of the I²C bus. 
+#      Defaults to the default of your board (usually GPIO21 for ESP32 and GPIO4 for ESP8266).
+# scl: (Optional, Pin): The pin for the clock line of the I²C bus. 
+#      Defaults to the default of your board (usually GPIO22 for ESP32 and GPIO5 for ESP8266).
+# scan: (Optional, boolean): If ESPHome should do a search of the I²C address space on startup. 
+#      Defaults to true.
+# frequency: (Optional, float): Set the frequency the I²C bus should operate on. 
+#      Defaults to 50kHz. Values are 10kHz, 50kHz, 100kHz, 200kHz, … 800kHz
+# id: (Optional, ID): Manually specify the ID for this I²C bus if you need multiple I²C buses.
+
   i2c_sda: "21"
   i2c_scl: "22"
   i2c_scan: "true"
@@ -98,9 +112,9 @@ i2c:
   - id: ${i2c_id}
     sda: ${i2c_sda}
     scl: ${i2c_scl}
-    scan: ${i2c_scan}  
+    scan: ${i2c_scan}
     frequency : ${i2c_frequency}
-    
+
 pcf8574:
   - id: ${id_hub0}
     address: ${addr_hub0}
