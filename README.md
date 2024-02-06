@@ -47,7 +47,15 @@
     * ESPHome Files:
       * [/pca9685-xx.yaml](./HomeAssistant/ESPHome/pca9685-00.yaml)
 
-<hr/><hr/>
+<hr/>
+
+## Udstyr
+
+|Block Detector BD20|
+|:---|
+|![nce_bd20.jpg](./Udstyr/Images/nce_bd20.png)|
+
+<hr/>
 
 ## Signaler
 
