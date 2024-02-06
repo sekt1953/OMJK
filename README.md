@@ -47,8 +47,6 @@
     * ESPHome Files:
       * [/pca9685-xx.yaml](./HomeAssistant/ESPHome/pca9685-00.yaml)
 
-<hr/><hr/>
-
 ## Sporbesat ideer
 
 ### Block Detector med BD20
