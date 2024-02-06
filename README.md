@@ -49,11 +49,21 @@
 
 <hr/><hr/>
 
-## Udstyr
+## Sporbesat ideer
 
-|Block Detector BD20|
+### Block Detector med BD20
+
+|Block Detector med BD20|
 |:---|
 |[![nce_bd20.jpg](./Udstyr/Images/nce_bd20.png)](./Udstyr/README.md)|
+
+### Block Detector med Dioder &  BC557/BC547 & Optocoupler
+
+Inspiration hentet hos [moppe.dk](https://www.moppe.dk/besat.html)
+
+|Block Detector med Dioder &  BC557/BC547 & Optocoupler|
+|:---|
+|![Sporbesat_002_schem.png](./Udstyr/Images/Sporbesat_002_schem.png)|
 
 <hr/><hr/>
 
