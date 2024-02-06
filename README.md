@@ -57,6 +57,13 @@
 
 <hr/><hr/>
 
+## Stationsforkortelser
+
+* john nissen
+  * [Banesiden -> Forkortelser](https://www.john-nissen.dk/banesiden/Forkortelser/station.php)
+* DSB
+  * [Stationsforkortelser](https://www.dsb.dk/dsb-labs/liste-over-forkortelser/stationsforkortelser/)
+
 ## Signaler
 
 * Kilde

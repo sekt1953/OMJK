@@ -1,0 +1,523 @@
+Station,Fork.,Selskab,Status,Strækning,Bemærkninger
+Albertslund,Alb,Banedanmark,P,Kh (nær)-Htå (nær),Trinbræt
+Alken,Ak,Banedanmark,P,Sd-Sj,Trinbræt
+Allerød,Li,Banedanmark,P,Gj-Hi,Station
+Amstrup,Amt,Midtjyske Jernbaner,P,Vem-Thb,Trinbræt
+Arden,Ad,Banedanmark,P,Ar-Ab,Trinbræt
+Armose,Arm,Midtjyske Jernbaner,P,Vem-Thb,Trinbræt
+Asnæs,As,Lokaltog A/S,P,Hk-Nk,Station
+Aulum,Uu,Banedanmark,P,Ho-Vj,Station
+Avedøre,Avø,Banedanmark,P,Kh (nær)-Kj (nær),Trinbræt
+Avnede,Avd,Lokaltog A/S,P,Nfv-Nsk,Trinbræt
+Bagmarken,Bmt,Lokaltog A/S,P,Tø-Sg,Trinbræt
+Bagsværd,Bav,Banedanmark,P,Sam (nær)-Fm,Trinbræt
+Balleby,Bat,Midtjyske Jernbaner,P,Vem-Thb,Trinbræt
+Ballerup,Ba,Banedanmark,P,Val (nær)-Fs,Station
+Baunhøj,Bah,VNJ,P,Va-Nbl,Trinbræt
+Bavnehøj,Ban,Banedanmark,÷ P,Kh/Hif-Phm,Station
+Bavnehøj (nær),Ban,Banedanmark,÷ P,Kh (nær)-Kj (nær),Station
+Bedsted Thy,Bn,Banedanmark,P,Str-Ti,Station
+Bernstorffsvej,Bft,Banedanmark,P,Kh (nær)-Gj,Trinbræt
+Billum,Bi,VNJ,P,Va-Nbl,Station
+Birk Centerpark,Bic,Banedanmark,P,Sd-Sj,Trinbræt
+Birkerød,Bi,Banedanmark,P,Gj-Hi,Station
+Bispebjerg,Bit,Banedanmark,P,Ig (nær)-Hl (nær),Trinbræt. Ligger på Ler
+Bjerringbro,Bj,Banedanmark,P,Lg-Str,Station
+Bonnet,Bnt,Midtjyske Jernbaner,P,Vem-Thb,Station
+Bording,Bg,Banedanmark,P,Sd-Sj,Station
+Borris,Bs,Banedanmark,P,Sd-Sj,Station
+Borup,Bo,Banedanmark,P,Kh-Fa/Tl,Station
+Boulevarden,Vo,VNJ,P,Va-Nbl,Trinbræt
+Brabrand,Br,Banedanmark,÷ P,Ar-Ab,Station
+Bramming,Bm,Banedanmark,P,Lk-Es, Bm-Tdgr,Station
+Brande,Bb,Banedanmark,P,Ho-Vj,Station
+Bred,Bd,Banedanmark,P,Kh-Fa/Tl,Trinbræt
+Brede,Bre,Lokaltog A/S,P,Jæt-Nær,Trinbræt
+Bredebro,Bw,Banedanmark,P,Bm-Tdgr,Station
+Brejning,Bet,Banedanmark,P,Fa-Ar,Trinbræt
+Brødeskov,Bsk,Lokaltog A/S,P,Hi-Hun,Station
+Brøndby Strand,Bsa,Banedanmark,P,Kh (nær)-Kj (nær),Trinbræt
+Brøndbyøster,Bøt,Banedanmark,P,Kh (nær)-Htå (nær),Trinbræt
+Brønderslev,Bl,Banedanmark,P,Ab-Fh,Station
+Brøns,Brr,Banedanmark,P,Bm-Tdgr,Trinbræt
+Brørup,Bp,Banedanmark,P,Lk-Es,Trinbræt
+Buddinge,Bud,Banedanmark,P,Sam (nær)-Fm,Trinbræt
+Bunken,Buk,Nordjyske Jernbaner,P,Fh-Sgb,Trinbræt
+Bur,Bu,Banedanmark,P,Es-Str,Trinbræt
+Bækmarksbro,Bkm,Midtjyske Jernbaner,P,Vem-Thb,Station
+Børkop,Bk,Banedanmark,P,Fa-Ar,Station
+Carlsberg,Cb,Banedanmark,P,Kh (nær)-Htå (nær),Trinbræt
+Charlottenlund,Ch,Banedanmark,P,Hl (nær)-Kl (nær),Trinbræt
+Danshøj,Dah,Banedanmark,P,Kh (nær)-Htå (nær), Ig (nær)-Hl (nær),Trinbræt
+Dianalund,Dia,Lokaltog A/S,P,Tø-Sg,Station
+Dronningmølle,Drm,Lokaltog A/S,P,Hg-Gll,Station
+Duemose,Dug,Lokaltog A/S,P,Hi-Tvl,Trinbræt
+Dybbølsbro,Dbt,Banedanmark,P,Kh (nær)-Htå (nær), Kh (nær)-Kj (nær),Trinbræt
+Dyreby,Dy,VNJ,P,Va-Nbl,Trinbræt
+Dyssegård,Dyt,Banedanmark,P,Sam (nær)-Fm,Station
+Dyssekilde,Dsk,Lokaltog A/S,P,Hi-Hun,Station
+Døstrup Sønderjylland,Ds,Banedanmark,P,Bm-Tdgr,Trinbræt
+Egedal (tidl. Gl. Toftegård),Egd,Banedanmark,P,Val (nær)-Fs,Trinbræt
+Egøje,Egø,Lokaltog A/S,P,Kj-Fxl,Station
+Ejby,Eb,Banedanmark,P,Kh-Fa/Tl,Station
+Ellidshøj,Eh,Banedanmark,÷ P,Ar-Ab,Station
+Emdrup,Emt,Banedanmark,P,Sam (nær)-Fm,Trinbræt
+Emmersbæk,Emm,Nordjyske Jernbaner,P,Hj-Hhs,Trinbræt
+Engesvang,Ev,Banedanmark,P,Sd-Sj,Station
+Esbjerg,Es,Banedanmark,P,Lk-Es, Es-Str,Station
+Eskilstrup,Ek,Banedanmark,P,Rg-Rf,Station
+Espergærde,Gæ,Banedanmark,P,Kh-Hg,Trinbræt
+Farris,Fz,Banedanmark,÷ P,Fa-Pa,Station
+Farum,Fm,Banedanmark,P,Sam (nær)-Fm,Station
+Fasterholt,Ft,Banedanmark,÷ P,Ho-Vj,Station
+Faxe Ladeplads,Fxl,Lokaltog A/S,P,Kj-Fxl,Station
+Faxe Syd,Fxs,Lokaltog A/S,P,Kj-Fxl,Station
+Firhøj,Fir,Lokaltog A/S,P,Hg-Gll,Station
+Fiskebæk,Fi,Banedanmark,÷ P,Nf-Ge,Station
+Fjellenstrup,Fjg,Lokaltog A/S,P,Kgg-Gll,Trinbræt
+Fjenneslev,Fj,Banedanmark,÷ P,Kh-Fa/Tl,Station
+Flintholm,Fl,Banedanmark,P,Val (nær)-Fs, Ig (nær)-Hl (nær),Station
+Forlev,Fo,Banedanmark,÷ P,Kh-Fa/Tl,Station
+Fredensborg,Fd,Lokaltog A/S,P,Hi-Sq,Station
+Fredericia,Fa,Banedanmark,P,Kh-Fa/Tl, Fa-Ar, Fa-Pa,Station
+Frederikshavn,Fh,Banedanmark,P,Ab-Fh, Fh-Sgb,Station
+Frederikshavnsvej,Fhv,Nordjyske Jernbaner,P,Fh-Sgb,Trinbræt
+Frederikssund,Fs,Banedanmark,P,Val (nær)-Fs,Station
+Frederiksværk,Frv,Lokaltog A/S,P,Hi-Hun,Station
+Friheden,Frh,Banedanmark,P,Kh (nær)-Kj (nær),Trinbræt
+Frisvadvej,Fr,VNJ,P,Va-Nbl,Trinbræt
+Fruens Bøge,Frs,Banedanmark,P,Od-Svg,Station
+Fuglebakken,Fut,Banedanmark,P,Ig (nær)-Hl (nær),Trinbræt
+Fuglevad,Fgv,Lokaltog A/S,P,Jæt-Nær,Station
+Funder,Fu,Banedanmark,÷ P,Sd-Sj,Station
+Fåre,Fre,Midtjyske Jernbaner,P,Vem-Thb,Station
+Fårevejle,Fv,Lokaltog A/S,P,Hk-Nk,Station
+Fårup,Fp,Banedanmark,÷ P,Ar-Ab,Station
+Gadbjerg,Gg,Banedanmark,÷ P,Ho-Vj,Station
+Gadstrup,Gd,Banedanmark,P,Ro-Kj-Næ,Station
+Gedser,Ge,Banedanmark,÷ P,Nf-Ge,Station
+Gelsted,Gd,Banedanmark,P,Kh-Fa/Tl,Trinbræt
+Gentofte,Gj,Banedanmark,P,Kh (nær)-Gj, Gj-Hi,Station
+Gilleleje,Gll,Lokaltog A/S,P,Kgg-Gll, Hg-Gll,Station
+Gilleleje Øst,Glø,Lokaltog A/S,P,Hg-Gll,Trinbræt
+Gislinge,Gi,Lokaltog A/S,P,Hk-Nk,Station
+Give,Gw,Banedanmark,P,Ho-Vj,Station
+Gjesing,Gje,Banedanmark,P,Es-Str,Trinbræt
+Glostrup,Gl,Banedanmark,÷ P,Kh-Fa/Tl,Station
+Glostrup (nær),Gl,Banedanmark,P,Kh (nær)-Htå (nær),Station
+Glumsø,Gz,Banedanmark,P,Rg-Rf,Station
+Godhavn,Ghg,Lokaltog A/S,P,Hi-Tvl,Trinbræt
+Gredstedbro,Gs,Banedanmark,P,Bm-Tdgr,Station
+Grejsdal,Ges,Banedanmark,÷ P,Ho-Vj,Station
+Greve,Gre,Banedanmark,P,Kh (nær)-Kj (nær),Trinbræt
+Grevinge,Gr,Lokaltog A/S,P,Hk-Nk,Station
+Gribsø,Gøg,Lokaltog A/S,P,Hi-Tvl,Trinbræt
+Grimstrup,Gsf,Lokaltog A/S,P,Hi-Hun,Trinbræt
+Grubberholm,Grh,Lokaltog A/S,P,Kj-Fxl,Station
+Grænge,Grg,Banedanmark,P,Nfv-Nsk,Station
+Græsted,Græ,Lokaltog A/S,P,Kgg-Gll,Station
+Græsted Syd,Grs,Lokaltog A/S,P,Kgg-Gll,Trinbræt
+Grøndal,Ght,Banedanmark,P,Ig (nær)-Hl (nær),Trinbræt
+Grønholt,Grt,Lokaltog A/S,P,Hi-Sq,Trinbræt
+Grønnehave,Grø,Lokaltog A/S,P,Hg-Gll,Station
+Gråsten,Gst,Banedanmark,P,Sdb-Te,Station
+Gudenåen,Gås,Banedanmark,÷ P,Ar-Ab,Sidespor i højre spor Ar-Ab
+Guldager,Gu,Banedanmark,P,Es-Str,Station
+Gørding,Gø,Banedanmark,P,Lk-Es,Trinbræt
+Gørlev,Gv,Kalundborg Kommune,÷ P,Øn-Gv,Station. Veteranbane
+Gørløse,Gør,Lokaltog A/S,P,Hi-Hun,Station
+Gårde,Gå,Banedanmark,P,Es-Str,Trinbræt
+Hadsten,Ha,Banedanmark,P,Ar-Ab,Station
+Hammerum,Hu,Banedanmark,P,Sd-Sj,Station
+Hanehoved,Hhf,Lokaltog A/S,P,Hi-Hun,Trinbræt
+Harboøre,Hbø,Midtjyske Jernbaner,P,Vem-Thb,Station
+Hareskov,Har,Banedanmark,P,Sam (nær)-Fm,Station
+Haslev,Hz,Banedanmark,P,Ro-Kj-Næ,Station
+Hasselager,Hc,Banedanmark,÷ P,Fa-Ar,Sidespor i højre spor Ar-Fa
+Havdrup,Hd,Banedanmark,P,Ro-Kj-Næ,Station
+Havrebjerg,Heb,Lokaltog A/S,÷ P,Tø-Sg,Station
+Hedehusene,Hh,Banedanmark,P,Kh-Fa/Tl,Trinbræt med sidespor
+Hedensted,Hed,Banedanmark,P,Fa-Ar,Station
+Hee,He,Banedanmark,P,Es-Str,Trinbræt
+Helgoland,Hgl,Banedanmark,÷ P,Kh-Hg,Station
+Hellebæk,Hel,Lokaltog A/S,P,Hg-Gll,Station
+Hellerup,Hl,Banedanmark,P,Kh (nær)-Gj, Hl-Kl (nær), Ig (nær)-Hl, Kh-Hg,Station
+Helsinge,Hlg,Lokaltog A/S,P,Hi-Tvl,Station
+Helsingør,Hg,Banedanmark,P,Kh-Hg, Hg-Gll,Station
+Henne,He,VNJ,P,Va-Nbl,Station
+Herfølge,Hf,Banedanmark,P,Ro-Kj-Næ,Station
+Herlev,Her,Banedanmark,P,Val (nær)-Fs,Station
+Herning,Hr,Banedanmark,P,Ho-Vj, Sd-Sj,Station
+Herning Messecenter,Hrm,Banedanmark,P,Sd-Sj,Trinbræt
+Herregårdsparken,Hgp,Nordjyske Jernbaner,P,Hj-Hhs,Trinbræt
+Hesselmed,Hs,VNJ,÷ P,Va-Nbl,Station
+Hillerød,Hi,Banedanmark,P,Gj-Hi, Hi-Hun, Hi-Tvl, Hi-Sq,Station
+Himlingøje,Hmø,Lokaltog A/S,P,Kj-Fxl,Trinbræt
+Hinnerup,Hn,Banedanmark,P,Ar-Ab,Station
+Hirtshals,Hhs,Nordjyske Jernbaner,P,Hj-Hhs,Station
+Hjallese,Hjs,Banedanmark,P,Od-Svg,Trinbræt
+Hjerm,Hm,Banedanmark,P,Es-Str,Station
+Hjulby,Ju,Banedanmark,÷ P,Kh-Fa/Tl,Station
+Hjørring,Hj,Banedanmark,P,Ab-Fh, Hj-Hhs,Station
+Hobro,Hb,Banedanmark,P,Ar-Ab,Station
+Holbæk,Hk,Banedanmark,P,Ro-Kb, Hk-Nk,Station
+Holløse,Hog,Lokaltog A/S,P,Hi-Tvl,Trinbræt
+Holme-Olstrup,Ol,Banedanmark,P,Ro-Kj-Næ,Station
+Holmstrup,Hp,Banedanmark,P,Kh-Fa/Tl,Station
+Holstebro,Ho,Banedanmark,P,Es-Str, Ho-Vj,Station
+Holsted,Hq,Banedanmark,P,Lk-Es,Station
+Holte,Hot,Banedanmark,P,Gj-Hi,Station
+Hornbæk,Hnk,Lokaltog A/S,P,Hg-Gll,Station
+Horne,Hon,Nordjyske Jernbaner,P,Hj-Hhs,Trinbræt
+Horneby Sand,Hsa,Lokaltog A/S,P,Hg-Gll,Trinbræt
+Horsens,Hs,Banedanmark,P,Fa-Ar,Station
+Hovedgård,Hå,Banedanmark,÷ P,Fa-Ar,Station
+Hulsig,Hul,Nordjyske Jernbaner,P,Fh-Sgb,Station
+Humlebæk,Hum,Banedanmark,P,Kh-Hg,Trinbræt
+Humlum,Um,Banedanmark,P,Str-Ti,Trinbræt
+Hundested,Hun,Lokaltog A/S,P,Hi-Hun,Station
+Hundested Havn,Huh,Lokaltog A/S,P,I Hun,Trinbræt
+Hundige,Und,Banedanmark,P,Kh (nær)-Kj (nær),Station
+Hurup Thy,Ur,Banedanmark,P,Str-Ti,Station
+Husum,Hut,Banedanmark,P,Val (nær)-Fs,Trinbræt
+Hvalsø,Hv,Banedanmark,P,Ro-Kb,Station
+Hvidbjerg,Hw,Banedanmark,P,Str-Ti,Station
+Hviding,Vd,Banedanmark,P,Bm-Tdgr,Trinbræt
+Hvidovre,Hit,Banedanmark,P,Kh (nær)-Htå (nær),Trinbræt
+Hvidovre Fjern,Hif,Banedanmark,÷ P,Kh-Fa/Tl, Kh/Hif-Phm,Station
+Hyllerslev,Hy,VNJ,P,Va-Nbl,Trinbræt
+Højby,Høs,Banedanmark,P,Od-Svg,Station
+Højby Sj.,Hy,Lokaltog A/S,P,Hk-Nk,Station
+Høje Taastrup,Htå,Banedanmark,P,Kh-Fa/Tl,Station
+Høje Taastrup (nær),Htå,Banedanmark,P,Kh (nær)-Htå (nær),Station
+Højslev,Hø,Banedanmark,P,Lg-Str,Station
+Højstrup,Høp,Lokaltog A/S,P,Hg-Gll,Station
+Høng,Øn,Lokaltog A/S,P,Tø-Sg, Øn-Gv,Station
+Hørdum,Hæ,Banedanmark,P,Str-Ti,Trinbræt
+Hørning,Hx,Banedanmark,P,Fa-Ar,Station
+Hørve,Hr,Lokaltog A/S,P,Hk-Nk,Station
+Høvelte,Høv,Banedanmark,P,Gj-Hi,Trinbræt
+Hårlev,Hrl,Lokaltog A/S,P,Hrl-Rdg, Kj-Fxl,Station
+Ikast,Ik,Banedanmark,P,Sd-Sj,Station
+Ishøj,Ih,Banedanmark,P,Kh (nær)-Kj (nær),Trinbræt
+Islev,Ist,Banedanmark,P,Val (nær)-Fs,Trinbræt
+Janderup,Ja,VNJ,P,Va-Nbl,Station
+Jegum,Je,VNJ,P,Va-Nbl,Trinbræt
+Jelling,Jl,Banedanmark,P,Ho-Vj,Station
+Jernbanebroen over Limfjorden,Lfm,Banedanmark,÷ P,Ab-Fh,Oplukkelig bro
+Jersie,Jsi,Banedanmark,P,Kh (nær)-Kj (nær),Trinbræt
+Jerup,Jeu,Nordjyske Jernbaner,P,Fh-Sgb,Station
+Jyderup,Jy,Banedanmark,P,Ro-Kb,Station
+Jyllingevej,Jyt,Banedanmark,P,Val (nær)-Fs,Trinbræt
+Jægersborg,Jæt,Banedanmark,P,Gj-Hi,Trinbræt
+Jægersborg (Nærumbanen),Jæt,Lokaltog A/S,P,Jæt-Nær,Station
+Kagerup,Kgg,Lokaltog A/S,P,Hi-Tvl, Kgg-Gll,Station
+Kalundborg,Kb,Banedanmark,P,Ro-Kb,Station
+Kalvebod,Klv,Banedanmark,÷ P,Kh/Hif-Phm,Station
+Karinebæk,Kab,Lokaltog A/S,P,Hg-Gll,Trinbræt
+Karise,Kri,Lokaltog A/S,P,Kj-Fxl,Station
+Karlslunde,Klu,Banedanmark,P,Kh (nær)-Kj (nær),Trinbræt
+Kauslunde,Ka,Banedanmark,P,Kh-Fa/Tl,Station
+KB Hallen,Kbn,Banedanmark,P,Ig (nær)-Hl (nær),Trinbræt
+Kibæk,Kæ,Banedanmark,P,Sd-Sj,Station
+Kildebakke,Ket,Banedanmark,P,Sam (nær)-Fm,Trinbræt
+Kildedal,Kid,Banedanmark,P,Val (nær)-Fs,Trinbræt
+Kildekrog,Kil,Lokaltog A/S,P,Hg-Gll,Trinbræt
+Kirke Eskilstrup,Kek,Lokaltog A/S,P,Tø-Sg,Station
+Klampenborg,Kl,Banedanmark,P,Kh-Hg,Station
+Klampenborg (nær),Kl,Banedanmark,P,Hl (nær)-Kl (nær),Station
+Klinkby,Kli,Midtjyske Jernbaner,P,Vem-Thb,Trinbræt
+Kliplev,Kw,Banedanmark,P,Sdb-Te,Trinbræt
+Klippinge,Klp,Lokaltog A/S,P,Hrl-Rdg,Station
+Knabstrup,Ks,Banedanmark,P,Ro-Kb,Trinbræt
+Kokkedal,Ok,Banedanmark,P,Kh-Hg,Trinbræt
+Kolding,Kd,Banedanmark,P,Fa-Pa,Station
+Kong Frederik den IX's bro,-,Banedanmark,÷ P,Rg-Rf,Oplukkelig bro
+Korsør,Kø,Banedanmark,P,Kh-Fa/Tl,Station
+Kratbjerg,Krb,Lokaltog A/S,P,Hi-Sq,Trinbræt
+Kregme,Krf,Lokaltog A/S,Krf,Hi-Hun,Station
+Kvissel,Kv,Banedanmark,P,Ab-Fh,Station
+Kvistgård,Kå,Lokaltog A/S,P,Hi-Sq,Trinbræt
+Kvægtorvet,Kvæ,Nordjyske Jernbaner,P,Hj-Hhs,Trinbræt
+Kværkeby,Ky,Banedanmark,÷ P,Kh-Fa/Tl,Station
+Kværndrup,Kvs,Banedanmark,P,Od-Svg,Station
+København G,Gb,Banedanmark,÷ P,Kh-Ig,Station
+København H,Kh,Banedanmark,P,Kh-Fa/Tl, Kh-Ig, Kh-Hg, Kh/Hif-Phm,Station
+København H (nær),Kh,Banedanmark,P,Kh (nær)-Htå (nær), Kh (nær)-Gj, Kh (nær)-Kj (nær),Station
+Københavns Lufthavn Kastrup,Cph,Banedanmark,P,Kh/Hif-Phm,Station
+Køge,Kj,Banedanmark,P,Ro-Kj-Næ, Kj-Fxl,Station
+Køge (nær),Kj,Banedanmark,P,Kh (nær)-Kj (nær),Station
+Køge Nord,Kjn,Banedanmark,÷ P,Ro-Kj-Næ,Sidespor på fri bane
+Kølkær,Ke,Banedanmark,÷ P,Ho-Vj,Station
+Langerød,Lrt,Lokaltog A/S,P,Hi-Sq,Trinbræt
+Langeskov,Lv,Banedanmark,P,Kh-Fa/Tl,Trinbræt
+Langgade,Vat,Banedanmark,P,Val (nær)-Fs,Trinbræt
+Langå,Lg,Banedanmark,P,Ar-Ab, Lg-Str,Station
+Laugø,Løg,Lokaltog A/S,P,Hi-Tvl,Trinbræt
+Laven,La,Banedanmark,P,Sd-Sj,Station
+Lejre,Lj,Banedanmark,P,Ro-Kb,Station
+Lem,Lm,Banedanmark,P,Es-Str,Station
+Lemvig,Lmv,Midtjyske Jernbaner,P,Vem-Thb,Station
+Lersøen,Ler,Banedanmark,÷ P,Ler-Kk,Station
+Lille Kregme,Llk,Lokaltog A/S,P,Hi-Hun,Trinbræt
+Lille Linde,Lli,Lokaltog A/S,P,Kj-Fxl,Trinbræt
+Lille Skensved,Lw,Banedanmark,P,Ro-Kj-Næ,Station
+Lilleheden,Lhe,Nordjyske Jernbaner,P,Hj-Hhs,Trinbræt
+Lindholm,Lih,Banedanmark,P,Ab-Fh,Station
+Lundby,Lu,Banedanmark,P,Rg-Rf,Station
+Lunde,Lu,VNJ,P,Va-Nbl,Trinbræt med sidespor
+Lunderskov,Lk,Banedanmark,P,Fa-Pa, Lk-Es,Station
+Lyngby,Ly,Banedanmark,P,Gj-Hi,Station
+Lyngby lokal,Lyl,Lokaltog A/S,P,Jæt-Nær,Trinbræt
+Lyngs,Ln,Banedanmark,P,Str-Ti,Trinbræt
+Løftgård,Lø,VNJ,P,Va-Nbl,Trinbræt
+Malmparken,Mpt,Banedanmark,P,Val (nær)-Fs,Trinbræt
+Maribo,Mrb,Lokaltog A/S,P,Nfv-Nsk,Station
+Marienlyst,Mar,Lokaltog A/S,P,Hg-Gll,Trinbræt
+Marslev,Mv,Banedanmark,÷ P,Kh-Fa/Tl,Station
+Masnedsundbroen,-,Banedanmark,÷ P,Rg-Rf,Bro (aflåst, og kan ikke åbnes)
+Masnedø,Mn,Banedanmark,÷ P,Rg-Rf,Station
+Melby,Mel,Lokaltog A/S,P,Hi-Hun,Station
+Middelfart,Md,Banedanmark,P,Kh-Fa/Tl,Station
+Mundelstrup,Mu,Banedanmark,÷ P,Ar-Ab,Station
+Mørdrup,Møt,Lokaltog A/S,P,Hi-Sq,Trinbræt
+Mørkøv,Mø,Banedanmark,P,Ro-Kb,Station
+Måløv,Mw,Banedanmark,P,Val (nær)-Fs,Trinbræt
+Mårsø,Mø,Lokaltog A/S,÷ P,Hk-Nk,Station
+Mårum,Mmg,Lokaltog A/S,P,Kgg-Gll,Station
+Nakskov,Nsk,Lokaltog A/S,P,Nfv-Nsk,Station
+Napstjært,Nap,Nordjyske Jernbaner,P,Fh-Sgb,Trinbræt
+Nejrup,Net,Midtjyske Jernbaner,P,Vem-Thb,Trinbræt
+Nivå,Ni,Banedanmark,P,Kh-Hg,Station
+Nordhavn,Nht,Banedanmark,P,Kh (nær)-Gj,Trinbræt
+Nr. Asmindrup,Am,Lokaltog A/S,P,Hk-Nk,Station
+Ny Ellebjerg,Nel,Banedanmark,P,Kh-Ig,Trinbræt
+Ny Ellebjerg (nær),Nel,Banedanmark,P,Kh (nær)-Kj (nær), Ig (nær)-Hl (nær),Trinbræt. Lave del ligger på Vigerslev (nær)
+Ny Hagested,Hgt,Lokaltog A/S,P,Hk-Nk,Trinbræt
+Nyborg,Ng,Banedanmark,P,Kh-Fa/Tl,Station
+Nykøbing F,Nf,Banedanmark,P,Rg-Rf, Nf-Ge,Station
+Nykøbing F Vest,Nfv,Banedanmark,÷ P,Rg-Rf, Nfv-Nsk,Station
+Nykøbing Sj.,Nk,Lokaltog A/S,P,Hk-Nk,Station
+Nyled,Ndt,Lokaltog A/S,P,Hk-Nk,Trinbræt
+Nyrup,Nyp,Lokaltog A/S,P,Tø-Sg,Trinbræt
+Nærum,Nær,Lokaltog A/S,P,Jæt-Nær,Station
+Næstved,Næ,Banedanmark,P,Rg-Rf, Ro-Kj-Næ,Station
+Næstved Nord,Næn,Banedanmark,P,Ro-Kj-Næ,Trinbræt
+Nørgaardsvej,Nøv,Lokaltog A/S,P,Jæt-Nær,Trinbræt
+Nørre Alslev,Nv,Banedanmark,P,Rg-Rf,Station
+Nørre Nebel,Nbl,VNJ,P,Va-Nbl,Station
+Nørre Aaby,Na,Banedanmark,P,Kh-Fa/Tl,Trinbræt
+Nørrebro,Nø,Banedanmark,P,Ig (nær)-Hl (nær),Trinbræt
+Nørreport,Kn,Banedanmark,P,Kh-Hg,Trinbræt
+Nørreport (nær),Kn,Banedanmark,P,Kh (nær)-Gj,Trinbræt
+Oddesund Nord,No,Banedanmark,P,Str-Ti,Trinbræt
+Oddesundbroen,-,Banedanmark,÷ P,Str-Ti,Oplukkelig bro
+Odense,Od,Banedanmark,P,Kh-Fa/Tl, Od-Svg,Station
+Odense Sygehus,Oss,Banedanmark,P,Od-Svg,Trinbræt
+Oksbøl,Ox,VNJ,P,Va-Nbl,Station
+Oksbøl Syd,Oxs,Forsvaret,÷ P,Va-Nbl,Sidespor på Hesselmed station
+Ordrup,Op,Banedanmark,P,Hl (nær)-Kl (nær),Trinbræt
+Orehoved,Oh,Banedanmark,÷ P,Rg-Rf,Station
+Outrup,Ou,VNJ,P,Va-Nbl,Station
+Padborg,Pa,Banedanmark,P,Fa-Pa,Station
+Peberholm,Phm,Banedanmark,÷ P,Kh/Hif-Phm,Station
+Pederstrup,Pds,Banedanmark,P,Od-Svg,Trinbræt
+Peter Bangsvej,Pbt,Banedanmark,P,Val (nær)-Fs,Trinbræt
+Pårup,Ppg,Lokaltog A/S,P,Kgg-Gll,Trinbræt
+Ramme,Ram,Midtjyske Jernbaner,P,Vem-Thb,Station
+Randers,Rd,Banedanmark,P,Ar-Ab,Station
+Ravnholm,Rvh,Lokaltog A/S,P,Jæt-Nær,Trinbræt
+Ravnstrup,Ra,Banedanmark,÷ P,Lg-Str,Station
+Regstrup,Rt,Banedanmark,P,Ro-Kb,Station
+Rejsby,Rej,Banedanmark,P,Bm-Tdgr,Trinbræt
+Ribe,Rb,Banedanmark,P,Bm-Tdgr,Station
+Ribe Nørremark,Rbn,Banedanmark,P,Bm-Tdgr,Trinbræt
+Rimmen,Rim,Nordjyske Jernbaner,P,Fh-Sgb,Trinbræt
+Rindsholm,Rn,Banedanmark,÷ P,Lg-Str,Station
+Ringe,Re,Banedanmark,P,Od-Svg,Station
+Ringkøbing,Rj,Banedanmark,P,Es-Str,Station
+Ringsted,Rg,Banedanmark,P,Kh-Fa/Tl, Rg-Rf,Station
+Roskilde,Ro,Banedanmark,P,Kh-Fa/Tl, Ro-Kj-Næ, Ro-Kb,Station
+Rudme,Rus,Banedanmark,P,Od-Svg,Trinbræt
+Ruds Vedby,Rsb,Lokaltog A/S,P,Tø-Sg,Station
+Rungsted Kyst,Ru,Banedanmark,P,Kh-Hg,Station
+Ry,Ry,Banedanmark,P,Sd-Sj,Station
+Ryde,Ryd,Lokaltog A/S,P,Nfv-Nsk,Station
+Ryparken,Ryt,Banedanmark,P,Sam (nær)-Fm, Ig (nær)-Hl (nær),Trinbræt
+Rødby Færge,Rf,Banedanmark,P,Rg-Rf,Station
+Rødby Øst,Rfø,Banedanmark,÷ P,Rg-Rf,Station
+Rødekro,Rq,Banedanmark,P,Fa-Pa,Station
+Rødkærsbro,Rk,Banedanmark,P,Lg-Str,Station
+Rødovre,Rdo,Banedanmark,P,Kh (nær)-Htå (nær),Trinbræt
+Rødvig,Rdg,Lokaltog A/S,P,Hrl-Rdg,Station
+Rønbjerg,Røb,Banedanmark,÷ P,Lg-Str,Station
+Rønland,Røn,Midtjyske Jernbaner,P,Vem-Thb,Station
+Sakskøbing,Sx,Lokaltog A/S,P,Nfv-Nsk,Station
+Saltrup,Sag,Lokaltog A/S,P,Kgg-Gll,Trinbræt
+Saunte,Sau,Lokaltog A/S,P,Hg-Gll,Station
+Sejstrup,Sej,Banedanmark,P,Bm-Tdgr,Trinbræt
+Sig,Is,Banedanmark,P,Es-Str,Trinbræt
+Silkeborg,Sl,Banedanmark,P,Sd-Sj,Station
+Sindal,Sa,Banedanmark,P,Ab-Fh,Station
+Sinkbæk,Sit,Midtjyske Jernbaner,P,Vem-Thb,Trinbræt
+Sjælør,Sjæ,Banedanmark,P,Kh (nær)-Kj (nær),Trinbræt
+Sjørring,Ri,Banedanmark,P,Str-Ti,Trinbræt
+Skagen,Sgb,Nordjyske Jernbaner,P,Fh-Sgb,Station
+Skalbjerg,Sc,Banedanmark,P,Kh-Fa/Tl,Trinbræt
+Skalborg,Og,Banedanmark,P,Ar-Ab,Trinbræt
+Skanderborg,Sd,Banedanmark,P,Fa-Ar, Sd-Sj,Station
+Skelbæk,Slb,Banedanmark,÷ P,Kh (nær)-Htå (nær), Kh (nær)-Kj (nær),Station
+Skellebjerg,Skl,Lokaltog A/S,P,Tø-Sg,Station
+Skibbild,Ib,Banedanmark,÷ P,Ho-Vj,Station
+Skibstrup,Skb,Lokaltog A/S,P,Hg-Gll,Trinbræt
+Skive,Sk,Banedanmark,P,Lg-Str,Station
+Skjern,Sj,Banedanmark,P,Es-Str, Sd-Sj,Station
+Skodsborg,Så,Banedanmark,P,Kh-Hg,Station
+Skovbrynet,Skt,Banedanmark,P,Sam (nær)-Fm,Trinbræt
+Skovlunde,Sko,Banedanmark,P,Val (nær)-Fs,Trinbræt
+Skærbæk,Æk,Banedanmark,P,Bm-Tdgr,Station
+Skævinge,Skv,Lokaltog A/S,P,Hi-Hun,Station
+Skørping,Sø,Banedanmark,P,Ar-Ab,Station
+Slagelse,Sg,Banedanmark,P,Kh-Fa/Tl, Tø-Sg,Station
+Slotspavillonen,Spg,Lokaltog A/S,P,Hi-Tvl,Station
+Snedsted,Sne,Banedanmark,P,Str-Ti,Station
+Snekkersten,Sq,Banedanmark,P,Kh-Hg, Hi-Sq,Station
+Snoghøj,Sno,Banedanmark,÷ P,Kh-Fa/Tl,Station
+Solrød Strand,Sol,Banedanmark,P,Kh (nær)-Kj (nær),Station
+Sommerland Sj.,Slt,Lokaltog A/S,P,Hk-Nk,Trinbræt
+Sommersted,Sst,Banedanmark,÷ P,Fa-Pa,Station
+Sorgenfri,Sft,Banedanmark,P,Gj-Hi,Trinbræt
+Sorø,So,Banedanmark,P,Kh-Fa/Tl,Station
+Spangsbjerg,Esn,Banedanmark,P,Es-Str,Trinbræt
+Sprogø,Spr,Banedanmark,÷ P,Kh-Fa/Tl,Station
+Sprogøvej,Ths,Midtjyske Jernbaner,P,Vem-Thb,Trinbræt
+Stengården,Sgt,Banedanmark,P,Sam (nær)-Fm,Trinbræt
+Stenhus,Sht,Lokaltog A/S,P,Hk-Nk,Trinbræt
+Stenlille,Stl,Lokaltog A/S,P,Tø-Sg,Station
+Stenløse,St,Banedanmark,P,Val (nær)-Fs,Trinbræt
+Stenstrup,Sts,Banedanmark,P,Od-Svg,Station
+Stenstrup Syd,Sis,Banedanmark,P,Od-Svg,Trinbræt
+Stevnstrup,Ste,Banedanmark,÷ P,Ar-Ab,Station
+Stoholm,Sm,Banedanmark,P,Lg-Str,Station
+Store Heddinge,Sth,Lokaltog A/S,P,Hrl-Rdg,Station
+Store Merløse,Mrl,Lokaltog A/S,P,Tø-Sg,Station
+Strandby,Stb,Nordjyske Jernbaner,P,Fh-Sgb,Station
+Strande,Sta,Midtjyske Jernbaner,P,Vem-Thb,Station
+Struer,Str,Banedanmark,P,Es-Str, Lg-Str, Str-Ti,Station
+Studsgård,Stu,Banedanmark,P,Sd-Sj,Trinbræt
+Stæremosen,Stæ,Lokaltog A/S,P,Hg-Gll,Trinbræt
+Støvring,Sr,Banedanmark,P,Ar-Ab,Trinbræt
+Sulsted,Su,Banedanmark,÷ P,Ab-Fh,Station
+Svanemøllen,Sam,Banedanmark,÷ P,Ler-Kk,Station
+Svanemøllen (nær),Sam,Banedanmark,P,Kh (nær)-Gj, Sam (nær)-Fm,Station
+Svebølle,Se,Banedanmark,P,Ro-Kb,Station
+Svejbæk,Sv,Banedanmark,P,Sd-Sj,Station
+Svendborg,Svg,Banedanmark,P,Od-Svg,Station
+Svendborg Vest,Svv,Banedanmark,P,Od-Svg,Trinbræt
+Svenstrup Jylland,Sn,Banedanmark,P,Ar-Ab,Trinbræt
+Svinninge,Sv,Lokaltog A/S,P,Hk-Nk,Station
+Sydhavn,Syv,Banedanmark,P,Kh (nær)-Kj (nær),Trinbræt
+Søborg,Søb,Lokaltog A/S,P,Hg-Gll,Trinbræt
+Søllested,Søl,Lokaltog A/S,P,Nfv-Nsk,Station
+Sønderborg,Sdb,Banedanmark,P,Sdb-Te,Station
+Sønderby,Sdby,Nordjyske Jernbaner,P,Hj-Hhs,Trinbræt
+Tarm,Ta,Banedanmark,P,Es-Str,Trinbræt
+Taulov,Tl,Banedanmark,P,Kh-Fa/Tl, Fa-Pa,Station
+Teglgårdsvej,Tgv,Nordjyske Jernbaner,P,Hj-Hhs,Trinbræt
+Thisted,Ti,Banedanmark,P,Str-Ti,Station
+Thyborøn Havn,Thb,Midtjyske Jernbaner,P,Vem-Thb,Station
+Thyborøn Kirke,Tht,Midtjyske Jernbaner,P,Vem-Thb,Trinbræt
+Thyregod,Ty,Banedanmark,P,Ho-Vj,Station
+Tim,Tm,Banedanmark,P,Es-Str,Trinbræt
+Tinglev,Te,Banedanmark,P,Fa-Pa, Sdb-Te,Station
+Tingsted,Tn,Banedanmark,÷ P,Rg-Rf,Station
+Tistrup,Tr,Banedanmark,P,Es-Str,Station
+Tisvildeleje,Tvl,Lokaltog A/S,P,Hi-Tvl,Station
+Tjæreborg,Tb,Banedanmark,P,Lk-Es,Station
+Tokkerup,Tok,Lokaltog A/S,P,Kj-Fxl,Station
+Tolne,To,Banedanmark,P,Ab-Fh,Trinbræt
+Tommerup,Tp,Banedanmark,P,Kh-Fa/Tl,Station
+Tornby,Tnb,Nordjyske Jernbaner,P,Hj-Hhs,Station
+Trekroner,Trk,Banedanmark,P,Kh-Fa/Tl,Trinbræt
+Tureby,Th,Banedanmark,P,Ro-Kj-Næ,Station
+Tvis,Ts,Banedanmark,÷ P,Ho-Vj,Station
+Tølløse,Tø,Banedanmark,P,Ro-Kb, Tø-Sg,Station
+Tønder,Tdr,Banedanmark,P,Bm-Tdgr,Station
+Tønder Grænse,Tdgr,Banedanmark,÷ P,Bm-Tdgr,Grænsepunkt
+Tønder Industrispor Nord,Tin,Banedanmark,÷ P,Bm-Tdgr,Sidespor
+Tønder Nord,Trn,Banedanmark,P,Bm-Tdgr,Trinbræt
+Tårnby,Tåt,Banedanmark,P,Kh/Hif-Phm,Trinbræt
+Taastrup,Tå,Banedanmark,P,Kh (nær)-Htå (nær),Station
+Uglev,Ul,Banedanmark,P,Str-Ti,Trinbræt
+Ulfborg,Uf,Banedanmark,P,Es-Str,Station
+Ullerslev,Uv,Banedanmark,÷ P,Kh-Fa/Tl,Station
+Ulstrup,Up,Banedanmark,P,Lg-Str,Station
+Valby,Val,Banedanmark,P,Kh-Fa/Tl,Trinbræt
+Valby (nær),Val,Banedanmark,P,Kh (nær)-Htå (nær), Val (nær)-Fs,Station
+Vallensbæk,Vlb,Banedanmark,P,Kh (nær)-Kj (nær),Station
+Vallø,Vlø,Lokaltog A/S,P,Kj-Fxl,Station
+Vamdrup,Vm,Banedanmark,P,Fa-Pa,Station
+Vangede,Ang,Banedanmark,P,Sam (nær)-Fm,Trinbræt
+Vanløse,Van,Banedanmark,P,Val (nær)-Fs,Station
+Varde,Va,Banedanmark,P,Es-Str, Va-Nbl,Station
+Varde Kaserne,Vka,Banedanmark,P,Es-Str,Trinbræt. Ligger på Va
+Varde Nord,Vno,Banedanmark,P,Es-Str,Trinbræt
+Varde Vestbanegård,Vv,VNJ,P,Va-Nbl,Station
+Varpelev,Vap,Lokaltog A/S,P,Hrl-Rdg,Trinbræt
+Vedbæk,Vb,Banedanmark,P,Kh-Hg,Trinbræt
+Vedde,Ved,Lokaltog A/S,P,Tø-Sg,Trinbræt
+Vejby,Vej,Lokaltog A/S,P,Hi-Tvl,Station
+Vejbæk,Vk,Banedanmark,÷ P,Fa-Pa,Station
+Vejen,Vn,Banedanmark,P,Lk-Es,Station
+Vejle,Vj,Banedanmark,P,Fa-Ar, Ho-Vj,Station
+Vejle Sygehus,Vjs,Banedanmark,P,Ho-Vj,Trinbræt
+Veksø,Vs,Banedanmark,P,Val (nær)-Fs,Station
+Vellingshøj,Vlh,Nordjyske Jernbaner,P,Hj-Hhs,Trinbræt
+Vemb,Vem,Banedanmark,P,Es-Str, Vem-Thb,Station
+Vesterport,Vpt,Banedanmark,P,Kh (nær)-Gj,Trinbræt
+Vibehus,Vif,Lokaltog A/S,P,Hi-Hun,Trinbræt
+Viborg,Vg,Banedanmark,P,Lg-Str,Station
+Viby J,Vi,Banedanmark,P,Fa-Ar,Station
+Viby Sj,Vy,Banedanmark,P,Kh-Fa/Tl,Station
+Victoria Street Station,Vic,Midtjyske Jernbaner,P,Vem-Thb,Trinbræt
+Vidstrup,Vid,Nordjyske Jernbaner,P,Hj-Hhs,Trinbræt
+Vig,Vig,Lokaltog A/S,P,Hk-Nk,Station
+Vigerslev,Ig,Banedanmark,÷ P,Kh-Ig, Kh/Hif-Phm,Station
+Vigerslev (nær),Ig,Banedanmark,÷ P,Ig (nær)-Hl (nær),Station
+Vigerslev Allé,Vgt,Banedanmark,P,Ig (nær)-Hl (nær),Trinbræt
+Vildbjerg,Id,Banedanmark,P,Ho-Vj,Station
+Vinderup,Vp,Banedanmark,P,Lg-Str,Station
+Vipperød,Pe,Banedanmark,P,Ro-Kb,Station
+Virum,Vir,Banedanmark,P,Gj-Hi,Trinbræt
+Visby,Vis,Banedanmark,P,Bm-Tdgr,Station
+Vojens,Oj,Banedanmark,P,Fa-Pa,Station
+Vordingborg,Vo,Banedanmark,P,Rg-Rf,Station
+Vrist,Vri,Midtjyske Jernbaner,P,Vem-Thb,Trinbræt
+Vrøgum,Vr,VNJ,P,Va-Nbl,Trinbræt
+Vrå,Vr,Banedanmark,P,Ab-Fh,Station
+Væggerløse,Vø,Banedanmark,÷ P,Nf-Ge,Station
+Værløse,Vær,Banedanmark,P,Sam (nær)-Fm,Trinbræt
+Værslev,Væ,Banedanmark,÷ P,Ro-Kb,Station
+Ydby,Yd,Banedanmark,P,Str-Ti,Trinbræt
+Ølby,Ølb,Banedanmark,P,Ro-Kj-Næ,Trinbræt
+Ølby (nær),Ølb,Banedanmark,P,Kh (nær)-Kj (nær),Trinbræt
+Ølgod,Øg,Banedanmark,P,Es-Str,Station
+Ølsemagle,Ølm,Banedanmark,÷ P,Kh (nær)-Kj (nær),Station
+Ølsted,Øls,Lokaltog A/S,P,Hi-Hun,Station
+Ølstykke,Øl,Banedanmark,P,Val (nær)-Fs,Station
+Ørby,Øbg,Lokaltog A/S,P,Hi-Tvl,Trinbræt
+Ørestad,Øre,Banedanmark,P,Kh/Hif-Phm,Trinbræt
+Ørholm,Ørh,Lokaltog A/S,P,Jæt-Nær,Station
+Øster Toreby,Øto,Lokaltog A/S,P,Nfv-Nsk,Trinbræt
+Østerbjerg,Øsf,Lokaltog A/S,P,Hi-Hun,Station
+Østerport,Kk,Banedanmark,P,Ler-Kk, Kh-Hg,Station
+Østerport (nær),Kk,Banedanmark,P,Kh (nær)-Gj,Station
+Aalborg,Ab,Banedanmark,P,Ar-Ab, Ab-Fh,Station
+Aalborg Vestby,Abv,Banedanmark,P,Ab-Fh,Trinbræt. Ligger på Ab
+Ålbæk,Ålb,Nordjyske Jernbaner,P,Fh-Sgb,Station
+Ålholm,Ålm,Banedanmark,P,Ig (nær)-Hl (nær),Trinbræt
+Ålsgårde,Aal,Lokaltog A/S,P,Hg-Gll,Station
+Åmarken,Åm,Banedanmark,P,Kh (nær)-Kj (nær),Station
+Aarhus H,Ar,Banedanmark,P,Fa-Ar, Ar-Ab,Station
+Årslev,Ås,Banedanmark,P,Od-Svg,Station
+Aarup,Ap,Banedanmark,P,Kh-Fa/Tl,Station
