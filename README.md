@@ -53,7 +53,7 @@
 
 |Block Detector BD20|
 |:---|
-|[![nce_bd20.jpg](./Udstyr/Images/nce_bd20.png)](./README.md#udstyr)|
+|[![nce_bd20.jpg](./Udstyr/Images/nce_bd20.png)](./Udstyr/README.md)|
 
 <hr/>
 
