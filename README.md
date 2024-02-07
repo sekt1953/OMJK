@@ -79,6 +79,13 @@ Inspiration hentet hos [moppe.dk](https://www.moppe.dk/besat.html),
 |:---|
 |![besat2.jpg](./Udstyr/Images/Sporbesat_003_schem.png)|
 
+### Block Detector med 6 Dioder & Optokobler
+
+Denne opstilling anvender vi i Frederica (Fa) station
+
+|Block Detector med Brokobling & Optokobler|
+|:---|
+|![](./Udstyr/Images/principle_track_detection_schem.png)|
 
 <hr/><hr/>
 
