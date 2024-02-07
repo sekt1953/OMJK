@@ -51,9 +51,16 @@
 
 ### Block Detector med BD20
 
+Vi bruger denne løsning på Holmstrup (Hp) Station.
+
 |Block Detector med BD20|
 |:---|
 |[![nce_bd20.jpg](./Udstyr/Images/nce_bd20.png)](./Udstyr/README.md)|
+
+* [ESPHome files:](./README.md#esphome)
+  * [Occupied-Hp.yaml](https://github.com/sekt1953/OMJK/blob/main/HomeAssistant/ESPHome/Occupied-Hp.yaml)
+* Fritzing files:
+  * [README.md#occupied-hp-proto](https://github.com/sekt1953/Fritzing/blob/main/My_PCB/README.md#occupied-hp-proto)
 
 ### Block Detector med Dioder &  BC557/BC547 & Optocoupler
 
@@ -62,6 +69,16 @@ Inspiration hentet hos [moppe.dk](https://www.moppe.dk/besat.html)
 |Block Detector med Dioder &  BC557/BC547 & Optocoupler|
 |:---|
 |![Sporbesat_002_schem.png](./Udstyr/Images/Sporbesat_002_schem.png)|
+
+### Block Detector med Brokobling & Optocoupler
+
+Inspiration hentet hos [moppe.dk](https://www.moppe.dk/besat.html),  
+  vi skal nok bruge Dioder af typen 1N5400 grundet vores strømforbrug.
+
+|Block Detector med Brokobling & Optocoupler|
+|:---|
+|![besat2.jpg](./Udstyr/Images/Sporbesat_003_schem.png)|
+
 
 <hr/><hr/>
 
