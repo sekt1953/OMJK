@@ -87,6 +87,14 @@ Denne opstilling anvender vi i Frederica (Fa) station
 |:---|
 |![](./Udstyr/Images/principle_track_detection_schem.png)|
 
+
+### Block Detector test
+
+|Block Detector test|
+|:---|
+|![](./Udstyr/Images/Occupied-test_schem.png)|
+
+
 <hr/><hr/>
 
 ## Stationsforkortelser
