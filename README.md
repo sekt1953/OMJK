@@ -1,5 +1,31 @@
 # OMJK
 
+## Index
+
+* [[Home Assistant](./README.md#home-assistant)
+  * [Configurations](./README.md#configurations)
+  * [Lovelace](./README.md#lovelace)
+    * [Home]
+    * [pwm-with-pca9685]
+    * [LedDriver]
+    * [Occupied]
+    * [Track Reserved]
+* [ESPHome](./README.md#esphome)
+  * [ESPHome files:]
+    * [ESPHome's Secrets Files:]
+    * [Leddriver Files:]
+    * [OccupiedSensor Files:]
+    * [PWM with pca9685]
+* [Sporbesat ideer](./README.md#sporbesat-ideer)
+  * [Block Detector med BD20](./README.md#block-detector-med-bd20)
+  * [Block Detector med Dioder & BC557/BC547 & Optocoupler](./README.md#block-detector-med-dioder--bc557bc547--optocoupler)
+  * [Block Detector med Brokobling & Optocoupler](./README.md#block-detector-med-brokobling--optocoupler)
+  * [Block Detector med 6 Dioder & Optokobler](./README.md#block-detector-med-6-dioder--optokobler)
+  * [Block Detector test](./README.md#block-detector-test)
+* [Stationsforkortelser](./README.md#stationsforkortelser)
+* [Signaler](./README.md#signaler)
+* [Togvej](./README.md#togvej)
+
 ## [Home Assistant](./HomeAssistant/)
 
 ### Configurations
