@@ -72,6 +72,8 @@
     * ![PCA9685](./HomeAssistant/ESPHome/Images/Skærmbillede%20fra%202024-01-23%2013-13-27.png)
     * ESPHome Files:
       * [/pca9685-xx.yaml](./HomeAssistant/ESPHome/pca9685-00.yaml)
+    * FreeCAD files:
+      * [Mount for PCA9685 PCB](https://github.com/sekt1953/FreeCAD#mount-for-pca9685-pcb)
 
 ## Sporbesat ideer
 
