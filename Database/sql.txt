@@ -1,0 +1,62 @@
+MatrialeType
+  MatrialeType_ID
+  Type
+  Beskrivelse
+
+-----------------------------------
+CREATE TABLE "MatrialeType" (
+"MatrialeType_ID" INT PRIMARY KEY,
+"Type" VARCHAR(50),
+"Beskrivelse" VARCHAR(50)
+);
+
+---MatrialeType---------------------------------
+INSERT INTO
+  "MatrialeType"
+  (
+    "Type"
+  )
+SELECT DISTINCT "Type" AS "Type" FROM "DriftMateriale" WHERE "Type" IS NOT NULL
+FROM 
+  "DriftMateriale";
+------------------------------------
+INSERT INTO
+  "MatrialeType"
+  (
+    "Type"
+  )
+SELECT DISTINCT "Type" AS "Type" FROM "DriftMateriale" WHERE "Type" IS NOT NULL
+
+---Bane------------------------------------------------
+CREATE TABLE "Bane" (
+"Bane_ID" INT PRIMARY KEY,
+"Bane" VARCHAR(50),
+"Beskrivelse" VARCHAR(50)
+);
+
+INSERT INTO
+  "Bane"
+  (
+    "Bane"
+  )
+SELECT DISTINCT "Bane" AS "Bane" FROM "DriftMateriale" WHERE "Bane" IS NOT NULL
+
+---Hjemsted------------------------------------------------
+CREATE TABLE "Hjemsted" (
+"Hjemsted_ID" INT PRIMARY KEY,
+"Hjemsted" VARCHAR(50),
+"Beskrivelse" VARCHAR(50)
+);
+
+INSERT INTO
+  "Hjemsted"
+  (
+    "Hjemsted"
+  )
+SELECT DISTINCT "Hjemsted" AS "Hjemsted" FROM "DriftMateriale" WHERE "Hjemsted" IS NOT NULL
+
+
+
+
+
+
