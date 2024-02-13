@@ -67,8 +67,6 @@ wifi:
     password: !secret wifi_password_omjk
   - ssid: !secret wifi_ssid_sekt
     password: !secret wifi_password_sekt
-  - ssid: !secret wifi_ssid_finn
-    password: !secret wifi_password_finn
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
@@ -325,18 +323,18 @@ light:
     name: '_0C'
     default_transition_length: 0s
     output: pwm0c
-#  - platform: monochromatic
-#    name: '_0D'
-#    default_transition_length: 0s
-#    output: pwm0d
-#  - platform: monochromatic
-#    name: '_0E'
-#    default_transition_length: 0s
-#    output: pwm0e
-#  - platform: monochromatic
-#    name: '_0F'
-#    default_transition_length: 0s
-#    output: pwm0f
+  - platform: monochromatic
+    name: '_0D'
+    default_transition_length: 0s
+    output: pwm0d
+  - platform: monochromatic
+    name: '_0E'
+    default_transition_length: 0s
+    output: pwm0e
+  - platform: monochromatic
+    name: '_0F'
+    default_transition_length: 0s
+    output: pwm0f
 
   - platform: monochromatic
     name: '_10'
@@ -411,8 +409,8 @@ light:
 #     blue (Required, ID): The id of the float Output Component to use for the blue channel.
 #     effects (Optional, list): A list of light effects to use for this light.
 #     id (Optional, ID): Manually specify the ID used for code generation.
-  - platform: rgb
-    name: '_Color'
-    red: pwm0d
-    green: pwm0e
-    blue: pwm0f
+#  - platform: rgb
+#    name: '_Color'
+#    red: pwm0d
+#    green: pwm0e
+#    blue: pwm0f
