@@ -22,7 +22,7 @@
   * [Block Detector med Brokobling & Optocoupler](./README.md#block-detector-med-brokobling--optocoupler)
   * [Block Detector med 6 Dioder & Optokobler](./README.md#block-detector-med-6-dioder--optokobler)
   * [Block Detector test](./README.md#block-detector-test)
-* [DataBase Project](./README.md#database-project)
+* [DataBase Project](./Database/README.md)
 * [Stationsforkortelser](./README.md#stationsforkortelser)
 * [Signaler](./README.md#signaler)
 * [Togvej](./README.md#togvej)
@@ -123,10 +123,6 @@ Denne opstilling anvender vi i Frederica (Fa) station
 |Block Detector test|
 |:---|
 |![](./Udstyr/Images/Occupied-test_schem.png)|
-
-## DataBase Project
-
-* [LibreBase]()
 
 <hr/><hr/>
 
