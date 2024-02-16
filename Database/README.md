@@ -10,6 +10,7 @@
     * [LibreOffice Base Split Database Tutorial](https://youtu.be/BwrWoP0Wr7w)
   * [TheFrugalComputerGuy](https://www.youtube.com/@TheFrugalComputerGuy)
     * [LibreOffice Base](https://www.youtube.com/playlist?list=PLy7Kah3WzqrEerJ0VPNWVaR4CYHMr4wmV)
+  * [Setting Up a Dedicated Database Server on Raspberry Pi](https://dzone.com/articles/set-up-a-dedicated-database-server-on-raspberry)
 
 ## Regneark
 
