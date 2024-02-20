@@ -82,6 +82,10 @@ CREATE USER 'remoteuser'@'%' IDENTIFIED BY 'pimylifeup';
 ```
 
 ```code
+FLUSH PRIVILEGES;
+```
+
+```code
 quit;
 ```
 
