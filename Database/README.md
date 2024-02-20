@@ -65,8 +65,12 @@ GRANT ALL PRIVILEGES ON exampledb.* TO 'exampleuser'@'localhost';
 
 ```code
 FLUSH PRIVILEGES;
+```
+
+```code
 quit;
 ```
+
 ### Create Remote User
 
 ```code
@@ -75,18 +79,21 @@ sudo mysql -u root -p
 
 ```code
 CREATE USER 'remoteuser'@'%' IDENTIFIED BY 'pimylifeup';
+```
+
+```code
 quit;
 ```
 
 ```code
-nano /etc/mysql/mariadb.conf.d//50-server.cnf
+sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
 ```
 
 ```code
 bind-address=o.o.o.o
 ```
 
-[CTRL]+[o], [Y] [CTRL]+[x]
+[CTRL]+[o], [ENTER] [CTRL]+[x]
 
 ### Test Remote User:
 
