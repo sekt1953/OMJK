@@ -82,6 +82,10 @@ CREATE USER 'remoteuser'@'%' IDENTIFIED BY 'pimylifeup';
 ```
 
 ```code
+GRANT ALL PRIVILEGES ON exampledb.* TO 'remoteuser'@'%';
+```
+
+```code
 FLUSH PRIVILEGES;
 ```
 
@@ -99,8 +103,28 @@ bind-address=0.0.0.0
 
 [CTRL]+[o], [ENTER] [CTRL]+[x]
 
-### Test Remote User:
+```code
+service mysql restart
+```
+
+### Test Remote User
 
 ```code
 mysql -u remoteuser -p -h 192.168.0.8 -P 3306
+```
+
+```code
+SHOW DATABASES;
+```
+
+Svar se ud som dette:
+```
+MariaDB [(none)]> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| exampledb          |
+| information_schema |
++--------------------+
+2 rows in set (0,002 sec)
 ```
