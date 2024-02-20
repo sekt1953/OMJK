@@ -90,7 +90,7 @@ sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
 ```
 
 ```code
-bind-address=o.o.o.o
+bind-address=0.0.0.0
 ```
 
 [CTRL]+[o], [ENTER] [CTRL]+[x]
