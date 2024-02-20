@@ -154,7 +154,8 @@ SHOW DATABASES;
 ```
 
 Svar se ud som dette:
-```
+
+```code
 MariaDB [(none)]> SHOW DATABASES;
 +--------------------+
 | Database           |
