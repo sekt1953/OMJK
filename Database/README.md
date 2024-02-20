@@ -12,19 +12,47 @@
     * [LibreOffice Base](https://www.youtube.com/playlist?list=PLy7Kah3WzqrEerJ0VPNWVaR4CYHMr4wmV)
   * [Setting Up a Dedicated Database Server on Raspberry Pi](https://dzone.com/articles/set-up-a-dedicated-database-server-on-raspberry)
   * [Setup a Raspberry Pi MYSQL Database](https://pimylifeup.com/raspberry-pi-mysql/)
+  * [How To Allow Remote Access to MySQL](https://www.digitalocean.com/community/tutorials/how-to-allow-remote-access-to-mysql)
 
 ## Regneark
 
 * [Orginal regneark DriftMateriale.ods](./OrgData/DriftMateriale.ods)
 
-## DataBase Test
+##  DataBase Test
 
 * [OMJK_001](./OMJK_001.odb)
 * [SQL script](./sql.txt)
 
-## Raspberry Pi MYSQL Database
+## LibreOffice-Base & Raspberry pi 4 med mariade SQL-server
 
-### Setup a Raspberry Pi MYSQL Database
+### LibreOffice
+
+Brug [LibreOffice 7.6.4](https://www.libreoffice.org/download/download-libreoffice/) eller nyere
+
+### Raspberry pi OS
+
+Brug Raspberry Pi OS Lite (64bit) eller Raspberry Pi OS Full (64bit), 
+
+* Install med Raspberry Pi Imager
+  * Select Raspberry Pi OS (other) 
+    * Raspberry Pi OS Lite (64bit) eller Raspberry Pi OS Full (64bit)
+  * Select Storage Device
+  * Select Image customization options
+    * set hostname: mysqlpc
+    * Enable SSH
+      * Use password authentication
+    * Set Username and password
+    * Configure wireless LAN
+  * Save
+  * WRITE
+
+### Setup a Raspberry Pi  Mariadb Database
+
+#### SSH to Database server
+
+```code
+SSH omjk@mysqlpc.local
+```
 
 ```code
 sudo apt update && sudo apt upgrade
@@ -40,7 +68,6 @@ sudo mysql_secure_installation
 
 ```code
 sudo mysql -u root -p
-quit;
 ```
 
 To exit MySQL type " quit;" or Press [CTRL] + [D]
@@ -68,8 +95,9 @@ FLUSH PRIVILEGES;
 ```
 
 ```code
-quit;
 ```
+
+To exit MySQL type " quit;" or Press [CTRL] + [D]
 
 ### Create Remote User
 
@@ -89,9 +117,7 @@ GRANT ALL PRIVILEGES ON exampledb.* TO 'remoteuser'@'%';
 FLUSH PRIVILEGES;
 ```
 
-```code
-quit;
-```
+To exit MySQL type " quit;" or Press [CTRL] + [D]
 
 ```code
 sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
@@ -108,6 +134,16 @@ service mysql restart
 ```
 
 ### Test Remote User
+
+#### Open terminal på Remote  PC
+
+Install Mariadb client:
+
+```code
+  sudo apt install mariadb-client-core-10.6 
+```
+
+Test conection:
 
 ```code
 mysql -u remoteuser -p -h 192.168.0.8 -P 3306
@@ -128,3 +164,28 @@ MariaDB [(none)]> SHOW DATABASES;
 +--------------------+
 2 rows in set (0,002 sec)
 ```
+
+To exit MySQL type " quit;" or Press [CTRL] + [D]
+
+### LibreOffice-Base
+
+* Select database
+  * Connect to an existing database
+    * MySQL/MariaDB
+  * [Next]
+    * Connect directly (using MariaDB C connector)
+  * [Next]
+    * Database name: exampledb
+    * Server: mysqlpc.local
+    * Port: 3306
+  * [Next]
+    * User name: remoteuser
+    * Password required
+    * [Test Connection]
+      * Password: pimylifeup
+      * [OK]
+      * If OK then [Next]
+  * Save and proceed
+    * Yes, register the database in LibreOffice
+    * Open the database for editing
+  * [Finish]
