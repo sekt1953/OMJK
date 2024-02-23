@@ -76,6 +76,7 @@ FLUSH PRIVILEGES;
 ```
 
 ```code
+quit;
 ```
 
 To exit MySQL type " quit;" or Press [CTRL] + [D]
