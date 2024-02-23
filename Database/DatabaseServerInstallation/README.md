@@ -159,7 +159,7 @@ To exit MySQL type " quit;" or Press [CTRL] + [D]
     * Connect directly (using MariaDB C connector)
   * [Next]
     * Database name: exampledb
-    * Server: mysqlpc.local
+    * Server: omjksql.local
     * Port: 3306
   * [Next]
     * User name: remoteuser
