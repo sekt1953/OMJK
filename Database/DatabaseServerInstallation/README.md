@@ -53,7 +53,7 @@ sudo mysql -u root -p
 
 To exit MySQL type " quit;" or Press [CTRL] + [D]
 
-### Creating a MySQL Database and User
+### Creating a MySQL Database and Local User
 
 ```code
 sudo mysql -u root -p
@@ -64,11 +64,11 @@ CREATE DATABASE exampledb;
 ```
 
 ```code
-CREATE USER 'exampleuser'@'localhost' IDENTIFIED BY 'pimylifeup';
+CREATE USER 'localuser'@'localhost' IDENTIFIED BY 'pimylifeup';
 ```
 
 ```code
-GRANT ALL PRIVILEGES ON exampledb.* TO 'exampleuser'@'localhost';
+GRANT ALL PRIVILEGES ON exampledb.* TO 'localuser'@'localhost';
 ```
 
 ```code
