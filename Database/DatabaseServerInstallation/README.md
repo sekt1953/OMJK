@@ -32,15 +32,15 @@ Brug Raspberry Pi OS Lite (64bit) eller Raspberry Pi OS Full (64bit),
 ### SSH to Database server
 
 ```code
-SSH omjk@mysqlpc.local
+ssh omjk@omjksql.local
 ```
 
 ```code
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade -y
 ```
 
 ```code
-sudo apt install mariadb-server
+sudo apt install mariadb-server -y
 ```
 
 ```code
