@@ -2,9 +2,48 @@
 
 ## Kilde
 
-* w3schools
+* [w3schools](https://www.w3schools.com)
   * [SQL Tutorial](https://www.w3schools.com/sql/default.asp)
-  * [MySQL SQL](https://www.w3schools.com/mysql/mysql_sql.asp)
+  * [MySQL SQL (MariaDB )](https://www.w3schools.com/mysql/mysql_sql.asp)
+
+## Create Member List from Google Contact
+
+### 1. Create Member CSV file from Google Contact
+
+* Åben Google contact
+  * Select Etikette du ønsker at Eksportèr
+  * Click Eksportèr
+    * Eksportér kontakter som: Google CSV
+    * Save File
+
+### 2. Open CSV-file with LibreOffice Calc
+
+* Åben contacts.csv LibreOffice Calc
+  * Brug default settings
+  * Click [OK]
+  * Select kolonner du ønsker at bruge:
+    * Given Name, Family Name
+  * Højre klik og select Copy
+
+### 3. Create new table for members
+
+* Åben DataBase
+  * Select Table
+    * Højre klik i Tables
+    * Vælg Paste
+    * Copy Table:
+      * Table name: exampledb.Medlemmer
+      * Options:
+        * Definition and data
+        * Use first line as column names
+        * Create new fiels as primary key
+          * Name: ID
+      * Klik [Next]
+      * Select Columns:
+        * Given Name, Family Name
+      * Klik [Next]
+      * Klik [Create]
+      * Save
 
 ## Create help tables from DriftMateriale table with SQL
 
