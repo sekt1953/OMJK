@@ -10,6 +10,17 @@
 
 Brug [LibreOffice 7.6.4](https://www.libreoffice.org/download/download-libreoffice/) eller nyere
 
+## Hardware
+
+* Raspberry Pi: 836,00 Kr.
+  * [Raspberry Pi 4 Model B](https://raspberrypi.dk/produkt/raspberry-pi-4-model-b-4-gb/)
+  * [Officiel Raspberry Pi USB-C Strømforsyning – EU – 5V 3A – Hvid](https://raspberrypi.dk/produkt/officiel-raspberry-pi-usb-c-stroemforsyning-eu-5v-3a-hvid/)
+  * [Argon NEO Heatsink Case til Pi 4](https://raspberrypi.dk/produkt/argon-neo-heatsink-case-til-pi-4/)
+* Harddisk 1TB: 795,00 Kr.
+  * [StarTech.com USB 3.0 to M.2 SATA External SSD Enclosure with UASP](https://www.proshop.dk/Harddisk-tilbehoer/StarTechcom-USB-30-to-M2-SATA-External-SSD-Enclosure-with-UASP/2476387)
+  * [Intenso TOP - SSD - 1 TB - SATA 6Gb/s](https://www.proshop.dk/?s=Intenso+TOP+-+SSD+-+1+TB+-+SATA+6Gb%2Fs)
+
+
 ## Raspberry pi OS
 
 Brug Raspberry Pi OS Lite (64bit) eller Raspberry Pi OS Full (64bit), 
