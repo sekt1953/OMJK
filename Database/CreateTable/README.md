@@ -1,8 +1,9 @@
 # Create Table
 
-## Opret MatrialeType tabel med 
+## Create new tables with SQL interface
 
-* click: Tools->SQL
+* Create Table for MatrialeType
+  * click: Tools->SQL
 
 ```sql
 CREATE TABLE "MatrialeType" (
