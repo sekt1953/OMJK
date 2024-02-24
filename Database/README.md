@@ -13,7 +13,7 @@
       * [open-terminal-på-remote-pc](./DatabaseServerInstallation/README.md#open-terminal-på-remote-pc)
   * [libreoffice-base-connection](./DatabaseServerInstallation/README.md#libreoffice-base-connection)
 
-## Creating Database in LibreOffice
+## Creating Database Tables in LibreOffice (MariaDB)
 
 * [Create Table](./CreateTable/README.md#create-table)
   * [Create Member List from Google Contact](./CreateTable/README.md#create-member-list-from-google-contact)
@@ -38,5 +38,3 @@
 ###  DataBase Test
 
 * [OMJK_001](./OMJK_001.odb)
-* [SQL script](./sql.txt)
-
