@@ -25,7 +25,7 @@
     * Given Name, Family Name
   * Højre klik og select Copy
 
-### 3. Create new table for members
+### 3. Create members table
 
 * Åben DataBase
   * Select Table
