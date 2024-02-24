@@ -15,16 +15,19 @@
 
 ## Creating Database in LibreOffice
 
-### Kilder:
-
-* Link til Videoer
-  * [ExplainingComputers](https://www.youtube.com/@ExplainingComputers)
-    * [Introduction to Databases: LibreOffice Base Tutorial](https://youtu.be/lhRJFgDG-5o)
-  * [Sean Johnson](https://www.youtube.com/@BusinessProgrammer)
-    * [LibreOffice Base Database Tutorial](https://youtu.be/Du1WjROQBpE)
-    * [LibreOffice Base Split Database Tutorial](https://youtu.be/BwrWoP0Wr7w)
-  * [TheFrugalComputerGuy](https://www.youtube.com/@TheFrugalComputerGuy)
-    * [LibreOffice Base](https://www.youtube.com/playlist?list=PLy7Kah3WzqrEerJ0VPNWVaR4CYHMr4wmV)
+* [Create Table](./CreateTable/README.md#create-table)
+  * [Create Member List from Google Contact](./CreateTable/README.md#create-member-list-from-google-contact)
+    * [1. Create Member CSV file from Google Contact](./CreateTable/README.md#1-create-member-csv-file-from-google-contact)
+    * [2. Open CSV-file with LibreOffice Calc](./CreateTable/README.md#2-open-csv-file-with-libreoffice-calc)
+    * [3. Create members table](./CreateTable/README.md#3-create-members-table)
+  * [Create DriftMateriale from spreadsheet](./CreateTable/README.md#2-create-driftmateriale-table)
+    * [1. Open CSV-file with LibreOffice Calc](./CreateTable/README.md#1-open-csv-file-with-libreoffice-calc)
+    * [2. Create DriftMateriale table](./CreateTable/README.md#2-create-driftmateriale-table)
+  * [Create help tables from DriftMateriale table with SQL](./CreateTable/README.md#create-help-tables-from-driftmateriale-table-with-sql)
+    * [Create Table for MatrialeType](./CreateTable/README.md#create-table-for-matrialetype)
+    * [Create Table for Bane](./CreateTable/README.md#create-table-for-bane)
+    * [Create Table for Litra](./CreateTable/README.md#create-table-for-litra)
+    * [Create Table for Hjemsted](./CreateTable/README.md#create-table-for-hjemsted)
 
 ## Nogle start data
 

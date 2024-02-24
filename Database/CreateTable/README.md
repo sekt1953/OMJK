@@ -2,6 +2,14 @@
 
 ## Kilde
 
+* Video
+  * [ExplainingComputers](https://www.youtube.com/@ExplainingComputers)
+    * [Introduction to Databases: LibreOffice Base Tutorial](https://youtu.be/lhRJFgDG-5o)
+  * [Sean Johnson](https://www.youtube.com/@BusinessProgrammer)
+    * [LibreOffice Base Database Tutorial](https://youtu.be/Du1WjROQBpE)
+    * [LibreOffice Base Split Database Tutorial](https://youtu.be/BwrWoP0Wr7w)
+  * [TheFrugalComputerGuy](https://www.youtube.com/@TheFrugalComputerGuy)
+    * [LibreOffice Base](https://www.youtube.com/playlist?list=PLy7Kah3WzqrEerJ0VPNWVaR4CYHMr4wmV)
 * [w3schools](https://www.w3schools.com)
   * [SQL Tutorial](https://www.w3schools.com/sql/default.asp)
   * [MySQL SQL (MariaDB )](https://www.w3schools.com/mysql/mysql_sql.asp)
@@ -77,7 +85,7 @@
 
 ## Create help tables from DriftMateriale table with SQL
 
-* Create Table for MatrialeType
+### Create Table for MatrialeType
 
 ```sql
 CREATE TABLE "MatrialeType" (
@@ -90,7 +98,7 @@ PRIMARY KEY (ID)
 INSERT INTO MatrialeType (Type) SELECT DISTINCT Type FROM DriftMateriale WHERE "Type" IS NOT NULL;
 ```
 
-* Create Table for Bane
+### Create Table for Bane
 
 ```sql
 CREATE TABLE "BaneType" (
@@ -103,7 +111,7 @@ PRIMARY KEY (ID)
 INSERT INTO BaneType (Bane) SELECT DISTINCT Bane FROM DriftMateriale WHERE "Bane" IS NOT NULL;
 ```
 
-* Create Table for Litra
+### Create Table for Litra
 
 ```sql
 CREATE TABLE "LitraType" (
@@ -116,7 +124,7 @@ PRIMARY KEY (ID)
 INSERT INTO LitraType (Litra) SELECT DISTINCT Litra FROM DriftMateriale WHERE "Litra" IS NOT NULL;
 ```
 
-* Create Table for Hjemsted
+### Create Table for Hjemsted
 
 ```sql
 CREATE TABLE "Hjemsted" (
