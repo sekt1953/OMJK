@@ -34,7 +34,3 @@
 ### Regneark
 
 * [Orginal regneark DriftMateriale.ods](./OrgData/DriftMateriale.ods)
-
-###  DataBase Test
-
-* [OMJK_001](./OMJK_001.odb)

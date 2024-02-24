@@ -14,6 +14,12 @@
   * [SQL Tutorial](https://www.w3schools.com/sql/default.asp)
   * [MySQL SQL (MariaDB )](https://www.w3schools.com/mysql/mysql_sql.asp)
 
+## Orginale Data
+
+* Regneark:
+  * [Orginal regneark DriftMateriale.ods](../OrgData/DriftMateriale.ods)
+* Foto:
+
 ## Create Member List from Google Contact
 
 ### 1. Create Member CSV file from Google Contact
