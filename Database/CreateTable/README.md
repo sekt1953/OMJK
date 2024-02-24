@@ -45,6 +45,36 @@
       * Klik [Create]
       * Save
 
+## Create DriftMateriale from spreadsheet
+
+### 1. Open CSV-file with LibreOffice Calc
+
+* Åben DriftMateriale.csv LibreOffice Calc
+  * Brug default settings
+  * Click [OK]
+  * Select kolonner:
+    * A til M
+  * Højre klik og select Copy
+
+### 2. Create DriftMateriale table
+
+* Åben DataBase
+  * Select Table
+    * Højre klik i Tables
+    * Vælg Paste
+    * Copy Table:
+      * Table name: exampledb.DriftMateriale
+      * Options:
+        * Definition and data
+        * Use first line as column names
+        * Create new fiels as primary key
+          * Name: ID
+      * Klik [Next]
+      * Select Columns: Alle
+      * Klik [Next]
+      * Klik [Create]
+      * Save
+
 ## Create help tables from DriftMateriale table with SQL
 
 * Create Table for MatrialeType
