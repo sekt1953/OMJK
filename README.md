@@ -23,6 +23,8 @@
   * [Block Detector med 6 Dioder & Optokobler](./README.md#block-detector-med-6-dioder--optokobler)
   * [Block Detector test](./README.md#block-detector-test)
 * [DataBase Project](./Database/README.md)
+  * [Database server installation](./Database/DatabaseServerInstallation/README.md)
+  * [Creating Database in LibreOffice](./Database/CreateTable/README.md)
 * [Stationsforkortelser](./README.md#stationsforkortelser)
 * [Signaler](./README.md#signaler)
 * [Togvej](./README.md#togvej)
