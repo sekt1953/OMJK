@@ -72,6 +72,9 @@ and we can have a network where everyone has access to Internettet.
 
 ## DataBase Project
 
+Database projects is an exercise in moving our maintenance documentation from, spreadsheets and word documents to a database environment.  
+Here we use LibreOffice-Base as frontend, and MariaDB as backend.
+
 * [DataBase Project](./Database/README.md)
   * [Database server installation](./Database/README.md#database-server-installation)
   * [Creating Database in LibreOffice](./Database/README.md#creating-database-tables-in-libreoffice-mariadb)
