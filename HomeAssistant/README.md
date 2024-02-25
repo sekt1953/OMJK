@@ -28,9 +28,9 @@
 * [INSTALL HOME ASSISTANT ON X86-64 MACHINES](https://www.home-assistant.io/installation/generic-x86-64)
   * Devices & services
     * [HACS, Home Assistant Community Store](https://github.com/hacs)
-    * [simple-clock-card](https://github.com/arjhun/Homeassistant-Lovelace-Cards/tree/master/simple-clock-card)
-    * [Button Card by @RomRider](https://github.com/custom-cards/button-card)
-    * [Floorplan for Home Assistant](https://experiencelovelace.github.io/ha-floorplan/)
+      * [simple-clock-card](https://github.com/arjhun/Homeassistant-Lovelace-Cards/tree/master/simple-clock-card)
+      * [Button Card by @RomRider](https://github.com/custom-cards/button-card)
+      * [Floorplan for Home Assistant](https://experiencelovelace.github.io/ha-floorplan/)
   * Add-ons
     * Advanced SSH & Web Terminal
     * ESPHome
