@@ -100,5 +100,12 @@
   * [Train occupied sensor 00_00](./Automations.md#train-occupied-sensor-00_00)
   * [track_section_occupied](./Automations.md#track_section_occupied)
 
-## Views
+## Dashboards
 
+* [Dashboard](https://www.home-assistant.io/dashboards/)
+  * [Views](https://www.home-assistant.io/dashboards/views/)
+    * [HOME](./Dashboards.md#home)
+      * [PWM](./Dashboards.md#pwm-with-pca9685)
+      * [LEDDRIVER](./Dashboards.md#leddriver)
+      * [OCCUPIED](./Dashboards.md#occupied)
+      * [Track Reserved](./Dashboards.md#track-reserved)

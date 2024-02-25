@@ -104,5 +104,4 @@ track_reserved_00_27:
   name: "Track Reserved 00_27"
   initial: false
   icon: mdi:fence
-
 ```

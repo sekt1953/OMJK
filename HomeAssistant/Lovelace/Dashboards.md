@@ -1,4 +1,4 @@
-# Lovelace - Overview
+# Dashboards - Overview
 
 * Overview - 'Raw configuration files'
   * [Raw configuration files:](./RawConfigurationFiles.yaml)
