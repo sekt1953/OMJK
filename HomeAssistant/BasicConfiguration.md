@@ -1,6 +1,6 @@
-# Confifurations files
+# Basic Confifurations files
 
-## /CONFIG/secrets.yaml
+## secrets.yaml
 
 ```yaml
 # Use this file to store secrets like usernames and passwords.
@@ -12,7 +12,7 @@
 maria_db: mysql://user:password@core-mariadb/DB_NAME?charset=utf8mb4
 ```
 
-## /CONFIG//configuration.yaml
+## configuration.yaml
 
 ```yaml
 # Loads default set of integrations. Do not remove.

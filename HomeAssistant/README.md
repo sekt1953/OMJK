@@ -77,11 +77,11 @@
   * /secrets.yaml
 
 
-#### Files
+#### Basic Configuration
 
-* [configuration files](./configurationsfiles.md)
-  * [/CONFIG/secrets.yaml](configurationsfiles.md#configsecretsyaml)
-  * [/CONFIG/configuration.yaml](./configurationsfiles.md#configconfigurationyamlml)
+* [Basic files](./BasicConfiguration.md)
+  * [/CONFIG/secrets.yaml](./BasicConfiguration.md#secretsyaml)
+  * [/CONFIG/configuration.yaml](./BasicConfiguration.md#configurationyaml)
 
 ## Blueprint
 
