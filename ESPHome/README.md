@@ -43,6 +43,8 @@ api_key_omjk: "LTMfTQ2GwmBURmIWOL3Czw=="
 
 #### I2C_IO_Interface with 4xPCF8574
 
+* ![I2C_IO_Interface_pcb.png](./Images/I2C_%20IO_Interface_pcb.png)
+
 ##### Block Detecsion with 8xBD20 interface
 
 * OccupiedSensor Files:
@@ -51,6 +53,7 @@ api_key_omjk: "LTMfTQ2GwmBURmIWOL3Czw=="
     * [Occupied-Hp.yaml "Holmstrup"](./Occupied-Hp.yaml)
   * Fritzing Files:
     * [occupied_sensor](https://github.com/sekt1953/Fritzing/blob/main/My_PCB/README.md#occupied_sensor-work-in-progress)
+    * ![BD20.png](./Images/BD20.png)
 
 ##### Block Detecsion with 12xDiode Interface
 
@@ -68,6 +71,7 @@ api_key_omjk: "LTMfTQ2GwmBURmIWOL3Czw=="
 * PWM LED Strip Driver
   * Fritzing Files:
     * [PWM LED Strip Driver](https://github.com/sekt1953/Fritzing/blob/main/My_PCB/Modeltog/LedStripDriver/README.md)
+    * ![LedStripDriver_pcb.png](./Images/LedStripDriver_pcb.png)
 
 ##### Led Driver with optocupler
 
