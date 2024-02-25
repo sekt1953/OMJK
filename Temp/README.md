@@ -35,11 +35,11 @@
 ## ESPHome
 
 * ESP32 MCU
-  * I2C_ IO_Interface with PCF8574
-    * Block Detecsion with BD20 interface
-    * Block Detecsion with 12 Diode Interface
+  * I2C_IO_Interface with 4xPCF8574
+    * Block Detecsion with 8xBD20 interface
+    * Block Detecsion with 12xDiode Interface
   * Led Driver with PCA9685
-    * Led Strip Driver ULN2803A & IRLZ44
+    * Led Strip Driver with 2xULN2803A & 16xIRLZ44
 
 ## DataBase Project
 
