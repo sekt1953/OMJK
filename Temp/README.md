@@ -52,13 +52,14 @@ and we can have a network where everyone has access to Internettet.
   * Configuration
     * File structure
     * Basic Configuration
-* PCB
+* Software
   * ESP32 MCU
     * I2C_IO_Interface with 4xPCF8574
       * Block Detecsion with 8xBD20 interface
       * Block Detecsion with 12xDiode Interface
     * Led Driver with PCA9685
       * Led Strip Driver with 2xULN2803A & 16xIRLZ44
+    * Led Driver with optocupler
 
 ## Network
 
