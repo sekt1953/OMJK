@@ -46,17 +46,38 @@ and we can have a network where everyone has access to Internettet.
   * [Automations](./HomeAssistant/README.md#automations)
   * [Dashboards](./HomeAssistant/README.md#dashboards)
 
+## ESPHome
+
+* [Setup](./ESPHome/README.md)
+  * Configuration
+    * File structure
+    * Basic Configuration
+* Software
+  * ESP32 MCU
+    * I2C_IO_Interface with 4xPCF8574
+      * Block Detecsion with 8xBD20 interface
+      * Block Detecsion with 12xDiode Interface
+    * Led Driver with PCA9685
+      * Led Strip Driver with 2xULN2803A & 16xIRLZ44
+    * Led Driver with optocupler
+
+## Network
+
+* Network with OPNsense
+  * DHCP Server
+  * Net seperation
+    * Train Network
+    * Private Network
+    * Public Network
+  * Network switch
+
+## DataBase Project
+
+* [DataBase Project](./Database/README.md)
+  * [Database server installation](./Database/README.md#database-server-installation)
+  * [Creating Database in LibreOffice](./Database/README.md#creating-database-tables-in-libreoffice-mariadb)
+
 <hr><hr>
-## [Home Assistant](./HomeAssistant/)
-
-### Configurations
-
-* [CONFIG](./HomeAssistant/CONFIG/)
-  * [configuration.yaml](./HomeAssistant/CONFIG/configuration.yaml)
-* [Blueprints](./HomeAssistant/CONFIG/Blueprints/)
-  * [track_section_occupied.yaml](./HomeAssistant/CONFIG/Blueprints/train_occupied_sensor.yaml)
-* [Automations](./HomeAssistant/CONFIG/Automations/)
-  * [track section occupied 00_00](./HomeAssistant/CONFIG/Automations/Train%20occupied%20sensor%2000_00)
 
 ### [Lovelace](./HomeAssistant/Lovelace/lovelace.md)
 
