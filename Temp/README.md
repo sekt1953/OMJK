@@ -36,8 +36,15 @@ and we can have a network where everyone has access to Internettet.
 ## Home Assistant
 
 * Setup
-* Views
-* Automations
+  * Hardware
+  * Software
+  * Configuration
+    * File structure
+    * Basic Configuration
+  * Helpers
+  * Blueprint
+  * Automations
+  * Dashboards
 
 ## ESPHome
 
