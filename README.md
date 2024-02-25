@@ -48,18 +48,17 @@ and we can have a network where everyone has access to Internettet.
 
 ## [ESPHome](./ESPHome/README.md)
 
-* [Setup](./ESPHome/README.md)
-  * [Configuration](./ESPHome/README.md#configuration)
-    * [File structure](./ESPHome/README.md#file-structure)
-    * [Basic Configuration](./ESPHome/README.md#basic-configuration)
-* Software
-  * ESP32 MCU
-    * I2C_IO_Interface with 4xPCF8574
-      * Block Detecsion with 8xBD20 interface
-      * Block Detecsion with 12xDiode Interface
-    * Led Driver with PCA9685
-      * Led Strip Driver with 2xULN2803A & 16xIRLZ44
-    * Led Driver with optocupler
+* [Configuration](./ESPHome/README.md#configuration)
+  * [File structure](./ESPHome/README.md#file-structure)
+  * [Basic Configuration](./ESPHome/README.md#basic-configuration)
+* [Software](./ESPHome/README.md#software)
+  * [ESP32 MCU](./ESPHome/README.md#esp32-mcu)
+    * [I2C_IO_Interface with 4xPCF8574](./ESPHome/README.md#i2c_io_interface-with-4xpcf8574)
+      * [Block Detecsion with 8xBD20 interface](./ESPHome/README.md#block-detecsion-with-8xbd20-interface)
+      * [Block Detecsion with 12xDiode Interface](./ESPHome/README.md#block-detecsion-with-12xdiode-interface)
+    * [Led Driver with PCA9685](./ESPHome/README.md#led-driver-with-pca9685)
+      * [Led Strip Driver with 2xULN2803A & 16xIRLZ44](./ESPHome/README.md#led-strip-driver-with-2xuln2803a--16xirlz44)
+    * [Led Driver with optocupler](./ESPHome/README.md#led-driver-with-optocupler)
 
 ## Network
 
