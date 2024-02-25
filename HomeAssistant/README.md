@@ -44,38 +44,39 @@
 
 #### File structure
 
-* /CONFIG
-  * /blueprints
-    * /automation
-      * /train
-        * /block_occupied_sensor.yaml
-    * /script
-  * /custom_components
-    * /hacs
-  * /esphome
-    * /secrets.yaml
-  * /images
-  * /train
-    * /input_boolean
-      * /track_reserved.yaml
-  * /tts
-  * /www
-    * /community
-      * /ha-florplan
-      * /simple-clock-card
-    * /trainplan
-      * /frederica
-        * /frederica.css
-        * /frederica.svg
-      * /holmstrup
-        * /holmstrup.css
-        * /holmstrup.svg
-  * /automations.yaml
-  * /configuration.yaml
-  * /scenes.yaml
-  * /scripts.yaml
-  * /secrets.yaml
-
+```data
+/CONFIG/
+  blueprints/
+    automation/
+      train/
+        block_occupied_sensor.yaml
+    script/
+  custom_components/
+    hacs/
+  esphome/
+    secrets.yaml
+  images/
+  train/
+    input_boolean/
+      track_reserved.yaml
+  tts/
+  www/
+    community/
+      ha-florplan/
+      simple-clock-card/
+    trainplan/
+      frederica/
+        frederica.css
+        frederica.svg
+      holmstrup/
+        holmstrup.css
+        holmstrup.svg
+  automations.yaml
+  configuration.yaml
+  scenes.yaml
+  scripts.yaml
+  secrets.yaml
+```
 
 #### Basic Configuration
 
