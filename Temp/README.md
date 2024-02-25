@@ -26,6 +26,13 @@
 * it gives a quick overview of whether Block Detection works as desired, we can with the Home Assistant Companion App on our phone, follow our model train around the facility and get a visual information.
 * In the same way, we can use another view to find and switch off Led in desks and signals, and thus get confirmation that the installation is in order.
 
+### Network with OPNsense
+
+* OPNsense is an open source, easy-to-use and easy-to-build FreeBSD based firewall and routing platform. OPNsense includes most of the features available in expensive commercial firewalls, and more in many cases. It brings the rich feature set of commercial offerings with the benefits of open and verifiable sources.
+* By using OPNsense, we can separate our network, so that the model railway network is not accessible to everyone, but only to those who have to maintain it.  
+We can have a public network where all members can use their laptop or phones to access the internet, use our printers  
+and we can have a network where everyone has access to Internettet.
+
 ## Home Assistant
 
 * Setup
@@ -40,6 +47,16 @@
     * Block Detecsion with 12xDiode Interface
   * Led Driver with PCA9685
     * Led Strip Driver with 2xULN2803A & 16xIRLZ44
+
+## Network
+
+* Network with OPNsense
+  * DHCP Server
+  * Net seperation
+    * Train Network
+    * Private Network
+    * Public Network
+  * Network switch
 
 ## DataBase Project
 
