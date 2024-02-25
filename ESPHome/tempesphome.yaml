@@ -1,0 +1,72 @@
+# [ESPHome](./HomeAssistant/ESPHome/esphome.md)
+
+* [ESPHome files:](./HomeAssistant/ESPHome/esphome.md)
+  * ESPHome's Secrets Files:
+    * [secrets.yaml](./HomeAssistant/ESPHome/esphome.md#secretsyaml)
+  * Leddriver Files:
+    * ESPHome files:
+      * [leddriver-xx.yaml](./leddriver-xx.yaml)
+    * Fritzing Files;
+      * [PCB-LedDriver-V6.1.fzz](https://github.com/sekt1953/Fritzing/blob/main/My_PCB/LedDriver/v6.1/PCB-LedDriver-V6.1.fzz)
+    * FreeCAD Files:
+      * [LedDriverv6.1a.FCStd](https://github.com/sekt1953/FreeCAD/blob/main/LeadDriverv6.1/LedDriverv6.1a.FCStd)
+  * OccupiedSensor Files:
+    * ESPHome Files:
+      * [occupied-xx.yaml](./HomeAssistant/ESPHome/occupied-xx.yaml)
+      * [Occupied-Hp.yaml "Holmstrup"](./HomeAssistant/ESPHome/Occupied-Hp.yaml)
+    * Fritzing Files:
+      * [occupied_sensor](https://github.com/sekt1953/Fritzing/blob/main/My_PCB/README.md#occupied_sensor-work-in-progress)
+  * PWM with pca9685
+    * ![PCA9685](./HomeAssistant/ESPHome/Images/Skærmbillede%20fra%202024-01-23%2013-13-27.png)
+    * ESPHome Files:
+      * [/pca9685-xx.yaml](./HomeAssistant/ESPHome/pca9685-00.yaml)
+    * FreeCAD files:
+      * [Mount for PCA9685 PCB](https://github.com/sekt1953/FreeCAD#mount-for-pca9685-pcb)
+
+## Sporbesat ideer
+
+### Block Detector med BD20
+
+Vi bruger denne løsning på Holmstrup (Hp) Station.
+
+|Block Detector med BD20|
+|:---|
+|[![nce_bd20.jpg](./Udstyr/Images/nce_bd20.png)](./Udstyr/README.md)|
+
+* [ESPHome files:](./README.md#esphome)
+  * [Occupied-Hp.yaml](https://github.com/sekt1953/OMJK/blob/main/HomeAssistant/ESPHome/Occupied-Hp.yaml)
+* Fritzing files:
+  * [README.md#occupied-hp-proto](https://github.com/sekt1953/Fritzing/blob/main/My_PCB/README.md#occupied-hp-proto)
+
+### Block Detector med Dioder &  BC557/BC547 & Optocoupler
+
+Inspiration hentet hos [moppe.dk](https://www.moppe.dk/besat.html)
+
+|Block Detector med Dioder &  BC557/BC547 & Optocoupler|
+|:---|
+|![Sporbesat_002_schem.png](./Udstyr/Images/Sporbesat_002_schem.png)|
+
+### Block Detector med Brokobling & Optocoupler
+
+Inspiration hentet hos [moppe.dk](https://www.moppe.dk/besat.html),  
+  vi skal nok bruge Dioder af typen 1N5400 grundet vores strømforbrug.
+
+|Block Detector med Brokobling & Optocoupler|
+|:---|
+|![besat2.jpg](./Udstyr/Images/Sporbesat_003_schem.png)|
+
+### Block Detector med 6 Dioder & Optokobler
+
+Denne opstilling anvender vi i Frederica (Fa) station
+
+|Block Detector med Brokobling & Optokobler|
+|:---|
+|![](./Udstyr/Images/principle_track_detection_schem.png)|
+
+
+### Block Detector test
+
+|Block Detector test|
+|:---|
+|![](./Udstyr/Images/Occupied-test_schem.png)|
+
