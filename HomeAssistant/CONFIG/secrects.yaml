@@ -1,0 +1,8 @@
+
+# Use this file to store secrets like usernames and passwords.
+# Learn more at https://www.home-assistant.io/docs/configuration/secrets/
+# some_password: welcome
+
+# MariaDB mysql://user:password@SERVER_IP/DB_NAME?charset=utf8mb4
+# Kilde: https://www.home-assistant.io/integrations/recorder/#custom-database-engines
+maria_db: mysql://user:password@core-mariadb/DB_NAME?charset=utf8mb4
