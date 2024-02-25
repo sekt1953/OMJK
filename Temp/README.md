@@ -25,3 +25,24 @@
 * I find the best way to see if something works is to show it in Home Assistant Views.
 * it gives a quick overview of whether Block Detection works as desired, we can with the Home Assistant Companion App on our phone, follow our model train around the facility and get a visual information.
 * In the same way, we can use another view to find and switch off Led in desks and signals, and thus get confirmation that the installation is in order.
+
+## Home Assistant
+
+* Setup
+* Views
+* Automations
+
+## ESPHome
+
+* ESP32 MCU
+  * I2C_ IO_Interface with PCF8574
+    * Block Detecsion with BD20 interface
+    * Block Detecsion with 12 Diode Interface
+  * Led Driver with PCA9685
+    * Led Strip Driver ULN2803A & IRLZ44
+
+## DataBase Project
+
+* [DataBase Project]()
+  * [Database server installation]()
+  * [Creating Database in LibreOffice]()
