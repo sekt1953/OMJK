@@ -84,6 +84,11 @@
   * [/CONFIG/secrets.yaml](./BasicConfiguration.md#secretsyaml)
   * [/CONFIG/configuration.yaml](./BasicConfiguration.md#configurationyaml)
 
+## Helpers
+
+* [/CONFIG/train/input_boolean/](./Helpers.md#configtraininput_boolean)
+  * [track_reserved.yaml](./Helpers.md#track_reservedyaml)
+
 ## Blueprint
 
 * [/CONFIG/blueprints/automation/train/](./BluePrint.md#configblueprintsautomationtrain)
@@ -97,4 +102,3 @@
 
 ## Views
 
-## Automations
