@@ -49,9 +49,9 @@ and we can have a network where everyone has access to Internettet.
 ## [ESPHome](./ESPHome/README.md)
 
 * [Setup](./ESPHome/README.md)
-  * Configuration
-    * File structure
-    * Basic Configuration
+  * [Configuration](./ESPHome/README.md#configuration)
+    * [File structure](./ESPHome/README.md#file-structure)
+    * [Basic Configuration](./ESPHome/README.md#basic-configuration)
 * Software
   * ESP32 MCU
     * I2C_IO_Interface with 4xPCF8574

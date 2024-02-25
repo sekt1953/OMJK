@@ -1,5 +1,23 @@
 # ESPHome
 
+## Setup
+
+### Configuration
+
+#### File structure
+
+```data
+/CONFIG/
+  esphome/
+    secrets.yaml
+```
+
+#### Basic Configuration
+
+``ỳaml
+
+```
+
 * [ESPHome](./esphome.md)
 * [ESPHome files:](./esphome.md)
   * ESPHome's Secrets Files:
