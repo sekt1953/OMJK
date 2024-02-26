@@ -32,13 +32,15 @@
       * [Button Card by @RomRider](https://github.com/custom-cards/button-card)
       * [Floorplan for Home Assistant](https://experiencelovelace.github.io/ha-floorplan/)
   * Add-ons
-    * Advanced SSH & Web Terminal
-    * ESPHome
-    * File editor
-    * MariaDB
-    * Samba share
-    * Studio Code Server
-* [Cloudflare Tunnels](https://www.cloudflare.com/)
+    * [Advanced SSH & Web Terminal](https://github.com/hassio-addons/addon-ssh)
+    * [ArgonOne Active Cooling](https://community.home-assistant.io/t/argon-one-v1v2-active-cooling-and-active-linear-cooling-addon/262598)
+    * [ESPHome](https://esphome.io/)
+    * [File editor](https://github.com/home-assistant/addons/tree/master/configurator)
+    * [MariaDB](https://github.com/home-assistant/addons/tree/master/mariadb)
+    * [Samba share](https://github.com/home-assistant/addons/tree/master/samba)
+    * [Samba Backup](https://github.com/thomasmauerer/hassio-addons/tree/master/samba-backup)
+    * [Studio Code Server](https://github.com/hassio-addons/addon-vscode)
+    * [Cloudflare Tunnels](https://github.com/brenner-tobias/addon-cloudflared/)
 
 ### Configuration
 
