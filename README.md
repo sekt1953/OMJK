@@ -48,6 +48,7 @@ and we can have a network where everyone has access to Internettet.
 
 ## [ESPHome](./ESPHome/README.md)
 
+
 * [Configuration](./ESPHome/README.md#configuration)
   * [File structure](./ESPHome/README.md#file-structure)
   * [Basic Configuration](./ESPHome/README.md#basic-configuration)
