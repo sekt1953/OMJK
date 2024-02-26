@@ -71,8 +71,7 @@ api_key_omjk: "LTMfTQ2GwmBURmIWOL3Czw=="
 ##### Led Strip Driver with 2xULN2803A & 16xIRLZ44
 
 * PWM LED Strip Driver
-  * Fritzing Files:
-    * [PWM LED Strip Driver](https://github.com/sekt1953/Fritzing/blob/main/My_PCB/Modeltog/LedStripDriver/README.md)
+  * Fritzing Files: [PWM LED Strip Driver](https://github.com/sekt1953/Fritzing/blob/main/My_PCB/Modeltog/LedStripDriver/README.md)
     * ![LedStripDriver_pcb.png](./Images/LedStripDriver_pcb.png)
 
 ##### Led Driver with optocupler

@@ -1,5 +1,10 @@
 # [Dashboards](https://www.home-assistant.io/dashboards/)
 
+## Kilde
+
+* [Dashboard](https://www.home-assistant.io/dashboards/)
+* [Views](https://www.home-assistant.io/dashboards/views/)
+
 ## [Views](https://www.home-assistant.io/dashboards/views/)
 
 ### [Home](./Lovelace/lovelace.md#home)
