@@ -54,21 +54,13 @@ and we can have a network where everyone has access to Internettet.
   * [Basic Configuration](./ESPHome/README.md#basic-configuration)
 * [PCB](./ESPHome/README.md#software)
   * [ESP32 MCU](./ESPHome/README.md#esp32-mcu)
-  * [I2C_IO_Interface with 4xPCF8574](./ESPHome/README.md#i2c_io_interface-with-4xpcf8574)
-    * ![](./ESPHome/Images/I2C_%20IO_Interface_pcb.png)
-    * Fritzing PCB file: [I2C_IO_Interface.fzz](https://github.com/sekt1953/Fritzing/blob/main/My_PCB/Modeltog/Block_Detecsion/I2C_%20IO_Interface.fzz)
-    * FreeCAD files: [PCA9685.FCStd](https://github.com/sekt1953/FreeCAD/blob/main/PCA9685/PCA9685.FCStd), [PCA9685_SolderMount.FCStd](https://github.com/sekt1953/FreeCAD/blob/main/PCA9685/PCA9685_SolderMount.FCStd)
-  * [Block Detecsion with 8xBD20 interface](./ESPHome/README.md#block-detecsion-with-8xbd20-interface)
-    * [ESPHome yaml for Holmstrup](./ESPHome/Occupied-Hp.yaml)
-  * [Block Detecsion with 12xDiode Interface](./ESPHome/README.md#block-detecsion-with-12xdiode-interface)
-    * ![BlockDetectormed_6_Dioder_Optokobler_pcb.png](./ESPHome/Images/BlockDetectormed_6_Dioder_Optokobler_pcb.png)
-    * Fritzing PCB file: [BlockDetectormed_12_Dioder_Optokobler.fzz](https://github.com/sekt1953/Fritzing/blob/main/My_PCB/Modeltog/Block_Detecsion/BlockDetectormed_6_Dioder_Optokobler.fzz)
-  * [Led Driver with PCA9685](./ESPHome/README.md#led-driver-with-pca9685)
-    * [ESPHome yaml for PCA9685-xx](./ESPHome/pca9685-00.yaml)
-  * [Led Strip Driver with 2xULN2803A & 16xIRLZ44](./ESPHome/README.md#led-strip-driver-with-2xuln2803a--16xirlz44)
-    * [ESPHome yaml for LED Strip](./ESPHome/pca9685-00.yaml)
-  * [Led Driver with optocupler](./ESPHome/README.md#led-driver-with-optocupler)
-    * [ESPHome yaml for optocupler](./ESPHome/leddriver-xx.yaml)
+    * [I2C_IO_Interface with 4xPCF8574](./ESPHome/README.md#i2c_io_interface-with-4xpcf8574)
+      * [Block Detecsion with 8xBD20 interface](./ESPHome/README.md#block-detecsion-with-8xbd20-interface)
+      * [Block Detecsion with 12xDiode Interface](./ESPHome/README.md#block-detecsion-with-12xdiode-interface)
+    * [Led Driver with PCA9685](./ESPHome/README.md#led-driver-with-pca9685)
+      * [Led Strip Driver with 2xULN2803A & 16xIRLZ44](./ESPHome/README.md#led-strip-driver-with-2xuln2803a--16xirlz44)
+    * [Led Driver with optocupler](./ESPHome/README.md#led-driver-with-optocupler)
+    
 ## Network
 
 * Network with OPNsense

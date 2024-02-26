@@ -37,13 +37,15 @@ api_key_omjk: "LTMfTQ2GwmBURmIWOL3Czw=="
 
 ```
 
-## Software
+## PCB
 
 ### ESP32 MCU
 
 #### I2C_IO_Interface with 4xPCF8574
 
 * ![I2C_IO_Interface_pcb.png](./Images/I2C_%20IO_Interface_pcb.png)
+  * Fritzing PCB file: [I2C_IO_Interface.fzz](https://github.com/sekt1953/Fritzing/blob/main/My_PCB/Modeltog/Block_Detecsion/I2C_%20IO_Interface.fzz)
+  * FreeCAD files: [PCA9685.FCStd](https://github.com/sekt1953/FreeCAD/blob/main/PCA9685/PCA9685.FCStd), [PCA9685_SolderMount.FCStd](https://github.com/sekt1953/FreeCAD/blob/main/PCA9685/PCA9685_SolderMount.FCStd)
 
 ##### Block Detecsion with 8xBD20 interface
 
