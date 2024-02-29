@@ -20,7 +20,9 @@ Brug [LibreOffice 7.6.4](https://www.libreoffice.org/download/download-libreoffi
   * [StarTech.com USB 3.0 to M.2 SATA External SSD Enclosure with UASP](https://www.proshop.dk/Harddisk-tilbehoer/StarTechcom-USB-30-to-M2-SATA-External-SSD-Enclosure-with-UASP/2476387)
   * [Intenso TOP - SSD - 1 TB - SATA 6Gb/s](https://www.proshop.dk/?s=Intenso+TOP+-+SSD+-+1+TB+-+SATA+6Gb%2Fs)
 
-### Argon One M.2 SSD 
+### Argon One M.2 SSD
+
+#### Kilde: [Raspberry Pi 4 Argon One M.2 SSD Metal Case Review](https://youtu.be/KiWtKVgjuFk)
 
 * To install fan control, use this script:
 
