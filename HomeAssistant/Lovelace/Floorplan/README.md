@@ -18,6 +18,25 @@
 |:---:|:---:|
 |![Display.png](./InkscapeSettings/Display.png)|![Grids.png](./InkscapeSettings/Grids.png)|
 
+* Display:
+  * Front page:
+    * Format: px
+    * Width: 1920,000
+    * Height: 1080,000
+    * Scale: 1,000000 px per user unit
+  * Display
+    * Display units: px
+    * Border
+      * Always on top
+      * No shadow
+* Grids:
+  * Grid units: px
+  * Origin X: 0,00000
+  * Origin Y: 0,00000
+  * Spacing X: 15,00000
+  * Spacing Y: 15,00000
+  * Major grid line every: 5
+
 |Track_angle_45_01.png|Track_angle_45_02.png|
 |:---:|:---:|
 |![Track_angle_45_01.png](./InkscapeSettings/Track_angle_45_01.png)|![Track_angle_45_02.png](./InkscapeSettings/Track_angle_45_02.png)|
