@@ -24,5 +24,17 @@
 
 ### SVG files
 
-* [![Nyborg H](./Nyborg-H.svg)](./Nyborg-H.svg)
-* [![Hjulby & Tommerup](./Hjulby.svg)](./Hjulby.svg)
+* [![Nyborg Færgehavn]()]()
+* Nyborg H
+  * [![Nyborg H](./Nyborg-H.svg)](./Nyborg-H.svg)
+* Hjulby & Tommerup
+  * [![Hjulby & Tommerup](./Hjulby.svg)](./Hjulby.svg)
+* Odense H
+  * [![Odense 1]()]()
+  * [![Odense 2]()]()
+* Svendborg-Holmstrup
+  * [![Svendborg-Holmstrup.jpg]()]()
+* Midelfart
+  * [![Midelfart.jpg]()]()
+* Frederica
+  * [![Frederica.jpg]()]()
