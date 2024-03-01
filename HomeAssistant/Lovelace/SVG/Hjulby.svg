@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 507.99999 285.75"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="Hjulby.svg"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.62239583"
+     inkscape:cx="960.00001"
+     inkscape:cy="539.84938"
+     inkscape:window-width="1920"
+     inkscape:window-height="980"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1-3">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1.0583333"
+       spacingy="1.0583333"
+       empcolor="#009900"
+       empopacity="1"
+       color="#0000e5"
+       opacity="0.14901961"
+       empspacing="4"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="953.06634"
+       y="274.49919"
+       width="23.131243"
+       height="21.181408"
+       id="rect10" />
+    <rect
+       x="947.57912"
+       y="277.53393"
+       width="19.354551"
+       height="20.951195"
+       id="rect9" />
+    <rect
+       x="946.72536"
+       y="375.99971"
+       width="20.198172"
+       height="27.721298"
+       id="rect8" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Background"
+     sodipodi:insensitive="true"
+     style="display:inline">
+    <rect
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:4.97383;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect2"
+       width="503.02615"
+       height="280.77615"
+       x="2.4869151"
+       y="2.4869151"
+       sodipodi:insensitive="true" />
+  </g>
+  <g
+     inkscape:label="TrackPlan Tommerup"
+     inkscape:groupmode="layer"
+     id="layer1-3"
+     style="display:inline"
+     transform="translate(0,121.17917)">
+    <g
+       id="g11-0"
+       inkscape:label="Hjulbu-uSikret"
+       style="display:inline;fill:#4d4d4d">
+      <rect
+         style="display:inline;fill:#4d4d4d;stroke-width:0.138879;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1-2-7-3-3-9-3"
+         width="41.804165"
+         height="5.9868369"
+         x="-89.802727"
+         y="-183.17986"
+         transform="matrix(-0.70710678,-0.70710678,-1,0,0,0)" />
+      <rect
+         style="display:inline;fill:#4d4d4d;stroke-width:0.219862;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1-2-4-0"
+         width="148.16667"
+         height="4.2333331"
+         x="160.88454"
+         y="59.266785" />
+      <rect
+         style="display:inline;fill:#4d4d4d;stroke-width:0.138879;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1-2-7-3-3-92"
+         width="41.804165"
+         height="5.9868369"
+         x="-125.61983"
+         y="-216.85828"
+         transform="matrix(-0.70710678,-0.70710678,-1,0,0,0)" />
+    </g>
+    <g
+       id="g2-5"
+       inkscape:label="Hjulby-Sikret"
+       style="display:inline">
+      <rect
+         style="fill:#808080;stroke-width:0.407105;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1-4"
+         width="508"
+         height="4.2333331"
+         x="0"
+         y="135.46663" />
+      <rect
+         style="fill:#808080;stroke-width:0.407105;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1-5-0"
+         width="508"
+         height="4.2333331"
+         x="7.1054274e-15"
+         y="110.06668" />
+      <rect
+         style="fill:#808080;stroke-width:0.218286;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1-2-5"
+         width="146.05"
+         height="4.2333331"
+         x="180.97501"
+         y="84.666733" />
+      <rect
+         style="fill:#808080;stroke-width:0.138879;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1-2-7-9"
+         width="41.804165"
+         height="5.9868369"
+         x="-161.59265"
+         y="265.82312"
+         transform="matrix(0.70710678,-0.70710678,1,0,0,0)" />
+      <rect
+         style="fill:#808080;stroke-width:0.138879;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1-2-7-2-4"
+         width="41.804165"
+         height="5.9868369"
+         x="-197.46216"
+         y="248.89792"
+         transform="matrix(0.70710678,-0.70710678,1,0,0,0)" />
+      <rect
+         style="fill:#808080;stroke-width:0.138879;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1-2-7-3-6"
+         width="41.804165"
+         height="5.9868369"
+         x="-161.54073"
+         y="-242.25854"
+         transform="matrix(-0.70710678,-0.70710678,-1,0,0,0)" />
+      <rect
+         style="fill:#808080;stroke-width:0.138879;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1-2-7-3-9-9"
+         width="41.804165"
+         height="5.9868369"
+         x="-197.4617"
+         y="-259.19263"
+         transform="matrix(-0.70710678,-0.70710678,-1,0,0,0)" />
+    </g>
+    <g
+       id="g10-2"
+       style="display:inline"
+       inkscape:label="Text">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;line-height:normal;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration-color:#000000;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke-width:0;-inkscape-stroke:none;stop-color:#000000"
+         x="505.20279"
+         y="126.97106"
+         id="text4-2"
+         inkscape:label="Od"><tspan
+           sodipodi:role="line"
+           id="tspan15">Od</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;line-height:normal;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration-color:#000000;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke-width:0;-inkscape-stroke:none;stop-color:#000000"
+         x="14.509015"
+         y="126.96796"
+         id="text6-7"
+         inkscape:label="Ju"><tspan
+           sodipodi:role="line"
+           id="tspan13">Ju</tspan><tspan
+           sodipodi:role="line"
+           id="tspan14"></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;line-height:normal;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration-color:#000000;text-anchor:end;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0;-inkscape-stroke:none;stop-color:#000000"
+         x="256.89197"
+         y="133.70407"
+         id="text10-5"
+         inkscape:label="Track-3"><tspan
+           sodipodi:role="line"
+           id="tspan10-4"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0"
+           x="256.89197"
+           y="133.70407">3</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;line-height:normal;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration-color:#000000;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke-width:0;-inkscape-stroke:none;stop-color:#000000"
+         x="256.89197"
+         y="108.74192"
+         id="text8-8"
+         inkscape:label="Track-2"><tspan
+           sodipodi:role="line"
+           id="tspan8-1"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0"
+           x="256.89197"
+           y="108.74192">2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;line-height:normal;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration-color:#000000;text-anchor:end;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0;-inkscape-stroke:none;stop-color:#000000"
+         x="256.89465"
+         y="82.97995"
+         id="text7-2"
+         inkscape:label="Track-1"><tspan
+           sodipodi:role="line"
+           id="tspan7-8"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0"
+           x="256.89465"
+           y="82.97995">1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;line-height:normal;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration-color:#000000;text-anchor:end;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0;-inkscape-stroke:none;stop-color:#000000"
+         x="82.923683"
+         y="36.398819"
+         id="text2-9"
+         inkscape:label="Tommerup"><tspan
+           sodipodi:role="line"
+           id="tspan11"
+           x="82.923683"
+           y="36.398819">Tommerup</tspan><tspan
+           sodipodi:role="line"
+           id="tspan12"
+           x="82.923683"
+           y="54.037693"></tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:label="TrackPlan Hjulby"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(0,-21.695834)">
+    <g
+       id="g11"
+       inkscape:label="Hjulbu-uSikret"
+       style="display:inline;fill:#4d4d4d">
+      <rect
+         style="display:inline;fill:#4d4d4d;stroke-width:0.138879;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1-2-7-3-3-9"
+         width="41.804165"
+         height="5.9868369"
+         x="-89.802727"
+         y="-183.17986"
+         transform="matrix(-0.70710678,-0.70710678,-1,0,0,0)" />
+      <rect
+         style="display:inline;fill:#4d4d4d;stroke-width:0.219862;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1-2-4"
+         width="148.16667"
+         height="4.2333331"
+         x="160.88454"
+         y="59.266785" />
+      <rect
+         style="display:inline;fill:#4d4d4d;stroke-width:0.138879;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1-2-7-3-3"
+         width="41.804165"
+         height="5.9868369"
+         x="-125.61983"
+         y="-216.85828"
+         transform="matrix(-0.70710678,-0.70710678,-1,0,0,0)" />
+    </g>
+    <g
+       id="g2"
+       inkscape:label="Hjulby-Sikret"
+       style="display:inline">
+      <rect
+         style="fill:#808080;stroke-width:0.407105;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1"
+         width="508"
+         height="4.2333331"
+         x="0"
+         y="135.46663" />
+      <rect
+         style="fill:#808080;stroke-width:0.407105;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1-5"
+         width="508"
+         height="4.2333331"
+         x="7.1054274e-15"
+         y="110.06668" />
+      <rect
+         style="fill:#808080;stroke-width:0.218286;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1-2"
+         width="146.05"
+         height="4.2333331"
+         x="180.97501"
+         y="84.666733" />
+      <rect
+         style="fill:#808080;stroke-width:0.138879;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1-2-7"
+         width="41.804165"
+         height="5.9868369"
+         x="-161.59265"
+         y="265.82312"
+         transform="matrix(0.70710678,-0.70710678,1,0,0,0)" />
+      <rect
+         style="fill:#808080;stroke-width:0.138879;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1-2-7-2"
+         width="41.804165"
+         height="5.9868369"
+         x="-197.46216"
+         y="248.89792"
+         transform="matrix(0.70710678,-0.70710678,1,0,0,0)" />
+      <rect
+         style="fill:#808080;stroke-width:0.138879;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1-2-7-3"
+         width="41.804165"
+         height="5.9868369"
+         x="-161.54073"
+         y="-242.25854"
+         transform="matrix(-0.70710678,-0.70710678,-1,0,0,0)" />
+      <rect
+         style="fill:#808080;stroke-width:0.138879;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="rect1-2-7-3-9"
+         width="41.804165"
+         height="5.9868369"
+         x="-197.4617"
+         y="-259.19263"
+         transform="matrix(-0.70710678,-0.70710678,-1,0,0,0)" />
+    </g>
+    <g
+       id="g10"
+       style="display:inline"
+       inkscape:label="Text">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;line-height:normal;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration-color:#000000;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke-width:0;-inkscape-stroke:none;stop-color:#000000"
+         x="505.20279"
+         y="126.97106"
+         id="text4"
+         inkscape:label="Tp"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0"
+           x="505.20279"
+           y="126.97106"
+           id="tspan5">Tp</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;line-height:normal;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration-color:#000000;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke-width:0;-inkscape-stroke:none;stop-color:#000000"
+         x="14.509015"
+         y="126.96796"
+         id="text6"
+         inkscape:label="Ng"><tspan
+           sodipodi:role="line"
+           id="tspan6"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0"
+           x="14.509015"
+           y="126.96796">Ng</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;line-height:normal;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration-color:#000000;text-anchor:end;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0;-inkscape-stroke:none;stop-color:#000000"
+         x="256.89197"
+         y="83.184685"
+         id="text10"
+         inkscape:label="Track-3"><tspan
+           sodipodi:role="line"
+           id="tspan10"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0"
+           x="256.89197"
+           y="83.184685">3</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;line-height:normal;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration-color:#000000;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke-width:0;-inkscape-stroke:none;stop-color:#000000"
+         x="256.89197"
+         y="108.74192"
+         id="text8"
+         inkscape:label="Track-2"><tspan
+           sodipodi:role="line"
+           id="tspan8"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0"
+           x="256.89197"
+           y="108.74192">2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;line-height:normal;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration-color:#000000;text-anchor:end;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0;-inkscape-stroke:none;stop-color:#000000"
+         x="256.89462"
+         y="134.10928"
+         id="text7"
+         inkscape:label="Track-1"><tspan
+           sodipodi:role="line"
+           id="tspan7"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0"
+           x="256.89462"
+           y="134.10928">1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;line-height:normal;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration-color:#000000;text-anchor:end;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0;-inkscape-stroke:none;stop-color:#000000"
+         x="63.2705"
+         y="36.398819"
+         id="text2"
+         inkscape:label="Hjulby"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0"
+           x="63.270496"
+           y="36.398819">Hjulby</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;font-family:OCRA;-inkscape-font-specification:'OCRA, Medium';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0"
+           x="63.2705"
+           y="54.037693"
+           id="tspan3" /></text>
+    </g>
+  </g>
+</svg>
