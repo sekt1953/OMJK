@@ -40,7 +40,7 @@
 
 ## Trackplan Building blocks
 
-![](./Images/TrackPlanBuildingBlocks.svg)
+[![TrackPlanBuildingBlocks.svg](./Images/TrackPlanBuildingBlocks.svg)](./Images/TrackPlanBuildingBlocks.svg)
 
 ### Horizontal tracks
 
