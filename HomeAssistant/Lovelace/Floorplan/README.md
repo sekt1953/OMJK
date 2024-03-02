@@ -104,7 +104,8 @@
 
 ### SVG files
 
-* [![Nyborg Færgehavn]()]()
+* Nyborg Færgehavn
+  * [![Nyborg Færgehavn](./Stations/Nyborg-FGH.svg)](./Stations/Nyborg-FGH.svg)
 * Nyborg H
   * [![Nyborg H](./Nyborg-H.svg)](./Nyborg-H.svg)
 * Hjulby & Tommerup
