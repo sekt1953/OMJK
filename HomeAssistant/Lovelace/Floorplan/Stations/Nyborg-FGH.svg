@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="0.609375"
-     inkscape:cx="662.97436"
-     inkscape:cy="539.89744"
+     inkscape:zoom="1.7235728"
+     inkscape:cx="300.53851"
+     inkscape:cy="416.57655"
      inkscape:window-width="1920"
      inkscape:window-height="980"
      inkscape:window-x="1920"
@@ -614,61 +614,63 @@
          id="rect3-7-10-3-6-4-9-4-5-8-7"
          width="69.320717"
          height="19.839407"
-         x="395.77707"
-         y="923.85815"
+         x="406.3403"
+         y="924.29315"
          transform="matrix(0.70782742,0.7063854,1,0,0,0)" />
       <rect
          style="display:inline;fill:#008000;fill-opacity:1;stroke-width:1.26577;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
          id="rect3-7-10-3-6-4-9-4-5-8-0"
          width="69.320717"
          height="19.839407"
-         x="465.09778"
-         y="-1602.1155"
-         transform="matrix(-0.70782742,0.7063854,-1,0,0,0)" />
+         x="455.88834"
+         y="-1602.8252"
+         transform="matrix(-0.70782742,0.7063854,-1,0,0,0)"
+         inkscape:transform-center-x="6.3065405"
+         inkscape:transform-center-y="0.31919822" />
     </g>
     <rect
-       style="fill:#999999;fill-opacity:1;stroke-width:0.440106;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       style="fill:#999999;fill-opacity:1;stroke-width:0.447148;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
        id="rect2-4"
-       width="868.00006"
+       width="896"
        height="14"
-       x="350"
-       y="280"
+       x="336"
+       y="286.88962"
        inkscape:label="HorizontalTracks" />
     <rect
-       style="fill:#999999;fill-opacity:1;stroke-width:0.440106;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       style="fill:#999999;fill-opacity:1;stroke-width:0.447148;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
        id="rect2-1"
-       width="868.00006"
+       width="896"
        height="14"
-       x="350"
-       y="363.90964"
+       x="336"
+       y="357"
        inkscape:label="HorizontalTracks" />
     <g
        id="g2"
        style="fill:#999999"
-       transform="matrix(-1,0,0,1,1568,0.42885674)">
+       transform="matrix(-0.99395767,0,0,1,1560.0492,0.28781232)">
       <rect
          style="display:inline;fill:#ffff00;fill-opacity:1;stroke-width:0.955686;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
          id="rect3-7-8-6-5-4-7-4-3-4-2"
          width="56"
          height="14"
-         x="-1316"
-         y="-336"
+         x="-1315.8457"
+         y="-335.71219"
          transform="scale(-1)" />
       <rect
          style="display:inline;fill:#008000;fill-opacity:1;stroke-width:1.26577;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
          id="rect3-7-10-3-6-4-9-4-5-8-7-0"
          width="69.320717"
          height="19.839407"
-         x="395.77707"
-         y="923.85815"
+         x="405.93286"
+         y="923.55334"
          transform="matrix(0.70782742,0.7063854,1,0,0,0)" />
       <rect
          style="display:inline;fill:#008000;fill-opacity:1;stroke-width:1.26577;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
          id="rect3-7-10-3-6-4-9-4-5-8-0-5"
          width="69.320717"
          height="19.839407"
-         x="465.09778"
-         y="-1602.1155"
+         x="455.43436"
+         y="-1602.2576"
          transform="matrix(-0.70782742,0.7063854,-1,0,0,0)" />
     </g>
     <rect
