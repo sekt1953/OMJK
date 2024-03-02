@@ -6,10 +6,11 @@
   * [ha-floorplan | Home Assistant](https://www.youtube.com/playlist?list=PL5xKVw-BInX1phV-Tnjznwd2YG5mEOvWL)
     * [ha-floorplan - Getting Started (1) | Add HACS & SVG-files and YAML entity mapping in Home Assistant](https://youtu.be/5ue9J4WG2a8?list=PL5xKVw-BInX1phV-Tnjznwd2YG5mEOvWL)
     * [ha-floorplan - Create your first floorplan in Inkscape (1/2) | Including CSS and YAML configuration](https://youtu.be/f_3KAPc53hQ?list=PL5xKVw-BInX1phV-Tnjznwd2YG5mEOvWL)
+      * 
     * [ha-floorplan - Using CSS-selectors | How CSS-styling works in ha-floorplan and in general](https://youtu.be/oqO4Vx6U1Mo?list=PL5xKVw-BInX1phV-Tnjznwd2YG5mEOvWL)
     * [ha-floorplan - Create your first floorplan in Inkscape (2/2) | Adv. functions, CSS-tricks and more](https://youtu.be/AmAna4McGs4?list=PL5xKVw-BInX1phV-Tnjznwd2YG5mEOvWL)
     * [ha-floorplan & JavaScript | Format time_date.time entity from military to AM/PM in state_action](https://youtu.be/GHcgwW-OOo8?list=PL5xKVw-BInX1phV-Tnjznwd2YG5mEOvWL)
-
+  * [Home-Assistant_Attachments-for-YouTube](https://github.com/exetico/Home-Assistant_Attachments-for-YouTube/tree/main)
 ## Inkscape
 
 ### Settings
@@ -33,13 +34,53 @@
   * Grid units: px
   * Origin X: 0,00000
   * Origin Y: 0,00000
-  * Spacing X: 15,00000
-  * Spacing Y: 15,00000
-  * Major grid line every: 5
+  * Spacing X: 14,00000
+  * Spacing Y: 14,00000
+  * Major grid line every: 6
 
-|Track_angle_45_01.png|Track_angle_45_02.png|
-|:---:|:---:|
-|![Track_angle_45_01.png](./InkscapeSettings/Track_angle_45_01.png)|![Track_angle_45_02.png](./InkscapeSettings/Track_angle_45_02.png)|
+## Trackplan Building blocks
+
+### Horizontal tracks
+
+![HorizontalTracks.png](./Images/HorizontalTracks.png)
+
+* horizontal tracks:
+  * Hight: 14px
+  * Vertical spaceing: 84px
+
+### 45deg. track
+
+![45degTrack.png](./Images/45degTrackc.png)
+
+* 45deg. track:
+  * Start with track:
+    * Hight: 14px
+    * Length: 138,5px
+  * Transform track
+    * Skew: 45deg.
+    * Rotate: 45deg.
+
+### Horizontal Switch
+
+![HorizontalSwitch.png](./Images/HorizontalSwitch.png)
+
+* 45deg. track:
+  * Start with track:
+    * Hight: 14px
+    * Length: 69,25px
+  * Transform track
+    * Skew: 45deg.
+    * Rotate: 45deg.
+  * Moved left: 28px
+* horizontal tracks:
+  * Hight: 14px
+  * Length: 84px
+
+### 45deg. Switch
+
+![]()
+
+## Trackplan Stations
 
 ### SVG files
 
