@@ -17,7 +17,7 @@
 
 |Display properties|Grids Properties|
 |:---:|:---:|
-|![Display.png](./InkscapeSettings/Display.png)|![Grids.png](./InkscapeSettings/Grids.png)|
+|![Display.png](./Images/DisplayProperties.png)|![Grids.png](./Images/Gridsproperties.png)|
 
 * Display:
   * Front page:
