@@ -60,7 +60,18 @@ and we can have a network where everyone has access to Internettet.
     * [Led Driver with PCA9685](./ESPHome/README.md#led-driver-with-pca9685)
       * [Led Strip Driver with 2xULN2803A & 16xIRLZ44](./ESPHome/README.md#led-strip-driver-with-2xuln2803a--16xirlz44)
     * [Led Driver with optocupler](./ESPHome/README.md#led-driver-with-optocupler)
-    
+
+## Graphic Stations Layout
+
+* [GraphicStationsLayout](./GraphicStationsLayout/README.md)
+  * [Kilde](./GraphicStationsLayout/README.md#kilde)
+    * [Cap-Photo](./GraphicStationsLayout/Cap-Photo/README.md)
+  * [Inkscape](./GraphicStationsLayout/README.md#inkscape)
+    * [Inkscape Tutorials](./GraphicStationsLayout/README.md#inkscape-tutorials)
+  * [My Settings](./GraphicStationsLayout/README.md#my-settings)
+  * [Trackplan Building blocks](./GraphicStationsLayout/README.md#trackplan-building-blocks)
+  * [Stations](./GraphicStationsLayout/README.md#trackplan-stations)
+
 ## Network
 
 * Network with OPNsense
