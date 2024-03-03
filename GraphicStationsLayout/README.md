@@ -18,7 +18,7 @@
   * [Inkscape Tutorials](./Inkscape.md#inkscape-tutorials)
   * [My Inkscape Settings](./Inkscape.md#my-inkscape-settings)
 
-## Trackplan Building blocks
+## Building blocks
 
 * [TrackplanBuildingBlocks](./TrackplanBuildingBlocks.md)
   * [Overview](./TrackplanBuildingBlocks.md#overview)
@@ -26,8 +26,13 @@
     * [45deg. track](./TrackplanBuildingBlocks.md#45deg-track)
     * [Horizontal Switch](./TrackplanBuildingBlocks.md#horizontal-switch)
     * [45deg. Switch](./TrackplanBuildingBlocks.md#45deg-switch)
+    * [Text Font, Style, Size & Color](./TrackplanBuildingBlocks.md#text-font-style-size--color)
 
-## Trackplan Stations
+## Stations SVG-files
 
 * [Trackplan Stations](./TrackplanStations.md)
   * [SVG files](./TrackplanStations.md#svg-files)
+    * [Nyborg-FGH.svg](./Stations/Nyborg-FGH.svg)
+    * [Middelfart.svg](./Stations/Middelfart.svg)
+    * [Frederica.svg](./Stations/Frederica.svg)
+  )

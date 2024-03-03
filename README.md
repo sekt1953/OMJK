@@ -69,8 +69,8 @@ and we can have a network where everyone has access to Internettet.
   * [Inkscape](./GraphicStationsLayout/README.md#inkscape)
     * [Inkscape Tutorials](./GraphicStationsLayout/README.md#inkscape-tutorials)
     * [My Inkscape Settings](./GraphicStationsLayout/README.md#my-inkscape-settings)
-  * [Trackplan Building blocks](./GraphicStationsLayout/README.md#trackplan-building-blocks)
-  * [Stations](./GraphicStationsLayout/README.md#trackplan-stations)
+  * [Graphic Building blocks](./GraphicStationsLayout/README.md#building-blocks)
+  * [Stations SVG-files](./GraphicStationsLayout/README.md#stations-svg-files)
 
 ## Network
 
