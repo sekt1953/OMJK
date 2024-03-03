@@ -59,3 +59,26 @@
 * horizontal tracks:
   * Hight: 14px
   * Length: 56px
+
+## Text Font, Style, Size & Color
+
+* Spor Nr.:
+  * Font: OCRA
+  * Font style: Regular
+  * Font size: 28
+  * Font color: white
+* Block Nr.:
+  * Font: OCRA
+  * Font style: Regular
+  * Font size: 22
+  * Font color: yellow
+* Stations Name
+  * Font: OCRA
+  * Font style: Regular
+  * Font size: 32
+  * Font color: white
+* Next Station
+  * Font: OCRA
+  * Font style: Regular
+  * Font size: 22
+  * Font color: white
