@@ -16,4 +16,4 @@
 * Midelfart
   * [![Midelfart.jpg]()]()
 * Frederica
-  * [![Frederica.jpg]()]()
+  * ![Frederica.svg](./Stations/Frederica.svg)
