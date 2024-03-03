@@ -12,123 +12,23 @@
       * [ha-floorplan & JavaScript | Format time_date.time entity from military to AM/PM in state_action](https://youtu.be/GHcgwW-OOo8?list=PL5xKVw-BInX1phV-Tnjznwd2YG5mEOvWL "TechTonor")
     * [Home-Assistant_Attachments-for-YouTube](https://github.com/exetico/Home-Assistant_Attachments-for-YouTube/tree/main "TechTonor")
 
-## [Inkscape](https://inkscape.org/)
+## [Inkscape](./Inkscape.md)
 
-### [Inkscape Tutorials](https://inkscape.org/learn/tutorials/)
-
-* [Basic tutorial](https://inkscape.org/doc/tutorials/basic/tutorial-basic.html)
-* [Shapes tutorial](https://inkscape.org/doc/tutorials/shapes/tutorial-shapes.html)
-* [Advanced tutorial](https://inkscape.org/doc/tutorials/advanced/tutorial-advanced.html)
-* [Bitmap Tracing tutorial](https://inkscape.org/doc/tutorials/tracing/tutorial-tracing.html)
-* [Pixelart Tracing tutorial](https://inkscape.org/doc/tutorials/tracing-pixelart/tutorial-tracing-pixelart.html)
-* [Calligraphy tutorial](https://inkscape.org/doc/tutorials/calligraphy/tutorial-calligraphy.html)
-* [Interpolate tutorial](https://inkscape.org/doc/tutorials/interpolate/tutorial-interpolate.html)
-* [Elements of Design tutorial](https://inkscape.org/doc/tutorials/elements/tutorial-elements.html)
-* [Tips and Tricks tutorial](https://inkscape.org/doc/tutorials/tips/tutorial-tips.html)
-
-### My Inkscape Settings
-
-|Display properties|Grids Properties|
-|:---:|:---:|
-|![Display.png](./Images/DisplayProperties.png)|![Grids.png](./Images/Gridsproperties.png)|
-
-* Display:
-  * Front page:
-    * Format: px
-    * Width: 1920,000
-    * Height: 1080,000
-    * Scale: 1,000000 px per user unit
-  * Display
-    * Display units: px
-    * Border
-      * Always on top
-      * No shadow
-* Grids:
-  * Grid units: px
-  * Origin X: 0,00000
-  * Origin Y: 0,00000
-  * Spacing X: 14,00000
-  * Spacing Y: 14,00000
-  * Major grid line every: 6
+* [Inkscape](https://inkscape.org/)
+  * [Inkscape Tutorials](./Inkscape.md#inkscape-tutorials)
+  * [My Inkscape Settings](./Inkscape.md#my-inkscape-settings)
 
 ## Trackplan Building blocks
 
-[![TrackPlanBuildingBlocks.svg](./Images/TrackPlanBuildingBlocks.svg)](./Images/TrackPlanBuildingBlocks.svg)
-
-### Horizontal tracks
-
-![HorizontalTracks.png](./Images/HorizontalTracks.png)
-
-* horizontal tracks:
-  * Hight: 14px
-  * Vertical spaceing: 84px
-
-### 45deg. track
-
-![45degTrack.png](./Images/45degTrackc.png)
-
-* 45deg. track:
-  * Start with track:
-    * Hight: 14px
-    * Length: 138,5px
-  * Transform track
-    * Skew: 45deg.
-    * Rotate: 45deg.
-
-### Horizontal Switch
-
-![HorizontalSwitch.png](./Images/HorizontalSwitch.png)
-
-* 45deg. track:
-  * Start with track:
-    * Hight: 14px
-    * Length: 69,25px
-  * Transform track
-    * Skew: 45deg.
-    * Rotate: 45deg.
-  * Moved left: 28px
-* horizontal tracks:
-  * Hight: 14px
-  * Length: 84px
-
-### 45deg. Switch
-
-![45degSwitch.png](./Images/45degSwitchb.png)
-
-* 45deg. track:
-  * Start with track:
-    * Hight: 14px
-    * Length: 69,25px
-  * Transform track
-    * Skew: 45deg.
-    * Rotate: 45deg.
-  * Start with track:
-    * Hight: 14px
-    * Length: 69,25px
-  * Transform track
-    * Skew: 45deg.
-    * Rotate: 45deg.4
-* horizontal tracks:
-  * Hight: 14px
-  * Length: 56px
-
+* [TrackplanBuildingBlocks](./TrackplanBuildingBlocks.md)
+  * [Overview](./TrackplanBuildingBlocks.md#overview)
+    * [Horizontal tracks](./TrackplanBuildingBlocks.md#horizontal-tracks)
+    * [45deg. track](./TrackplanBuildingBlocks.md#45deg-track)
+    * [Horizontal Switch](./TrackplanBuildingBlocks.md#horizontal-switch)
+    * [45deg. Switch](./TrackplanBuildingBlocks.md#45deg-switch)
+    * []()
 
 ## Trackplan Stations
 
-### SVG files
-
-* Nyborg Færgehavn
-  * [![Nyborg Færgehavn](./Stations/Nyborg-FGH.svg)](./Stations/Nyborg-FGH.svg)
-* Nyborg H
-  * [![Nyborg H](./Nyborg-H.svg)](./Nyborg-H.svg)
-* Hjulby & Tommerup
-  * [![Hjulby & Tommerup](./Hjulby.svg)](./Hjulby.svg)
-* Odense H
-  * [![Odense 1]()]()
-  * [![Odense 2]()]()
-* Svendborg-Holmstrup
-  * [![Svendborg-Holmstrup.jpg]()]()
-* Midelfart
-  * [![Midelfart.jpg]()]()
-* Frederica
-  * [![Frederica.jpg]()]()
+* [Trackplan Stations](./TrackplanStations.md)
+  * [SVG files](./TrackplanStations.md#svg-files)
