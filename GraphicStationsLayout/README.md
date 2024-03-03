@@ -26,7 +26,7 @@
 * [Elements of Design tutorial](https://inkscape.org/doc/tutorials/elements/tutorial-elements.html)
 * [Tips and Tricks tutorial](https://inkscape.org/doc/tutorials/tips/tutorial-tips.html)
 
-### My Settings
+### My Inkscape Settings
 
 |Display properties|Grids Properties|
 |:---:|:---:|
