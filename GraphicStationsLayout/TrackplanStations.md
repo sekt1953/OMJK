@@ -14,6 +14,6 @@
 * Svendborg-Holmstrup
   * [![Svendborg-Holmstrup.jpg]()]()
 * Midelfart
-  * [![Midelfart.jpg]()]()
+  * [![Midelfart.jpg](./Stations/Middelfart.svg)
 * Frederica
   * ![Frederica.svg](./Stations/Frederica.svg)
