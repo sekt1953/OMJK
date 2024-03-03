@@ -13,7 +13,7 @@
   * [![Odense 2]()]()
 * Svendborg-Holmstrup
   * [![Svendborg-Holmstrup.jpg]()]()
-* Midelfart
+* Middelfart
   * [![Midelfart.jpg](./Stations/Middelfart.svg)
 * Frederica
   * ![Frederica.svg](./Stations/Frederica.svg)
