@@ -26,7 +26,6 @@
     * [45deg. track](./TrackplanBuildingBlocks.md#45deg-track)
     * [Horizontal Switch](./TrackplanBuildingBlocks.md#horizontal-switch)
     * [45deg. Switch](./TrackplanBuildingBlocks.md#45deg-switch)
-    * []()
 
 ## Trackplan Stations
 
