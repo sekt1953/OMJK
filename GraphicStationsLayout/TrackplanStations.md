@@ -6,7 +6,9 @@
   * [![Nyborg Færgehavn](./Stations/Nyborg-FGH.svg)](./Stations/Nyborg-FGH.svg)
 * Nyborg H
   * [![Nyborg H](./Nyborg-H.svg)](./Nyborg-H.svg)
-* Hjulby & Tommerup
+* Hjulby
+  * ![Hjulby.svg](./Stations/Hjulby.svg)
+* Tommerup
   * [![Hjulby & Tommerup](./Hjulby.svg)](./Hjulby.svg)
 * Odense H
   * [![Odense 1]()]()
