@@ -25,7 +25,7 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="1.4444444"
-     inkscape:cx="972.69231"
+     inkscape:cx="1910.7692"
      inkscape:cy="411.23077"
      inkscape:window-width="1920"
      inkscape:window-height="980"
@@ -1279,5 +1279,26 @@
          id="tspan1"
          x="354.82138"
          y="83.013344">Hjulby (Ju)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:OCRA;-inkscape-font-specification:'OCRA, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration-color:#000000;text-anchor:end;fill:#ffffff;stroke-width:0;-inkscape-stroke:none;stop-color:#000000"
+       x="94.656342"
+       y="245.78133"
+       id="text43"
+       inkscape:label="Ng"><tspan
+         sodipodi:role="line"
+         id="tspan43"
+         x="94.656342"
+         y="245.78133">(Ng)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:normal;font-family:OCRA;-inkscape-font-specification:'OCRA, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration-color:#000000;text-anchor:end;fill:#ffffff;stroke-width:0;-inkscape-stroke:none;stop-color:#000000"
+       x="1911.656"
+       y="245.78134"
+       id="text44"><tspan
+         sodipodi:role="line"
+         id="tspan44"
+         x="1911.656"
+         y="245.78134">(Tp)</tspan></text>
   </g>
 </svg>
