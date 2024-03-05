@@ -7,7 +7,7 @@
 * Nyborg H
   * [![Nyborg H](./Nyborg-H.svg)](./Nyborg-H.svg)
 * Hjulby
-  * ![Hjulby.svg](./Stations/Hjulby.svg)
+  * ![Hjulby.svg](./Stations/Hjulbya.svg)
 * Tommerup
   * [![Hjulby & Tommerup](./Hjulby.svg)](./Hjulby.svg)
 * Odense H
