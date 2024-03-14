@@ -29,6 +29,12 @@
     * [Create Table for Litra](./CreateTable/README.md#create-table-for-litra)
     * [Create Table for Hjemsted](./CreateTable/README.md#create-table-for-hjemsted)
 
+## Forbindelse fortegnelser
+
+* I2C-IO-Interface
+  * [Hjulby Ju00-00/Ju00-77/](./OrgData/Hjulby/Hjulby.md)
+
+
 ## Nogle start data
 
 ### Regneark
