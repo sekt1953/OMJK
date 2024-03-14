@@ -4,7 +4,9 @@
 
 * [Hjulby_Klemrække_A.pdf](/Database/OrgData/Hjulby/Hjulby_Klemrække_A.pdf)
 
-## Tryk Sporskifter
+## Hjulby_Klemrække_A
+
+### Tryk Sporskifter
 
 |Klemrække|Pin|Sporskifte|/|MCU|IO8574-Pin-Addr|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -24,7 +26,7 @@
 |A|15|105ab-U-Sort|sort|Ju00|13|
 |A|16|S3-U-Blå|Grå|Ju00|14|
 
-## Tryk Signal
+### Tryk Signal
 
 |Klemrække|Pin|Signal|/|MCU|IO8574-Pin-Addr|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -54,7 +56,7 @@
 |A|42|J||Ju00|41|
 |A|43|J||Ju00|42|
 
-## Tryk Spor
+### Tryk Spor
 
 |Klemrække|Pin|Spor|Farve|MCU|IO8574-Pin-Addr|
 |:---:|:---:|:---:|:---:|:---:|:---:|
