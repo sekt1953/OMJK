@@ -2,8 +2,8 @@
 
 ## Kilde
 
-* [Hjulby_Klemrække_A.pdf](/Database/OrgData/Hjulby/Hjulby_Klemrække_A.pdf)
-* [Hjulby_Klemrække_B.pdf](/Database/OrgData/Hjulby/Hjulby_Klemrække_B.pdf)
+* [Hjulby_Klemrække_A.pdf](./Hjulby_Klemrække_A.pdf)
+* [Hjulby_Klemrække_B.pdf](./Hjulby_Klemrække_B.pdf)
 
 ## Hjulby_Klemrække_A
 
