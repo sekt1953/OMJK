@@ -1,0 +1,674 @@
+# I2C_IO_PCF8574
+pcf8574:
+  - id: ${id_pcf8574_0}
+    address: ${addr_pcf8574_0}
+    pcf8575: false
+  - id: ${id_pcf8574_1}
+    address: ${addr_pcf8574_1}
+    pcf8575: false
+  - id: ${id_pcf8574_2}
+    address: ${addr_pcf8574_2}
+    pcf8575: false
+  - id: ${id_pcf8574_3}
+    address: ${addr_pcf8574_3}
+    pcf8575: false
+  - id: ${id_pcf8574_4}
+    address: ${addr_pcf8574_4}
+    pcf8575: false
+  - id: ${id_pcf8574_5}
+    address: ${addr_pcf8574_5}
+    pcf8575: false
+  - id: ${id_pcf8574_6}
+    address: ${addr_pcf8574_6}
+    pcf8575: false
+  - id: ${id_pcf8574_7}
+    address: ${addr_pcf8574_7}
+    pcf8575: false
+
+# Individual input hub0
+binary_sensor:
+  - platform: gpio
+    name: "_00"
+    pin:
+      pcf8574: ${id_pcf8574_0}
+      number: 0
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_01"
+    pin:
+      pcf8574: ${id_pcf8574_0}
+      number: 1
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_02"
+    pin:
+      pcf8574: ${id_pcf8574_0}
+      number: 2
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_03"
+    pin:
+      pcf8574: ${id_pcf8574_0}
+      number: 3
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_04"
+    pin:
+      pcf8574: ${id_pcf8574_0}
+      number: 4
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_05"
+    pin:
+      pcf8574: ${id_pcf8574_0}
+      number: 5
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_06"
+    pin:
+      pcf8574: ${id_pcf8574_0}
+      number: 6
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_07"
+    pin:
+      pcf8574: ${id_pcf8574_0}
+      number: 7
+      mode:
+        input: true
+      inverted: true
+
+# Individual input hub1
+#binary_sensor:
+  - platform: gpio
+    name: "_10"
+    pin:
+      pcf8574: ${id_pcf8574_1}
+      number: 0
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_11"
+    pin:
+      pcf8574: ${id_pcf8574_1}
+      number: 1
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_12"
+    pin:
+      pcf8574: ${id_pcf8574_1}
+      number: 2
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_13"
+    pin:
+      pcf8574: ${id_pcf8574_1}
+      number: 3
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_14"
+    pin:
+      pcf8574: ${id_pcf8574_1}
+      number: 4
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_15"
+    pin:
+      pcf8574: ${id_pcf8574_1}
+      number: 5
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_16"
+    pin:
+      pcf8574: ${id_pcf8574_1}
+      number: 6
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_17"
+    pin:
+      pcf8574: ${id_pcf8574_1}
+      number: 7
+      mode:
+        input: true
+      inverted: true
+
+# Individual input hub2
+#binary_sensor:
+  - platform: gpio
+    name: "_20"
+    pin:
+      pcf8574: ${id_pcf8574_2}
+      number: 0
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_21"
+    pin:
+      pcf8574: ${id_pcf8574_2}
+      number: 1
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_22"
+    pin:
+      pcf8574: ${id_pcf8574_2}
+      number: 2
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_23"
+    pin:
+      pcf8574: ${id_pcf8574_2}
+      number: 3
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_24"
+    pin:
+      pcf8574: ${id_pcf8574_2}
+      number: 4
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_25"
+    pin:
+      pcf8574: ${id_pcf8574_2}
+      number: 5
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_26"
+    pin:
+      pcf8574: ${id_pcf8574_2}
+      number: 6
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_27"
+    pin:
+      pcf8574: ${id_pcf8574_2}
+      number: 7
+      mode:
+        input: true
+      inverted: true
+
+# Individual input hub3
+# binary_sensor:
+  - platform: gpio
+    name: "_30"
+    pin:
+      pcf8574: ${id_pcf8574_3}
+      number: 0
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_31"
+    pin:
+      pcf8574: ${id_pcf8574_3}
+      number: 1
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_32"
+    pin:
+      pcf8574: ${id_pcf8574_3}
+      number: 2
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_33"
+    pin:
+      pcf8574: ${id_pcf8574_3}
+      number: 3
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_34"
+    pin:
+      pcf8574: ${id_pcf8574_3}
+      number: 4
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_35"
+    pin:
+      pcf8574: ${id_pcf8574_3}
+      number: 5
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_36"
+    pin:
+      pcf8574: ${id_pcf8574_3}
+      number: 6
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_37"
+    pin:
+      pcf8574: ${id_pcf8574_3}
+      number: 7
+      mode:
+        input: true
+      inverted: true
+
+# Individual input hub4
+# binary_sensor:
+  - platform: gpio
+    name: "_40"
+    pin:
+      pcf8574: ${id_pcf8574_4}
+      number: 0
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_41"
+    pin:
+      pcf8574: ${id_pcf8574_4}
+      number: 1
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_42"
+    pin:
+      pcf8574: ${id_pcf8574_4}
+      number: 2
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_43"
+    pin:
+      pcf8574: ${id_pcf8574_4}
+      number: 3
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_44"
+    pin:
+      pcf8574: ${id_pcf8574_4}
+      number: 4
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_45"
+    pin:
+      pcf8574: ${id_pcf8574_4}
+      number: 5
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_46"
+    pin:
+      pcf8574: ${id_pcf8574_4}
+      number: 6
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_47"
+    pin:
+      pcf8574: ${id_pcf8574_4}
+      number: 7
+      mode:
+        input: true
+      inverted: true
+
+# Individual input hub5
+# binary_sensor:
+  - platform: gpio
+    name: "_50"
+    pin:
+      pcf8574: ${id_pcf8574_5}
+      number: 0
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_51"
+    pin:
+      pcf8574: ${id_pcf8574_5}
+      number: 1
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_52"
+    pin:
+      pcf8574: ${id_pcf8574_5}
+      number: 2
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_53"
+    pin:
+      pcf8574: ${id_pcf8574_5}
+      number: 3
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_54"
+    pin:
+      pcf8574: ${id_pcf8574_5}
+      number: 4
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_55"
+    pin:
+      pcf8574: ${id_pcf8574_5}
+      number: 5
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_56"
+    pin:
+      pcf8574: ${id_pcf8574_5}
+      number: 6
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_57"
+    pin:
+      pcf8574: ${id_pcf8574_5}
+      number: 7
+      mode:
+        input: true
+      inverted: true
+
+# Individual input hub6
+# binary_sensor:
+  - platform: gpio
+    name: "_60"
+    pin:
+      pcf8574: ${id_pcf8574_6}
+      number: 0
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_61"
+    pin:
+      pcf8574: ${id_pcf8574_6}
+      number: 1
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_62"
+    pin:
+      pcf8574: ${id_pcf8574_6}
+      number: 2
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_63"
+    pin:
+      pcf8574: ${id_pcf8574_6}
+      number: 3
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_64"
+    pin:
+      pcf8574: ${id_pcf8574_6}
+      number: 4
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_65"
+    pin:
+      pcf8574: ${id_pcf8574_6}
+      number: 5
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_66"
+    pin:
+      pcf8574: ${id_pcf8574_6}
+      number: 6
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_67"
+    pin:
+      pcf8574: ${id_pcf8574_6}
+      number: 7
+      mode:
+        input: true
+      inverted: true
+
+# Individual input hub7
+# binary_sensor:
+  - platform: gpio
+    name: "_70"
+    pin:
+      pcf8574: ${id_pcf8574_7}
+      number: 0
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_71"
+    pin:
+      pcf8574: ${id_pcf8574_7}
+      number: 1
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_72"
+    pin:
+      pcf8574: ${id_pcf8574_7}
+      number: 2
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_73"
+    pin:
+      pcf8574: ${id_pcf8574_7}
+      number: 3
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_74"
+    pin:
+      pcf8574: ${id_pcf8574_7}
+      number: 4
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_75"
+    pin:
+      pcf8574: ${id_pcf8574_7}
+      number: 5
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_76"
+    pin:
+      pcf8574: ${id_pcf8574_7}
+      number: 6
+      mode:
+        input: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+  - platform: gpio
+    name: "_77"
+    pin:
+      pcf8574: ${id_pcf8574_7}
+      number: 7
+      mode:
+        input: true
+      inverted: true
