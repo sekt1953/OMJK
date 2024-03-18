@@ -1,6 +1,6 @@
 substitutions:
-  esphome_name: "ju-00"
-  esphome_friendly_name: "Ju-00"
+  esphome_name: "ju-bd-00"
+  esphome_friendly_name: "Hjulby-Block-Detection-00"
 
 # PCF8574N & PCF8575
 # 8bit portudvidelse I2C (2 wire) interface DIL16 Adresserbar til 
@@ -87,6 +87,5 @@ i2c:
     scan: ${i2c_scan}  
 
 # I2C_IO_Interface with PCF8574
-<<: !include ./I2C_IO_PCF8574/.pcf8574_hubs.yaml
-
-# I2C_PWM_Output with PCA9685
+<<: !include ./I2C_IO_PCF8574/.pcf8574_ids.yaml
+<<: !include ./I2C_IO_PCF8574/.pcf8574_input.yaml
