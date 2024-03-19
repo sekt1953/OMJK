@@ -14,6 +14,10 @@ output:
     pca9685_id: ${id_pca9685_0}
     channel: 0
     id: pwm00
+    inverted: false
+    min_power: 0.00
+    max_power: 1.00
+    zero_means_zero: false
   - platform: pca9685
     pca9685_id: ${id_pca9685_0}
     channel: 1
