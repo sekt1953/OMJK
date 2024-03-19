@@ -1,0 +1,515 @@
+type: entities
+entities:
+  - entity: light.ju_pl_00_00
+    name: _00
+  - entity: light.ju_pl_00_01
+    name: _01
+  - entity: light.ju_pl_00_02
+    name: _02
+  - entity: light.ju_pl_00_03
+    name: _03
+  - entity: light.ju_pl_00_04
+    name: _04
+  - entity: light.ju_pl_00_05
+    name: _05
+  - entity: light.ju_pl_00_06
+    name: _06
+  - entity: light.ju_pl_00_07
+    name: _07
+  - entity: light.ju_pl_00_08
+    name: _08
+  - entity: light.ju_pl_00_09
+    name: _09
+  - entity: light.ju_pl_00_0a
+    name: _0A
+  - entity: light.ju_pl_00_0b
+    name: _0B
+  - entity: light.ju_pl_00_0c
+    name: _0C
+  - entity: light.ju_pl_00_0d
+    name: _0D
+  - entity: light.ju_pl_00_0e
+    name: _0E
+  - entity: light.ju_pl_00_0f
+    name: _0F
+  - entity: light.ju_pl_00_10
+    name: _10
+  - entity: light.ju_pl_00_11
+    name: _11
+  - entity: light.ju_pl_00_12
+    name: _12
+  - entity: light.ju_pl_00_13
+    name: _13
+  - entity: light.ju_pl_00_14
+    name: _14
+  - entity: light.ju_pl_00_15
+    name: _15
+  - entity: light.ju_pl_00_16
+    name: _16
+  - entity: light.ju_pl_00_17
+    name: _17
+  - entity: light.ju_pl_00_18
+    name: _18
+  - entity: light.ju_pl_00_19
+    name: _19
+  - entity: light.ju_pl_00_1a
+    name: _1A
+  - entity: light.ju_pl_00_1b
+    name: _1B
+  - entity: light.ju_pl_00_1c
+    name: _1C
+  - entity: light.ju_pl_00_1d
+    name: _1D
+  - entity: light.ju_pl_00_1e
+    name: _1E
+  - entity: light.ju_pl_00_1f
+    name: _1F
+  - entity: light.ju_pl_00_20
+    name: _20
+  - entity: light.ju_pl_00_21
+    name: _21
+  - entity: light.ju_pl_00_22
+    name: _22
+  - entity: light.ju_pl_00_23
+    name: _23
+  - entity: light.ju_pl_00_24
+    name: _24
+  - entity: light.ju_pl_00_25
+    name: _25
+  - entity: light.ju_pl_00_26
+    name: _26
+  - entity: light.ju_pl_00_27
+    name: _27
+  - entity: light.ju_pl_00_28
+    name: _28
+  - entity: light.ju_pl_00_29
+    name: _29
+  - entity: light.ju_pl_00_2a
+    name: _2A
+  - entity: light.ju_pl_00_2b
+    name: _2B
+  - entity: light.ju_pl_00_2c
+    name: _2C
+  - entity: light.ju_pl_00_2d
+    name: _2D
+  - entity: light.ju_pl_00_2e
+    name: _2E
+  - entity: light.ju_pl_00_2f
+    name: _2F
+  - entity: light.ju_pl_00_30
+    name: _30
+  - entity: light.ju_pl_00_31
+    name: _31
+  - entity: light.ju_pl_00_32
+    name: _32
+  - entity: light.ju_pl_00_33
+    name: _33
+  - entity: light.ju_pl_00_34
+    name: _34
+  - entity: light.ju_pl_00_35
+    name: _35
+  - entity: light.ju_pl_00_36
+    name: _36
+  - entity: light.ju_pl_00_37
+    name: _37
+  - entity: light.ju_pl_00_38
+    name: _38
+  - entity: light.ju_pl_00_39
+    name: _39
+  - entity: light.ju_pl_00_3a
+    name: _3A
+  - entity: light.ju_pl_00_3b
+    name: _3B
+  - entity: light.ju_pl_00_3c
+    name: _3C
+  - entity: light.ju_pl_00_3d
+    name: _3D
+  - entity: light.ju_pl_00_3e
+    name: _3E
+  - entity: light.ju_pl_00_3f
+    name: _3F
+  - entity: light.ju_pl_00_40
+    name: _40
+  - entity: light.ju_pl_00_41
+    name: _41
+  - entity: light.ju_pl_00_42
+    name: _42
+  - entity: light.ju_pl_00_43
+    name: _43
+  - entity: light.ju_pl_00_44
+    name: _44
+  - entity: light.ju_pl_00_45
+    name: _45
+  - entity: light.ju_pl_00_46
+    name: _46
+  - entity: light.ju_pl_00_47
+    name: _47
+  - entity: light.ju_pl_00_48
+    name: _48
+  - entity: light.ju_pl_00_49
+    name: _49
+  - entity: light.ju_pl_00_4a
+    name: _4A
+  - entity: light.ju_pl_00_4b
+    name: _4B
+  - entity: light.ju_pl_00_4c
+    name: _4C
+  - entity: light.ju_pl_00_4d
+    name: _4D
+  - entity: light.ju_pl_00_4e
+    name: _4E
+  - entity: light.ju_pl_00_4f
+    name: _4F
+  - entity: light.ju_pl_00_50
+    name: _50
+  - entity: light.ju_pl_00_51
+    name: _51
+  - entity: light.ju_pl_00_52
+    name: _52
+  - entity: light.ju_pl_00_53
+    name: _53
+  - entity: light.ju_pl_00_54
+    name: _54
+  - entity: light.ju_pl_00_55
+    name: _55
+  - entity: light.ju_pl_00_56
+    name: _56
+  - entity: light.ju_pl_00_57
+    name: _57
+  - entity: light.ju_pl_00_58
+    name: _58
+  - entity: light.ju_pl_00_59
+    name: _59
+  - entity: light.ju_pl_00_5a
+    name: _5A
+  - entity: light.ju_pl_00_5b
+    name: _5B
+  - entity: light.ju_pl_00_5c
+    name: _5C
+  - entity: light.ju_pl_00_5d
+    name: _5D
+  - entity: light.ju_pl_00_5e
+    name: _5E
+  - entity: light.ju_pl_00_5f
+    name: _5F
+  - entity: light.ju_pl_00_60
+    name: _60
+  - entity: light.ju_pl_00_61
+    name: _61
+  - entity: light.ju_pl_00_62
+    name: _62
+  - entity: light.ju_pl_00_63
+    name: _63
+  - entity: light.ju_pl_00_64
+    name: _64
+  - entity: light.ju_pl_00_65
+    name: _65
+  - entity: light.ju_pl_00_66
+    name: _66
+  - entity: light.ju_pl_00_67
+    name: _67
+  - entity: light.ju_pl_00_68
+    name: _68
+  - entity: light.ju_pl_00_69
+    name: _69
+  - entity: light.ju_pl_00_6a
+    name: _6A
+  - entity: light.ju_pl_00_6b
+    name: _6B
+  - entity: light.ju_pl_00_6c
+    name: _6C
+  - entity: light.ju_pl_00_6d
+    name: _6D
+  - entity: light.ju_pl_00_6e
+    name: _6E
+  - entity: light.ju_pl_00_6f
+    name: _6F
+  - entity: light.ju_pl_00_70
+    name: _70
+  - entity: light.ju_pl_00_71
+    name: _71
+  - entity: light.ju_pl_00_72
+    name: _72
+  - entity: light.ju_pl_00_73
+    name: _73
+  - entity: light.ju_pl_00_74
+    name: _74
+  - entity: light.ju_pl_00_75
+    name: _75
+  - entity: light.ju_pl_00_76
+    name: _76
+  - entity: light.ju_pl_00_77
+    name: _77
+  - entity: light.ju_pl_00_78
+    name: _78
+  - entity: light.ju_pl_00_79
+    name: _79
+  - entity: light.ju_pl_00_7a
+    name: _7A
+  - entity: light.ju_pl_00_7b
+    name: _7B
+  - entity: light.ju_pl_00_7c
+    name: _7C
+  - entity: light.ju_pl_00_7d
+    name: _7D
+  - entity: light.ju_pl_00_7e
+    name: _7E
+  - entity: light.ju_pl_00_7f
+    name: _7F
+  - entity: light.ju_pl_00_80
+    name: _80
+  - entity: light.ju_pl_00_81
+    name: _81
+  - entity: light.ju_pl_00_82
+    name: _82
+  - entity: light.ju_pl_00_83
+    name: _83
+  - entity: light.ju_pl_00_84
+    name: _84
+  - entity: light.ju_pl_00_85
+    name: _85
+  - entity: light.ju_pl_00_86
+    name: _86
+  - entity: light.ju_pl_00_87
+    name: _87
+  - entity: light.ju_pl_00_88
+    name: _88
+  - entity: light.ju_pl_00_89
+    name: _89
+  - entity: light.ju_pl_00_8a
+    name: _8A
+  - entity: light.ju_pl_00_8b
+    name: _8B
+  - entity: light.ju_pl_00_8c
+    name: _8C
+  - entity: light.ju_pl_00_8d
+    name: _8D
+  - entity: light.ju_pl_00_8e
+    name: _8E
+  - entity: light.ju_pl_00_8f
+    name: _8F
+  - entity: light.ju_pl_00_90
+    name: _90
+  - entity: light.ju_pl_00_91
+    name: _91
+  - entity: light.ju_pl_00_92
+    name: _92
+  - entity: light.ju_pl_00_93
+    name: _93
+  - entity: light.ju_pl_00_94
+    name: _94
+  - entity: light.ju_pl_00_95
+    name: _95
+  - entity: light.ju_pl_00_96
+    name: _96
+  - entity: light.ju_pl_00_97
+    name: _97
+  - entity: light.ju_pl_00_98
+    name: _98
+  - entity: light.ju_pl_00_99
+    name: _99
+  - entity: light.ju_pl_00_9a
+    name: _9A
+  - entity: light.ju_pl_00_9b
+    name: _9B
+  - entity: light.ju_pl_00_9c
+    name: _9C
+  - entity: light.ju_pl_00_9d
+    name: _9D
+  - entity: light.ju_pl_00_9e
+    name: _9E
+  - entity: light.ju_pl_00_9f
+    name: _9F
+  - entity: light.ju_pl_00_a0
+    name: _A0
+  - entity: light.ju_pl_00_a1
+    name: _A1
+  - entity: light.ju_pl_00_a2
+    name: _A2
+  - entity: light.ju_pl_00_a3
+    name: _A3
+  - entity: light.ju_pl_00_a4
+    name: _A4
+  - entity: light.ju_pl_00_a5
+    name: _A5
+  - entity: light.ju_pl_00_a6
+    name: _A6
+  - entity: light.ju_pl_00_a7
+    name: _A7
+  - entity: light.ju_pl_00_a8
+    name: _A8
+  - entity: light.ju_pl_00_a9
+    name: _A9
+  - entity: light.ju_pl_00_ab
+    name: _AB
+  - entity: light.ju_pl_00_ac
+    name: _AC
+  - entity: light.ju_pl_00_ad
+    name: _AD
+  - entity: light.ju_pl_00_ae
+    name: _AE
+  - entity: light.ju_pl_00_af
+    name: _AF
+  - entity: light.ju_pl_00_b0
+    name: _B0
+  - entity: light.ju_pl_00_b1
+    name: _B1
+  - entity: light.ju_pl_00_b2
+    name: _B2
+  - entity: light.ju_pl_00_b3
+    name: _B3
+  - entity: light.ju_pl_00_b4
+    name: _B4
+  - entity: light.ju_pl_00_b5
+    name: _B5
+  - entity: light.ju_pl_00_b6
+    name: _B6
+  - entity: light.ju_pl_00_b7
+    name: _B7
+  - entity: light.ju_pl_00_b8
+    name: _B8
+  - entity: light.ju_pl_00_b9
+    name: _B9
+  - entity: light.ju_pl_00_ba
+    name: _BA
+  - entity: light.ju_pl_00_bb
+    name: _BB
+  - entity: light.ju_pl_00_bc
+    name: _BC
+  - entity: light.ju_pl_00_bd
+    name: _BD
+  - entity: light.ju_pl_00_be
+    name: _BE
+  - entity: light.ju_pl_00_bf
+    name: _BF
+  - entity: light.ju_pl_00_c0
+    name: _C0
+  - entity: light.ju_pl_00_c1
+    name: _C1
+  - entity: light.ju_pl_00_c2
+    name: _C2
+  - entity: light.ju_pl_00_c3
+    name: _C3
+  - entity: light.ju_pl_00_c4
+    name: _C4
+  - entity: light.ju_pl_00_c5
+    name: _C5
+  - entity: light.ju_pl_00_c6
+    name: _C6
+  - entity: light.ju_pl_00_c7
+    name: _C7
+  - entity: light.ju_pl_00_c8
+    name: _C8
+  - entity: light.ju_pl_00_c9
+    name: _C9
+  - entity: light.ju_pl_00_ca
+    name: _CA
+  - entity: light.ju_pl_00_cb
+    name: _CB
+  - entity: light.ju_pl_00_cc
+    name: _CC
+  - entity: light.ju_pl_00_cd
+    name: _CD
+  - entity: light.ju_pl_00_ce
+    name: _CE
+  - entity: light.ju_pl_00_cf
+    name: _CF
+  - entity: light.ju_pl_00_d0
+    name: _D0
+  - entity: light.ju_pl_00_d1
+    name: _D1
+  - entity: light.ju_pl_00_d2
+    name: _D2
+  - entity: light.ju_pl_00_d3
+    name: _D3
+  - entity: light.ju_pl_00_d4
+    name: _D4
+  - entity: light.ju_pl_00_d5
+    name: _D5
+  - entity: light.ju_pl_00_d6
+    name: _D6
+  - entity: light.ju_pl_00_d7
+    name: _D7
+  - entity: light.ju_pl_00_d8
+    name: _D8
+  - entity: light.ju_pl_00_d9
+    name: _D9
+  - entity: light.ju_pl_00_da
+    name: _DA
+  - entity: light.ju_pl_00_db
+    name: _DB
+  - entity: light.ju_pl_00_dc
+    name: _DC
+  - entity: light.ju_pl_00_dd
+    name: _DD
+  - entity: light.ju_pl_00_de
+    name: _DE
+  - entity: light.ju_pl_00_df
+    name: _DF
+  - entity: light.ju_pl_00_e0
+    name: _E0
+  - entity: light.ju_pl_00_e1
+    name: _E1
+  - entity: light.ju_pl_00_e2
+    name: _E2
+  - entity: light.ju_pl_00_e3
+    name: _E3
+  - entity: light.ju_pl_00_e4
+    name: _E4
+  - entity: light.ju_pl_00_e5
+    name: _E5
+  - entity: light.ju_pl_00_e6
+    name: _E6
+  - entity: light.ju_pl_00_e7
+    name: _E7
+  - entity: light.ju_pl_00_e8
+    name: _E8
+  - entity: light.ju_pl_00_e9
+    name: _E9
+  - entity: light.ju_pl_00_ea
+    name: _EA
+  - entity: light.ju_pl_00_eb
+    name: _EB
+  - entity: light.ju_pl_00_ec
+    name: _EC
+  - entity: light.ju_pl_00_ed
+    name: _ED
+  - entity: light.ju_pl_00_ee
+    name: _EE
+  - entity: light.ju_pl_00_ef
+    name: _EF
+  - entity: light.ju_pl_00_f0
+    name: _F0
+  - entity: light.ju_pl_00_f1
+    name: _F1
+  - entity: light.ju_pl_00_f2
+    name: _F2
+  - entity: light.ju_pl_00_f3
+    name: _F3
+  - entity: light.ju_pl_00_f4
+    name: _F4
+  - entity: light.ju_pl_00_f5
+    name: _F5
+  - entity: light.ju_pl_00_f6
+    name: _F6
+  - entity: light.ju_pl_00_f7
+    name: _F7
+  - entity: light.ju_pl_00_f8
+    name: _F8
+  - entity: light.ju_pl_00_f9
+    name: _F9
+  - entity: light.ju_pl_00_fa
+    name: _FA
+  - entity: light.ju_pl_00_fb
+    name: _FB
+  - entity: light.ju_pl_00_fc
+    name: _FC
+  - entity: light.ju_pl_00_fd
+    name: _FD
+  - entity: light.ju_pl_00_fe
+    name: _FE
+  - entity: light.ju_pl_00_ff
+    name: _FF
+  - entity: light.ju_pl_00_aa
+    name: _AA
+title: Hjulby-Pult-Led-00

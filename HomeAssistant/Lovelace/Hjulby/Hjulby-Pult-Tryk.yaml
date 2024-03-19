@@ -1,0 +1,13 @@
+type: entities
+entities:
+  - entity: update.hjulby_pult_tryk_00_firmware
+    name: Firmware
+  - entity: button.ju_pt_00_restart_ju_pt_00
+    name: Restart ju-pt-00
+  - entity: sensor.ju_pt_00_ip_address_ju_pt_00
+    name: IP Address ju-pt-00
+  - entity: sensor.ju_pt_00_connected_ssid_ju_pt_00
+    name: Connected SSID ju-pt-00
+  - entity: sensor.ju_pt_00_mac_wifi_address_ju_pt_00
+    name: Mac Wifi Address ju-pt-00
+title: Hjulby-Pult-Tryk

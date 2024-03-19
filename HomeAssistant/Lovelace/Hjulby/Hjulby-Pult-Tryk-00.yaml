@@ -1,0 +1,131 @@
+type: entities
+entities:
+  - entity: binary_sensor.ju_pt_00_00
+    name: _00
+  - entity: binary_sensor.ju_pt_00_01
+    name: _01
+  - entity: binary_sensor.ju_pt_00_02
+    name: _02
+  - entity: binary_sensor.ju_pt_00_03
+    name: _03
+  - entity: binary_sensor.ju_pt_00_04
+    name: _04
+  - entity: binary_sensor.ju_pt_00_05
+    name: _05
+  - entity: binary_sensor.ju_pt_00_06
+    name: _06
+  - entity: binary_sensor.ju_pt_00_07
+    name: _07
+  - entity: binary_sensor.ju_pt_00_10
+    name: _10
+  - entity: binary_sensor.ju_pt_00_11
+    name: _11
+  - entity: binary_sensor.ju_pt_00_12
+    name: _12
+  - entity: binary_sensor.ju_pt_00_13
+    name: _13
+  - entity: binary_sensor.ju_pt_00_14
+    name: _14
+  - entity: binary_sensor.ju_pt_00_15
+    name: _15
+  - entity: binary_sensor.ju_pt_00_16
+    name: _16
+  - entity: binary_sensor.ju_pt_00_17
+    name: _17
+  - entity: binary_sensor.ju_pt_00_20
+    name: _20
+  - entity: binary_sensor.ju_pt_00_21
+    name: _21
+  - entity: binary_sensor.ju_pt_00_22
+    name: _22
+  - entity: binary_sensor.ju_pt_00_23
+    name: _23
+  - entity: binary_sensor.ju_pt_00_24
+    name: _24
+  - entity: binary_sensor.ju_pt_00_25
+    name: _25
+  - entity: binary_sensor.ju_pt_00_26
+    name: _26
+  - entity: binary_sensor.ju_pt_00_27
+    name: _27
+  - entity: binary_sensor.ju_pt_00_30
+    name: _30
+  - entity: binary_sensor.ju_pt_00_31
+    name: _31
+  - entity: binary_sensor.ju_pt_00_32
+    name: _32
+  - entity: binary_sensor.ju_pt_00_33
+    name: _33
+  - entity: binary_sensor.ju_pt_00_34
+    name: _34
+  - entity: binary_sensor.ju_pt_00_35
+    name: _35
+  - entity: binary_sensor.ju_pt_00_36
+    name: _36
+  - entity: binary_sensor.ju_pt_00_37
+    name: _37
+  - entity: binary_sensor.ju_pt_00_40
+    name: _40
+  - entity: binary_sensor.ju_pt_00_41
+    name: _41
+  - entity: binary_sensor.ju_pt_00_42
+    name: _42
+  - entity: binary_sensor.ju_pt_00_43
+    name: _43
+  - entity: binary_sensor.ju_pt_00_44
+    name: _44
+  - entity: binary_sensor.ju_pt_00_45
+    name: _45
+  - entity: binary_sensor.ju_pt_00_46
+    name: _46
+  - entity: binary_sensor.ju_pt_00_47
+    name: _47
+  - entity: binary_sensor.ju_pt_00_50
+    name: _50
+  - entity: binary_sensor.ju_pt_00_51
+    name: _51
+  - entity: binary_sensor.ju_pt_00_52
+    name: _52
+  - entity: binary_sensor.ju_pt_00_53
+    name: _53
+  - entity: binary_sensor.ju_pt_00_54
+    name: _54
+  - entity: binary_sensor.ju_pt_00_55
+    name: _55
+  - entity: binary_sensor.ju_pt_00_56
+    name: _56
+  - entity: binary_sensor.ju_pt_00_57
+    name: _57
+  - entity: binary_sensor.ju_pt_00_60
+    name: _60
+  - entity: binary_sensor.ju_pt_00_61
+    name: _61
+  - entity: binary_sensor.ju_pt_00_62
+    name: _62
+  - entity: binary_sensor.ju_pt_00_63
+    name: _63
+  - entity: binary_sensor.ju_pt_00_64
+    name: _64
+  - entity: binary_sensor.ju_pt_00_65
+    name: _65
+  - entity: binary_sensor.ju_pt_00_66
+    name: _66
+  - entity: binary_sensor.ju_pt_00_67
+    name: _67
+  - entity: binary_sensor.ju_pt_00_70
+    name: _70
+  - entity: binary_sensor.ju_pt_00_71
+    name: _71
+  - entity: binary_sensor.ju_pt_00_72
+    name: _72
+  - entity: binary_sensor.ju_pt_00_73
+    name: _73
+  - entity: binary_sensor.ju_pt_00_74
+    name: _74
+  - entity: binary_sensor.ju_pt_00_75
+    name: _75
+  - entity: binary_sensor.ju_pt_00_76
+    name: _76
+  - entity: binary_sensor.ju_pt_00_77
+    name: _77
+title: Hjulby-Pult-Tryk-00

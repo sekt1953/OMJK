@@ -1,0 +1,110 @@
+type: vertical-stack
+cards:
+  - type: horizontal-stack
+    cards:
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/default_view
+        icon: mdi:home
+        entity: ''
+        name: Home
+        show_state: false
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: ''
+        icon: mdi:home
+        entity: ''
+        show_state: false
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/
+        icon: mdi:home
+        entity: ''
+        show_state: true
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/
+        icon: mdi:home
+        entity: ''
+        show_state: false
+  - type: horizontal-stack
+    cards:
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/hjulby-pult-led
+        icon: mdi:table-chair
+        entity: ''
+        show_state: true
+        name: Pult-Led
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/hjulby-pult-tryk
+        icon: mdi:table-chair
+        entity: ''
+        show_state: true
+        name: Pult-Tryk
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/hjulby-block-detection
+        icon: mdi:train
+        entity: ''
+        show_state: false
+        name: Block Detection
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/hjulby-signal-led
+        icon: mdi:home
+        entity: ''
+        show_state: false
+        name: Signal Led
+  - type: horizontal-stack
+    cards:
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/reserved-00
+        icon: mdi:fence
+        name: Reserved
+        hold_action:
+          action: none
+        show_state: false
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/occupied-00
+        icon: ''
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/occupied-00
+        icon: ''
