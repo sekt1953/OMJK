@@ -1,0 +1,1754 @@
+type: vertical-stack
+cards:
+  - type: horizontal-stack
+    cards:
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_00
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '00'
+        show_attribute: true
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_01
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '01'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_02
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '02'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_03
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '03'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_04
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '04'
+        show_attribute: true
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_05
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '05'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_06
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '06'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_07
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '07'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_08
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '08'
+        show_attribute: true
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_09
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '09'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_0a
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 0A
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_0b
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 0B
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_0c
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 0C
+        show_attribute: true
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_0d
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 0D
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_0e
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 0E
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_0f
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 0F
+  - type: horizontal-stack
+    cards:
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_10
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '10'
+        show_attribute: true
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_11
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '11'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_12
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '12'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_13
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '13'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_14
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '14'
+        show_attribute: true
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_15
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '15'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_16
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '16'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_17
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '17'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_18
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '18'
+        show_attribute: true
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_19
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '19'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_1a
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 1A
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_1b
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 1B
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_1c
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 1C
+        show_attribute: true
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_1d
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 1D
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_1e
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 1E
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_1f
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 1F
+  - type: horizontal-stack
+    cards:
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_20
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '20'
+        show_attribute: true
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_21
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '21'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_22
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '22'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_23
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '23'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_24
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '24'
+        show_attribute: true
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_25
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '25'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_26
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '26'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_27
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '27'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_28
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '28'
+        show_attribute: true
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_29
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '29'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_2a
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 2A
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_2b
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 2B
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_2c
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 2C
+        show_attribute: true
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_2d
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 2D
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_2e
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 2E
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_2f
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 2F
+  - type: horizontal-stack
+    cards:
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_30
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '30'
+        show_attribute: true
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_31
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '31'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_32
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '32'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_33
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '33'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_34
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '34'
+        show_attribute: true
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_35
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '35'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_36
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '36'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_37
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '37'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_38
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '38'
+        show_attribute: true
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_39
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: '39'
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_3a
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 3A
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_3b
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 3B
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_3c
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 3C
+        show_attribute: true
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_3d
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 3D
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_3e
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 3E
+      - type: custom:slider-button-card
+        entity: light.ju_pl_00_3f
+        slider:
+          direction: left-right
+          background: gradient
+          use_state_color: true
+          use_percentage_bg_opacity: true
+          show_track: true
+          toggle_on_click: false
+          force_square: true
+          show_attribute: false
+        show_name: true
+        show_state: true
+        compact: false
+        icon:
+          show: true
+          use_state_color: true
+          tap_action: null
+          action: more-info
+        action_button:
+          mode: toggle
+          icon: mdi:power
+          show: true
+          show_spinner: true
+          tap_action:
+            action: toggle
+        name: 3F
