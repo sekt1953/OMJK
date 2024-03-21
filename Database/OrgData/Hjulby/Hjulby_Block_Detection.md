@@ -7,7 +7,14 @@
   * [BD20 manual](./)
 * I2C_IO_Interface_pcb
   * ![I2C_IO_Interface_pcb.png](./Images/I2C_IO_Interface_pcb.png)
-  * [Fritzing I2C_IO_Interface_pcb](https://github.com/sekt1953/Fritzing/tree/main/My_PCB/Modeltog/Block_Detecsion#i2c-io_interface-pcb)
+  * [Fritzing I2C_IO_Interface_pcb](https://github.com/sekt1953/Fritzing/blob/main/My_PCB/Modeltog/I2C_%20IO_Interface/I2C_IO-Interface.md)
+* ESPHome yaml:
+  * ju-bd-00.yaml
+    * esphome_name: "ju-bd-00"
+    * esphome_friendly_name: "Hjulby-Block-Detection-00"
+  * include files:
+    * ./I2C_IO_PCF8574/.pcf8574_ids.yaml
+    * ./I2C_IO_PCF8574/.pcf8574_input.yaml
 
 ### BD20 -> I2C IO_Interface PCB
 
