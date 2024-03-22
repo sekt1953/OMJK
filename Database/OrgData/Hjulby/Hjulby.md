@@ -10,6 +10,9 @@
     * [Sporplan_01](./Kilde/Skærmbillede%20fra%202024-03-03%2012-00-01.png)
     * [Sporplan_02](./Kilde/Skærmbillede%20fra%202024-03-03%2012-01-28.png)
     * [Sporplan_03](./Kilde/Skærmbillede%20fra%202024-03-03%2012-02-16.png)
-  * [Hjulby Block Detection](./Hjulby_Block_Detection.md)
-  * [Hjulby Pult Signal](./Hjulby_Pult_Led.md)
-  * [Hjulby Pult Tryk Sporskifter](Hjulby_Tryk_Sporskifter.md)
+  * Anlæg
+    * [Hjulby Block Detection](./Hjulby_Block_Detection.md)
+    * [Hjulby Signal]()
+  * Pult
+    * [Hjulby Pult Tryk Sporskifter](Hjulby_Tryk_Sporskifter.md)
+    * [Hjulby Pult Signal](./Hjulby_Pult_Led.md)

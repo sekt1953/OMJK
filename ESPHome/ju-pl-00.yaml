@@ -1,5 +1,5 @@
 substitutions:
-  esphome_name: "ju-pl-00"
+  esphome_name: "ju-sl-00"
   esphome_friendly_name: "Hjulby-Pult-Led-00"
 
 # PCA9685 Kilde: https://esphome.io/components/output/pca9685

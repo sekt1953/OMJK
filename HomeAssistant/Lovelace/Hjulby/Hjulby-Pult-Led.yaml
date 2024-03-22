@@ -3,11 +3,11 @@ entities:
   - entity: update.hjulby_pult_led_00_firmware
     name: Firmware
   - entity: button.ju_pl_00_restart_ju_pl_00
-    name: Restart ju-pl-00
+    name: Restart ju-sl-00
   - entity: sensor.ju_pl_00_ip_address_ju_pl_00
-    name: IP Address ju-pl-00
+    name: IP Address ju-sl-00
   - entity: sensor.ju_pl_00_connected_ssid_ju_pl_00
-    name: Connected SSID ju-pl-00
+    name: Connected SSID ju-sl-00
   - entity: sensor.ju_pl_00_mac_wifi_address_ju_pl_00
-    name: Mac Wifi Address ju-pl-00
+    name: Mac Wifi Address ju-sl-00
 title: Hjulby-Pult-Led
