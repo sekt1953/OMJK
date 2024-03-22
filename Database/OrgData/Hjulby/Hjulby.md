@@ -11,5 +11,5 @@
     * [Sporplan_02](./Kilde/Skærmbillede%20fra%202024-03-03%2012-01-28.png)
     * [Sporplan_03](./Kilde/Skærmbillede%20fra%202024-03-03%2012-02-16.png)
   * [Hjulby Block Detection](./Hjulby_Block_Detection.md)
-  * [Hjulby Signal](./Hjulby_Signal_Led.md)
+  * [Hjulby Pult Signal](./Hjulby_Pult_Led.md)
   * [Hjulby Pult Tryk Sporskifter](Hjulby_Tryk_Sporskifter.md)

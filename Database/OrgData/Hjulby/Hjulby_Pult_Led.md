@@ -7,7 +7,7 @@
   * [Hjulby_Klemrække_C.pdf](./Kilde/Hjulby_Klemrække_C.pdf)
   * [Hjulby_Klemrække_D.pdf](./Kilde/Hjulby_Klemrække_D.pdf)
 
-## Signal Led -> PCA9685
+## Signal Led -> PCA9685 (46 signal led)
 
 |Klemrække|Pin|Signal Led|/|MCU Terminal Addr.|Entites Name|
 |:---:|:---:|:---|:---:|:---:|:---|
@@ -125,7 +125,7 @@
 |D|8||/|||
 |D|9||/|||
 
-## Sporbesættelse Led -> PCA9685
+## Sporbesættelse- & Sporskifte-Led -> PCA9685 (25 + 18 led)
 
 |Klemrække|Pin|Signal Led|/|MCU Terminal Addr.|Entites Name|
 |:---:|:---|:---|:---:|:---:|:---|
