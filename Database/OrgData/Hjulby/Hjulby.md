@@ -12,7 +12,7 @@
     * [Sporplan_03](./Kilde/Skærmbillede%20fra%202024-03-03%2012-02-16.png)
   * Anlæg
     * [Hjulby Block Detection](./Hjulby_Block_Detection.md)
-    * [Hjulby Signal]()
+    * [Hjulby Signal](./Hjulby_Signal_led.md)
   * Pult
     * [Hjulby Pult Tryk Sporskifter](Hjulby_Tryk_Sporskifter.md)
     * [Hjulby Pult Signal](./Hjulby_Pult_Led.md)
