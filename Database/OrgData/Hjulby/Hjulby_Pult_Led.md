@@ -1,6 +1,6 @@
 # Hjulby Pult Led
 
-## Kilde:
+## Kilde
 
 * Hjulby_Klemrække Led:
   * [Hjulby_Klemrække_B.pdf](./Kilde/Hjulby_Klemrække_B.pdf)
@@ -19,7 +19,7 @@
   * Hjulby_Klemrække_E:
     * Togvejslamper: 32+10
 
-## Pult Signal Led -> PCA9685
+## SignalLed
 
 |Klemrække|Pin|Signal Led|/|MCU Terminal Addr.|Entites Name|
 |:---:|:---:|:---|:---:|:---:|:---|
@@ -137,7 +137,7 @@
 |D|8||/|||
 |D|9||/|||
 
-## Sporbesættelse- & Sporskifte-Led -> PCA9685
+## SporbesættelseLed
 
 |Klemrække|Pin|Signal Led|/|MCU Terminal Addr.|Entites Name|
 |:---:|:---|:---|:---:|:---:|:---|
@@ -169,6 +169,11 @@
 |D|35|C61-Rød|/|||
 |D|36||/|||
 |D|37||/|||
+
+## SporskifteLed
+
+|Klemrække|Pin|Signal Led|/|MCU Terminal Addr.|Entites Name|
+|:---:|:---|:---|:---:|:---:|:---|
 |D|38|101a|/|||
 |D|39|101a|/|||
 |D|40|101b|/|||
@@ -189,7 +194,7 @@
 |D|55|105b|/|||
 |D|56||/|||
 
-## Togvejs Led
+## TogvejsLed
 
 |Klemrække|Pin|Signal Led|/|MCU Terminal Addr.|Entites Name|
 |:---:|:---|:---|:---:|:---:|:---|
