@@ -6,8 +6,11 @@
   * [Hjulby_Klemrække_B.pdf](./Kilde/Hjulby_Klemrække_B.pdf)
   * [Hjulby_Klemrække_C.pdf](./Kilde/Hjulby_Klemrække_C.pdf)
   * [Hjulby_Klemrække_D.pdf](./Kilde/Hjulby_Klemrække_D.pdf)
+* Hjulby_Klemrække Led antal total: 96
+  * Hjulby_Klemrække_X:
+    * Signal Led: 45
 
-## Signal Led -> PCA9685 (45 signal led)
+## SignalLed
 
 |Klemrække|Pin|Signal Led|/|MCU Terminal Addr.|Entites Name|
 |:---:|:---:|:---|:---:|:---:|:---|
