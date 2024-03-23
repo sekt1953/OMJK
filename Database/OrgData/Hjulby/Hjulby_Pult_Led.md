@@ -11,13 +11,13 @@
   * Hjulby_Klemrække_B:
     * Signal Led: 20
   * Hjulby_Klemrække_C:
-    * Signal Led: 25
+    * [Signal Led: 25](./Hjulby_Pult_Led.md#signalled)
   * Hjulby_Klemrække_D:
     * Lampe: 1
-    * Sporbesættelse: 25+10
-    * Sporskifter: 18
+    * [Sporbesættelse: 25+10](Hjulby_Pult_Led.md#sporbesættelseled/)
+    * [Sporskifter: 18](./Hjulby_Pult_Led.md#sporskifteled)
   * Hjulby_Klemrække_E:
-    * Togvejslamper: 32+10
+    * [Togvejslamper: 32+10](./Hjulby_Pult_Led.md#togvejsled)
 
 ## SignalLed
 
