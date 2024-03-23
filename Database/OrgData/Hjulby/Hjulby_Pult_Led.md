@@ -9,7 +9,7 @@
   * [Hjulby_Klemrække_E.pdf](./Kilde/Hjulby_Klemrække_E.pdf)
 * Hjulby_Klemrække Led antal total: 96
   * Hjulby_Klemrække_B:
-    * Signal Led: 20
+    * [Signal Led: 20](./Hjulby_Pult_Led.md#signalled)
   * Hjulby_Klemrække_C:
     * [Signal Led: 25](./Hjulby_Pult_Led.md#signalled)
   * Hjulby_Klemrække_D:

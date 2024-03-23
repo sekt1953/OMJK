@@ -15,8 +15,4 @@
     * [Hjulby Signal Led](./Hjulby_Signal_led.md)
   * Pult
     * [Hjulby Pult Tryk Sporskifter](Hjulby_Tryk_Sporskifter.md)
-    * Hjulby Pult Led
-      * [Pult Signal Led](./Hjulby_Pult_Led.md#signalled)
-      * [Sporbesættelse Led](./Hjulby_Pult_Led.md#sporbesættelseled)
-      * [Sporskifte Led](./Hjulby_Pult_Led.md#sporskifteled)
-      * [Togvejs Led](./Hjulby_Pult_Led.md#togvejsled/)
+    * [Hjulby Pult Led](./Hjulby_Pult_Led.md)
