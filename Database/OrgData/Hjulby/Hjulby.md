@@ -19,4 +19,4 @@
       * [Pult Signal Led](./Hjulby_Pult_Led.md#signalled)
       * [Sporbesættelse Led](./Hjulby_Pult_Led.md#sporbesættelseled)
       * [Sporskifte Led](./Hjulby_Pult_Led.md#sporskifteled)
-      * [Togvejs Led](./Hjulby_Pult_Led.md#togvejsled)
+      * [Togvejs Led](./Hjulby_Pult_Led.md#togvejsled/)
