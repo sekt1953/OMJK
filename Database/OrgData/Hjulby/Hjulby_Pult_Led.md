@@ -189,7 +189,7 @@
 |D|55||/|||
 |D|56||/|||
 
-## Togvejs Led -> PCA9685 (25 + 18 led)
+## Togvejs Led
 
 |Klemrække|Pin|Signal Led|/|MCU Terminal Addr.|Entites Name|
 |:---:|:---|:---|:---:|:---:|:---|
