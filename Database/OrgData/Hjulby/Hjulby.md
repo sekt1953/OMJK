@@ -17,5 +17,5 @@
     * [Hjulby Pult Tryk Sporskifter](Hjulby_Tryk_Sporskifter.md)
     * [Hjulby Pult Led](./Hjulby_Pult_Led.md)
       * [Pult Signal Led](./Hjulby_Pult_Led.md#pult-signal-led---pca9685-46-signal-led)
-      * [sporbesættelse- & sporskifte-led ](./Hjulby_Pult_Led.md#sporbesættelse---sporskifte-led---pca9685-25--18-led)
+      * [sporbesættelse- & sporskifte-led](./Hjulby_Pult_Led.md#sporbesættelse---sporskifte-led---pca9685-25--18-led)
       * [Togvejs Led](./Hjulby_Pult_Led.md#togvejs-led)
