@@ -2,12 +2,24 @@
 
 ## Kilde:
 
-* Hjulby_Klemrække Signal
+* Hjulby_Klemrække Led:
   * [Hjulby_Klemrække_B.pdf](./Kilde/Hjulby_Klemrække_B.pdf)
   * [Hjulby_Klemrække_C.pdf](./Kilde/Hjulby_Klemrække_C.pdf)
   * [Hjulby_Klemrække_D.pdf](./Kilde/Hjulby_Klemrække_D.pdf)
+  * [Hjulby_Klemrække_E.pdf](./Kilde/Hjulby_Klemrække_E.pdf)
+* Hjulby_Klemrække Led antal total: 96
+  * Hjulby_Klemrække_B:
+    * Signal Led: 20
+  * Hjulby_Klemrække_C:
+    * Signal Led: 25
+  * Hjulby_Klemrække_D:
+    * Lampe: 1
+    * Sporbesættelse: 25
+    * Sporskifter: 18
+  * Hjulby_Klemrække_E:
+    * Togvejslamper: 32
 
-## Pult Signal Led -> PCA9685 (46 signal led)
+## Pult Signal Led -> PCA9685
 
 |Klemrække|Pin|Signal Led|/|MCU Terminal Addr.|Entites Name|
 |:---:|:---:|:---|:---:|:---:|:---|
