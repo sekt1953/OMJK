@@ -2,10 +2,10 @@
 
 ## Kilde
 
-* Hjulby_Klemrække Signal
-  * [Hjulby_Klemrække_B.pdf](./Kilde/Hjulby_Klemrække_B.pdf)
-  * [Hjulby_Klemrække_C.pdf](./Kilde/Hjulby_Klemrække_C.pdf)
-  * [Hjulby_Klemrække_D.pdf](./Kilde/Hjulby_Klemrække_D.pdf)
+* Hjulby Pult Klemrække Signal
+  * [Hjulby_Pult_Klemrække_B.pdf](./Kilde/Hjulby_Pult_Klemrække_B.pdf)
+  * [Hjulby_Pult_Klemrække_C.pdf](./Kilde/Hjulby_Pult_Klemrække_C.pdf)
+  * [Hjulby_Pult_Klemrække_D.pdf](./Kilde/Hjulby_Pult_Klemrække_D.pdf)
 * Hjulby_Klemrække Led antal total: 3 x 28
   * Hjulby_Klemrække_X:
     * Signal Led: 62
