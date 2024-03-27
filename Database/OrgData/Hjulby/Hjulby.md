@@ -1,5 +1,7 @@
 # [Hjulby Station (Ju) ](https://danskejernbaner.dk/vis.station.php?FORLOEB_ID=260&content=Hjulby-Station-(Ju))
 
+![Hjulby-Sporplan](./Images/Hjulby-Sporplan.png)
+
 * Hjulby
   * Kilde:
     * [Hjulby_Pult_Klemrække_A.pdf](./Kilde/Hjulby_Pult_Klemrække_A.pdf)
