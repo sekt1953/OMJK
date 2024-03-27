@@ -3,7 +3,6 @@
 ## Connections
 
 * BD20
-  * ![BD20](./Images/20240320_145546.jpg)
   * [BD20 manual](./)
 * I2C_IO_Interface_pcb
   * ![I2C_IO_Interface_pcb.png](./Images/I2C_IO_Interface_pcb.png)
@@ -15,6 +14,8 @@
   * include files:
     * ./I2C_IO_PCF8574/.pcf8574_ids.yaml
     * ./I2C_IO_PCF8574/.pcf8574_input.yaml
+* Images
+  * ![20240327_183854.jpg](./Images/20240327_183854.jpg)
 
 ### BD20 -> I2C IO_Interface PCB
 
