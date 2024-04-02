@@ -33,6 +33,15 @@
 We can have a public network where all members can use their laptop or phones to access the internet, use our printers  
 and we can have a network where everyone has access to Internettet.
 
+<hr><hr>
+
+## Byer på anlæget med Home Assistant
+
+* [Byer på anlæget](./Byer_på_anlæget/)
+  * [Hjulby](./Byer_på_anlæget/Hjulby/Hjulby.md)
+
+<hr><hr>
+
 ## [Home Assistant](./HomeAssistant/README.md)
 
 * [Setup](./HomeAssistant/README.md#setup)
