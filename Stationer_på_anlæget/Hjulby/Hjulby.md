@@ -1,6 +1,6 @@
 # [Hjulby Station (Ju) ](https://danskejernbaner.dk/vis.station.php?FORLOEB_ID=260&content=Hjulby-Station-(Ju))
 
-|||
+|Grafic|Cap|
 |:---:|:---:|
 |![Hjulby-Sporplan](./Images/Hjulby-Sporplan.png)|![](../../GraphicStationsLayout/Cap-Photo/003-Hjulby.jpg)|
 
