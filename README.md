@@ -35,10 +35,10 @@ and we can have a network where everyone has access to Internettet.
 
 <hr><hr>
 
-## Byer på anlæget med Home Assistant
+## Stationer på anlæget med Home Assistant
 
-* [Byer på anlæget](./Byer_på_anlæget/)
-  * [Hjulby](./Byer_på_anlæget/Hjulby/Hjulby.md)
+* [Stationer på anlæget](./Stationer_på_anlæget/)
+  * [Hjulby](./Stationer_på_anlæget/Hjulby/Hjulby.md)
 
 <hr><hr>
 
