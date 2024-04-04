@@ -47,3 +47,10 @@
   * Pult
     * [Hjulby Pult Tryk Sporskifter](Hjulby_Tryk_Sporskifter.md)
     * [Hjulby Pult Led](./Hjulby_Pult_Led.md)
+  * ESPHome
+    * I2C_IO_PCF8574
+      * .pcf8574_ids_ju_pult.yaml
+      * .pcf8574_input_ju_pult.yaml
+      * .pcf8574_ids_ju_bd.yaml
+      * .pcf8574_input_ju_bd.yaml
+    * I2C_O_PCA9685
