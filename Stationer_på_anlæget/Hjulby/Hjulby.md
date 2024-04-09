@@ -1,4 +1,4 @@
-# [Hjulby Station (Ju) ](https://danskejernbaner.dk/vis.station.php?FORLOEB_ID=260&content=Hjulby-Station-(Ju))
+# [Hjulby Station (Ju)](https://danskejernbaner.dk/vis.station.php?FORLOEB_ID=260&content=Hjulby-Station-(Ju))
 
 |Grafic|Cap|
 |:---:|:---:|
