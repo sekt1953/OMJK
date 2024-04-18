@@ -13,7 +13,7 @@
 * [Cloudflare Tunnels](https://www.cloudflare.com/)
   * [How to access Home Assistant remotely](https://youtu.be/DtIGEdwFtAk "Think Smart Home")
   * [Cloudflare Tunnels Setup on Synology NAS](https://youtu.be/QfffjK1e9ps "Think Smart Home")
-
+* [Remotely access Home Assistant via Tailscale for free](https://youtu.be/vDxmtRByXDY)
 ## Setup
 
 ### Hardware
