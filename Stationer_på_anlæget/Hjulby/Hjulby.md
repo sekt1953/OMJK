@@ -39,19 +39,10 @@
       * [Sporplan_02](./Kilde/Skærmbillede%20fra%202024-03-03%2012-01-28.png)
       * [Sporplan_03](./Kilde/Skærmbillede%20fra%202024-03-03%2012-02-16.png)
   * Anlæg
-    * Block Detection
-      * [Hjulby Block Detection](./Hjulby_Block_Detection.md)
-    * Signaler
-      * [Hjulby Signaler](./Hjulby_Signal_led.md)
+    * [Hjulby Block Detection](./Hjulby_Block_Detection.md)
+    * [Hjulby Signaler](./Hjulby_Signal_led.md)
     * Sporskifter
   * Pult
     * [Hjulby Pult Tryk Sporskifter](Hjulby_Tryk_Sporskifter.md)
     * [Hjulby Pult Led](./Hjulby_Pult_Led.md)
-  * ESPHome
-    * I2C_IO_PCF8574
-      * .pcf8574_ids_ju_pult.yaml
-      * .pcf8574_input_ju_pult.yaml
-      * .pcf8574_ids_ju_bd.yaml
-      * .pcf8574_input_ju_bd.yaml
-    * I2C_O_PCA9685
-      * abc
+  
