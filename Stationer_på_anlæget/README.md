@@ -12,4 +12,4 @@
   * Svendborg (Svg)
   * Holmstrup (Hp)
   * Middelfart (Md)
-  * Frederica (Fa)
+  * [Frederica (Fa)](./Fredericia/Fredericia.md)
