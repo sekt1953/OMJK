@@ -51,11 +51,14 @@ api_key_omjk: "LTMfTQ2GwmBURmIWOL3Czw=="
 
 * OccupiedSensor Files:
   * ESPHome Files:
-    * [occupied-xx.yaml](./occupied-xx.yaml)
-    * [Occupied-Hp.yaml "Holmstrup"](./Occupied-Hp.yaml)
+    * [I2C_IO_PCF8574.yaml](./I2C_IO_PCF8574/I2C_IO_PCF8574.yaml)
+    * [.pcf8574_ids.yaml](./I2C_IO_PCF8574/.pcf8574_ids.yaml)
+    * [.pcf8574_input.yaml](./I2C_IO_PCF8574/.pcf8574_input.yaml)
   * Fritzing Files:
-    * [occupied_sensor](https://github.com/sekt1953/Fritzing/blob/main/My_PCB/README.md#occupied_sensor-work-in-progress)
-    * ![BD20.png](./Images/BD20.png)
+    * NCE_BD20
+      * ![BD20.png](./Images/BD20.png)
+    * BD20, ULN2803A & I2C_IO_PCF8574
+      * ![BD20 & I2C_IO_PCF8574](./BD20/NCE_BD20.png)
 
 ##### Block Detecsion with 12xDiode Interface
 

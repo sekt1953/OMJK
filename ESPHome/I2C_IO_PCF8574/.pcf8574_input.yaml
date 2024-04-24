@@ -10,6 +10,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_01"
     pin:
@@ -20,6 +21,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_02"
     pin:
@@ -30,6 +32,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_03"
     pin:
@@ -40,6 +43,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_04"
     pin:
@@ -50,6 +54,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_05"
     pin:
@@ -60,6 +65,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_06"
     pin:
@@ -70,6 +76,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_07"
     pin:
@@ -78,6 +85,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
 # Individual input hub1
 #binary_sensor:
   - platform: gpio
@@ -90,6 +100,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_11"
     pin:
@@ -100,6 +111,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_12"
     pin:
@@ -110,6 +122,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_13"
     pin:
@@ -120,6 +133,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_14"
     pin:
@@ -130,6 +144,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_15"
     pin:
@@ -140,6 +155,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_16"
     pin:
@@ -150,6 +166,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_17"
     pin:
@@ -158,6 +175,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
 # Individual input hub2
 #binary_sensor:
   - platform: gpio
@@ -170,6 +190,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_21"
     pin:
@@ -180,6 +201,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_22"
     pin:
@@ -190,6 +212,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_23"
     pin:
@@ -200,6 +223,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_24"
     pin:
@@ -210,6 +234,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_25"
     pin:
@@ -220,6 +245,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_26"
     pin:
@@ -230,6 +256,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_27"
     pin:
@@ -238,6 +265,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
 # Individual input hub3
 # binary_sensor:
   - platform: gpio
@@ -250,6 +280,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_31"
     pin:
@@ -260,6 +291,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_32"
     pin:
@@ -270,6 +302,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_33"
     pin:
@@ -280,6 +313,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_34"
     pin:
@@ -290,6 +324,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_35"
     pin:
@@ -300,6 +335,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_36"
     pin:
@@ -310,6 +346,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_37"
     pin:
@@ -318,6 +355,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
 # Individual input hub4
 # binary_sensor:
   - platform: gpio
@@ -330,6 +370,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_41"
     pin:
@@ -340,6 +381,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_42"
     pin:
@@ -350,6 +392,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_43"
     pin:
@@ -360,6 +403,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_44"
     pin:
@@ -370,6 +414,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_45"
     pin:
@@ -380,6 +425,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_46"
     pin:
@@ -390,6 +436,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_47"
     pin:
@@ -398,6 +445,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
 # Individual input hub5
 # binary_sensor:
   - platform: gpio
@@ -410,6 +460,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_51"
     pin:
@@ -420,6 +471,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_52"
     pin:
@@ -430,6 +482,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_53"
     pin:
@@ -440,6 +493,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_54"
     pin:
@@ -450,6 +504,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_55"
     pin:
@@ -460,6 +515,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_56"
     pin:
@@ -470,6 +526,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_57"
     pin:
@@ -478,6 +535,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
 # Individual input hub6
 # binary_sensor:
   - platform: gpio
@@ -490,6 +550,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_61"
     pin:
@@ -500,6 +561,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_62"
     pin:
@@ -510,6 +572,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_63"
     pin:
@@ -520,6 +583,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_64"
     pin:
@@ -530,6 +594,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_65"
     pin:
@@ -540,6 +605,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_66"
     pin:
@@ -550,6 +616,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_67"
     pin:
@@ -558,6 +625,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
 # Individual input hub7
 # binary_sensor:
   - platform: gpio
@@ -570,6 +640,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_71"
     pin:
@@ -580,6 +651,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_72"
     pin:
@@ -590,6 +662,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_73"
     pin:
@@ -600,6 +673,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_74"
     pin:
@@ -610,6 +684,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_75"
     pin:
@@ -620,6 +695,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_76"
     pin:
@@ -630,6 +706,7 @@ binary_sensor:
       inverted: true
     filters:
       - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
   - platform: gpio
     name: "_77"
     pin:
@@ -638,3 +715,6 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}

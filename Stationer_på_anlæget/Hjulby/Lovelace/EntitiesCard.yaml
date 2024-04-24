@@ -1,0 +1,73 @@
+type: entities
+entities:
+  - entity: binary_sensor.ju_bd_00_00
+    name: T12
+  - entity: binary_sensor.ju_bd_00_01
+    name: T10
+  - entity: binary_sensor.ju_bd_00_02
+    name: T08
+  - entity: binary_sensor.ju_bd_00_03
+    name: T05
+  - entity: binary_sensor.ju_bd_00_04
+    name: T03
+  - entity: binary_sensor.ju_bd_00_05
+    name: T01
+  - entity: binary_sensor.ju_bd_00_06
+    name: K12
+  - entity: binary_sensor.ju_bd_00_07
+    name: B61
+  - entity: binary_sensor.ju_bd_00_10
+    name: M12
+  - entity: binary_sensor.ju_bd_00_11
+    name: A61
+  - entity: binary_sensor.ju_bd_00_12
+    name: C61
+  - entity: binary_sensor.ju_bd_00_13
+    name: D61
+  - entity: binary_sensor.ju_bd_00_14
+    name: T21
+  - entity: binary_sensor.ju_bd_00_15
+    name: T18
+  - entity: binary_sensor.ju_bd_00_16
+    name: T16
+  - entity: binary_sensor.ju_bd_00_17
+    name: T14
+title: Hjulby-Block-Detection 00-17
+state_color: true
+
+type: entities
+entities:
+  - entity: binary_sensor.ju_bd_00_20
+    name: T17
+  - entity: binary_sensor.ju_bd_00_21
+    name: T15
+  - entity: binary_sensor.ju_bd_00_22
+    name: T13
+  - entity: binary_sensor.ju_bd_00_23
+    name: T11
+  - entity: binary_sensor.ju_bd_00_24
+    name: T09
+  - entity: binary_sensor.ju_bd_00_25
+    name: T06
+  - entity: binary_sensor.ju_bd_00_26
+    name: T04
+  - entity: binary_sensor.ju_bd_00_27
+    name: T02
+  - entity: binary_sensor.ju_bd_00_30
+    name: _30
+  - entity: binary_sensor.ju_bd_00_31
+    name: _31
+  - entity: binary_sensor.ju_bd_00_32
+    name: _32
+  - entity: binary_sensor.ju_bd_00_33
+    name: _33
+  - entity: binary_sensor.ju_bd_00_34
+    name: _34
+  - entity: binary_sensor.ju_bd_00_35
+    name: C12
+  - entity: binary_sensor.ju_bd_00_36
+    name: A12
+  - entity: binary_sensor.ju_bd_00_37
+    name: T19
+title: Hjulby-Block-Detection 20-37
+state_color: true
