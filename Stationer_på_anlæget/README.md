@@ -2,15 +2,14 @@
 
 * Stationer
   * Nyborg-FGH
-  * Nyborg-H
-  * [Hjulby](./Hjulby/Hjulby.md)
-  * Tommerup
-  * Odense
+  * Nyborg-H (Ng)
+  * [Hjulby (Ju)](./Hjulby/Hjulby.md)
+  * Tommerup (Tp)
+  * Odense (Od)
     * Øst
     * Vest
-  * Fruens Bøge
-  * Svendborg
-  * Holmstrup
-  * Midelfart
-  * Frederica
-
+  * Fruens Bøge (Frs)
+  * Svendborg (Svg)
+  * Holmstrup (Hp)
+  * Middelfart (Md)
+  * Frederica (Fa)
