@@ -47,16 +47,18 @@ api_key_omjk: "LTMfTQ2GwmBURmIWOL3Czw=="
   * Fritzing PCB file: [I2C_IO_Interface.fzz](https://github.com/sekt1953/Fritzing/blob/main/My_PCB/Modeltog/Block_Detecsion/I2C_%20IO_Interface.fzz)
   * FreeCAD files: [PCA9685.FCStd](https://github.com/sekt1953/FreeCAD/blob/main/PCA9685/PCA9685.FCStd), [PCA9685_SolderMount.FCStd](https://github.com/sekt1953/FreeCAD/blob/main/PCA9685/PCA9685_SolderMount.FCStd)
 
-##### Block Detecsion with 8xBD20 interface
+##### Block Detecsion with 8xBD20, ULN2803 & I2C_IO_Interface
 
-* OccupiedSensor Files:
+* Block Detecsion Files:
   * ESPHome Files:
     * [I2C_IO_PCF8574.yaml](./I2C_IO_PCF8574/I2C_IO_PCF8574.yaml)
     * [.pcf8574_ids.yaml](./I2C_IO_PCF8574/.pcf8574_ids.yaml)
     * [.pcf8574_input.yaml](./I2C_IO_PCF8574/.pcf8574_input.yaml)
   * Fritzing Files:
-    * NCE_BD20
+    * NCE 5240205 Block Detector BD20:
       * ![BD20.png](./Images/BD20.png)
+      * [Tony's Train Change](https://tonystrains.com/product/nce-5240205-block-detector-bd20)
+      * [NCE-BD20-Manual](https://www.dccconcepts.com/manual/nce-owners-manual-bd20-block-detector/nce-bd20-manual-2/)
     * BD20, ULN2803A & I2C_IO_PCF8574
       * ![BD20 & I2C_IO_PCF8574](./BD20/NCE_BD20.png)
 
