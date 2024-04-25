@@ -37,8 +37,20 @@ and we can have a network where everyone has access to Internettet.
 
 ## Stationer på anlæget med Home Assistant
 
-* [Stationer på anlæget](./Stationer_på_anlæget/)
-  * [Hjulby](./Stationer_på_anlæget/Hjulby/Hjulby.md)
+* Stationer
+  * Nyborg-FGH
+  * Nyborg-H (Ng)
+  * [Hjulby (Ju)](./Stationer_på_anlæget/Hjulby/Hjulby.md)
+  * Tommerup (Tp)
+  * Odense (Od)
+    * Øst
+    * Vest
+  * Fruens Bøge (Frs)
+  * Svendborg (Svg)
+  * Holmstrup (Hp)
+  * Middelfart (Md)
+  * [Frederica (Fa)](./Stationer_på_anlæget/Fredericia/Fredericia.md)
+
 
 <hr><hr>
 

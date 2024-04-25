@@ -31,7 +31,6 @@ substitutions:
   track_delayed_off: 1000ms
   track_delayed_on: 100ms
 
-
 # I2C Port settings  
 # https://esphome.io/components/i2c#i2c-bus
   i2c_sda: "21"
@@ -39,7 +38,6 @@ substitutions:
   i2c_scan: "true"
   i2c_id: "bus_a"
   i2c_frequency: "100kHz"
-
   
 esphome:
   name: ${esphome_name}
