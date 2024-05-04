@@ -1,0 +1,891 @@
+# Individual outputs
+# Output Component Kilde: https://esphome.io/components/output/
+#   Configuration variables:
+#     id (Required, ID): The id to use for this output component.
+#     power_supply (Optional, ID): The power supply to connect to this output. When the output is enabled, the power supply will automatically be switched on too.
+#     inverted (Optional, boolean): If the output should be treated as inverted. Defaults to false.
+#   Float outputs only:
+#     min_power (Optional, float): Sets the minimum output value of this output platform. Must be in range from 0 to max_power. Defaults to 0. If zero_means_zero is false this will be output value when the entity is turned off.
+#     max_power (Optional, float): Sets the maximum output value of this output platform. Must be in range from min_power to 1. Defaults to 1.
+#     zero_means_zero (Optional, boolean): Sets the output to use actual 0 instead of min_power. Defaults to false.
+output:
+# Hub0
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 0
+    id: pwm00
+    inverted: false
+    min_power: 0.00
+    max_power: 1.00
+    zero_means_zero: false
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 1
+    id: pwm01
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 2
+    id: pwm02
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 3
+    id: pwm03
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 4
+    id: pwm04
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 5
+    id: pwm05
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 6
+    id: pwm06
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 7
+    id: pwm07
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 8
+    inverted: true
+    id: pwm08
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 9
+    inverted: true
+    id: pwm09
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 10
+    inverted: true
+    id: pwm0a
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 11
+    inverted: true
+    id: pwm0b
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 12
+    inverted: true
+    id: pwm0c
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 13
+    inverted: true
+    id: pwm0d
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 14
+    inverted: true
+    id: pwm0e
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 15
+    inverted: true
+    id: pwm0f
+# Hub1
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_1}
+    channel: 0
+    id: pwm10
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_1}
+    channel: 1
+    id: pwm11
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_1}
+    channel: 2
+    id: pwm12
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_1}
+    channel: 3
+    id: pwm13
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_1}
+    channel: 4
+    id: pwm14
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_1}
+    channel: 5
+    id: pwm15
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_1}
+    channel: 6
+    id: pwm16
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_1}
+    channel: 7
+    id: pwm17
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_1}
+    channel: 8
+    inverted: true
+    id: pwm18
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_1}
+    channel: 9
+    inverted: true
+    id: pwm19
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_1}
+    channel: 10
+    inverted: true
+    id: pwm1a
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_1}
+    channel: 11
+    inverted: true
+    id: pwm1b
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_1}
+    channel: 12
+    inverted: true
+    id: pwm1c
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_1}
+    channel: 13
+    inverted: true
+    id: pwm1d
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_1}
+    channel: 14
+    inverted: true
+    id: pwm1e
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_1}
+    channel: 15
+    inverted: true
+    id: pwm1f
+# Hub2
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_2}
+    channel: 0
+    id: pwm20
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_2}
+    channel: 1
+    id: pwm21
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_2}
+    channel: 2
+    id: pwm22
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_2}
+    channel: 3
+    id: pwm23
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_2}
+    channel: 4
+    id: pwm24
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_2}
+    channel: 5
+    id: pwm25
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_2}
+    channel: 6
+    id: pwm26
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_2}
+    channel: 7
+    id: pwm27
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_2}
+    channel: 8
+    inverted: true
+    id: pwm28
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_2}
+    channel: 9
+    inverted: true
+    id: pwm29
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_2}
+    channel: 10
+    inverted: true
+    id: pwm2a
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_2}
+    channel: 11
+    inverted: true
+    id: pwm2b
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_2}
+    channel: 12
+    inverted: true
+    id: pwm2c
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_2}
+    channel: 13
+    inverted: true
+    id: pwm2d
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_2}
+    channel: 14
+    inverted: true
+    id: pwm2e
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_2}
+    channel: 15
+    inverted: true
+    id: pwm2f
+# Hub3
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_3}
+    channel: 0
+    id: pwm30
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_3}
+    channel: 1
+    id: pwm31
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_3}
+    channel: 2
+    id: pwm32
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_3}
+    channel: 3
+    id: pwm33
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_3}
+    channel: 4
+    id: pwm34
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_3}
+    channel: 5
+    id: pwm35
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_3}
+    channel: 6
+    id: pwm36
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_3}
+    channel: 7
+    id: pwm37
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_3}
+    channel: 8
+    inverted: true
+    id: pwm38
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_3}
+    channel: 9
+    inverted: true
+    id: pwm39
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_3}
+    channel: 10
+    inverted: true
+    id: pwm3a
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_3}
+    channel: 11
+    inverted: true
+    id: pwm3b
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_3}
+    channel: 12
+    inverted: true
+    id: pwm3c
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_3}
+    channel: 13
+    inverted: true
+    id: pwm3d
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_3}
+    channel: 14
+    inverted: true
+    id: pwm3e
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_3}
+    channel: 15
+    inverted: true
+    id: pwm3f
+# Hub4
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_4}
+    channel: 0
+    id: pwm40
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_4}
+    channel: 1
+    id: pwm41
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_4}
+    channel: 2
+    id: pwm42
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_4}
+    channel: 3
+    id: pwm43
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_4}
+    channel: 4
+    id: pwm44
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_4}
+    channel: 5
+    id: pwm45
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_4}
+    channel: 6
+    id: pwm46
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_4}
+    channel: 7
+    id: pwm47
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_4}
+    channel: 8
+    inverted: true
+    id: pwm48
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_4}
+    channel: 9
+    inverted: true
+    id: pwm49
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_4}
+    channel: 10
+    inverted: true
+    id: pwm4a
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_4}
+    channel: 11
+    inverted: true
+    id: pwm4b
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_4}
+    channel: 12
+    inverted: true
+    id: pwm4c
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_4}
+    channel: 13
+    inverted: true
+    id: pwm4d
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_4}
+    channel: 14
+    inverted: true
+    id: pwm4e
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_4}
+    channel: 15
+    inverted: true
+    id: pwm4f
+# Hub5
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_5}
+    channel: 0
+    id: pwm50
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_5}
+    channel: 1
+    id: pwm51
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_5}
+    channel: 2
+    id: pwm52
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_5}
+    channel: 3
+    id: pwm53
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_5}
+    channel: 4
+    id: pwm54
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_5}
+    channel: 5
+    id: pwm55
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_5}
+    channel: 6
+    id: pwm56
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_5}
+    channel: 7
+    id: pwm57
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_5}
+    channel: 8
+    inverted: true
+    id: pwm58
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_5}
+    channel: 9
+    inverted: true
+    id: pwm59
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_5}
+    channel: 10
+    inverted: true
+    id: pwm5a
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_5}
+    channel: 11
+    inverted: true
+    id: pwm5b
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_5}
+    channel: 12
+    inverted: true
+    id: pwm5c
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_5}
+    channel: 13
+    inverted: true
+    id: pwm5d
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_5}
+    channel: 14
+    inverted: true
+    id: pwm5e
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_5}
+    channel: 15
+    inverted: true
+    id: pwm5f
+# Hub6
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_6}
+    channel: 0
+    id: pwm60
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_6}
+    channel: 1
+    id: pwm61
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_6}
+    channel: 2
+    id: pwm62
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_6}
+    channel: 3
+    id: pwm63
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_6}
+    channel: 4
+    id: pwm64
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_6}
+    channel: 5
+    id: pwm65
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_6}
+    channel: 6
+    id: pwm66
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_6}
+    channel: 7
+    id: pwm67
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_6}
+    channel: 8
+    inverted: true
+    id: pwm68
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_6}
+    channel: 9
+    inverted: true
+    id: pwm69
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_6}
+    channel: 10
+    inverted: true
+    id: pwm6a
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_6}
+    channel: 11
+    inverted: true
+    id: pwm6b
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_6}
+    channel: 12
+    inverted: true
+    id: pwm6c
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_6}
+    channel: 13
+    inverted: true
+    id: pwm6d
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_6}
+    channel: 14
+    inverted: true
+    id: pwm6e
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_6}
+    channel: 15
+    inverted: true
+    id: pwm6f
+# Hub7
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_7}
+    channel: 0
+    id: pwm70
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_7}
+    channel: 1
+    id: pwm71
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_7}
+    channel: 2
+    id: pwm72
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_7}
+    channel: 3
+    id: pwm73
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_7}
+    channel: 4
+    id: pwm74
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_7}
+    channel: 5
+    id: pwm75
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_7}
+    channel: 6
+    id: pwm76
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_7}
+    channel: 7
+    id: pwm77
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_7}
+    channel: 8
+    inverted: true
+    id: pwm78
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_7}
+    channel: 9
+    inverted: true
+    id: pwm79
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_7}
+    channel: 10
+    inverted: true
+    id: pwm7a
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_7}
+    channel: 11
+    inverted: true
+    id: pwm7b
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_7}
+    channel: 12
+    inverted: true
+    id: pwm7c
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_7}
+    channel: 13
+    inverted: true
+    id: pwm7d
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_7}
+    channel: 14
+    inverted: true
+    id: pwm7e
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_7}
+    channel: 15
+    inverted: true
+    id: pwm7f
+# Hub8
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_8}
+    channel: 0
+    id: pwm80
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_8}
+    channel: 1
+    id: pwm81
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_8}
+    channel: 2
+    id: pwm82
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_8}
+    channel: 3
+    id: pwm83
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_8}
+    channel: 4
+    id: pwm84
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_8}
+    channel: 5
+    id: pwm85
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_8}
+    channel: 6
+    id: pwm86
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_8}
+    channel: 7
+    id: pwm87
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_8}
+    channel: 8
+    inverted: true
+    id: pwm88
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_8}
+    channel: 9
+    inverted: true
+    id: pwm89
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_8}
+    channel: 10
+    inverted: true
+    id: pwm8a
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_8}
+    channel: 11
+    inverted: true
+    id: pwm8b
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_8}
+    channel: 12
+    inverted: true
+    id: pwm8c
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_8}
+    channel: 13
+    inverted: true
+    id: pwm8d
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_8}
+    channel: 14
+    inverted: true
+    id: pwm8e
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_8}
+    channel: 15
+    inverted: true
+    id: pwm8f
+# Hub9
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_9}
+    channel: 0
+    id: pwm90
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_9}
+    channel: 1
+    id: pwm91
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_9}
+    channel: 2
+    id: pwm92
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_9}
+    channel: 3
+    id: pwm93
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_9}
+    channel: 4
+    id: pwm94
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_9}
+    channel: 5
+    id: pwm95
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_9}
+    channel: 6
+    id: pwm96
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_9}
+    channel: 7
+    id: pwm97
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_9}
+    channel: 8
+    inverted: true
+    id: pwm98
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_9}
+    channel: 9
+    inverted: true
+    id: pwm99
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_9}
+    channel: 10
+    inverted: true
+    id: pwm9a
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_9}
+    channel: 11
+    inverted: true
+    id: pwm9b
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_9}
+    channel: 12
+    inverted: true
+    id: pwm9c
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_9}
+    channel: 13
+    inverted: true
+    id: pwm9d
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_9}
+    channel: 14
+    inverted: true
+    id: pwm9e
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_9}
+    channel: 15
+    inverted: true
+    id: pwm9f
+# HubA
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_A}
+    channel: 0
+    id: pwmA0
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_A}
+    channel: 1
+    id: pwmA1
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_A}
+    channel: 2
+    id: pwmA2
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_A}
+    channel: 3
+    id: pwmA3
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_A}
+    channel: 4
+    id: pwmA4
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_A}
+    channel: 5
+    id: pwmA5
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_A}
+    channel: 6
+    id: pwmA6
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_A}
+    channel: 7
+    id: pwmA7
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_A}
+    channel: 8
+    inverted: true
+    id: pwmA8
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_A}
+    channel: 9
+    inverted: true
+    id: pwmA9
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_A}
+    channel: 10
+    inverted: true
+    id: pwmAa
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_A}
+    channel: 11
+    inverted: true
+    id: pwmAb
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_A}
+    channel: 12
+    inverted: true
+    id: pwmAc
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_A}
+    channel: 13
+    inverted: true
+    id: pwmAd
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_A}
+    channel: 14
+    inverted: true
+    id: pwmAe
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_A}
+    channel: 15
+    inverted: true
+    id: pwmAf
+# HubB
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_B}
+    channel: 0
+    id: pwmB0
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_B}
+    channel: 1
+    id: pwmB1
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_B}
+    channel: 2
+    id: pwmB2
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_B}
+    channel: 3
+    id: pwmB3
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_B}
+    channel: 4
+    id: pwmB4
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_B}
+    channel: 5
+    id: pwmB5
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_B}
+    channel: 6
+    id: pwmB6
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_B}
+    channel: 7
+    id: pwmB7
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_B}
+    channel: 8
+    inverted: true
+    id: pwmB8
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_B}
+    channel: 9
+    inverted: true
+    id: pwmB9
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_B}
+    channel: 10
+    inverted: true
+    id: pwmBa
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_B}
+    channel: 11
+    inverted: true
+    id: pwmBb
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_B}
+    channel: 12
+    inverted: true
+    id: pwmBc
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_B}
+    channel: 13
+    inverted: true
+    id: pwmBd
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_B}
+    channel: 14
+    inverted: true
+    id: pwmBe
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_B}
+    channel: 15
+    inverted: true
+    id: pwmBf

@@ -1,0 +1,37 @@
+pca9685:
+  - id: ${id_pca9685_0}
+    address: ${addr_pca9685_0}
+    frequency: ${frequency_pca9685_0}
+  - id: ${id_pca9685_1}
+    address: ${addr_pca9685_1}
+    frequency: ${frequency_pca9685_1}
+  - id: ${id_pca9685_2}
+    address: ${addr_pca9685_2}
+    frequency: ${frequency_pca9685_2}
+  - id: ${id_pca9685_3}
+    address: ${addr_pca9685_3}
+    frequency: ${frequency_pca9685_3}
+  - id: ${id_pca9685_4}
+    address: ${addr_pca9685_4}
+    frequency: ${frequency_pca9685_4}
+  - id: ${id_pca9685_5}
+    address: ${addr_pca9685_5}
+    frequency: ${frequency_pca9685_5}
+  - id: ${id_pca9685_6}
+    address: ${addr_pca9685_6}
+    frequency: ${frequency_pca9685_6}
+  - id: ${id_pca9685_7}
+    address: ${addr_pca9685_7}
+    frequency: ${frequency_pca9685_7}
+  - id: ${id_pca9685_8}
+    address: ${addr_pca9685_8}
+    frequency: ${frequency_pca9685_8}
+  - id: ${id_pca9685_9}
+    address: ${addr_pca9685_9}
+    frequency: ${frequency_pca9685_9}
+  - id: ${id_pca9685_A}
+    address: ${addr_pca9685_A}
+    frequency: ${frequency_pca9685_A}
+  - id: ${id_pca9685_B}
+    address: ${addr_pca9685_B}
+    frequency: ${frequency_pca9685_B}
