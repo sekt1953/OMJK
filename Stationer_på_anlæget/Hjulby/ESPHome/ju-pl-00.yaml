@@ -66,6 +66,11 @@ substitutions:
   frequency_pca9685_E: 1000Hz
   frequency_pca9685_F: 1000Hz
 
+# Light Transition length
+  light_default_transition: "1s"
+  light_flash_transition: "0s"
+
+
 # I2C Port settings  
   i2c_sda: "21"
   i2c_scl: "22"
