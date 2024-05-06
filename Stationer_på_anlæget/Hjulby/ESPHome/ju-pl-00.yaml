@@ -70,20 +70,11 @@ substitutions:
   light_default_transition: "1s"
   light_flash_transition: "0s"
 
-
 # I2C Port settings  
   i2c_sda: "21"
   i2c_scl: "22"
   i2c_scan: "true"
   i2c_id: "bus_a"
-
-# Debouncing Values 
-# Some binary sensors are a bit unstable and quickly transition 
-# between the ON and OFF state while they’re pressed. To fix this 
-# and debounce the signal, use the binary sensor filters:
-# https://esphome.io/components/binary_sensor/gpio#debouncing-values
-  track_delayed_off: 1000ms
-  track_delayed_on: 100ms
 
 # ESP32 base config
 <<: !include ./ESP32/.esp32base.yaml
