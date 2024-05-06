@@ -73,15 +73,12 @@ substitutions:
   i2c_id: "bus_a"
 
   track_delayed_off: 1000ms
-  track_delayed_on: 1000ms
-
-# substitutions
-<<: !include ./substitutions/.PCA9685_sub.yaml
+  track_delayed_on: 100ms
 
 # ESP32 base config
 <<: !include ./ESP32/.esp32base.yaml
 
 # I2C_PWM_Output with PCA9685
-<<: !include ./I2C_O_PCA9685/.pca9685_ids.yaml
-<<: !include ./I2C_O_PCA9685/.pca9685_output.yaml
-<<: !include ./I2C_O_PCA9685/.pca9685_light.yaml
+<<: !include ./I2C_O_PCA9685/.pca9685_ids_ju-pl.yaml
+<<: !include ./I2C_O_PCA9685/.pca9685_output_ju-pl.yaml
+<<: !include ./I2C_O_PCA9685/.pca9685_light_ju-pl.yaml
