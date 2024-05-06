@@ -77,6 +77,11 @@ substitutions:
   i2c_scan: "true"
   i2c_id: "bus_a"
 
+# Debouncing Values 
+# Some binary sensors are a bit unstable and quickly transition 
+# between the ON and OFF state while they’re pressed. To fix this 
+# and debounce the signal, use the binary sensor filters:
+# https://esphome.io/components/binary_sensor/gpio#debouncing-values
   track_delayed_off: 1000ms
   track_delayed_on: 100ms
 
