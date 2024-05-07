@@ -1,5 +1,5 @@
 substitutions:
-  esphome_name: "ju-sl-00"
+  esphome_name: "ju-pl-00"
   esphome_friendly_name: "Hjulby-Pult-Led-00"
 
 # PCA9685 Kilde: https://esphome.io/components/output/pca9685
@@ -28,15 +28,19 @@ substitutions:
   addr_pca9685_0: "0x40"
   addr_pca9685_1: "0x41"
   addr_pca9685_2: "0x42"
+
   addr_pca9685_3: "0x43"
   addr_pca9685_4: "0x44"
   addr_pca9685_5: "0x45"
+  
   addr_pca9685_6: "0x46"
   addr_pca9685_7: "0x47"
   addr_pca9685_8: "0x48"
+  
   addr_pca9685_9: "0x49"
   addr_pca9685_A: "0x4A"
   addr_pca9685_B: "0x4B"
+  
   addr_pca9685_C: "0x4C"
   addr_pca9685_D: "0x4D"
   addr_pca9685_E: "0x4E"
@@ -71,66 +75,4 @@ substitutions:
   i2c_scl: "22"
   i2c_scan: "true"
   i2c_id: "bus_a"
-
-  track_delayed_off: 1000ms
-
-
-esphome:
-  name: ${esphome_name}
-  friendly_name: ${esphome_friendly_name}
-
-esp32:
-  board: esp32dev
-  framework:
-    type: arduino
-
-# Enable logging
-logger:
-
-# Enable Home Assistant API
-api:
-  encryption:
-    key: !secret api_key_omjk
-
-ota:
-  password: !secret ota_pass_omjk
-
-wifi:
-  networks:
-  - ssid: !secret wifi_ssid_omjk
-    password: !secret wifi_password_omjk
-  - ssid: !secret wifi_ssid_sekt
-    password: !secret wifi_password_sekt
-
-  # Enable fallback hotspot (captive portal) in case wifi connection fails
-  ap:
-    ssid: "${esphome_name} Fallback Hotspot"
-    password: !secret ap_password_omjk
-    
-captive_portal:
-
-text_sensor:
-  - platform: wifi_info
-    ip_address:
-      name: "IP Address ${esphome_name}"
-    ssid:
-      name: "Connected SSID ${esphome_name}"
-    bssid:
-      name: "Connected BSSID ${esphome_name}"
-    mac_address:
-      name: "Mac Wifi Address ${esphome_name}"
-
-button:
-  - platform: restart
-    name: "Restart ${esphome_name}"
-
-i2c:
-  - id: ${i2c_id}
-    sda: ${i2c_sda}
-    scl: ${i2c_scl}
-    scan: ${i2c_scan}  
-
-# I2C_PWM_Output with PCA9685
-<<: !include ./I2C_O_PCA9685/.pca9685_ids.yaml
-<<: !include ./I2C_O_PCA9685/.pca9685_output.yaml
-<<: !include ./I2C_O_PCA9685/.pca9685_light.yaml
+  i2c_frequency: "10kHz"

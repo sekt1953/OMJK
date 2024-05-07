@@ -75,7 +75,8 @@ substitutions:
   i2c_scl: "22"
   i2c_scan: "true"
   i2c_id: "bus_a"
-
+  i2c_frequency: "10kHz"
+  
 # ESP32 base config
 <<: !include ./ESP32/.esp32base.yaml
 
