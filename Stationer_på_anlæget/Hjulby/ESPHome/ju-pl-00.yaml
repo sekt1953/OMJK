@@ -49,22 +49,7 @@ substitutions:
 # frequency (Optional, float): 
 #   The frequency to let the component drive all PWM outputs at. 
 #   Must be in range from 24Hz to 1525.88Hz. Default 1000Hz.  
-  frequency_pca9685_0: 1000Hz
-  frequency_pca9685_1: 1000Hz
-  frequency_pca9685_2: 1000Hz
-  frequency_pca9685_3: 1000Hz
-  frequency_pca9685_4: 1000Hz
-  frequency_pca9685_5: 1000Hz
-  frequency_pca9685_6: 1000Hz
-  frequency_pca9685_7: 1000Hz
-  frequency_pca9685_8: 1000Hz
-  frequency_pca9685_9: 1000Hz
-  frequency_pca9685_A: 1000Hz
-  frequency_pca9685_B: 1000Hz
-  frequency_pca9685_C: 1000Hz
-  frequency_pca9685_D: 1000Hz
-  frequency_pca9685_E: 1000Hz
-  frequency_pca9685_F: 1000Hz
+  pwm_frequency: 1000Hz
 
 # Light Transition length
   light_default_transition: "1s"
