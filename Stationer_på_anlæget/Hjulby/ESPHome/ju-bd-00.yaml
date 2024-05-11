@@ -37,7 +37,7 @@ substitutions:
 # and debounce the signal, use the binary sensor filters:
 # https://esphome.io/components/binary_sensor/gpio#debouncing-values
   track_delayed_off: 1000ms
-  track_delayed_on: 100ms
+  track_delayed_on: 12ms
 
 # ESP32 base config
 <<: !include ./ESP32/.esp32base.yaml
