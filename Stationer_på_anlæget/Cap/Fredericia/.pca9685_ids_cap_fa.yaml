@@ -1,0 +1,5 @@
+pca9685:
+  - id: ${id_pca9685_0}
+    address: ${addr_pca9685_0}
+    frequency: ${pwm_frequency}
+    

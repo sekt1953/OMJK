@@ -45,86 +45,17 @@ substitutions:
 # frequency (Optional, float): 
 #   The frequency to let the component drive all PWM outputs at. 
 #   Must be in range from 24Hz to 1525.88Hz. Default 1000Hz.  
-  frequency_pca9685_0: 1000Hz
-  frequency_pca9685_1: 1000Hz
-  frequency_pca9685_2: 1000Hz
-  frequency_pca9685_3: 1000Hz
-  frequency_pca9685_4: 1000Hz
-  frequency_pca9685_5: 1000Hz
-  frequency_pca9685_6: 1000Hz
-  frequency_pca9685_7: 1000Hz
-  frequency_pca9685_8: 1000Hz
-  frequency_pca9685_9: 1000Hz
-  frequency_pca9685_A: 1000Hz
-  frequency_pca9685_B: 1000Hz
-  frequency_pca9685_C: 1000Hz
-  frequency_pca9685_D: 1000Hz
-  frequency_pca9685_E: 1000Hz
-  frequency_pca9685_F: 1000Hz
-
+  pwm_frequency: 1000Hz
+  
 # I2C Port settings  
   i2c_sda: "21"
   i2c_scl: "22"
   i2c_scan: "true"
   i2c_id: "bus_a"
-
-  track_delayed_off: 1000ms
-
-
-esphome:
-  name: ${esphome_name}
-  friendly_name: ${esphome_friendly_name}
-
-esp32:
-  board: esp32dev
-  framework:
-    type: arduino
-
-# Enable logging
-logger:
-
-# Enable Home Assistant API
-api:
-  encryption:
-    key: !secret api_key_omjk
-
-ota:
-  password: !secret ota_pass_omjk
-
-wifi:
-  networks:
-  - ssid: !secret wifi_ssid_omjk
-    password: !secret wifi_password_omjk
-  - ssid: !secret wifi_ssid_sekt
-    password: !secret wifi_password_sekt
-
-  # Enable fallback hotspot (captive portal) in case wifi connection fails
-  ap:
-    ssid: "${esphome_name} Fallback Hotspot"
-    password: !secret ap_password_omjk
-    
-captive_portal:
-
-text_sensor:
-  - platform: wifi_info
-    ip_address:
-      name: "IP Address ${esphome_name}"
-    ssid:
-      name: "Connected SSID ${esphome_name}"
-    bssid:
-      name: "Connected BSSID ${esphome_name}"
-    mac_address:
-      name: "Mac Wifi Address ${esphome_name}"
-
-button:
-  - platform: restart
-    name: "Restart ${esphome_name}"
-
-i2c:
-  - id: ${i2c_id}
-    sda: ${i2c_sda}
-    scl: ${i2c_scl}
-    scan: ${i2c_scan}  
+  i2c_frequency: "10kHz"
+  
+# ESP32 base config
+<<: !include ./ESP32/.esp32base.yaml
 
 # I2C_PWM_Output with PCA9685
 <<: !include ./I2C_O_PCA9685/.pca9685_ids_cap_fa.yaml

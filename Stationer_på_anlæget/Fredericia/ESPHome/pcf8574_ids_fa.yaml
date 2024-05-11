@@ -1,0 +1,9 @@
+# I2C_IO_PCF8574
+pcf8574:
+  - id: ${id_pcf8574_4}
+    address: ${addr_pcf8574_4}
+    pcf8575: false
+  - id: ${id_pcf8574_5}
+    address: ${addr_pcf8574_5}
+    pcf8575: false
+

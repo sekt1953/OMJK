@@ -1,0 +1,88 @@
+# Individual outputs
+# Output Component Kilde: https://esphome.io/components/output/
+#   Configuration variables:
+#     id (Required, ID): The id to use for this output component.
+#     power_supply (Optional, ID): The power supply to connect to this output. When the output is enabled, the power supply will automatically be switched on too.
+#     inverted (Optional, boolean): If the output should be treated as inverted. Defaults to false.
+#   Float outputs only:
+#     min_power (Optional, float): Sets the minimum output value of this output platform. Must be in range from 0 to max_power. Defaults to 0. If zero_means_zero is false this will be output value when the entity is turned off.
+#     max_power (Optional, float): Sets the maximum output value of this output platform. Must be in range from min_power to 1. Defaults to 1.
+#     zero_means_zero (Optional, boolean): Sets the output to use actual 0 instead of min_power. Defaults to false.
+output:
+# Hub0
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 0
+    id: pwm00
+    inverted: false
+    min_power: 0.00
+    max_power: 1.00
+    zero_means_zero: false
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 1
+    id: pwm01
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 2
+    id: pwm02
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 3
+    id: pwm03
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 4
+    id: pwm04
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 5
+    id: pwm05
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 6
+    id: pwm06
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 7
+    id: pwm07
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 8
+    inverted: true
+    id: pwm08
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 9
+    inverted: true
+    id: pwm09
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 10
+    inverted: true
+    id: pwm0a
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 11
+    inverted: true
+    id: pwm0b
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 12
+    inverted: true
+    id: pwm0c
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 13
+    inverted: true
+    id: pwm0d
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 14
+    inverted: true
+    id: pwm0e
+  - platform: pca9685
+    pca9685_id: ${id_pca9685_0}
+    channel: 15
+    inverted: true
+    id: pwm0f
