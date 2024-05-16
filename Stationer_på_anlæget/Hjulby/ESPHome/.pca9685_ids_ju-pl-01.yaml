@@ -1,0 +1,10 @@
+pca9685:
+  - id: ${id_pca9685_0}
+    address: ${addr_pca9685_0}
+    frequency: ${frequency_pca9685_0}
+  - id: ${id_pca9685_1}
+    address: ${addr_pca9685_1}
+    frequency: ${frequency_pca9685_1}
+  - id: ${id_pca9685_2}
+    address: ${addr_pca9685_2}
+    frequency: ${frequency_pca9685_2}
