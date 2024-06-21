@@ -1,0 +1,4 @@
+pca9685:
+  - id: ${id_pca9685}0
+    address: "0x40"
+    frequency: ${frequency_pca9685}
