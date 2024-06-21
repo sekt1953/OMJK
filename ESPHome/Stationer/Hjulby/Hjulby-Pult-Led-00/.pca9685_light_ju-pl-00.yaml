@@ -1,0 +1,497 @@
+# Light Component kilde: https://esphome.io/components/light/
+# Monochromatic Light Kilde: https://esphome.io/components/light/monochromatic#monochromatic-light
+#   Configuration variables:
+#     name (Required, string): The name of the light.
+#     output (Required, ID): The id of the float Output Component to use for this light.
+#     effects (Optional, list): A list of light effects to use for this light.
+#     id (Optional, ID): Manually specify the ID used for code generation.
+#     default_transition_length (Optional, Time): The default transition length to 
+#             use when no transition length is set in the light call. Defaults to 1s.
+#     flash_transition_length (Optional, Time): The transition length to use when flash is called. Defaults to 0s.
+
+light:
+# Hub3
+  - platform: monochromatic
+    name: '_30'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm30
+  - platform: monochromatic
+    name: '_31'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm31
+  - platform: monochromatic
+    name: '_32'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm32
+  - platform: monochromatic
+    name: '_33'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm33
+  - platform: monochromatic
+    name: '_34'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm34
+  - platform: monochromatic
+    name: '_35'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm35
+  - platform: monochromatic
+    name: '_36'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm36
+  - platform: monochromatic
+    name: '_37'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm37
+  - platform: monochromatic
+    name: '_38'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm38
+  - platform: monochromatic
+    name: '_39'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm39
+  - platform: monochromatic
+    name: '_3A'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm3a
+  - platform: monochromatic
+    name: '_3B'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm3b
+  - platform: monochromatic
+    name: '_3C'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm3c
+  - platform: monochromatic
+    name: '_3D'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm3d
+  - platform: monochromatic
+    name: '_3E'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm3e
+  - platform: monochromatic
+    name: '_3F'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm3f
+# Hub4
+  - platform: monochromatic
+    name: '_40'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm40
+  - platform: monochromatic
+    name: '_41'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm41
+  - platform: monochromatic
+    name: '_42'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm42
+  - platform: monochromatic
+    name: '_43'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm43
+  - platform: monochromatic
+    name: '_44'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm44
+  - platform: monochromatic
+    name: '_45'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm45
+  - platform: monochromatic
+    name: '_46'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm46
+  - platform: monochromatic
+    name: '_47'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm47
+  - platform: monochromatic
+    name: '_48'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm48
+  - platform: monochromatic
+    name: '_49'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm49
+  - platform: monochromatic
+    name: '_4A'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm4a
+  - platform: monochromatic
+    name: '_4B'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm4b
+  - platform: monochromatic
+    name: '_4C'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm4c
+  - platform: monochromatic
+    name: '_4D'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm4d
+  - platform: monochromatic
+    name: '_4E'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm4e
+  - platform: monochromatic
+    name: '_4F'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm4f
+# Hub5
+  - platform: monochromatic
+    name: '_50'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm50
+  - platform: monochromatic
+    name: '_51'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm51
+  - platform: monochromatic
+    name: '_52'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm52
+  - platform: monochromatic
+    name: '_53'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm53
+  - platform: monochromatic
+    name: '_54'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm54
+  - platform: monochromatic
+    name: '_55'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm55
+  - platform: monochromatic
+    name: '_56'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm56
+  - platform: monochromatic
+    name: '_57'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm57
+  - platform: monochromatic
+    name: '_58'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm58
+  - platform: monochromatic
+    name: '_59'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm59
+  - platform: monochromatic
+    name: '_5A'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm5a
+  - platform: monochromatic
+    name: '_5B'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm5b
+  - platform: monochromatic
+    name: '_5C'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm5c
+  - platform: monochromatic
+    name: '_5D'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm5d
+  - platform: monochromatic
+    name: '_5E'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm5e
+  - platform: monochromatic
+    name: '_5F'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm5f
+# Hub6
+  - platform: monochromatic
+    name: '_60'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm60
+  - platform: monochromatic
+    name: '_61'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm61
+  - platform: monochromatic
+    name: '_62'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm62
+  - platform: monochromatic
+    name: '_63'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm63
+  - platform: monochromatic
+    name: '_64'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm64
+  - platform: monochromatic
+    name: '_65'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm65
+  - platform: monochromatic
+    name: '_66'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm66
+  - platform: monochromatic
+    name: '_67'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm67
+  - platform: monochromatic
+    name: '_68'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm68
+  - platform: monochromatic
+    name: '_69'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm69
+  - platform: monochromatic
+    name: '_6A'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm6a
+  - platform: monochromatic
+    name: '_6B'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm6b
+  - platform: monochromatic
+    name: '_6C'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm6c
+  - platform: monochromatic
+    name: '_6D'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm6d
+  - platform: monochromatic
+    name: '_6E'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm6e
+  - platform: monochromatic
+    name: '_6F'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm6f
+# Hub7
+  - platform: monochromatic
+    name: '_70'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm70
+  - platform: monochromatic
+    name: '_71'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm71
+  - platform: monochromatic
+    name: '_72'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm72
+  - platform: monochromatic
+    name: '_73'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm73
+  - platform: monochromatic
+    name: '_74'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm74
+  - platform: monochromatic
+    name: '_75'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm75
+  - platform: monochromatic
+    name: '_76'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm76
+  - platform: monochromatic
+    name: '_77'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm77
+  - platform: monochromatic
+    name: '_78'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm78
+  - platform: monochromatic
+    name: '_79'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm79
+  - platform: monochromatic
+    name: '_7A'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm7a
+  - platform: monochromatic
+    name: '_7B'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm7b
+  - platform: monochromatic
+    name: '_7C'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm7c
+  - platform: monochromatic
+    name: '_7D'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm7d
+  - platform: monochromatic
+    name: '_7E'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm7e
+  - platform: monochromatic
+    name: '_7F'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm7f
+# Hub8
+  - platform: monochromatic
+    name: '_80'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm80
+  - platform: monochromatic
+    name: '_81'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm81
+  - platform: monochromatic
+    name: '_82'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm82
+  - platform: monochromatic
+    name: '_83'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm83
+  - platform: monochromatic
+    name: '_84'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm84
+  - platform: monochromatic
+    name: '_85'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm85
+  - platform: monochromatic
+    name: '_86'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm86
+  - platform: monochromatic
+    name: '_87'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm87
+  - platform: monochromatic
+    name: '_88'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm88
+  - platform: monochromatic
+    name: '_89'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm89
+  - platform: monochromatic
+    name: '_8A'
+    default_transition_length: ${light_default_transition}
+    output: pwm8a
+  - platform: monochromatic
+    name: '_8B'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm8b
+  - platform: monochromatic
+    name: '_8C'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm8c
+  - platform: monochromatic
+    name: '_8D'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm8d
+  - platform: monochromatic
+    name: '_8E'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm8e
+  - platform: monochromatic
+    name: '_8F'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm8f

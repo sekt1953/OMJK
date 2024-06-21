@@ -1,0 +1,19 @@
+pca9685:
+  - id: ${id_pca9685}3
+    address: "0x43"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}4
+    address: "0x44"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}5
+    address: "0x45"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}6
+    address: "0x46"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}7
+    address: "0x47"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}8
+    address: "0x48"
+    frequency: ${frequency_pca9685}

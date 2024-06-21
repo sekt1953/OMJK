@@ -1,0 +1,268 @@
+# Light Component kilde: https://esphome.io/components/light/
+# Monochromatic Light Kilde: https://esphome.io/components/light/monochromatic#monochromatic-light
+#   Configuration variables:
+#     name (Required, string): The name of the light.
+#     output (Required, ID): The id of the float Output Component to use for this light.
+#     effects (Optional, list): A list of light effects to use for this light.
+#     id (Optional, ID): Manually specify the ID used for code generation.
+light:
+# Hub0
+  - platform: monochromatic
+    name: '_00'
+    default_transition_length: 0s
+    output: pwm00
+  - platform: monochromatic
+    name: '_01'
+    default_transition_length: 0s
+    output: pwm01
+  - platform: monochromatic
+    name: '_02'
+    default_transition_length: 0s
+    output: pwm02
+  - platform: monochromatic
+    name: '_03'
+    default_transition_length: 0s
+    output: pwm03
+  - platform: monochromatic
+    name: '_04'
+    default_transition_length: 0s
+    output: pwm04
+  - platform: monochromatic
+    name: '_05'
+    default_transition_length: 0s
+    output: pwm05
+  - platform: monochromatic
+    name: '_06'
+    default_transition_length: 0s
+    output: pwm06
+  - platform: monochromatic
+    name: '_07'
+    default_transition_length: 0s
+    output: pwm07
+  - platform: monochromatic
+    name: '_08'
+    default_transition_length: 0s
+    output: pwm08
+  - platform: monochromatic
+    name: '_09'
+    default_transition_length: 0s
+    output: pwm09
+  - platform: monochromatic
+    name: '_0A'
+    default_transition_length: 0s
+    output: pwm0a
+  - platform: monochromatic
+    name: '_0B'
+    default_transition_length: 0s
+    output: pwm0b
+  - platform: monochromatic
+    name: '_0C'
+    default_transition_length: 0s
+    output: pwm0c
+  - platform: monochromatic
+    name: '_0D'
+    default_transition_length: 0s
+    output: pwm0d
+  - platform: monochromatic
+    name: '_0E'
+    default_transition_length: 0s
+    output: pwm0e
+  - platform: monochromatic
+    name: '_0F'
+    default_transition_length: 0s
+    output: pwm0f
+# Hub1
+  - platform: monochromatic
+    name: '_10'
+    default_transition_length: 0s
+    output: pwm10
+  - platform: monochromatic
+    name: '_11'
+    default_transition_length: 0s
+    output: pwm11
+  - platform: monochromatic
+    name: '_12'
+    default_transition_length: 0s
+    output: pwm12
+  - platform: monochromatic
+    name: '_13'
+    default_transition_length: 0s
+    output: pwm13
+  - platform: monochromatic
+    name: '_14'
+    default_transition_length: 0s
+    output: pwm14
+  - platform: monochromatic
+    name: '_15'
+    default_transition_length: 0s
+    output: pwm15
+  - platform: monochromatic
+    name: '_16'
+    default_transition_length: 0s
+    output: pwm16
+  - platform: monochromatic
+    name: '_17'
+    default_transition_length: 0s
+    output: pwm17
+  - platform: monochromatic
+    name: '_18'
+    default_transition_length: 0s
+    output: pwm18
+  - platform: monochromatic
+    name: '_19'
+    default_transition_length: 0s
+    output: pwm19
+  - platform: monochromatic
+    name: '_1A'
+    default_transition_length: 0s
+    output: pwm1a
+  - platform: monochromatic
+    name: '_1B'
+    default_transition_length: 0s
+    output: pwm1b
+  - platform: monochromatic
+    name: '_1C'
+    default_transition_length: 0s
+    output: pwm1c
+  - platform: monochromatic
+    name: '_1D'
+    default_transition_length: 0s
+    output: pwm1d
+  - platform: monochromatic
+    name: '_1E'
+    default_transition_length: 0s
+    output: pwm1e
+  - platform: monochromatic
+    name: '_1F'
+    default_transition_length: 0s
+    output: pwm1f
+# Hub2
+  - platform: monochromatic
+    name: '_20'
+    default_transition_length: 0s
+    output: pwm20
+  - platform: monochromatic
+    name: '_21'
+    default_transition_length: 0s
+    output: pwm21
+  - platform: monochromatic
+    name: '_22'
+    default_transition_length: 0s
+    output: pwm22
+  - platform: monochromatic
+    name: '_23'
+    default_transition_length: 0s
+    output: pwm23
+  - platform: monochromatic
+    name: '_24'
+    default_transition_length: 0s
+    output: pwm24
+  - platform: monochromatic
+    name: '_25'
+    default_transition_length: 0s
+    output: pwm25
+  - platform: monochromatic
+    name: '_26'
+    default_transition_length: 0s
+    output: pwm26
+  - platform: monochromatic
+    name: '_27'
+    default_transition_length: 0s
+    output: pwm27
+  - platform: monochromatic
+    name: '_28'
+    default_transition_length: 0s
+    output: pwm28
+  - platform: monochromatic
+    name: '_29'
+    default_transition_length: 0s
+    output: pwm29
+  - platform: monochromatic
+    name: '_2A'
+    default_transition_length: 0s
+    output: pwm2a
+  - platform: monochromatic
+    name: '_2B'
+    default_transition_length: 0s
+    output: pwm2b
+  - platform: monochromatic
+    name: '_2C'
+    default_transition_length: 0s
+    output: pwm2c
+  - platform: monochromatic
+    name: '_2D'
+    default_transition_length: 0s
+    output: pwm2d
+  - platform: monochromatic
+    name: '_2E'
+    default_transition_length: 0s
+    output: pwm2e
+  - platform: monochromatic
+    name: '_2F'
+    default_transition_length: 0s
+    output: pwm2f
+# Hub3
+  - platform: monochromatic
+    name: '_30'
+    default_transition_length: 0s
+    output: pwm30
+  - platform: monochromatic
+    name: '_31'
+    default_transition_length: 0s
+    output: pwm31
+  - platform: monochromatic
+    name: '_32'
+    default_transition_length: 0s
+    output: pwm32
+  - platform: monochromatic
+    name: '_33'
+    default_transition_length: 0s
+    output: pwm33
+  - platform: monochromatic
+    name: '_34'
+    default_transition_length: 0s
+    output: pwm34
+  - platform: monochromatic
+    name: '_35'
+    default_transition_length: 0s
+    output: pwm35
+  - platform: monochromatic
+    name: '_36'
+    default_transition_length: 0s
+    output: pwm36
+  - platform: monochromatic
+    name: '_37'
+    default_transition_length: 0s
+    output: pwm37
+  - platform: monochromatic
+    name: '_38'
+    default_transition_length: 0s
+    output: pwm38
+  - platform: monochromatic
+    name: '_39'
+    default_transition_length: 0s
+    output: pwm39
+  - platform: monochromatic
+    name: '_3A'
+    default_transition_length: 0s
+    output: pwm3a
+  - platform: monochromatic
+    name: '_3B'
+    default_transition_length: 0s
+    output: pwm3b
+  - platform: monochromatic
+    name: '_3C'
+    default_transition_length: 0s
+    output: pwm3c
+  - platform: monochromatic
+    name: '_3D'
+    default_transition_length: 0s
+    output: pwm3d
+  - platform: monochromatic
+    name: '_3E'
+    default_transition_length: 0s
+    output: pwm3e
+  - platform: monochromatic
+    name: '_3F'
+    default_transition_length: 0s
+    output: pwm3f
