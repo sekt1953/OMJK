@@ -1,0 +1,49 @@
+pca9685:
+  - id: ${id_pca9685}0
+    address: "0x40"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}1
+    address: "0x41"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}2
+    address: "0x42"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}3
+    address: "0x43"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}4
+    address: "0x44"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}5
+    address: "0x45"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}6
+    address: "0x46"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}7
+    address: "0x47"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}8
+    address: "0x48"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}9
+    address: "0x49"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}A
+    address: "0x4A"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}B
+    address: "0x4B"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}C
+    address: "0x4C"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}D
+    address: "0x4D"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}E
+    address: "0x4E"
+    frequency: ${frequency_pca9685}
+  - id: ${id_pca9685}F
+    address: "0x4F"
+    frequency: ${frequency_pca9685}

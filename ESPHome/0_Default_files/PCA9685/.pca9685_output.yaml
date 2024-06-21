@@ -1,0 +1,2203 @@
+# Individual outputs
+# Output Component Kilde: https://esphome.io/components/output/
+#   Configuration variables:
+#     id (Required, ID): The id to use for this output component.
+#     power_supply (Optional, ID): The power supply to connect to this output. When the output is enabled, the power supply will automatically be switched on too.
+#     inverted (Optional, boolean): If the output should be treated as inverted. Defaults to false.
+#   Float outputs only:
+#     min_power (Optional, float): Sets the minimum output value of this output platform. Must be in range from 0 to max_power. Defaults to 0. If zero_means_zero is false this will be output value when the entity is turned off.
+#     max_power (Optional, float): Sets the maximum output value of this output platform. Must be in range from min_power to 1. Defaults to 1.
+#     zero_means_zero (Optional, boolean): Sets the output to use actual 0 instead of min_power. Defaults to false.
+output:
+# Hub0
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}0
+    channel: 0
+    id: pwm00
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}0
+    channel: 1
+    id: pwm01
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}0
+    channel: 2
+    id: pwm02
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}0
+    channel: 3
+    id: pwm03
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}0
+    channel: 4
+    id: pwm04
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}0
+    channel: 5
+    id: pwm05
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}0
+    channel: 6
+    id: pwm06
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}0
+    channel: 7
+    id: pwm07
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}0
+    channel: 8
+    inverted: true
+    id: pwm08
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}0
+    channel: 9
+    inverted: true
+    id: pwm09
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}0
+    channel: 10
+    inverted: true
+    id: pwm0a
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}0
+    channel: 11
+    inverted: true
+    id: pwm0b
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}0
+    channel: 12
+    inverted: true
+    id: pwm0c
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}0
+    channel: 13
+    inverted: true
+    id: pwm0d
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}0
+    channel: 14
+    inverted: true
+    id: pwm0e
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}0
+    channel: 15
+    inverted: true
+    id: pwm0f
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+# Hub1
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}1
+    channel: 0
+    id: pwm10
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}1
+    channel: 1
+    id: pwm11
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}1
+    channel: 2
+    id: pwm12
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}1
+    channel: 3
+    id: pwm13
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}1
+    channel: 4
+    id: pwm14
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}1
+    channel: 5
+    id: pwm15
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}1
+    channel: 6
+    id: pwm16
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}1
+    channel: 7
+    id: pwm17
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}1
+    channel: 8
+    inverted: true
+    id: pwm18
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}1
+    channel: 9
+    inverted: true
+    id: pwm19
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}1
+    channel: 10
+    inverted: true
+    id: pwm1a
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}1
+    channel: 11
+    inverted: true
+    id: pwm1b
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}1
+    channel: 12
+    inverted: true
+    id: pwm1c
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}1
+    channel: 13
+    inverted: true
+    id: pwm1d
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}1
+    channel: 14
+    inverted: true
+    id: pwm1e
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}1
+    channel: 15
+    inverted: true
+    id: pwm1f
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+# Hub2
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}2
+    channel: 0
+    id: pwm20
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}2
+    channel: 1
+    id: pwm21
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}2
+    channel: 2
+    id: pwm22
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}2
+    channel: 3
+    id: pwm23
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}2
+    channel: 4
+    id: pwm24
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}2
+    channel: 5
+    id: pwm25
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}2
+    channel: 6
+    id: pwm26
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}2
+    channel: 7
+    id: pwm27
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}2
+    channel: 8
+    inverted: true
+    id: pwm28
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}2
+    channel: 9
+    inverted: true
+    id: pwm29
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}2
+    channel: 10
+    inverted: true
+    id: pwm2a
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}2
+    channel: 11
+    inverted: true
+    id: pwm2b
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}2
+    channel: 12
+    inverted: true
+    id: pwm2c
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}2
+    channel: 13
+    inverted: true
+    id: pwm2d
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}2
+    channel: 14
+    inverted: true
+    id: pwm2e
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}2
+    channel: 15
+    inverted: true
+    id: pwm2f
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+# Hub3
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}3
+    channel: 0
+    id: pwm30
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}3
+    channel: 1
+    id: pwm31
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}3
+    channel: 2
+    id: pwm32
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}3
+    channel: 3
+    id: pwm33
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}3
+    channel: 4
+    id: pwm34
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}3
+    channel: 5
+    id: pwm35
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}3
+    channel: 6
+    id: pwm36
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}3
+    channel: 7
+    id: pwm37
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}3
+    channel: 8
+    inverted: true
+    id: pwm38
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}3
+    channel: 9
+    inverted: true
+    id: pwm39
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}3
+    channel: 10
+    inverted: true
+    id: pwm3a
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}3
+    channel: 11
+    inverted: true
+    id: pwm3b
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}3
+    channel: 12
+    inverted: true
+    id: pwm3c
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}3
+    channel: 13
+    inverted: true
+    id: pwm3d
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}3
+    channel: 14
+    inverted: true
+    id: pwm3e
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}3
+    channel: 15
+    inverted: true
+    id: pwm3f
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+# Hub4
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}4
+    channel: 0
+    id: pwm40
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}4
+    channel: 1
+    id: pwm41
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}4
+    channel: 2
+    id: pwm42
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}4
+    channel: 3
+    id: pwm43
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}4
+    channel: 4
+    id: pwm44
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}4
+    channel: 5
+    id: pwm45
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}4
+    channel: 6
+    id: pwm46
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}4
+    channel: 7
+    id: pwm47
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}4
+    channel: 8
+    inverted: true
+    id: pwm48
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}4
+    channel: 9
+    inverted: true
+    id: pwm49
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}4
+    channel: 10
+    inverted: true
+    id: pwm4a
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}4
+    channel: 11
+    inverted: true
+    id: pwm4b
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}4
+    channel: 12
+    inverted: true
+    id: pwm4c
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}4
+    channel: 13
+    inverted: true
+    id: pwm4d
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}4
+    channel: 14
+    inverted: true
+    id: pwm4e
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}4
+    channel: 15
+    inverted: true
+    id: pwm4f
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+# Hub5
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}5
+    channel: 0
+    id: pwm50
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}5
+    channel: 1
+    id: pwm51
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}5
+    channel: 2
+    id: pwm52
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}5
+    channel: 3
+    id: pwm53
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}5
+    channel: 4
+    id: pwm54
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}5
+    channel: 5
+    id: pwm55
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}5
+    channel: 6
+    id: pwm56
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}5
+    channel: 7
+    id: pwm57
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}5
+    channel: 8
+    inverted: true
+    id: pwm58
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}5
+    channel: 9
+    inverted: true
+    id: pwm59
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}5
+    channel: 10
+    inverted: true
+    id: pwm5a
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}5
+    channel: 11
+    inverted: true
+    id: pwm5b
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}5
+    channel: 12
+    inverted: true
+    id: pwm5c
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}5
+    channel: 13
+    inverted: true
+    id: pwm5d
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}5
+    channel: 14
+    inverted: true
+    id: pwm5e
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}5
+    channel: 15
+    inverted: true
+    id: pwm5f
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+# Hub6
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}6
+    channel: 0
+    id: pwm60
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}6
+    channel: 1
+    id: pwm61
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}6
+    channel: 2
+    id: pwm62
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}6
+    channel: 3
+    id: pwm63
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}6
+    channel: 4
+    id: pwm64
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}6
+    channel: 5
+    id: pwm65
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}6
+    channel: 6
+    id: pwm66
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}6
+    channel: 7
+    id: pwm67
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}6
+    channel: 8
+    inverted: true
+    id: pwm68
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}6
+    channel: 9
+    inverted: true
+    id: pwm69
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}6
+    channel: 10
+    inverted: true
+    id: pwm6a
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}6
+    channel: 11
+    inverted: true
+    id: pwm6b
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}6
+    channel: 12
+    inverted: true
+    id: pwm6c
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}6
+    channel: 13
+    inverted: true
+    id: pwm6d
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}6
+    channel: 14
+    inverted: true
+    id: pwm6e
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}6
+    channel: 15
+    inverted: true
+    id: pwm6f
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+# Hub7
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}7
+    channel: 0
+    id: pwm70
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}7
+    channel: 1
+    id: pwm71
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}7
+    channel: 2
+    id: pwm72
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}7
+    channel: 3
+    id: pwm73
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}7
+    channel: 4
+    id: pwm74
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}7
+    channel: 5
+    id: pwm75
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}7
+    channel: 6
+    id: pwm76
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}7
+    channel: 7
+    id: pwm77
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}7
+    channel: 8
+    inverted: true
+    id: pwm78
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}7
+    channel: 9
+    inverted: true
+    id: pwm79
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}7
+    channel: 10
+    inverted: true
+    id: pwm7a
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}7
+    channel: 11
+    inverted: true
+    id: pwm7b
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}7
+    channel: 12
+    inverted: true
+    id: pwm7c
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}7
+    channel: 13
+    inverted: true
+    id: pwm7d
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}7
+    channel: 14
+    inverted: true
+    id: pwm7e
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}7
+    channel: 15
+    inverted: true
+    id: pwm7f
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+# Hub8
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}8
+    channel: 0
+    id: pwm80
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}8
+    channel: 1
+    id: pwm81
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}8
+    channel: 2
+    id: pwm82
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}8
+    channel: 3
+    id: pwm83
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}8
+    channel: 4
+    id: pwm84
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}8
+    channel: 5
+    id: pwm85
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}8
+    channel: 6
+    id: pwm86
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}8
+    channel: 7
+    id: pwm87
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}8
+    channel: 8
+    inverted: true
+    id: pwm88
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}8
+    channel: 9
+    inverted: true
+    id: pwm89
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}8
+    channel: 10
+    inverted: true
+    id: pwm8a
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}8
+    channel: 11
+    inverted: true
+    id: pwm8b
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}8
+    channel: 12
+    inverted: true
+    id: pwm8c
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}8
+    channel: 13
+    inverted: true
+    id: pwm8d
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}8
+    channel: 14
+    inverted: true
+    id: pwm8e
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}8
+    channel: 15
+    inverted: true
+    id: pwm8f
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+# Hub9
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}9
+    channel: 0
+    id: pwm90
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}9
+    channel: 1
+    id: pwm91
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}9
+    channel: 2
+    id: pwm92
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}9
+    channel: 3
+    id: pwm93
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}9
+    channel: 4
+    id: pwm94
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}9
+    channel: 5
+    id: pwm95
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}9
+    channel: 6
+    id: pwm96
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}9
+    channel: 7
+    id: pwm97
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}9
+    channel: 8
+    inverted: true
+    id: pwm98
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}9
+    channel: 9
+    inverted: true
+    id: pwm99
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}9
+    channel: 10
+    inverted: true
+    id: pwm9a
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}9
+    channel: 11
+    inverted: true
+    id: pwm9b
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}9
+    channel: 12
+    inverted: true
+    id: pwm9c
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}9
+    channel: 13
+    inverted: true
+    id: pwm9d
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}9
+    channel: 14
+    inverted: true
+    id: pwm9e
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}9
+    channel: 15
+    inverted: true
+    id: pwm9f
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+# HubA
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}A
+    channel: 0
+    id: pwmA0
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}A
+    channel: 1
+    id: pwmA1
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}A
+    channel: 2
+    id: pwmA2
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}A
+    channel: 3
+    id: pwmA3
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}A
+    channel: 4
+    id: pwmA4
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}A
+    channel: 5
+    id: pwmA5
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}A
+    channel: 6
+    id: pwmA6
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}A
+    channel: 7
+    id: pwmA7
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}A
+    channel: 8
+    inverted: true
+    id: pwmA8
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}A
+    channel: 9
+    inverted: true
+    id: pwmA9
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}A
+    channel: 10
+    inverted: true
+    id: pwmAa
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}A
+    channel: 11
+    inverted: true
+    id: pwmAb
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}A
+    channel: 12
+    inverted: true
+    id: pwmAc
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}A
+    channel: 13
+    inverted: true
+    id: pwmAd
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}A
+    channel: 14
+    inverted: true
+    id: pwmAe
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}A
+    channel: 15
+    inverted: true
+    id: pwmAf
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+# HubB
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}B
+    channel: 0
+    id: pwmB0
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}B
+    channel: 1
+    id: pwmB1
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}B
+    channel: 2
+    id: pwmB2
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}B
+    channel: 3
+    id: pwmB3
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}B
+    channel: 4
+    id: pwmB4
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}B
+    channel: 5
+    id: pwmB5
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}B
+    channel: 6
+    id: pwmB6
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}B
+    channel: 7
+    id: pwmB7
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}B
+    channel: 8
+    inverted: true
+    id: pwmB8
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}B
+    channel: 9
+    inverted: true
+    id: pwmB9
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}B
+    channel: 10
+    inverted: true
+    id: pwmBa
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}B
+    channel: 11
+    inverted: true
+    id: pwmBb
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}B
+    channel: 12
+    inverted: true
+    id: pwmBc
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}B
+    channel: 13
+    inverted: true
+    id: pwmBd
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}B
+    channel: 14
+    inverted: true
+    id: pwmBe
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}B
+    channel: 15
+    inverted: true
+    id: pwmBf
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+# HubC
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 0
+    id: pwmC0
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 1
+    id: pwmC1
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 2
+    id: pwmC2
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 3
+    id: pwmC3
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 4
+    id: pwmC4
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 5
+    id: pwmC5
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 6
+    id: pwmC6
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 7
+    id: pwmC7
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 8
+    inverted: true
+    id: pwmC8
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 9
+    inverted: true
+    id: pwmC9
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 10
+    inverted: true
+    id: pwmCa
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 11
+    inverted: true
+    id: pwmCb
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 12
+    inverted: true
+    id: pwmCc
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 13
+    inverted: true
+    id: pwmCd
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 14
+    inverted: true
+    id: pwmCe
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 15
+    inverted: true
+    id: pwmCf
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+# HubD
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}D
+    channel: 0
+    id: pwmD0
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}D
+    channel: 1
+    id: pwmD1
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}D
+    channel: 2
+    id: pwmD2
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}D
+    channel: 3
+    id: pwmD3
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}D
+    channel: 4
+    id: pwmD4
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}D
+    channel: 5
+    id: pwmD5
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}D
+    channel: 6
+    id: pwmD6
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}D
+    channel: 7
+    id: pwmD7
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}D
+    channel: 8
+    inverted: true
+    id: pwmD8
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}D
+    channel: 9
+    inverted: true
+    id: pwmD9
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}D
+    channel: 10
+    inverted: true
+    id: pwmDa
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}D
+    channel: 11
+    inverted: true
+    id: pwmDb
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}D
+    channel: 12
+    inverted: true
+    id: pwmDc
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}D
+    channel: 13
+    inverted: true
+    id: pwmDd
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}D
+    channel: 14
+    inverted: true
+    id: pwmDe
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}D
+    channel: 15
+    inverted: true
+    id: pwmDf
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+# HubE
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}E
+    channel: 0
+    id: pwmE0
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}E
+    channel: 1
+    id: pwmE1
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}E
+    channel: 2
+    id: pwmE2
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}E
+    channel: 3
+    id: pwmE3
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}E
+    channel: 4
+    id: pwmE4
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}E
+    channel: 5
+    id: pwmE5
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}E
+    channel: 6
+    id: pwmE6
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}E
+    channel: 7
+    id: pwmE7
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}E
+    channel: 8
+    inverted: true
+    id: pwmE8
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}E
+    channel: 9
+    inverted: true
+    id: pwmE9
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}E
+    channel: 10
+    inverted: true
+    id: pwmEa
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}E
+    channel: 11
+    inverted: true
+    id: pwmEb
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}E
+    channel: 12
+    inverted: true
+    id: pwmEc
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}E
+    channel: 13
+    inverted: true
+    id: pwmEd
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}E
+    channel: 14
+    inverted: true
+    id: pwmEe
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}E
+    channel: 15
+    inverted: true
+    id: pwmEf
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+# HubF
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}F
+    channel: 0
+    id: pwmF0
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}F
+    channel: 1
+    id: pwmF1
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}F
+    channel: 2
+    id: pwmF2
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}F
+    channel: 3
+    id: pwmF3
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}F
+    channel: 4
+    id: pwmF4
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}F
+    channel: 5
+    id: pwmF5
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}F
+    channel: 6
+    id: pwmF6
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}F
+    channel: 7
+    id: pwmF7
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}F
+    channel: 8
+    inverted: true
+    id: pwmF8
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}F
+    channel: 9
+    inverted: true
+    id: pwmF9
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}F
+    channel: 10
+    inverted: true
+    id: pwmFa
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}F
+    channel: 11
+    inverted: true
+    id: pwmFb
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}F
+    channel: 12
+    inverted: true
+    id: pwmFc
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}F
+    channel: 13
+    inverted: true
+    id: pwmFd
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}F
+    channel: 14
+    inverted: true
+    id: pwmFe
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}F
+    channel: 15
+    inverted: true
+    id: pwmFf
+    inverted: true
+    min_power: 0.00
+    max_power: 0.70
+    zero_means_zero: true
