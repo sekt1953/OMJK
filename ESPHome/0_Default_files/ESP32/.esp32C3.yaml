@@ -17,7 +17,8 @@ api:
     key: !secret api_key_omjk
 
 ota:
-  password: !secret ota_pass_omjk
+  - platform: esphome
+    password: !secret ota_pass_omjk
 
 wifi:
   networks:

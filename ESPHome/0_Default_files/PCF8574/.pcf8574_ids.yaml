@@ -12,7 +12,6 @@ pcf8574:
   - id: ${id_pcf8574_3}
     address: ${addr_pcf8574_3}
     pcf8575: false
-#
   - id: ${id_pcf8574_4}
     address: ${addr_pcf8574_4}
     pcf8575: false

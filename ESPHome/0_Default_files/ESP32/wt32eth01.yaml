@@ -1,20 +1,9 @@
-substitutions:
-  esphome_name: "eth01-00"
-  esphome_friendly_name: "WT32-eth01-00"
-
-# I2C Port settings  
-  i2c_sda: "21"
-  i2c_scl: "22"
-  i2c_scan: "true"
-  i2c_id: "bus_a"
-
 esphome:
   name: ${esphome_name}
   friendly_name: ${esphome_friendly_name}
 
 esp32:
-# https://docs.platformio.org/en/latest/boards/espressif32/wt32-eth01.html
-  board: wt32-eth01
+  board: wt32-eth01 # https://docs.platformio.org/en/latest/boards/espressif32/wt32-eth01.html
   framework:
     type: arduino
 

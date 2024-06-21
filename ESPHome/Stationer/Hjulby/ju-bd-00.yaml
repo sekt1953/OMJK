@@ -1,6 +1,6 @@
 substitutions:
-  esphome_name: "ju-pl-01"
-  esphome_friendly_name: "Hjulby-Pult-Led-01"
+  esphome_name: "ju-bd-00"
+  esphome_friendly_name: "Hjulby-Block-Detection-00"
 
 # PCA9685 Kilde: https://esphome.io/components/output/pca9685
 # id (Optional, ID): 
@@ -32,4 +32,9 @@ substitutions:
   i2c_id: "bus_a"
   i2c_frequency: "10kHz"
 
+# ESP32 base config
+<<: !include ./ESP32/.esp32dev.yaml    
 
+# I2C_IO_Interface with PCF8574
+<<: !include ./I2C_IO_PCF8574/ju/ju/.pcf8574_ids_ju.yaml
+<<: !include ./I2C_IO_PCF8574/ju/ju/.pcf8574_input_ju.yaml
