@@ -1,0 +1,99 @@
+substitutions:
+  esphome_name: "tft-a-clock-01"
+  esphome_friendly_name: "TFT-Analog-Clock-01"
+  
+  # Display
+  SCREEN_WIDTH: "128"
+  SCREEN_HEIGTH: "160"
+  RADIUS: "63"
+  SIZE_PoetsenOne: "15"
+
+globals:
+  - id: hrs
+    type: unsigned int
+    initial_value: "9"
+  - id: mins
+    type: unsigned int
+    initial_value: "25"
+  - id: secs
+    type: unsigned int
+    initial_value: "5"
+
+# ESP32C3 base config
+<<: !include ./ESP32/.esp32c3base.yaml
+
+# Analog Clock config
+font:
+  - file: "gfonts://Poetsen One"
+    id: PoetsenOne${SIZE_PoetsenOne}
+    size: ${SIZE_PoetsenOne}
+
+  - file: "gfonts://Roboto"
+    id: roboto
+    size: 29
+
+spi:
+  clk_pin: GPIO4
+  mosi_pin: GPIO6
+  miso_pin: GPIO5
+
+color:
+  - id: yellow
+    red: 100%
+    green: 100%
+    blue: 0%
+
+  - id: red
+    red: 100%
+    green: 0%
+    blue: 0%
+
+display:
+  - platform: st7735
+    model: "INITR_18BLACKTAB"
+    reset_pin: GPIO3
+    cs_pin: GPIO7
+    dc_pin: GPIO2
+    rotation: 0
+    device_width: 128
+    device_height: 160
+    col_start: 0
+    row_start: 0
+    eight_bit_color: True
+    update_interval: 1s
+
+    lambda: |-
+      int x_center = min(${SCREEN_HEIGTH}, ${SCREEN_WIDTH})/2;
+      int y_center = min(${SCREEN_HEIGTH}, ${SCREEN_WIDTH})/2;
+      int o_radius = min(${SCREEN_HEIGTH}, ${SCREEN_WIDTH})/2-1;
+      int i_radius = 2;
+
+      //it.circle(x_center, y_center, o_radius);
+      it.circle(x_center, y_center, i_radius);
+
+      for (int j=1; j<=60; j++){
+        float angle = j*6;
+        angle = angle * 0.0174533;
+        float x1 = x_center + (sin(angle) * o_radius);
+        float y1 = y_center + (cos(angle) * o_radius);
+        float x2 = x_center + (sin(angle) * o_radius);
+        float y2 = y_center + (cos(angle) * o_radius);
+        it.line(x1,y1,x2,y2);
+      } 
+
+      for (int j=1; j<=12; j++){
+        float angle = j*30;
+        angle = angle * 0.0174533;
+        float x1 = x_center + (sin(angle) * o_radius);
+        float y1 = y_center + (cos(angle) * o_radius);
+        float x2 = x_center + (sin(angle) * (o_radius-7));
+        float y2 = y_center + (cos(angle) * (o_radius-7));
+        it.line(x1,y1,x2,y2);
+      } 
+
+      it.strftime(x_center, ${SCREEN_HEIGTH}-1, id(roboto), id(yellow),  TextAlign::BOTTOM_CENTER , "%H:%M", id(esptime).now());
+
+      it.printf(x_center, y_center - y_center + ${SIZE_PoetsenOne}, id(PoetsenOne${SIZE_PoetsenOne}), id(red), TextAlign::CENTER, "12");
+      it.printf(x_center + x_center - ${SIZE_PoetsenOne}, y_center, id(PoetsenOne${SIZE_PoetsenOne}), id(red), TextAlign::CENTER, "3");
+      it.printf(x_center, y_center + y_center - ${SIZE_PoetsenOne}, id(PoetsenOne${SIZE_PoetsenOne}), id(red), TextAlign::CENTER, "6");
+      it.printf(x_center - x_center + ${SIZE_PoetsenOne}, y_center, id(PoetsenOne${SIZE_PoetsenOne}), id(red), TextAlign::CENTER, "9");
