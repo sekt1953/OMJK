@@ -33,9 +33,9 @@ substitutions:
   i2c_frequency: "10kHz"
   
 # ESP32 base config
-<<: !include ./ESP32/.esp32dev.yaml
+<<: !include ./Includes/ESP32/.esp32dev.yaml
 
 # I2C_PWM_Output with PCA9685
-<<: !include ./I2C_O_PCA9685/ju/ju-pl-00/.pca9685_ids_ju-pl-00.yaml
-<<: !include ./I2C_O_PCA9685/ju/ju-pl-00/.pca9685_output_ju-pl-00.yaml
-<<: !include ./I2C_O_PCA9685/ju/ju-pl-00/.pca9685_light_ju-pl-00.yaml
+<<: !include ./Includes/Ju/Ju-pl-00/.pca9685_ids_ju-pl-00.yaml
+<<: !include ./Includes/Ju/Ju-pl-00/.pca9685_output_ju-pl-00.yaml
+<<: !include ./Includes/Ju/Ju-pl-00/.pca9685_light_ju-pl-00.yaml

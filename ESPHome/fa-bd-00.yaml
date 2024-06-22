@@ -33,8 +33,8 @@ substitutions:
   i2c_frequency: "10kHz"
  
 # ESP32 base config
-<<: !include ./ESP32/.esp32dev.yaml
+<<: !include ./Includes/ESP32/.esp32dev.yaml
 
 # I2C_IO_Interface with PCF8574
-<<: !include ./I2C_IO_PCF8574/fa/.pcf8574_ids_fa.yaml
-<<: !include ./I2C_IO_PCF8574/fa/.pcf8574_input_fa.yaml
+<<: !include ./Includes/Fa/.pcf8574_ids_fa.yaml
+<<: !include ./Includes/Fa/.pcf8574_input_fa.yaml
