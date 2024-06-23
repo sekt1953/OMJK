@@ -20,7 +20,7 @@
 #   Interlocking https://esphome.io/components/switch/gpio#interlocking
 
 # Individual input hub0
-binary_sensor:
+switch:
   - platform: gpio
     name: "_00"
     pin:
@@ -86,7 +86,7 @@ binary_sensor:
         output: true
       inverted: true
 # Individual input hub1
-#binary_sensor:
+#switch:
   - platform: gpio
     name: "_10"
     pin:
@@ -151,7 +151,7 @@ binary_sensor:
         output: true
       inverted: true
 # Individual input hub2
-#binary_sensor:
+#switch:
   - platform: gpio
     name: "_20"
     pin:
@@ -217,7 +217,7 @@ binary_sensor:
         output: true
       inverted: true
 # Individual input hub3
-# binary_sensor:
+# switch:
   - platform: gpio
     name: "_30"
     pin:
@@ -283,7 +283,7 @@ binary_sensor:
         output: true
       inverted: true
 # Individual input hub4
-# binary_sensor:
+# switch:
   - platform: gpio
     name: "_40"
     pin:
@@ -349,7 +349,7 @@ binary_sensor:
         output: true
       inverted: true
 # Individual input hub5
-# binary_sensor:
+# switch:
   - platform: gpio
     name: "_50"
     pin:
@@ -415,7 +415,7 @@ binary_sensor:
         output: true
       inverted: true
 # Individual input hub6
-# binary_sensor:
+# switch:
   - platform: gpio
     name: "_60"
     pin:
@@ -481,7 +481,7 @@ binary_sensor:
         output: true
       inverted: true
 # Individual input hub7
-# binary_sensor:
+# switch:
   - platform: gpio
     name: "_70"
     pin:
