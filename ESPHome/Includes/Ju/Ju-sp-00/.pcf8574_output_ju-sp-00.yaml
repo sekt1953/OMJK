@@ -28,7 +28,7 @@ switch:
       number: 0
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_01"
     pin:
@@ -36,7 +36,7 @@ switch:
       number: 1
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_02"
     pin:
@@ -44,7 +44,7 @@ switch:
       number: 2
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_03"
     pin:
@@ -52,7 +52,7 @@ switch:
       number: 3
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_04"
     pin:
@@ -60,7 +60,7 @@ switch:
       number: 4
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_05"
     pin:
@@ -68,7 +68,7 @@ switch:
       number: 5
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_06"
     pin:
@@ -76,7 +76,7 @@ switch:
       number: 6
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_07"
     pin:
@@ -84,7 +84,7 @@ switch:
       number: 7
       mode:
         output: true
-      inverted: true
+      inverted: false
 # Individual output hub1
 #switch:
   - platform: gpio
@@ -94,7 +94,7 @@ switch:
       number: 0
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_11"
     pin:
@@ -109,7 +109,7 @@ switch:
       number: 2
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_13"
     pin:
@@ -117,7 +117,7 @@ switch:
       number: 3
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_14"
     pin:
@@ -125,7 +125,7 @@ switch:
       number: 4
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_15"
     pin:
@@ -133,7 +133,7 @@ switch:
       number: 5
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_16"
     pin:
@@ -141,7 +141,7 @@ switch:
       number: 6
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_17"
     pin:
@@ -149,7 +149,7 @@ switch:
       number: 7
       mode:
         output: true
-      inverted: true
+      inverted: false
 # Individual output hub2
 #switch:
   - platform: gpio
@@ -159,7 +159,7 @@ switch:
       number: 0
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_21"
     pin:
@@ -167,7 +167,7 @@ switch:
       number: 1
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_22"
     pin:
@@ -175,7 +175,7 @@ switch:
       number: 2
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_23"
     pin:
@@ -183,7 +183,7 @@ switch:
       number: 3
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_24"
     pin:
@@ -191,7 +191,7 @@ switch:
       number: 4
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_25"
     pin:
@@ -199,7 +199,7 @@ switch:
       number: 5
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_26"
     pin:
@@ -207,7 +207,7 @@ switch:
       number: 6
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_27"
     pin:
@@ -215,7 +215,7 @@ switch:
       number: 7
       mode:
         output: true
-      inverted: true
+      inverted: false
 # Individual output hub3
 # switch:
   - platform: gpio
@@ -225,7 +225,7 @@ switch:
       number: 0
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_31"
     pin:
@@ -233,7 +233,7 @@ switch:
       number: 1
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_32"
     pin:
@@ -241,7 +241,7 @@ switch:
       number: 2
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_33"
     pin:
@@ -249,7 +249,7 @@ switch:
       number: 3
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_34"
     pin:
@@ -257,7 +257,7 @@ switch:
       number: 4
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_35"
     pin:
@@ -265,7 +265,7 @@ switch:
       number: 5
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_36"
     pin:
@@ -273,7 +273,7 @@ switch:
       number: 6
       mode:
         output: true
-      inverted: true
+      inverted: false
   - platform: gpio
     name: "_37"
     pin:
@@ -281,5 +281,5 @@ switch:
       number: 7
       mode:
         output: true
-      inverted: true
+      inverted: false
 
