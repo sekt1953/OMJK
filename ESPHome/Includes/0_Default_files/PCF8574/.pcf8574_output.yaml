@@ -19,7 +19,7 @@
 #   Momentary Switch https://esphome.io/components/switch/gpio#momentary-switch
 #   Interlocking https://esphome.io/components/switch/gpio#interlocking
 
-# Individual input hub0
+# Individual output hub0
 switch:
   - platform: gpio
     name: "_00"
@@ -85,7 +85,7 @@ switch:
       mode:
         output: true
       inverted: true
-# Individual input hub1
+# Individual output hub1
 #switch:
   - platform: gpio
     name: "_10"
@@ -150,7 +150,7 @@ switch:
       mode:
         output: true
       inverted: true
-# Individual input hub2
+# Individual output hub2
 #switch:
   - platform: gpio
     name: "_20"
@@ -216,7 +216,7 @@ switch:
       mode:
         output: true
       inverted: true
-# Individual input hub3
+# Individual output hub3
 # switch:
   - platform: gpio
     name: "_30"
@@ -282,7 +282,7 @@ switch:
       mode:
         output: true
       inverted: true
-# Individual input hub4
+# Individual output hub4
 # switch:
   - platform: gpio
     name: "_40"
@@ -348,7 +348,7 @@ switch:
       mode:
         output: true
       inverted: true
-# Individual input hub5
+# Individual output hub5
 # switch:
   - platform: gpio
     name: "_50"
@@ -414,7 +414,7 @@ switch:
       mode:
         output: true
       inverted: true
-# Individual input hub6
+# Individual output hub6
 # switch:
   - platform: gpio
     name: "_60"
@@ -480,7 +480,7 @@ switch:
       mode:
         output: true
       inverted: true
-# Individual input hub7
+# Individual output hub7
 # switch:
   - platform: gpio
     name: "_70"
