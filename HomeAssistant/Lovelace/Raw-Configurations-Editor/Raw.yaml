@@ -1,0 +1,1400 @@
+title: Hjem
+views:
+  - path: default_view
+    title: Home
+    cards:
+      - type: entities
+        entities:
+          - person.omjk
+      - type: vertical-stack
+        cards:
+          - type: horizontal-stack
+            cards:
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: call-service
+                  service: hassio.host_shutdown
+                  target: {}
+                icon: mdi:power
+                name: Sluk PC
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: call-service
+                  service: hassio.host_reboot
+                  target: {}
+                icon: mdi:restart
+                name: reboot PC
+          - type: horizontal-stack
+            cards:
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: navigate
+                  navigation_path: /lovelace/fa-bd
+                icon: mdi:home
+                name: Fredericia
+                show_state: false
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: navigate
+                  navigation_path: /lovelace/cap-fredericia
+                icon: mdi:led-on
+                hold_action:
+                  action: none
+                name: cap-fredericia
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: navigate
+                  navigation_path: /lovelace/cap-hjulby
+                icon: mdi:led-on
+                name: cap hjulby
+          - type: horizontal-stack
+            cards:
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: navigate
+                  navigation_path: /lovelace/hjulby
+                icon: mdi:home
+                name: Hjulby
+                show_state: false
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: navigate
+                  navigation_path: /lovelace/ju-signal
+                icon: mdi:led-on
+                hold_action:
+                  action: none
+                name: Ju-Signal
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: navigate
+                  navigation_path: /lovelace/hjulby-pult-led
+                icon: mdi:led-on
+                hold_action:
+                  action: none
+                name: Ju-pult-led
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: navigate
+                  navigation_path: /lovelace/hjulby-pult-tryk
+                icon: mdi:led-on
+                hold_action:
+                  action: none
+                name: Ju-pult-tryk
+  - title: Fa-bd
+    path: fa-bd
+    cards:
+      - type: entities
+        entities:
+          - entity: binary_sensor.fa_bd_00_40
+            name: T48
+          - entity: binary_sensor.fa_bd_00_41
+            name: T47
+          - entity: binary_sensor.fa_bd_00_42
+            name: T46
+          - entity: binary_sensor.fa_bd_00_43
+            name: T43
+          - entity: binary_sensor.fa_bd_00_44
+            name: T44
+          - entity: binary_sensor.fa_bd_00_45
+            name: T45
+          - entity: binary_sensor.fa_bd_00_46
+            name: _46
+          - entity: binary_sensor.fa_bd_00_47
+            name: T41
+        title: Fredericia-Block-Detection
+        state_color: true
+      - type: entities
+        entities:
+          - entity: binary_sensor.fa_bd_00_50
+            name: _50
+          - entity: binary_sensor.fa_bd_00_51
+            name: _51
+          - entity: binary_sensor.fa_bd_00_52
+            name: _52
+          - entity: binary_sensor.fa_bd_00_53
+            name: _53
+          - entity: binary_sensor.fa_bd_00_54
+            name: _54
+          - entity: binary_sensor.fa_bd_00_55
+            name: _55
+          - entity: binary_sensor.fa_bd_00_56
+            name: _56
+          - entity: binary_sensor.fa_bd_00_57
+            name: _57
+        title: Fredericia-Block-Detection
+        state_color: true
+      - type: entities
+        entities:
+          - entity: update.fredericia_block_detection_firmware
+            name: Firmware
+          - entity: button.fa_bd_00_restart_fa_bd_00
+            name: Restart fa-bd-00
+          - entity: sensor.fa_bd_00_connected_bssid_fa_bd_00
+            name: Connected BSSID fa-bd-00
+          - entity: sensor.fa_bd_00_connected_ssid_fa_bd_00
+            name: Connected SSID fa-bd-00
+          - entity: sensor.fa_bd_00_ip_address_fa_bd_00
+            name: IP Address fa-bd-00
+          - entity: sensor.fa_bd_00_mac_wifi_address_fa_bd_00
+            name: Mac Wifi Address fa-bd-00
+        title: Fredericia-Block-Detection
+  - title: Cap-Fredericia
+    path: cap-fredericia
+    cards:
+      - type: entities
+        entities:
+          - entity: light.cap_fa_00_00
+            name: Cap Fa spor 3 Rød
+          - entity: light.cap_fa_00_01
+            name: Cap Fa Spor 3 Grøn
+          - entity: light.cap_fa_00_02
+            name: Cap Fa Spor 2 Rød
+          - entity: light.cap_fa_00_03
+            name: _03
+          - entity: light.cap_fa_00_04
+            name: _04
+          - entity: light.cap_fa_00_05
+            name: _05
+          - entity: light.cap_fa_00_06
+            name: _06
+          - entity: light.cap_fa_00_07
+            name: _07
+          - entity: light.cap_fa_00_08
+            name: _08
+          - entity: light.cap_fa_00_09
+            name: _09
+          - entity: light.cap_fa_00_0a
+            name: _0A
+          - entity: light.cap_fa_00_0b
+            name: _0B
+          - entity: light.cap_fa_00_0c
+            name: _0C
+          - entity: light.cap_fa_00_0d
+            name: _0D
+          - entity: light.cap_fa_00_0e
+            name: _0E
+          - entity: light.cap_fa_00_0f
+            name: _0F
+        title: Cap-Fredericia-Signal
+      - type: entities
+        entities:
+          - entity: update.cap_fredericia_signal_firmware
+            name: Firmware
+          - entity: button.cap_fa_00_restart_cap_fa_00
+            name: Restart cap-fa-00
+          - entity: sensor.cap_fa_00_connected_bssid_cap_fa_00
+            name: Connected BSSID cap-fa-00
+          - entity: sensor.cap_fa_00_connected_ssid_cap_fa_00
+            name: Connected SSID cap-fa-00
+          - entity: sensor.cap_fa_00_ip_address_cap_fa_00
+            name: IP Address cap-fa-00
+          - entity: sensor.cap_fa_00_mac_wifi_address_cap_fa_00
+            name: Mac Wifi Address cap-fa-00
+        title: Cap-Fredericia-Signal
+  - title: Hjulby
+    path: hjulby
+    cards:
+      - type: vertical-stack
+        cards:
+          - type: horizontal-stack
+            cards:
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: navigate
+                  navigation_path: /lovelace/ju-bd
+                icon: mdi:home
+                name: Block Detection
+                hold_action:
+                  action: none
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: navigate
+                  navigation_path: /lovelace/ju-signal
+                icon: mdi:traffic-light-outline
+                name: Signal
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: navigate
+                  navigation_path: /lovelace/hjulby-pult-led
+                icon: mdi:table-chair
+                name: Pult Led
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: navigate
+                  navigation_path: /lovelace/hjulby-pult-tryk
+                icon: mdi:table-chair
+                name: Pult Tryk
+                hold_action:
+                  action: none
+          - type: horizontal-stack
+            cards:
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: navigate
+                  navigation_path: /lovelace/hjulby-sporskifte
+                icon: mdi:arrow-decision
+                name: Sporskifte
+                hold_action:
+                  action: none
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: navigate
+                  navigation_path: /lovelace/hjulby
+                icon: null
+                name: null
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: navigate
+                  navigation_path: /lovelace/hjulby
+                icon: null
+                name: null
+              - show_name: true
+                show_icon: true
+                type: button
+                tap_action:
+                  action: navigate
+                  navigation_path: /lovelace/hjulby
+                icon: null
+                name: null
+                hold_action:
+                  action: none
+  - title: Ju-BD
+    path: ju-bd
+    cards:
+      - type: entities
+        entities:
+          - entity: update.hjulby_block_detection_00_firmware
+            name: Firmware
+          - entity: button.ju_bd_00_restart_ju_bd_00
+            name: Restart ju-bd-00
+          - entity: sensor.ju_bd_00_connected_bssid_ju_bd_00
+            name: Connected BSSID ju-bd-00
+          - entity: sensor.ju_bd_00_connected_ssid_ju_bd_00
+            name: Connected SSID ju-bd-00
+          - entity: sensor.ju_bd_00_ip_address_ju_bd_00
+            name: IP Address ju-bd-00
+          - entity: sensor.ju_bd_00_mac_wifi_address_ju_bd_00
+            name: Mac Wifi Address ju-bd-00
+        title: Hjulby-Block-Detection-00
+      - type: entities
+        entities:
+          - entity: binary_sensor.ju_bd_00_00
+            name: T12
+          - entity: binary_sensor.ju_bd_00_01
+            name: T10
+          - entity: binary_sensor.ju_bd_00_02
+            name: T08
+          - entity: binary_sensor.ju_bd_00_03
+            name: T05
+          - entity: binary_sensor.ju_bd_00_04
+            name: T03
+          - entity: binary_sensor.ju_bd_00_05
+            name: T01
+          - entity: binary_sensor.ju_bd_00_06
+            name: K12
+          - entity: binary_sensor.ju_bd_00_07
+            name: B61
+          - entity: binary_sensor.ju_bd_00_10
+            name: M12
+          - entity: binary_sensor.ju_bd_00_11
+            name: A61
+          - entity: binary_sensor.ju_bd_00_12
+            name: C61
+          - entity: binary_sensor.ju_bd_00_13
+            name: D61
+          - entity: binary_sensor.ju_bd_00_14
+            name: T21
+          - entity: binary_sensor.ju_bd_00_15
+            name: T18
+          - entity: binary_sensor.ju_bd_00_16
+            name: T16
+          - entity: binary_sensor.ju_bd_00_17
+            name: T14
+        title: Hjulby-Block-Detection 00-17
+        state_color: true
+      - type: entities
+        entities:
+          - entity: binary_sensor.ju_bd_00_20
+            name: T17
+          - entity: binary_sensor.ju_bd_00_21
+            name: T15
+          - entity: binary_sensor.ju_bd_00_22
+            name: T13
+          - entity: binary_sensor.ju_bd_00_23
+            name: T11
+          - entity: binary_sensor.ju_bd_00_24
+            name: T09
+          - entity: binary_sensor.ju_bd_00_25
+            name: T06
+          - entity: binary_sensor.ju_bd_00_26
+            name: T04
+          - entity: binary_sensor.ju_bd_00_27
+            name: T02
+          - entity: binary_sensor.ju_bd_00_30
+            name: _30
+          - entity: binary_sensor.ju_bd_00_31
+            name: _31
+          - entity: binary_sensor.ju_bd_00_32
+            name: _32
+          - entity: binary_sensor.ju_bd_00_33
+            name: _33
+          - entity: binary_sensor.ju_bd_00_34
+            name: _34
+          - entity: binary_sensor.ju_bd_00_35
+            name: C12
+          - entity: binary_sensor.ju_bd_00_36
+            name: A12
+          - entity: binary_sensor.ju_bd_00_37
+            name: T19
+        title: Hjulby-Block-Detection 20-37
+        state_color: true
+  - title: Ju-Signal
+    path: ju-signal
+    subview: true
+    cards:
+      - type: entities
+        entities:
+          - entity: light.ju_sl_00_00_2
+            name: _00
+          - entity: light.ju_sl_00_01_2
+            name: _01
+          - entity: light.ju_sl_00_02_2
+            name: _02
+          - entity: light.ju_sl_00_03_2
+            name: _03
+          - entity: light.ju_sl_00_04_2
+            name: _04
+          - entity: light.ju_sl_00_05_2
+            name: _05
+          - entity: light.ju_sl_00_06_2
+            name: _06
+          - entity: light.ju_sl_00_07_2
+            name: _07
+          - entity: light.ju_sl_00_08_2
+            name: _08
+          - entity: light.ju_sl_00_09_2
+            name: _09
+          - entity: light.ju_sl_00_0a_2
+            name: _0A
+          - entity: light.ju_sl_00_0b_2
+            name: _0B
+          - entity: light.ju_sl_00_0c_2
+            name: _0C
+          - entity: light.ju_sl_00_0d_2
+            name: _0D
+          - entity: light.ju_sl_00_0e_2
+            name: _0E
+          - entity: light.ju_sl_00_0f_2
+            name: _0F
+        title: Hjulby-Signal
+      - type: entities
+        entities:
+          - entity: light.ju_sl_00_10_2
+            name: _10
+          - entity: light.ju_sl_00_11_2
+            name: _11
+          - entity: light.ju_sl_00_12_2
+            name: _12
+          - entity: light.ju_sl_00_13_2
+            name: _13
+          - entity: light.ju_sl_00_14_2
+            name: _14
+          - entity: light.ju_sl_00_15_2
+            name: _15
+          - entity: light.ju_sl_00_16_2
+            name: _16
+          - entity: light.ju_sl_00_17_2
+            name: _17
+          - entity: light.ju_sl_00_18_2
+            name: _18
+          - entity: light.ju_sl_00_19_2
+            name: _19
+          - entity: light.ju_sl_00_1a_2
+            name: _1A
+          - entity: light.ju_sl_00_1b_2
+            name: _1B
+          - entity: light.ju_sl_00_1c_2
+            name: _1C
+          - entity: light.ju_sl_00_1d_2
+            name: _1D
+          - entity: light.ju_sl_00_1e_2
+            name: _1E
+          - entity: light.ju_sl_00_1f_2
+            name: _1F
+        title: Hjulby-Signal
+      - type: entities
+        entities:
+          - entity: light.ju_sl_00_20_2
+            name: _20
+          - entity: light.ju_sl_00_21_2
+            name: _21
+          - entity: light.ju_sl_00_22_2
+            name: Ju-G-9
+          - entity: light.ju_sl_00_23_2
+            name: Ju-G-8
+          - entity: light.ju_sl_00_24_2
+            name: Ju-G-7
+          - entity: light.ju_sl_00_25_2
+            name: _25
+          - entity: light.ju_sl_00_26_2
+            name: _26
+          - entity: light.ju_sl_00_27_2
+            name: _27
+          - entity: light.ju_sl_00_28_2
+            name: _28
+          - entity: light.ju_sl_00_29_2
+            name: _29
+          - entity: light.ju_sl_00_2a_2
+            name: _2A
+          - entity: light.ju_sl_00_2b_2
+            name: _2B
+          - entity: light.ju_sl_00_2c_2
+            name: _2C
+          - entity: light.ju_sl_00_2d_2
+            name: _2D
+          - entity: light.ju_sl_00_2e_2
+            name: _2E
+          - entity: light.ju_sl_00_2f_2
+            name: _2F
+        title: Hjulby-Signal
+      - type: entities
+        entities:
+          - entity: light.ju_sl_00_30_2
+            name: _30
+          - entity: light.ju_sl_00_31_2
+            name: _31
+          - entity: light.ju_sl_00_32_2
+            name: _32
+          - entity: light.ju_sl_00_33_2
+            name: _33
+          - entity: light.ju_sl_00_34_2
+            name: _34
+          - entity: light.ju_sl_00_35_2
+            name: Ju-J-40
+          - entity: light.ju_sl_00_36_2
+            name: Ju-J-75
+          - entity: light.ju_sl_00_37_2
+            name: _37
+          - entity: light.ju_sl_00_38_2
+            name: Ju-J-60
+          - entity: light.ju_sl_00_39_2
+            name: JU-J-9
+          - entity: light.ju_sl_00_3a_2
+            name: Ju-J-8
+          - entity: light.ju_sl_00_3b_2
+            name: Ju-J-7
+          - entity: light.ju_sl_00_3c_2
+            name: Ju-J-6
+          - entity: light.ju_sl_00_3d_2
+            name: _3D
+          - entity: light.ju_sl_00_3e_2
+            name: _3E
+          - entity: light.ju_sl_00_3f_2
+            name: _3F
+        title: Hjulby-Signal
+      - type: entities
+        entities:
+          - entity: update.hjulby_signal_firmware_2
+            name: Firmware
+          - entity: button.ju_sl_00_restart_ju_sl_00_2
+            name: Restart ju-sl-00
+          - entity: sensor.ju_sl_00_connected_bssid_ju_sl_00_2
+            name: Connected BSSID ju-sl-00
+          - entity: sensor.ju_sl_00_connected_ssid_ju_sl_00_2
+            name: Connected SSID ju-sl-00
+          - entity: sensor.ju_sl_00_ip_address_ju_sl_00_2
+            name: IP Address ju-sl-00
+          - entity: sensor.ju_sl_00_mac_wifi_address_ju_sl_00_2
+            name: Mac Wifi Address ju-sl-00
+        title: Hjulby-Signal
+  - title: Hjulby Pult Led
+    path: hjulby-pult-led
+    subview: true
+    cards:
+      - type: entities
+        entities:
+          - entity: light.ju_pl_01_00
+            name: _00
+          - entity: light.ju_pl_01_01
+            name: _01
+          - entity: light.ju_pl_01_02
+            name: _02
+          - entity: light.ju_pl_01_03
+            name: _03
+          - entity: light.ju_pl_01_04
+            name: _04
+          - entity: light.ju_pl_01_05
+            name: _05
+          - entity: light.ju_pl_01_06
+            name: _06
+          - entity: light.ju_pl_01_07
+            name: _07
+          - entity: light.ju_pl_01_08
+            name: _08
+          - entity: light.ju_pl_01_09
+            name: _09
+          - entity: light.ju_pl_01_0a
+            name: _0A
+          - entity: light.ju_pl_01_0b
+            name: _0B
+          - entity: light.ju_pl_01_0c
+            name: _0C
+          - entity: light.ju_pl_01_0d
+            name: _0D
+          - entity: light.ju_pl_01_0e
+            name: _0E
+          - entity: light.ju_pl_01_0f
+            name: _0F
+        title: Hjulby-Pult-Led-01
+      - type: entities
+        entities:
+          - entity: light.ju_pl_01_10
+            name: _10
+          - entity: light.ju_pl_01_11
+            name: _11
+          - entity: light.ju_pl_01_12
+            name: _12
+          - entity: light.ju_pl_01_13
+            name: _13
+          - entity: light.ju_pl_01_14
+            name: _14
+          - entity: light.ju_pl_01_15
+            name: _15
+          - entity: light.ju_pl_01_16
+            name: _16
+          - entity: light.ju_pl_01_17
+            name: _17
+          - entity: light.ju_pl_01_18
+            name: _18
+          - entity: light.ju_pl_01_19
+            name: _19
+          - entity: light.ju_pl_01_1a
+            name: _1A
+          - entity: light.ju_pl_01_1b
+            name: _1B
+          - entity: light.ju_pl_01_1c
+            name: _1C
+          - entity: light.ju_pl_01_1d
+            name: _1D
+          - entity: light.ju_pl_01_1e
+            name: _1E
+          - entity: light.ju_pl_01_1f
+            name: _1F
+        title: Hjulby-Pult-Led-01
+      - type: entities
+        entities:
+          - entity: light.ju_pl_01_20
+            name: _20
+          - entity: light.ju_pl_01_21
+            name: _21
+          - entity: light.ju_pl_01_22
+            name: _22
+          - entity: light.ju_pl_01_23
+            name: _23
+          - entity: light.ju_pl_01_24
+            name: _24
+          - entity: light.ju_pl_01_25
+            name: _25
+          - entity: light.ju_pl_01_26
+            name: _26
+          - entity: light.ju_pl_01_27
+            name: _27
+          - entity: light.ju_pl_01_28
+            name: _28
+          - entity: light.ju_pl_01_29
+            name: _29
+          - entity: light.ju_pl_01_2a
+            name: _2A
+          - entity: light.ju_pl_01_2b
+            name: _2B
+          - entity: light.ju_pl_01_2c
+            name: _2C
+          - entity: light.ju_pl_01_2d
+            name: _2D
+          - entity: light.ju_pl_01_2e
+            name: _2E
+          - entity: light.ju_pl_01_2f
+            name: _2F
+        title: Hjulby-Pult-Led-01
+      - type: entities
+        entities:
+          - entity: light.ju_pl_00_30
+            name: _30
+          - entity: light.ju_pl_00_31
+            name: _31
+          - entity: light.ju_pl_00_32
+            name: _32
+          - entity: light.ju_pl_00_33
+            name: _33
+          - entity: light.ju_pl_00_34
+            name: _34
+          - entity: light.ju_pl_00_35
+            name: _35
+          - entity: light.ju_pl_00_36
+            name: _36
+          - entity: light.ju_pl_00_37
+            name: _37
+          - entity: light.ju_pl_00_38
+            name: _38
+          - entity: light.ju_pl_00_39
+            name: _39
+          - entity: light.ju_pl_00_3a
+            name: _3A
+          - entity: light.ju_pl_00_3b
+            name: _3B
+          - entity: light.ju_pl_00_3c
+            name: _3C
+          - entity: light.ju_pl_00_3d
+            name: _3D
+          - entity: light.ju_pl_00_3e
+            name: _3E
+          - entity: light.ju_pl_00_3f
+            name: _3F
+        title: Hjulby-Pult-Led-00
+        state_color: true
+      - type: entities
+        entities:
+          - entity: light.ju_pl_00_40
+            name: _40
+          - entity: light.ju_pl_00_41
+            name: _41
+          - entity: light.ju_pl_00_42
+            name: _42
+          - entity: light.ju_pl_00_43
+            name: _43
+          - entity: light.ju_pl_00_44
+            name: _44
+          - entity: light.ju_pl_00_45
+            name: _45
+          - entity: light.ju_pl_00_46
+            name: _46
+          - entity: light.ju_pl_00_47
+            name: _47
+          - entity: light.ju_pl_00_48
+            name: _48
+          - entity: light.ju_pl_00_49
+            name: _49
+          - entity: light.ju_pl_00_4a
+            name: _4A
+          - entity: light.ju_pl_00_4b
+            name: _4B
+          - entity: light.ju_pl_00_4c
+            name: _4C
+          - entity: light.ju_pl_00_4d
+            name: _4D
+          - entity: light.ju_pl_00_4e
+            name: _4E
+          - entity: light.ju_pl_00_4f
+            name: _4F
+        title: Hjulby-Pult-Led-00
+        state_color: true
+      - type: entities
+        entities:
+          - entity: light.ju_pl_00_50
+            name: _50-D26
+          - entity: light.ju_pl_00_51
+            name: _51-D27
+          - entity: light.ju_pl_00_52
+            name: _52
+          - entity: light.ju_pl_00_53
+            name: _53
+          - entity: light.ju_pl_00_54
+            name: _54
+          - entity: light.ju_pl_00_55
+            name: _55
+          - entity: light.ju_pl_00_56
+            name: _56
+          - entity: light.ju_pl_00_57
+            name: _57
+          - entity: light.ju_pl_00_58
+            name: _58
+          - entity: light.ju_pl_00_59
+            name: _59
+          - entity: light.ju_pl_00_5a
+            name: _5A
+          - entity: light.ju_pl_00_5b
+            name: _5B
+          - entity: light.ju_pl_00_5c
+            name: _5C
+          - entity: light.ju_pl_00_5d
+            name: _5D
+          - entity: light.ju_pl_00_5e
+            name: _5E
+          - entity: light.ju_pl_00_5f
+            name: _5F
+        title: Hjulby-Pult-Led-00
+        state_color: true
+      - type: entities
+        entities:
+          - entity: light.ju_pl_00_60
+            name: _60
+          - entity: light.ju_pl_00_61
+            name: _61
+          - entity: light.ju_pl_00_62
+            name: _62
+          - entity: light.ju_pl_00_63
+            name: _63
+          - entity: light.ju_pl_00_64
+            name: _64
+          - entity: light.ju_pl_00_65
+            name: _65
+          - entity: light.ju_pl_00_66
+            name: _66
+          - entity: light.ju_pl_00_67
+            name: _67
+          - entity: light.ju_pl_00_68
+            name: _68
+          - entity: light.ju_pl_00_69
+            name: _69
+          - entity: light.ju_pl_00_6a
+            name: _6A
+          - entity: light.ju_pl_00_6b
+            name: _6B
+          - entity: light.ju_pl_00_6c
+            name: _6C
+          - entity: light.ju_pl_00_6d
+            name: _6D
+          - entity: light.ju_pl_00_6e
+            name: _6E
+          - entity: light.ju_pl_00_6f
+            name: _6F
+        title: Hjulby-Pult-Led-00
+        state_color: true
+      - type: entities
+        entities:
+          - entity: light.ju_pl_00_70
+            name: Ovk 10 E34
+          - entity: light.ju_pl_00_71
+            name: Under station drift E33
+          - entity: light.ju_pl_00_72
+            name: Blink kontr
+          - entity: light.ju_pl_00_73
+            name: _73
+          - entity: light.ju_pl_00_74
+            name: _74 e30
+          - entity: light.ju_pl_00_75
+            name: _75 E29
+          - entity: light.ju_pl_00_76
+            name: S3 Sporomstilling  E28
+          - entity: light.ju_pl_00_77
+            name: _77 E27
+          - entity: light.ju_pl_00_78
+            name: _78 E26
+          - entity: light.ju_pl_00_79
+            name: C61 E25
+          - entity: light.ju_pl_00_7a
+            name: C12 E24
+          - entity: light.ju_pl_00_7b
+            name: A12 E23
+          - entity: light.ju_pl_00_7c
+            name: 102b E22
+          - entity: light.ju_pl_00_7d
+            name: S3 E21
+          - entity: light.ju_pl_00_7e
+            name: Spor3 (16) E20
+          - entity: light.ju_pl_00_7f
+            name: 104b E19
+        title: Hjulby-Pult-Led-00
+        state_color: true
+      - type: entities
+        entities:
+          - entity: light.ju_pl_00_80
+            name: (14) E17
+          - entity: light.ju_pl_00_81
+            name: 101a (13) E16
+          - entity: light.ju_pl_00_82
+            name: 102a (12) E15
+          - entity: light.ju_pl_00_83
+            name: (11) E40
+          - entity: light.ju_pl_00_84
+            name: 104a (10) E13
+          - entity: light.ju_pl_00_85
+            name: '105a (09) E12 '
+          - entity: light.ju_pl_00_86
+            name: (8) E11
+          - entity: light.ju_pl_00_87
+            name: 101b (05) E09
+          - entity: light.ju_pl_00_88
+            name: (06) E10
+          - entity: light.ju_pl_00_89
+            name: (04) E49
+          - entity: light.ju_pl_00_8a
+            name: (03) E07
+          - entity: light.ju_pl_00_8b
+            name: 105b (02) E6
+          - entity: light.ju_pl_00_8c
+            name: (01) E5
+          - entity: light.ju_pl_00_8d
+            name: M12 E04
+          - entity: light.ju_pl_00_8e
+            name: K12 E03
+          - entity: light.ju_pl_00_8f
+            name: B61 E02
+        title: Hjulby-Pult-Led-00
+        state_color: true
+      - type: entities
+        entities:
+          - entity: update.hjulby_pult_led_00_firmware
+            name: Firmware
+          - entity: button.ju_pl_00_restart_ju_pl_00
+            name: Restart ju-pl-00
+          - entity: sensor.ju_pl_00_connected_bssid_ju_pl_00
+            name: Connected BSSID ju-pl-00
+          - entity: sensor.ju_pl_00_connected_ssid_ju_pl_00
+            name: Connected SSID ju-pl-00
+          - entity: sensor.ju_pl_00_ip_address_ju_pl_00
+            name: IP Address ju-pl-00
+          - entity: sensor.ju_pl_00_mac_wifi_address_ju_pl_00
+            name: Mac Wifi Address ju-pl-00
+        title: Hjulby-Pult-Led-00
+      - type: entities
+        entities:
+          - entity: update.hjulby_pult_led_01_firmware
+            name: Firmware
+          - entity: button.ju_pl_01_restart_ju_pl_01
+            name: Restart ju-pl-01
+          - entity: sensor.ju_pl_01_connected_bssid_ju_pl_01
+            name: Connected BSSID ju-pl-01
+          - entity: sensor.ju_pl_01_connected_ssid_ju_pl_01
+            name: Connected SSID ju-pl-01
+          - entity: sensor.ju_pl_01_ip_address_ju_pl_01
+            name: IP Address ju-pl-01
+          - entity: sensor.ju_pl_01_mac_wifi_address_ju_pl_01
+            name: Mac Wifi Address ju-pl-01
+        title: Hjulby-Pult-Led-01
+  - title: Hjulby Pult Tryk
+    path: hjulby-pult-tryk
+    subview: true
+    cards:
+      - type: entities
+        entities:
+          - entity: binary_sensor.ju_pl_01_00
+            name: _00
+          - entity: binary_sensor.ju_pl_01_01
+            name: _01
+          - entity: binary_sensor.ju_pl_01_02
+            name: _02
+          - entity: binary_sensor.ju_pl_01_03
+            name: _03
+          - entity: binary_sensor.ju_pl_01_04
+            name: _04
+          - entity: binary_sensor.ju_pl_01_05
+            name: _05
+          - entity: binary_sensor.ju_pl_01_06
+            name: _06
+          - entity: binary_sensor.ju_pl_01_07
+            name: _07
+          - entity: binary_sensor.ju_pl_01_10
+            name: _10
+          - entity: binary_sensor.ju_pl_01_11
+            name: _11
+          - entity: binary_sensor.ju_pl_01_12
+            name: _12
+          - entity: binary_sensor.ju_pl_01_13
+            name: _13
+          - entity: binary_sensor.ju_pl_01_14
+            name: _14
+          - entity: binary_sensor.ju_pl_01_15
+            name: _15
+          - entity: binary_sensor.ju_pl_01_16
+            name: _16
+          - entity: binary_sensor.ju_pl_01_17
+            name: _17
+        title: Hjulby-Pult-Tryk
+        state_color: true
+      - type: entities
+        entities:
+          - entity: binary_sensor.ju_pl_01_20
+            name: _20
+          - entity: binary_sensor.ju_pl_01_21
+            name: _21
+          - entity: binary_sensor.ju_pl_01_22
+            name: _22
+          - entity: binary_sensor.ju_pl_01_23
+            name: _23
+          - entity: binary_sensor.ju_pl_01_24
+            name: _24
+          - entity: binary_sensor.ju_pl_01_25
+            name: _25
+          - entity: binary_sensor.ju_pl_01_26
+            name: _26
+          - entity: binary_sensor.ju_pl_01_27
+            name: _27
+          - entity: binary_sensor.ju_pl_01_30
+            name: _30
+          - entity: binary_sensor.ju_pl_01_31
+            name: _31
+          - entity: binary_sensor.ju_pl_01_32
+            name: _32
+          - entity: binary_sensor.ju_pl_01_33
+            name: _33
+          - entity: binary_sensor.ju_pl_01_34
+            name: _34
+          - entity: binary_sensor.ju_pl_01_35
+            name: _35
+          - entity: binary_sensor.ju_pl_01_36
+            name: _36
+          - entity: binary_sensor.ju_pl_01_37
+            name: _37
+        title: Hjulby-Pult-Tryk
+        state_color: true
+      - type: entities
+        entities:
+          - entity: binary_sensor.ju_pl_01_40
+            name: _40
+          - entity: binary_sensor.ju_pl_01_41
+            name: _41
+          - entity: binary_sensor.ju_pl_01_42
+            name: _42
+          - entity: binary_sensor.ju_pl_01_43
+            name: _43
+          - entity: binary_sensor.ju_pl_01_44
+            name: _44
+          - entity: binary_sensor.ju_pl_01_45
+            name: _45
+          - entity: binary_sensor.ju_pl_01_46
+            name: _46
+          - entity: binary_sensor.ju_pl_01_47
+            name: _47
+          - entity: binary_sensor.ju_pl_01_50
+            name: _50
+          - entity: binary_sensor.ju_pl_01_51
+            name: _51
+          - entity: binary_sensor.ju_pl_01_52
+            name: _52
+          - entity: binary_sensor.ju_pl_01_53
+            name: _53
+          - entity: binary_sensor.ju_pl_01_54
+            name: _54
+          - entity: binary_sensor.ju_pl_01_55
+            name: _55
+          - entity: binary_sensor.ju_pl_01_56
+            name: _56
+          - entity: binary_sensor.ju_pl_01_57
+            name: _57
+        title: Hjulby-Pult-Tryk
+        state_color: true
+      - type: entities
+        entities:
+          - entity: binary_sensor.ju_pl_01_60
+            name: _60
+          - entity: binary_sensor.ju_pl_01_61
+            name: _61
+          - entity: binary_sensor.ju_pl_01_62
+            name: _62
+          - entity: binary_sensor.ju_pl_01_63
+            name: _63
+          - entity: binary_sensor.ju_pl_01_64
+            name: _64
+          - entity: binary_sensor.ju_pl_01_65
+            name: _65
+          - entity: binary_sensor.ju_pl_01_66
+            name: _66
+          - entity: binary_sensor.ju_pl_01_67
+            name: _67
+          - entity: binary_sensor.ju_pl_01_70
+            name: _70
+          - entity: binary_sensor.ju_pl_01_71
+            name: _71
+          - entity: binary_sensor.ju_pl_01_72
+            name: _72
+          - entity: binary_sensor.ju_pl_01_73
+            name: _73
+          - entity: binary_sensor.ju_pl_01_74
+            name: _74
+          - entity: binary_sensor.ju_pl_01_75
+            name: _75
+          - entity: binary_sensor.ju_pl_01_76
+            name: _76
+          - entity: binary_sensor.ju_pl_01_77
+            name: _77
+        title: Hjulby-Pult-Led-01
+        state_color: true
+  - title: Hjulby Sporskifte
+    path: hjulby-sporskifte
+    cards:
+      - type: entities
+        entities:
+          - entity: binary_sensor.ju_sp_00_40
+            name: _40
+          - entity: binary_sensor.ju_sp_00_41
+            name: _41
+          - entity: binary_sensor.ju_sp_00_42
+            name: _42
+          - entity: binary_sensor.ju_sp_00_43
+            name: _43
+          - entity: binary_sensor.ju_sp_00_44
+            name: _44
+          - entity: binary_sensor.ju_sp_00_45
+            name: _45
+          - entity: binary_sensor.ju_sp_00_46
+            name: _46
+          - entity: binary_sensor.ju_sp_00_47
+            name: _47
+          - entity: binary_sensor.ju_sp_00_50
+            name: _50
+          - entity: binary_sensor.ju_sp_00_51
+            name: _51
+          - entity: binary_sensor.ju_sp_00_52
+            name: _52
+          - entity: binary_sensor.ju_sp_00_53
+            name: _53
+          - entity: binary_sensor.ju_sp_00_54
+            name: _54
+          - entity: binary_sensor.ju_sp_00_55
+            name: _55
+          - entity: binary_sensor.ju_sp_00_56
+            name: _56
+          - entity: binary_sensor.ju_sp_00_57
+            name: _57
+          - entity: binary_sensor.ju_sp_00_60
+            name: _60
+          - entity: binary_sensor.ju_sp_00_61
+            name: _61
+          - entity: binary_sensor.ju_sp_00_62
+            name: _62
+          - entity: binary_sensor.ju_sp_00_63
+            name: _63
+          - entity: binary_sensor.ju_sp_00_64
+            name: _64
+          - entity: binary_sensor.ju_sp_00_65
+            name: _65
+          - entity: binary_sensor.ju_sp_00_66
+            name: _66
+          - entity: binary_sensor.ju_sp_00_67
+            name: _67
+          - entity: binary_sensor.ju_sp_00_70
+            name: _70
+          - entity: binary_sensor.ju_sp_00_71
+            name: _71
+          - entity: binary_sensor.ju_sp_00_72
+            name: _72
+          - entity: binary_sensor.ju_sp_00_73
+            name: _73
+          - entity: binary_sensor.ju_sp_00_74
+            name: _74
+          - entity: binary_sensor.ju_sp_00_75
+            name: _75
+          - entity: binary_sensor.ju_sp_00_76
+            name: _76
+          - entity: binary_sensor.ju_sp_00_77
+            name: _77
+        title: Hjulby-Sporskifte-00
+      - type: entities
+        entities:
+          - entity: switch.ju_sp_00_00
+            name: _00
+          - entity: switch.ju_sp_00_01
+            name: _01
+          - entity: switch.ju_sp_00_02
+            name: _02
+          - entity: switch.ju_sp_00_03
+            name: _03
+          - entity: switch.ju_sp_00_04
+            name: _04
+          - entity: switch.ju_sp_00_05
+            name: _05
+          - entity: switch.ju_sp_00_06
+            name: _06
+          - entity: switch.ju_sp_00_07
+            name: _07
+          - entity: switch.ju_sp_00_10
+            name: _10
+          - entity: switch.ju_sp_00_11
+            name: _11
+          - entity: switch.ju_sp_00_12
+            name: _12
+          - entity: switch.ju_sp_00_13
+            name: _13
+          - entity: switch.ju_sp_00_14
+            name: _14
+          - entity: switch.ju_sp_00_15
+            name: _15
+          - entity: switch.ju_sp_00_16
+            name: _16
+          - entity: switch.ju_sp_00_17
+            name: _17
+          - entity: switch.ju_sp_00_20
+            name: _20
+          - entity: switch.ju_sp_00_21
+            name: _21
+          - entity: switch.ju_sp_00_22
+            name: _22
+          - entity: switch.ju_sp_00_23
+            name: _23
+          - entity: switch.ju_sp_00_24
+            name: _24
+          - entity: switch.ju_sp_00_25
+            name: _25
+          - entity: switch.ju_sp_00_26
+            name: _26
+          - entity: switch.ju_sp_00_27
+            name: _27
+          - entity: switch.ju_sp_00_30
+            name: _30
+          - entity: switch.ju_sp_00_31
+            name: _31
+          - entity: switch.ju_sp_00_32
+            name: _32
+          - entity: switch.ju_sp_00_33
+            name: _33
+          - entity: switch.ju_sp_00_34
+            name: _34
+          - entity: switch.ju_sp_00_35
+            name: _35
+          - entity: switch.ju_sp_00_36
+            name: _36
+          - entity: switch.ju_sp_00_37
+            name: _37
+        title: Hjulby-Sporskifte-00
+      - type: entities
+        entities:
+          - entity: update.hjulby_sporskifte_00_firmware
+            name: Firmware
+          - entity: button.ju_sp_00_restart_ju_sp_00
+            name: Restart ju-sp-00
+          - entity: sensor.ju_sp_00_connected_bssid_ju_sp_00
+            name: Connected BSSID ju-sp-00
+          - entity: sensor.ju_sp_00_connected_ssid_ju_sp_00
+            name: Connected SSID ju-sp-00
+          - entity: sensor.ju_sp_00_ip_address_ju_sp_00
+            name: IP Address ju-sp-00
+          - entity: sensor.ju_sp_00_mac_wifi_address_ju_sp_00
+            name: Mac Wifi Address ju-sp-00
+        title: Hjulby-Sporskifte-00
+  - title: Cap-Hjulby
+    path: cap-hjulby
+    cards:
+      - type: vertical-stack
+        cards:
+          - type: entities
+            entities:
+              - entity: light.cap_ju_00_09
+                name: Cap-Ju-A-6-Gul
+              - entity: light.cap_ju_00_0a
+                name: Cap-Ju-A-7-Grøn-Øverst
+              - entity: light.cap_ju_00_0b
+                name: Cap-Ju-A-8-Rød
+              - entity: light.cap_ju_00_0c
+                name: Cap-Ju-A-9-Grøn-nederest
+              - entity: light.cap_ju_00_0d
+                name: Cap-Ju-A-40
+              - entity: light.cap_ju_00_0e
+                name: Cap-Ju-A-60
+              - entity: light.cap_ju_00_0f
+                name: Cap-Ju-A-75
+            title: 'J1124 - A - Indkørsel '
+          - type: entities
+            entities:
+              - entity: light.cap_ju_00_04
+                name: Cap-Ju-B-5-Gul
+              - entity: light.cap_ju_00_05
+                name: Cap-Ju-B-2-Hvid
+              - entity: light.cap_ju_00_06
+                name: Cap-Ju-B-6-Grøn
+              - entity: light.cap_ju_00_07
+                name: Cap-Ju-B-3-Hvid
+              - entity: light.cap_ju_00_08
+                name: Cap-Ju-B-7-Rød
+            title: B - PU
+          - type: entities
+            entities:
+              - entity: light.cap_ju_00_01
+                name: Cap-Ju-C-9-Grøn
+              - entity: light.cap_ju_00_02
+                name: Cap-Ju-C-8-Rød
+              - entity: light.cap_ju_00_03
+                name: Cap-Ju-C-7-Grøn-Top
+            title: U2120 - C - Udkørsel
+      - type: vertical-stack
+        cards:
+          - type: entities
+            entities:
+              - entity: light.cap_ju_00_00
+                name: Cap-Ju-D-6
+            title: D - PU
+          - type: entities
+            entities:
+              - entity: light.cap_ju_00_15
+                name: _15
+            title: E1 - (PU)
+          - type: entities
+            entities:
+              - entity: light.cap_ju_00_10
+                name: Cap-Ju-E3-7-Rød
+              - entity: light.cap_ju_00_11
+                name: Cap-Ju-E3-3-Hvid-Højre
+              - entity: light.cap_ju_00_12
+                name: Cap-Ju-E3-5-Grøn
+              - entity: light.cap_ju_00_13
+                name: Cap-Ju-E3-2-Hvid-Venstre
+              - entity: light.cap_ju_00_14
+                name: Cap-Ju-E3-5-Hvid-Øverst
+            title: E3 - (PU)
+          - type: entities
+            entities:
+              - entity: light.cap_ju_00_15
+                name: _15
+            title: F2 -
+          - type: entities
+            entities:
+              - entity: light.cap_ju_00_15
+                name: _15
+            title: F3 - (PU)
+          - type: entities
+            entities:
+              - entity: light.cap_ju_00_15
+                name: _15
+            title: G
+          - type: entities
+            entities:
+              - entity: light.cap_ju_00_15
+                name: _15
+            title: H
+          - type: entities
+            entities:
+              - entity: light.cap_ju_00_15
+                name: _15
+            title: K
+          - type: entities
+            entities:
+              - entity: light.cap_ju_00_15
+                name: _15
+            title: J
+      - type: entities
+        entities:
+          - entity: update.cap_hjulby_signal_firmware
+            name: Firmware
+          - entity: button.cap_ju_00_restart_cap_ju_00
+            name: Restart cap-ju-00
+          - entity: sensor.cap_ju_00_connected_bssid_cap_ju_00
+            name: Connected BSSID cap-ju-00
+          - entity: sensor.cap_ju_00_connected_ssid_cap_ju_00
+            name: Connected SSID cap-ju-00
+          - entity: sensor.cap_ju_00_ip_address_cap_ju_00
+            name: IP Address cap-ju-00
+          - entity: sensor.cap_ju_00_mac_wifi_address_cap_ju_00
+            name: Mac Wifi Address cap-ju-00
+        title: Cap-Hjulby-Signal
+      - type: entities
+        entities:
+          - entity: light.cap_ju_00_15
+            name: _15
+          - entity: light.cap_ju_00_16
+            name: _16
+          - entity: light.cap_ju_00_17
+            name: _17
+          - entity: light.cap_ju_00_18
+            name: _18
+          - entity: light.cap_ju_00_19
+            name: _19
+          - entity: light.cap_ju_00_1a
+            name: _1A
+          - entity: light.cap_ju_00_1b
+            name: _1B
+          - entity: light.cap_ju_00_1c
+            name: _1C
+          - entity: light.cap_ju_00_1d
+            name: _1D
+          - entity: light.cap_ju_00_1e
+            name: _1E
+          - entity: light.cap_ju_00_1f
+            name: _1F
+          - entity: light.cap_ju_00_20
+            name: _20
+          - entity: light.cap_ju_00_21
+            name: _21
+          - entity: light.cap_ju_00_22
+            name: _22
+          - entity: light.cap_ju_00_23
+            name: _23
+          - entity: light.cap_ju_00_24
+            name: _24
+          - entity: light.cap_ju_00_25
+            name: _25
+          - entity: light.cap_ju_00_26
+            name: _26
+          - entity: light.cap_ju_00_27
+            name: _27
+          - entity: light.cap_ju_00_28
+            name: _28
+          - entity: light.cap_ju_00_29
+            name: _29
+          - entity: light.cap_ju_00_2a
+            name: _2A
+          - entity: light.cap_ju_00_2b
+            name: _2B
+          - entity: light.cap_ju_00_2c
+            name: _2C
+          - entity: light.cap_ju_00_2d
+            name: _2D
+          - entity: light.cap_ju_00_2e
+            name: _2E
+          - entity: light.cap_ju_00_2f
+            name: _2F
+          - entity: light.cap_ju_00_30
+            name: _30
+          - entity: light.cap_ju_00_31
+            name: _31
+          - entity: light.cap_ju_00_32
+            name: _32
+          - entity: light.cap_ju_00_33
+            name: _33
+          - entity: light.cap_ju_00_34
+            name: _34
+          - entity: light.cap_ju_00_35
+            name: _35
+          - entity: light.cap_ju_00_36
+            name: _36
+          - entity: light.cap_ju_00_37
+            name: _37
+          - entity: light.cap_ju_00_38
+            name: _38
+          - entity: light.cap_ju_00_39
+            name: _39
+          - entity: light.cap_ju_00_3a
+            name: _3A
+          - entity: light.cap_ju_00_3b
+            name: _3B
+          - entity: light.cap_ju_00_3c
+            name: _3C
+          - entity: light.cap_ju_00_3d
+            name: _3D
+          - entity: light.cap_ju_00_3e
+            name: _3E
+          - entity: light.cap_ju_00_3f
+            name: _3F
+        title: Cap-Hjulby-Signal
+    subview: true
