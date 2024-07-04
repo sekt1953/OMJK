@@ -12,7 +12,7 @@
 |![Breadboard](./TB6612FNG_10DC_bb.png)|
 
 * Fritzing files:
-  * [TB6612FNG_10.fzz](./TB6612FNG_10DC.fzz)
+  * [TB6612FNG_10DC.fzz](./TB6612FNG_10DC.fzz)
 
 ## Udvidelsesmodul for 4 sporskifte driver
 
