@@ -12,6 +12,8 @@
 
 ## Forskellige måder jeg bruger dette print på
 
+* For alle versioner gælder:
+  * De forbindes til [ESP32 ESP32S 30Pin Expansion board](../CPU/README.md) I2C konector for data og power, der kan max tilsluttes to 2 af disse kort til I2C interface.
 * Version 1 - General Input:
   * Bruges som input kort for trykknapper og tilbage melding fra sporskifte motorer
   * Monteret med 4 stk. 9 polet skrue terminaler type KF128 2.54mm og pullup modstande på 2K2 ohm.
