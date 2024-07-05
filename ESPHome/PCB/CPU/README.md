@@ -8,7 +8,7 @@
 
 |Breadboard|
 |:---:|
-|![Breadboard](./ESP32_30Pin_I2C_Board_a_bb.png)|
+|![Breadboard](./ESP32_30Pin_I2C_Board_a_bba.png)|
 
 * Fritzing files:
   * [ESP32_30Pin_I2C_Board_a.fzz](./ESP32_30Pin_I2C_Board_a.fzz)
