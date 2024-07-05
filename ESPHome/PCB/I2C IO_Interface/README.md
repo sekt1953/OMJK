@@ -25,7 +25,7 @@
   * Se eksample her i Hjulby-Pult-Led-01:
     * [ju-pl-01.yaml](../../ju-pl-01.yaml)
 * Version 2 - Block-Detection:
-  * Bruges som input kort for Block-Detection med BD20, sasmmen med ULN2803 input interface kort:
+  * Bruges som input kort for [Block-Detection med BD20](../BlockDetection/BD20/NCE_BD20.png), sasmmen med ULN2803 input interface kort:
   * Monteret med 40 PIN Single Row Right Angle FEMALE PIN HEADER 2.54MM og pullup modstande på 2K2 ohm.
   * Default files for ESP32:
     * [.pcf8574_ids.yaml](../../Includes/0_Default_files/PCF8574/.pcf8574_ids.yaml)
