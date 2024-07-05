@@ -12,4 +12,3 @@
 
 * Fritzing files:
   * [ESP32_30Pin_I2C_Board_a.fzz](./ESP32_30Pin_I2C_Board_a.fzz)
-
