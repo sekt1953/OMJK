@@ -10,7 +10,7 @@
   * [bom](./I2C_IO_Interface_bom.html)
   * [svg files](./svg_I2C_IO_Interface/)
 
-## Forskellige måder jeg bruger dette print
+## Forskellige måder jeg bruger dette print på
 
 * Version 1 - General Input:
   * Bruges som input kort for trykknapper og tilbage melding fra sporskifte motorer
