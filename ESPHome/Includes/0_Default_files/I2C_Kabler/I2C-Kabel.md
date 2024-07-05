@@ -24,11 +24,25 @@
 |5|Key||
 |6|GND|Sort|
 
-## PCF8574 Conector
+## I2C IO_Interface Conector
 
 |Pin Nr.|Funktion|Kabel Farve|
 |:---:|:---:|:---:|
 |1|I2C-SDA|Gul|
 |2|I2C-SCL|Hvid|
-|3|+3V3 Out|Grøn|
+|3|+3V3|Grøn|
 |4|GND|Sort|
+
+## MCU Connector til I2C IO_Interface
+
+|Pin Nr.|Funktion|Kabel Farve| - |Pin Nr.|Funktion|Kabel Farve|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|1|GND In|Sort||
+|2|+5v In|Rød||
+|3|+5V Out|Rød||
+|4|+3V3 Out|Grøn| - |3|+3V3|Grøn|
+|5|I2C-SDA|Gul| - |1|I2C-SDA|Gul|
+|6|I2C-SCL|Hvid| - |2|I2C-SCL|Hvid|
+|7|Key|||
+|8|GND|Sort| - |4|GND|Sort|
+
