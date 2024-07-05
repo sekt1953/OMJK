@@ -1,5 +1,8 @@
 # Signaler OMJK
 
+* Kilde:
+  * [DSB Signalreglement af 1944](https://jernbanearkivalier.dk/dsb-signalreglementer/DSB-Signalreglement-af-1944-original.pdf)
+
 ## Hovedsignaler SIR af 1944
 
 ### Hovedsignaler anvendes som følger:
