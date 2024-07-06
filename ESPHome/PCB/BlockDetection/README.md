@@ -7,3 +7,11 @@
 
 * Fritzing files:
   * [BlockDetection_InputDriver.fzz](./BlockDetection_InputDriver.fzz)
+
+## Princip diagram
+
+![schem](./BD20/NCE_BD20.png)
+
+## Installation i Hjulby
+
+![20240522_190401.jpg](./Images/20240522_190401.jpg)
