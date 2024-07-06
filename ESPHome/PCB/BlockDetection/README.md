@@ -7,6 +7,8 @@
 
 * Fritzing files:
   * [BlockDetection_InputDriver.fzz](./BlockDetection_InputDriver.fzz)
+* Component
+  * [ULN2803A Eight Darlington arrays](https://www.st.com/resource/en/datasheet/uln2801a.pdf)
 
 ## Princip diagram
 
