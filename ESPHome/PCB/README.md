@@ -14,6 +14,6 @@ Jeg bruger ofte et [stripboard](./Stripboard/README.md) til at bygge prototyper 
   * [CPU ESP32-dev](./CPU/README.md)
 * [I2C IO_Interface med PCF8574](./I2C%20IO_Interface/README.md)
 * [I2C LEDDriverPWM med PCA9685](./LEDDriverPWM/README.md)
-* [BlockDetection med NCE_BD20](./BlockDetection/)
+* [BlockDetection med NCE_BD20](./BlockDetection/README.md)
 * [SporskifteDriver med TB6612FNG](./SporskifteDriver/README.md)
 * [Stripboard](./Stripboard/README.md)
