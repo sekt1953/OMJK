@@ -1,14 +1,20 @@
 # I2C IO_Interface
 
-|Schematic / PCB|
+|Fritzing Schematic|
 |:---:|
 |![schem](./I2C_IO_Interface_schem.png)|
+|Fritzing PCB|
 |![PCB](./I2C_IO_Interface_pcb.png)|
+|FreeCAD|
+|![FreeCAD](./FreeCAD_Files/Skærmbillede%20fra%202024-07-06%2017-55-29.png)|
 
 * Fritzing files:
   * [I2C_IO_Interface.fzz](./I2C_IO_Interface.fzz)
   * [bom](./I2C_IO_Interface_bom.html)
   * [svg files](./svg_I2C_IO_Interface/)
+* FreeCAD Files:
+  * [I2C_IO_Interface_v3.FCStd](./FreeCAD_Files/I2C_IO_Interface_v3.FCStd)
+  * [I2C_IO_Interface_v3-Body.3mf](./FreeCAD_Files/I2C_IO_Interface_v3-Body.3mf)
 
 ## Forskellige måder jeg bruger dette print på
 
