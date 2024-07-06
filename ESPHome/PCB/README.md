@@ -6,8 +6,8 @@
   * En ældre version af Fritzing kommer med Ubuntu 22.04 og en nyere version kan købes online her: [https://fritzing.org/download/](https://fritzing.org/download/)
   * Fritzing findes i versioner for Windows, Mac og Linux, så det er bare at komme igang.
 * Jeg bruger [FreeCAD](https://www.freecad.org/features.php?lang=en) til at tegne holdere for mine print.
-  * [FreeCAD er et gratis, og godt 3D-tegneprogram, det kan hentest her:](https://www.freecad.org/downloads.php?lang=en)
-  * [FreeCAD bruger vejledning kan findes her:](https://wiki.freecad.org/User_hub)
+  * [FreeCAD er et gratis, og godt 3D-tegneprogram, det kan hentest her:](https://www.freecad.org/downloads.php?lang=en) https://www.freecad.org/downloads.php?lang=en.
+  * [FreeCAD bruger vejledning kan findes her:](https://wiki.freecad.org/User_hub) https://wiki.freecad.org/User_hub.
 
 
 ## Print
