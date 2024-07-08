@@ -27,10 +27,12 @@
 
 ### Montage plade for ESP32-Dev 30Pin med I2C Interface og 5V Mini DC-DC Converter
 
-|Esp32-MiniPow_Dev|
-|:---:|
-|![Esp32-MiniPow_Dev](./FreeCAD-Files/Esp32-MiniPow_Dev-Body.png)|
+|Esp32-MiniPow_Dev||
+|:---:|:---:|
+|![Esp32-MiniPow_Dev](./FreeCAD-Files/Esp32-MiniPow_Dev-Body.png)|![](./FreeCAD-Files/Skærmbillede%20fra%202024-07-08%2016-51-11.png)
 
 * FreeCAD files:
   * [Esp32-MiniPow_Dev.FCStd](./FreeCAD-Files/Esp32-MiniPow_Dev.FCStd)
   * [Esp32-MiniPow_Dev-Body.3mf](./FreeCAD-Files/Esp32-MiniPow_Dev-Body.3mf)
+  * [Esp32-Dev.FCStd](./FreeCAD-Files/Esp32-Dev.FCStd)
+  * [Esp32-Dev-Body.3mf](./FreeCAD-Files/Esp32-Dev-Body.3mf)
