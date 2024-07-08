@@ -46,3 +46,12 @@
 |7|Key|||
 |8|GND|Sort| - |4|GND|Sort|
 
+## FreeCAD Files
+
+|Dupont key|
+|:---:|
+|![Dupont key](./Skærmbillede%20fra%202024-07-08%2010-29-57.png)
+
+* FreeCAD Files:
+  * [dupont_key.FCStd](./dupont_key.FCStd)
+  * [dupont_key-Key.3mf](./dupont_key-Key.3mf)
