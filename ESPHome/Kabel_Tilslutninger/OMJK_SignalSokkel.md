@@ -1,5 +1,9 @@
 # OMJK Signal Sokkel
 
+|SignalSokkel|PU|
+|:---:|:---:|
+|![SignalSokkel.png](./Images/SignalSokkel.png)|![pu.png](./Images/pu.png)|
+
 ||Pin Nr.||
 |:---|:---:|:---|
 |Orange/Gul|1|Orange/Hvid|
