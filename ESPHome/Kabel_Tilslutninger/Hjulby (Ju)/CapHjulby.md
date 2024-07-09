@@ -1,7 +1,7 @@
-# Port Assignment Cap-Hjulby
+# Kabel tilslutninger til Cap-Hjulby-Signal, cap-ju-00.yaml
 
-## Cap-Hjulby-Signal, cap-ju-00.yaml
-  
+## Cap-Hjulby-Signal
+
 |pca9685_hub|Entity ID:|Signal|Type|Lednr.|LedName
 |:---|:---|:---|:---|:---:|:---|
 |0.0|light.cap_ju_00_00|D|PU|6|Cap-Ju-D-6|

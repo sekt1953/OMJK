@@ -1,6 +1,6 @@
-# # Port Assignment Hjulby Signal
+# Kabel tilslutninger til Hjulby Signal, ju-sl-00.yaml
 
-## Hjulby-Signal, ju-sl-00.yaml
+## Hjulby-Signal
 
 |pca9685_hub|Entity ID:|Signal|Type|Lednr.|LedName
 |:---|:---|:---|:---|:---:|:---|
