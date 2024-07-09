@@ -12,12 +12,15 @@
 |![Breadboard](./TB6612FNG_10DC_bb.png)|
 |FreeCAD|
 |![FreeCAD](./FreeCAD_Files/Skærmbillede%20fra%202024-07-06%2018-11-21.png)|
+|![FreeCAD](./FreeCAD_Files/Skærmbillede%20fra%202024-07-08%2019-41-53.png)|
 
 * Fritzing files:
   * [TB6612FNG_10DC.fzz](./TB6612FNG_10DC.fzz)
 * FreeCAD Files:
   * [TB6612FNG.FCStd](./FreeCAD_Files/TB6612FNG.FCStd)
   * [TB6612FNG-Body.3mf](./FreeCAD_Files/TB6612FNG-Body.3mf)
+  * [TB6612FNG-v2.FCStd](./FreeCAD_Files/TB6612FNG-v2.FCStd)
+  * [TB6612FNG-v2-Body.3mf](./FreeCAD_Files/TB6612FNG-v2-Body.3mf)
 
 ### Udvidelsesmodul for 4 sporskifte driver
 
