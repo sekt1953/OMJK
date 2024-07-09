@@ -2,7 +2,7 @@
 
 ## Hjulby-Signal
 
-|pca9685_hub|Entity ID:|Signal|Type|Lednr.|LedName
+|pca9685_hub|Entity ID:|Signal|Type|Lednr.|LedName|
 |:---|:---|:---|:---|:---:|:---|
 |0.0|light.ju_sl_00_00_2|||||
 |0.1|light.ju_sl_00_01_2|||||

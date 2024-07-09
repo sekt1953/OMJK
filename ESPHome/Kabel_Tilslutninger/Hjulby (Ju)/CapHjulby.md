@@ -2,7 +2,7 @@
 
 ## Cap-Hjulby-Signal
 
-|pca9685_hub|Entity ID:|Signal|Type|Lednr.|LedName
+|pca9685_hub|Entity ID:|Signal|Type|Lednr.|LedName|
 |:---|:---|:---|:---|:---:|:---|
 |0.0|light.cap_ju_00_00|D|PU|6|Cap-Ju-D-6|
 |0.1|light.cap_ju_00_01|C - U2120|Udkørsel|9|Grøn-Nederest|
