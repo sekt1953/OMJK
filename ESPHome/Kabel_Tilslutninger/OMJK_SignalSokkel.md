@@ -1,15 +1,4 @@
-# PU-Signaler
-
-## Kilde
-
-* Blokposten
-  * [Perronudkørselssignal (PU-signal)](https://www.blokposten.dk/sikr/sign/dag/sign-pu.htm)
-
-|PU-Signal|Signal Sokkel|
-|:---:|:---:|
-|![PU](./Images/pu.png)|![](./Images/SignalSokkel.png)|
-
-## Signal Sokkel
+# OMJK Signal Sokkel
 
 ||Pin Nr.||
 |:---|:---:|:---|
