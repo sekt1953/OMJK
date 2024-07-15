@@ -40,7 +40,6 @@ substitutions:
 <<: !include ./Includes/Ju/Ju-demo-00/.pca9685_output_ju-demo-00.yaml
 <<: !include ./Includes/Ju/Ju-demo-00/.pca9685_light_ju-demo-00.yaml
 
-
 # I2C_IO_Interface with PCF8574
 <<: !include ./Includes/Ju/Ju-demo-00/.pcf8574_ids_ju-demo-00.yaml
 <<: !include ./Includes/Ju/Ju-demo-00/.pcf8574_input_ju-demo-00.yaml
