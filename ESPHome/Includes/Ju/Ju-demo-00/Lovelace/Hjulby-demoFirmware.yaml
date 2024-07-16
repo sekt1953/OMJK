@@ -1,0 +1,13 @@
+type: entities
+entities:
+  - entity: update.hjulby_demo_firmware
+    name: Firmware
+  - entity: button.hjulby_demo_restart_hjulby_demo
+    name: Restart hjulby-demo
+  - entity: sensor.hjulby_demo_connected_ssid_hjulby_demo
+    name: Connected SSID hjulby-demo
+  - entity: sensor.hjulby_demo_ip_address_hjulby_demo
+    name: IP Address hjulby-demo
+  - entity: sensor.hjulby_demo_mac_wifi_address_hjulby_demo
+    name: Mac Wifi Address hjulby-demo
+title: Hjulby-demo

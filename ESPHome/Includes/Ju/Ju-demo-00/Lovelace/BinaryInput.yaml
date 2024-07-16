@@ -1,0 +1,35 @@
+type: entities
+entities:
+  - entity: binary_sensor.hjulby_demo_10
+    name: _10
+  - entity: binary_sensor.hjulby_demo_11
+    name: _11
+  - entity: binary_sensor.hjulby_demo_12
+    name: _12
+  - entity: binary_sensor.hjulby_demo_13
+    name: _13
+  - entity: binary_sensor.hjulby_demo_14
+    name: _14
+  - entity: binary_sensor.hjulby_demo_15
+    name: _15
+  - entity: binary_sensor.hjulby_demo_16
+    name: _16
+  - entity: binary_sensor.hjulby_demo_17
+    name: _17
+  - entity: binary_sensor.hjulby_demo_20
+    name: _20
+  - entity: binary_sensor.hjulby_demo_21
+    name: _21
+  - entity: binary_sensor.hjulby_demo_22
+    name: _22
+  - entity: binary_sensor.hjulby_demo_23
+    name: _23
+  - entity: binary_sensor.hjulby_demo_24
+    name: _24
+  - entity: binary_sensor.hjulby_demo_25
+    name: _25
+  - entity: binary_sensor.hjulby_demo_26
+    name: _26
+  - entity: binary_sensor.hjulby_demo_27
+    name: _27
+title: Binary Input

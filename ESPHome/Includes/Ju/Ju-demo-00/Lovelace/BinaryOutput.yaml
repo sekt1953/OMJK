@@ -1,0 +1,35 @@
+type: entities
+entities:
+  - entity: switch.hjulby_demo_40
+    name: _40
+  - entity: switch.hjulby_demo_41
+    name: _41
+  - entity: switch.hjulby_demo_42
+    name: _42
+  - entity: switch.hjulby_demo_43
+    name: _43
+  - entity: switch.hjulby_demo_44
+    name: _44
+  - entity: switch.hjulby_demo_45
+    name: _45
+  - entity: switch.hjulby_demo_46
+    name: _46
+  - entity: switch.hjulby_demo_47
+    name: _47
+  - entity: switch.hjulby_demo_50
+    name: _50
+  - entity: switch.hjulby_demo_51
+    name: _51
+  - entity: switch.hjulby_demo_52
+    name: _52
+  - entity: switch.hjulby_demo_53
+    name: _53
+  - entity: switch.hjulby_demo_54
+    name: _54
+  - entity: switch.hjulby_demo_55
+    name: _55
+  - entity: switch.hjulby_demo_56
+    name: _56
+  - entity: switch.hjulby_demo_57
+    name: _57
+title: Binary Output

@@ -1,0 +1,35 @@
+type: entities
+entities:
+  - entity: light.hjulby_demo_00
+    name: _00
+  - entity: light.hjulby_demo_01
+    name: _01
+  - entity: light.hjulby_demo_02
+    name: _02
+  - entity: light.hjulby_demo_03
+    name: _03
+  - entity: light.hjulby_demo_04
+    name: _04
+  - entity: light.hjulby_demo_05
+    name: _05
+  - entity: light.hjulby_demo_06
+    name: _06
+  - entity: light.hjulby_demo_07
+    name: _07
+  - entity: light.hjulby_demo_28
+    name: _28
+  - entity: light.hjulby_demo_29
+    name: _29
+  - entity: light.hjulby_demo_2a
+    name: _2A
+  - entity: light.hjulby_demo_2b
+    name: _2B
+  - entity: light.hjulby_demo_2c
+    name: _2C
+  - entity: light.hjulby_demo_2d
+    name: _2D
+  - entity: light.hjulby_demo_2e
+    name: _2E
+  - entity: light.hjulby_demo_2f
+    name: _2F
+title: PWM Output
