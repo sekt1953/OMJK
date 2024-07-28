@@ -15,9 +15,18 @@
 #     blue (Required, ID): The id of the float Output Component to use for the blue channel.
 #     effects (Optional, list): A list of light effects to use for this light.
 #     id (Optional, ID): Manually specify the ID used for code generation.
+#light:
+#  - platform: rgb
+#    name: '_Color'
+#    red: pwm0d
+#    green: pwm0e
+#    blue: pwm0f
+
+# Example configuration entry
 light:
-  - platform: rgb
-    name: '_Color'
-    red: pwm0d
-    green: pwm0e
-    blue: pwm0f
+  - platform: rgbw
+    name: "Livingroom Lights"
+    red: output_component1
+    green: output_component2
+    blue: output_component3
+    white: output_component4
