@@ -1,5 +1,18 @@
 # I2C IO_Interface
 
+## I/O-MCP23017_300
+
+|Fritzing Schematic|
+|:---:|
+|![schem](./mcp23017_300/mcp23017_300_schem.png)|
+|Fritzing PCB|
+|![PCB](./mcp23017_300/mcp23017_300_pcb.png)|
+
+* Fritzing files:
+  * [I2C_IO_Interface.fzz](./mcp23017_300/mcp23017_300.fzz)
+
+## I2C_IO_Interface OLD Version with PCF8574
+
 |Fritzing Schematic|
 |:---:|
 |![schem](./I2C_IO_Interface_schem.png)|
