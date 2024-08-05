@@ -4,9 +4,9 @@
 
 |Fritzing Schematic|
 |:---:|
-|![schem](./mcp23017_300/mcp23017_300a_schem.png)|
+|![schem](./mcp23017_300/mcp23017_300_schem.png)|
 |Fritzing PCB|
-|![PCB](./mcp23017_300/mcp23017_300a_pcb.png)|
+|![PCB](./mcp23017_300/mcp23017_300_pcb.png)|
 
 * Fritzing files:
   * [I2C_IO_Interface.fzz](./mcp23017_300/mcp23017_300.fzz)
