@@ -9,7 +9,6 @@
   * FreeCAD er et gratis, og godt 3D-tegneprogram, det kan hentest her: [https://www.freecad.org/downloads.php?lang=en](https://www.freecad.org/downloads.php?lang=en)
   * FreeCAD bruger vejledning kan findes her: [https://wiki.freecad.org/User_hub](https://wiki.freecad.org/User_hub)
 
-
 ## Print
 
 Jeg bruger ofte et [stripboard](./Stripboard/README.md) til at bygge prototyper på, og mindre styk antal, skal jeg have fremstillet print bruger jeg [https://aisler.net/partners/fritzing](https://aisler.net/partners/fritzing), her kan jeg sende **fzz** filer til uden at skulle bekymre mig om **svg** filer, det er nemt.
@@ -25,4 +24,5 @@ Jeg bruger ofte et [stripboard](./Stripboard/README.md) til at bygge prototyper 
   * [BlockDetection med NCE_BD20](./BlockDetection/README.md#nec_bd20)
   * [NEC_BD20 Prototype Hjulby](./BlockDetection/README.md#nec_bd20-prototype-hjulby)
 * [SporskifteDriver med TB6612FNG](./SporskifteDriver/README.md)
+* [LedStripDriver](./LedStripDriver/README.md)
 * [Stripboard for Prototype](./Stripboard/README.md)

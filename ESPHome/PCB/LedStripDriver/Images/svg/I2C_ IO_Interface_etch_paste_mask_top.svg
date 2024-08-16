@@ -1,0 +1,625 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="4.39764in" x="0in"  baseProfile="tiny" version="1.2" y="0in" height="1.1811in" viewBox="0 0 316.63 85.0394">
+ <g partID="57830">
+  <g  id="board">
+   <rect width="316.054" x="0.288"  id="boardoutline" y="0.288" fill="none" fill-opacity="0.5" stroke="black" stroke-width="0.5" height="84.4634"/>
+  </g>
+ </g>
+ <g partID="12410882">
+  <g transform="translate(8.9112,17.2921)">
+   <g transform="matrix(0,-1,1,0,0,0)">
+    <g  id="copper1">
+     <g  id="copper0">
+      <g width="4.27465" x="5.63868"  id="0" y="3.26268" fill="none" stroke="black" stroke-width="1.44" height="4.27465"/>
+      <g cx="7.776" r="2.13732"  id="1" fill="none" stroke="black" stroke-width="1.44" cy="5.4"/>
+      <g cx="7.776" r="2.13732"  id="2" fill="none" stroke="black" stroke-width="1.44" cy="12.6"/>
+      <g cx="7.776" r="2.13732"  id="3" fill="none" stroke="black" stroke-width="1.44" cy="19.8"/>
+      <g cx="7.776" r="2.13732"  id="4" fill="none" stroke="black" stroke-width="1.44" cy="27"/>
+      <g cx="7.776" r="2.13732"  id="5" fill="none" stroke="black" stroke-width="1.44" cy="34.2"/>
+      <g cx="7.776" r="2.13732"  id="6" fill="none" stroke="black" stroke-width="1.44" cy="41.4"/>
+      <g cx="7.776" r="2.13732"  id="7" fill="none" stroke="black" stroke-width="1.44" cy="48.6"/>
+      <g cx="7.776" r="2.13732"  id="8" fill="none" stroke="black" stroke-width="1.44" cy="55.8"/>
+      <g cx="7.776" r="2.13732"  id="9" fill="none" stroke="black" stroke-width="1.44" cy="63"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="12407362">
+  <g transform="translate(80.9112,17.2921)">
+   <g transform="matrix(0,-1,1,0,0,0)">
+    <g  id="copper1">
+     <g  id="copper0">
+      <g width="4.27465" x="5.63868"  id="10" y="3.26268" fill="none" stroke="black" stroke-width="1.44" height="4.27465"/>
+      <g cx="7.776" r="2.13732"  id="11" fill="none" stroke="black" stroke-width="1.44" cy="5.4"/>
+      <g cx="7.776" r="2.13732"  id="12" fill="none" stroke="black" stroke-width="1.44" cy="12.6"/>
+      <g cx="7.776" r="2.13732"  id="13" fill="none" stroke="black" stroke-width="1.44" cy="19.8"/>
+      <g cx="7.776" r="2.13732"  id="14" fill="none" stroke="black" stroke-width="1.44" cy="27"/>
+      <g cx="7.776" r="2.13732"  id="15" fill="none" stroke="black" stroke-width="1.44" cy="34.2"/>
+      <g cx="7.776" r="2.13732"  id="16" fill="none" stroke="black" stroke-width="1.44" cy="41.4"/>
+      <g cx="7.776" r="2.13732"  id="17" fill="none" stroke="black" stroke-width="1.44" cy="48.6"/>
+      <g cx="7.776" r="2.13732"  id="18" fill="none" stroke="black" stroke-width="1.44" cy="55.8"/>
+      <g cx="7.776" r="2.13732"  id="19" fill="none" stroke="black" stroke-width="1.44" cy="63"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="12402752">
+  <g transform="translate(152.911,17.2921)">
+   <g transform="matrix(0,-1,1,0,0,0)">
+    <g  id="copper1">
+     <g  id="copper0">
+      <g width="4.27465" x="5.63868"  id="20" y="3.26268" fill="none" stroke="black" stroke-width="1.44" height="4.27465"/>
+      <g cx="7.776" r="2.13732"  id="21" fill="none" stroke="black" stroke-width="1.44" cy="5.4"/>
+      <g cx="7.776" r="2.13732"  id="22" fill="none" stroke="black" stroke-width="1.44" cy="12.6"/>
+      <g cx="7.776" r="2.13732"  id="23" fill="none" stroke="black" stroke-width="1.44" cy="19.8"/>
+      <g cx="7.776" r="2.13732"  id="24" fill="none" stroke="black" stroke-width="1.44" cy="27"/>
+      <g cx="7.776" r="2.13732"  id="25" fill="none" stroke="black" stroke-width="1.44" cy="34.2"/>
+      <g cx="7.776" r="2.13732"  id="26" fill="none" stroke="black" stroke-width="1.44" cy="41.4"/>
+      <g cx="7.776" r="2.13732"  id="27" fill="none" stroke="black" stroke-width="1.44" cy="48.6"/>
+      <g cx="7.776" r="2.13732"  id="28" fill="none" stroke="black" stroke-width="1.44" cy="55.8"/>
+      <g cx="7.776" r="2.13732"  id="29" fill="none" stroke="black" stroke-width="1.44" cy="63"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="12396952">
+  <g transform="translate(224.911,17.2921)">
+   <g transform="matrix(0,-1,1,0,0,0)">
+    <g  id="copper1">
+     <g  id="copper0">
+      <g width="4.27465" x="5.63868"  id="30" y="3.26268" fill="none" stroke="black" stroke-width="1.44" height="4.27465"/>
+      <g cx="7.776" r="2.13732"  id="31" fill="none" stroke="black" stroke-width="1.44" cy="5.4"/>
+      <g cx="7.776" r="2.13732"  id="32" fill="none" stroke="black" stroke-width="1.44" cy="12.6"/>
+      <g cx="7.776" r="2.13732"  id="33" fill="none" stroke="black" stroke-width="1.44" cy="19.8"/>
+      <g cx="7.776" r="2.13732"  id="34" fill="none" stroke="black" stroke-width="1.44" cy="27"/>
+      <g cx="7.776" r="2.13732"  id="35" fill="none" stroke="black" stroke-width="1.44" cy="34.2"/>
+      <g cx="7.776" r="2.13732"  id="36" fill="none" stroke="black" stroke-width="1.44" cy="41.4"/>
+      <g cx="7.776" r="2.13732"  id="37" fill="none" stroke="black" stroke-width="1.44" cy="48.6"/>
+      <g cx="7.776" r="2.13732"  id="38" fill="none" stroke="black" stroke-width="1.44" cy="55.8"/>
+      <g cx="7.776" r="2.13732"  id="39" fill="none" stroke="black" stroke-width="1.44" cy="63"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="12339722">
+  <g transform="translate(225.991,30.0361)">
+   <g transform="matrix(0,-1,1,0,0,0)">
+    <g  id="copper1">
+     <g  id="copper0">
+      <g width="3.96" x="2.34"  id="40" y="2.34" fill="none" stroke-width="1.44" stroke="black" height="3.96"/>
+      <g cx="4.32" r="1.98"  id="41" fill="none" stroke-width="1.44" stroke="black" cy="4.32"/>
+      <g cx="4.32" r="1.98"  id="42" fill="none" stroke-width="1.44" stroke="black" cy="11.52"/>
+      <g cx="4.32" r="1.98"  id="43" fill="none" stroke-width="1.44" stroke="black" cy="18.72"/>
+      <g cx="4.32" r="1.98"  id="44" fill="none" stroke-width="1.44" stroke="black" cy="25.92"/>
+      <g cx="4.32" r="1.98"  id="45" fill="none" stroke-width="1.44" stroke="black" cy="33.12"/>
+      <g cx="4.32" r="1.98"  id="46" fill="none" stroke-width="1.44" stroke="black" cy="40.32"/>
+      <g cx="4.32" r="1.98"  id="47" fill="none" stroke-width="1.44" stroke="black" cy="47.52"/>
+      <g cx="4.32" r="1.98"  id="48" fill="none" stroke-width="1.44" stroke="black" cy="54.72"/>
+      <g cx="4.32" r="1.98"  id="49" fill="none" stroke-width="1.44" stroke="black" cy="61.92"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="12284072">
+  <g transform="translate(81.9912,30.0361)">
+   <g transform="matrix(0,-1,1,0,0,0)">
+    <g  id="copper1">
+     <g  id="copper0">
+      <g width="3.96" x="2.34"  id="50" y="2.34" fill="none" stroke-width="1.44" stroke="black" height="3.96"/>
+      <g cx="4.32" r="1.98"  id="51" fill="none" stroke-width="1.44" stroke="black" cy="4.32"/>
+      <g cx="4.32" r="1.98"  id="52" fill="none" stroke-width="1.44" stroke="black" cy="11.52"/>
+      <g cx="4.32" r="1.98"  id="53" fill="none" stroke-width="1.44" stroke="black" cy="18.72"/>
+      <g cx="4.32" r="1.98"  id="54" fill="none" stroke-width="1.44" stroke="black" cy="25.92"/>
+      <g cx="4.32" r="1.98"  id="55" fill="none" stroke-width="1.44" stroke="black" cy="33.12"/>
+      <g cx="4.32" r="1.98"  id="56" fill="none" stroke-width="1.44" stroke="black" cy="40.32"/>
+      <g cx="4.32" r="1.98"  id="57" fill="none" stroke-width="1.44" stroke="black" cy="47.52"/>
+      <g cx="4.32" r="1.98"  id="58" fill="none" stroke-width="1.44" stroke="black" cy="54.72"/>
+      <g cx="4.32" r="1.98"  id="59" fill="none" stroke-width="1.44" stroke="black" cy="61.92"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="12330752">
+  <g transform="translate(153.991,30.0361)">
+   <g transform="matrix(0,-1,1,0,0,0)">
+    <g  id="copper1" gorn="0.5">
+     <g  id="copper0" gorn="0.5.0">
+      <g width="3.96" x="2.34"  id="60" y="2.34" fill="none" gorn="0.5.0.0" stroke="black" stroke-width="1.44" height="3.96"/>
+      <g cx="4.32" r="1.98"  id="61" fill="none" gorn="0.5.0.1" stroke="black" stroke-width="1.44" cy="4.32"/>
+      <g cx="4.32" r="1.98"  id="62" fill="none" gorn="0.5.0.2" stroke="black" stroke-width="1.44" cy="11.52"/>
+      <g cx="4.32" r="1.98"  id="63" fill="none" gorn="0.5.0.3" stroke="black" stroke-width="1.44" cy="18.72"/>
+      <g cx="4.32" r="1.98"  id="64" fill="none" gorn="0.5.0.4" stroke="black" stroke-width="1.44" cy="25.92"/>
+      <g cx="4.32" r="1.98"  id="65" fill="none" gorn="0.5.0.5" stroke="black" stroke-width="1.44" cy="33.12"/>
+      <g cx="4.32" r="1.98"  id="66" fill="none" gorn="0.5.0.6" stroke="black" stroke-width="1.44" cy="40.32"/>
+      <g cx="4.32" r="1.98"  id="67" fill="none" gorn="0.5.0.7" stroke="black" stroke-width="1.44" cy="47.52"/>
+      <g cx="4.32" r="1.98"  id="68" fill="none" gorn="0.5.0.8" stroke="black" stroke-width="1.44" cy="54.72"/>
+      <g cx="4.32" r="1.98"  id="69" fill="none" gorn="0.5.0.9" stroke="black" stroke-width="1.44" cy="61.92"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="12301302">
+  <g transform="translate(9.9912,30.0361)">
+   <g transform="matrix(0,-1,1,0,0,0)">
+    <g  id="copper1" gorn="0.5">
+     <g  id="copper0" gorn="0.5.0">
+      <g width="3.96" x="2.34"  id="70" y="2.34" fill="none" gorn="0.5.0.0" stroke="black" stroke-width="1.44" height="3.96"/>
+      <g cx="4.32" r="1.98"  id="71" fill="none" gorn="0.5.0.1" stroke="black" stroke-width="1.44" cy="4.32"/>
+      <g cx="4.32" r="1.98"  id="72" fill="none" gorn="0.5.0.2" stroke="black" stroke-width="1.44" cy="11.52"/>
+      <g cx="4.32" r="1.98"  id="73" fill="none" gorn="0.5.0.3" stroke="black" stroke-width="1.44" cy="18.72"/>
+      <g cx="4.32" r="1.98"  id="74" fill="none" gorn="0.5.0.4" stroke="black" stroke-width="1.44" cy="25.92"/>
+      <g cx="4.32" r="1.98"  id="75" fill="none" gorn="0.5.0.5" stroke="black" stroke-width="1.44" cy="33.12"/>
+      <g cx="4.32" r="1.98"  id="76" fill="none" gorn="0.5.0.6" stroke="black" stroke-width="1.44" cy="40.32"/>
+      <g cx="4.32" r="1.98"  id="77" fill="none" gorn="0.5.0.7" stroke="black" stroke-width="1.44" cy="47.52"/>
+      <g cx="4.32" r="1.98"  id="78" fill="none" gorn="0.5.0.8" stroke="black" stroke-width="1.44" cy="54.72"/>
+      <g cx="4.32" r="1.98"  id="79" fill="none" gorn="0.5.0.9" stroke="black" stroke-width="1.44" cy="61.92"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="12366881">
+  <g transform="translate(223.694,65.8988)">
+   <g  id="copper1">
+    <g cx="3.01733" r="0.992124"  id="80" fill="none" stroke-width="0.850392" stroke="black" cy="3.01733"/>
+   </g>
+  </g>
+ </g>
+ <g partID="12100322">
+  <g transform="translate(161.479,43.5721)">
+   <g  id="copper1" gorn="0.1">
+    <g cx="4.032" connectorname="1" r="1.512"  id="81" fill="none" gorn="0.1.0" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m4.032,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM2.88,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="82" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="11.232" connectorname="2" r="1.512"  id="83" fill="none" gorn="0.1.2" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m11.232,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM10.08,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="84" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="18.432" connectorname="3" r="1.512"  id="85" fill="none" gorn="0.1.4" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m18.432,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM17.28,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="86" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="25.632" connectorname="4" r="1.512"  id="87" fill="none" gorn="0.1.6" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m25.632,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM24.48,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="88" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="32.832" connectorname="5" r="1.512"  id="89" fill="none" gorn="0.1.8" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m32.832,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM31.68,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="90" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="40.032" connectorname="6" r="1.512"  id="91" fill="none" gorn="0.1.10" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m40.032,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM38.88,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="92" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="47.232" connectorname="7" r="1.512"  id="93" fill="none" gorn="0.1.12" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m47.232,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM46.08,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="94" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="54.432" connectorname="8" r="1.512"  id="95" fill="none" gorn="0.1.14" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m54.432,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM53.28,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="96" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="54.432" connectorname="9" r="1.512"  id="97" fill="none" gorn="0.1.16" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m54.432,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM53.28,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="98" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="47.232" connectorname="10" r="1.512"  id="99" fill="none" gorn="0.1.18" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m47.232,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM46.08,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="100" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="40.032" connectorname="11" r="1.512"  id="101" fill="none" gorn="0.1.20" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m40.032,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM38.88,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="102" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="32.832" connectorname="12" r="1.512"  id="103" fill="none" gorn="0.1.22" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m32.832,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM31.68,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="104" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="25.632" connectorname="13" r="1.512"  id="105" fill="none" gorn="0.1.24" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m25.632,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM24.48,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="106" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="18.432" connectorname="14" r="1.512"  id="107" fill="none" gorn="0.1.26" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m18.432,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM17.28,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="108" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="11.232" connectorname="15" r="1.512"  id="109" fill="none" gorn="0.1.28" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m11.232,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM10.08,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="110" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="4.032" connectorname="16" r="1.512"  id="111" fill="none" gorn="0.1.30" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m4.032,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM2.88,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="112" fill="black" stroke="none" stroke-width="0"/>
+    <g  id="copper0" gorn="0.1.32">
+     <g cx="4.032" connectorname="1" r="1.512"  id="113" fill="none" gorn="0.1.32.0" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m4.032,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM2.88,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="114" fill="black" gorn="0.1.32.1" stroke="none" stroke-width="0"/>
+     <g cx="11.232" connectorname="2" r="1.512"  id="115" fill="none" gorn="0.1.32.2" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m11.232,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM10.08,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="116" fill="black" gorn="0.1.32.3" stroke="none" stroke-width="0"/>
+     <g cx="18.432" connectorname="3" r="1.512"  id="117" fill="none" gorn="0.1.32.4" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m18.432,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM17.28,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="118" fill="black" gorn="0.1.32.5" stroke="none" stroke-width="0"/>
+     <g cx="25.632" connectorname="4" r="1.512"  id="119" fill="none" gorn="0.1.32.6" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m25.632,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM24.48,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="120" fill="black" gorn="0.1.32.7" stroke="none" stroke-width="0"/>
+     <g cx="32.832" connectorname="5" r="1.512"  id="121" fill="none" gorn="0.1.32.8" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m32.832,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM31.68,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="122" fill="black" gorn="0.1.32.9" stroke="none" stroke-width="0"/>
+     <g cx="40.032" connectorname="6" r="1.512"  id="123" fill="none" gorn="0.1.32.10" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m40.032,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM38.88,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="124" fill="black" gorn="0.1.32.11" stroke="none" stroke-width="0"/>
+     <g cx="47.232" connectorname="7" r="1.512"  id="125" fill="none" gorn="0.1.32.12" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m47.232,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM46.08,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="126" fill="black" gorn="0.1.32.13" stroke="none" stroke-width="0"/>
+     <g cx="54.432" connectorname="8" r="1.512"  id="127" fill="none" gorn="0.1.32.14" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m54.432,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM53.28,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="128" fill="black" gorn="0.1.32.15" stroke="none" stroke-width="0"/>
+     <g cx="54.432" connectorname="9" r="1.512"  id="129" fill="none" gorn="0.1.32.16" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m54.432,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM53.28,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="130" fill="black" gorn="0.1.32.17" stroke="none" stroke-width="0"/>
+     <g cx="47.232" connectorname="10" r="1.512"  id="131" fill="none" gorn="0.1.32.18" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m47.232,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM46.08,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="132" fill="black" gorn="0.1.32.19" stroke="none" stroke-width="0"/>
+     <g cx="40.032" connectorname="11" r="1.512"  id="133" fill="none" gorn="0.1.32.20" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m40.032,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM38.88,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="134" fill="black" gorn="0.1.32.21" stroke="none" stroke-width="0"/>
+     <g cx="32.832" connectorname="12" r="1.512"  id="135" fill="none" gorn="0.1.32.22" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m32.832,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM31.68,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="136" fill="black" gorn="0.1.32.23" stroke="none" stroke-width="0"/>
+     <g cx="25.632" connectorname="13" r="1.512"  id="137" fill="none" gorn="0.1.32.24" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m25.632,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM24.48,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="138" fill="black" gorn="0.1.32.25" stroke="none" stroke-width="0"/>
+     <g cx="18.432" connectorname="14" r="1.512"  id="139" fill="none" gorn="0.1.32.26" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m18.432,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM17.28,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="140" fill="black" gorn="0.1.32.27" stroke="none" stroke-width="0"/>
+     <g cx="11.232" connectorname="15" r="1.512"  id="141" fill="none" gorn="0.1.32.28" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m11.232,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM10.08,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="142" fill="black" gorn="0.1.32.29" stroke="none" stroke-width="0"/>
+     <g cx="4.032" connectorname="16" r="1.512"  id="143" fill="none" gorn="0.1.32.30" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m4.032,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM2.88,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="144" fill="black" gorn="0.1.32.31" stroke="none" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="12100312">
+  <g transform="translate(229.879,43.5721)">
+   <g  id="copper1" gorn="0.1">
+    <g cx="4.032" connectorname="1" r="1.512"  id="145" fill="none" gorn="0.1.0" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m4.032,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM2.88,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="146" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="11.232" connectorname="2" r="1.512"  id="147" fill="none" gorn="0.1.2" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m11.232,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM10.08,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="148" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="18.432" connectorname="3" r="1.512"  id="149" fill="none" gorn="0.1.4" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m18.432,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM17.28,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="150" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="25.632" connectorname="4" r="1.512"  id="151" fill="none" gorn="0.1.6" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m25.632,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM24.48,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="152" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="32.832" connectorname="5" r="1.512"  id="153" fill="none" gorn="0.1.8" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m32.832,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM31.68,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="154" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="40.032" connectorname="6" r="1.512"  id="155" fill="none" gorn="0.1.10" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m40.032,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM38.88,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="156" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="47.232" connectorname="7" r="1.512"  id="157" fill="none" gorn="0.1.12" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m47.232,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM46.08,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="158" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="54.432" connectorname="8" r="1.512"  id="159" fill="none" gorn="0.1.14" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m54.432,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM53.28,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="160" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="54.432" connectorname="9" r="1.512"  id="161" fill="none" gorn="0.1.16" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m54.432,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM53.28,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="162" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="47.232" connectorname="10" r="1.512"  id="163" fill="none" gorn="0.1.18" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m47.232,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM46.08,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="164" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="40.032" connectorname="11" r="1.512"  id="165" fill="none" gorn="0.1.20" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m40.032,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM38.88,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="166" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="32.832" connectorname="12" r="1.512"  id="167" fill="none" gorn="0.1.22" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m32.832,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM31.68,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="168" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="25.632" connectorname="13" r="1.512"  id="169" fill="none" gorn="0.1.24" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m25.632,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM24.48,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="170" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="18.432" connectorname="14" r="1.512"  id="171" fill="none" gorn="0.1.26" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m18.432,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM17.28,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="172" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="11.232" connectorname="15" r="1.512"  id="173" fill="none" gorn="0.1.28" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m11.232,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM10.08,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="174" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="4.032" connectorname="16" r="1.512"  id="175" fill="none" gorn="0.1.30" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m4.032,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM2.88,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="176" fill="black" stroke="none" stroke-width="0"/>
+    <g  id="copper0" gorn="0.1.32">
+     <g cx="4.032" connectorname="1" r="1.512"  id="177" fill="none" gorn="0.1.32.0" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m4.032,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM2.88,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="178" fill="black" gorn="0.1.32.1" stroke="none" stroke-width="0"/>
+     <g cx="11.232" connectorname="2" r="1.512"  id="179" fill="none" gorn="0.1.32.2" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m11.232,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM10.08,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="180" fill="black" gorn="0.1.32.3" stroke="none" stroke-width="0"/>
+     <g cx="18.432" connectorname="3" r="1.512"  id="181" fill="none" gorn="0.1.32.4" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m18.432,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM17.28,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="182" fill="black" gorn="0.1.32.5" stroke="none" stroke-width="0"/>
+     <g cx="25.632" connectorname="4" r="1.512"  id="183" fill="none" gorn="0.1.32.6" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m25.632,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM24.48,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="184" fill="black" gorn="0.1.32.7" stroke="none" stroke-width="0"/>
+     <g cx="32.832" connectorname="5" r="1.512"  id="185" fill="none" gorn="0.1.32.8" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m32.832,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM31.68,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="186" fill="black" gorn="0.1.32.9" stroke="none" stroke-width="0"/>
+     <g cx="40.032" connectorname="6" r="1.512"  id="187" fill="none" gorn="0.1.32.10" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m40.032,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM38.88,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="188" fill="black" gorn="0.1.32.11" stroke="none" stroke-width="0"/>
+     <g cx="47.232" connectorname="7" r="1.512"  id="189" fill="none" gorn="0.1.32.12" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m47.232,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM46.08,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="190" fill="black" gorn="0.1.32.13" stroke="none" stroke-width="0"/>
+     <g cx="54.432" connectorname="8" r="1.512"  id="191" fill="none" gorn="0.1.32.14" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m54.432,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM53.28,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="192" fill="black" gorn="0.1.32.15" stroke="none" stroke-width="0"/>
+     <g cx="54.432" connectorname="9" r="1.512"  id="193" fill="none" gorn="0.1.32.16" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m54.432,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM53.28,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="194" fill="black" gorn="0.1.32.17" stroke="none" stroke-width="0"/>
+     <g cx="47.232" connectorname="10" r="1.512"  id="195" fill="none" gorn="0.1.32.18" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m47.232,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM46.08,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="196" fill="black" gorn="0.1.32.19" stroke="none" stroke-width="0"/>
+     <g cx="40.032" connectorname="11" r="1.512"  id="197" fill="none" gorn="0.1.32.20" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m40.032,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM38.88,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="198" fill="black" gorn="0.1.32.21" stroke="none" stroke-width="0"/>
+     <g cx="32.832" connectorname="12" r="1.512"  id="199" fill="none" gorn="0.1.32.22" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m32.832,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM31.68,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="200" fill="black" gorn="0.1.32.23" stroke="none" stroke-width="0"/>
+     <g cx="25.632" connectorname="13" r="1.512"  id="201" fill="none" gorn="0.1.32.24" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m25.632,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM24.48,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="202" fill="black" gorn="0.1.32.25" stroke="none" stroke-width="0"/>
+     <g cx="18.432" connectorname="14" r="1.512"  id="203" fill="none" gorn="0.1.32.26" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m18.432,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM17.28,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="204" fill="black" gorn="0.1.32.27" stroke="none" stroke-width="0"/>
+     <g cx="11.232" connectorname="15" r="1.512"  id="205" fill="none" gorn="0.1.32.28" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m11.232,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM10.08,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="206" fill="black" gorn="0.1.32.29" stroke="none" stroke-width="0"/>
+     <g cx="4.032" connectorname="16" r="1.512"  id="207" fill="none" gorn="0.1.32.30" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m4.032,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM2.88,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="208" fill="black" gorn="0.1.32.31" stroke="none" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="12089012">
+  <g transform="translate(89.4792,43.5721)">
+   <g  id="copper1" gorn="0.1">
+    <g cx="4.032" connectorname="1" r="1.512"  id="209" fill="none" gorn="0.1.0" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m4.032,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM2.88,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="210" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="11.232" connectorname="2" r="1.512"  id="211" fill="none" gorn="0.1.2" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m11.232,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM10.08,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="212" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="18.432" connectorname="3" r="1.512"  id="213" fill="none" gorn="0.1.4" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m18.432,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM17.28,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="214" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="25.632" connectorname="4" r="1.512"  id="215" fill="none" gorn="0.1.6" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m25.632,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM24.48,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="216" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="32.832" connectorname="5" r="1.512"  id="217" fill="none" gorn="0.1.8" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m32.832,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM31.68,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="218" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="40.032" connectorname="6" r="1.512"  id="219" fill="none" gorn="0.1.10" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m40.032,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM38.88,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="220" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="47.232" connectorname="7" r="1.512"  id="221" fill="none" gorn="0.1.12" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m47.232,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM46.08,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="222" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="54.432" connectorname="8" r="1.512"  id="223" fill="none" gorn="0.1.14" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m54.432,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM53.28,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="224" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="54.432" connectorname="9" r="1.512"  id="225" fill="none" gorn="0.1.16" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m54.432,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM53.28,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="226" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="47.232" connectorname="10" r="1.512"  id="227" fill="none" gorn="0.1.18" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m47.232,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM46.08,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="228" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="40.032" connectorname="11" r="1.512"  id="229" fill="none" gorn="0.1.20" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m40.032,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM38.88,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="230" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="32.832" connectorname="12" r="1.512"  id="231" fill="none" gorn="0.1.22" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m32.832,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM31.68,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="232" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="25.632" connectorname="13" r="1.512"  id="233" fill="none" gorn="0.1.24" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m25.632,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM24.48,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="234" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="18.432" connectorname="14" r="1.512"  id="235" fill="none" gorn="0.1.26" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m18.432,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM17.28,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="236" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="11.232" connectorname="15" r="1.512"  id="237" fill="none" gorn="0.1.28" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m11.232,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM10.08,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="238" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="4.032" connectorname="16" r="1.512"  id="239" fill="none" gorn="0.1.30" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m4.032,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM2.88,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="240" fill="black" stroke="none" stroke-width="0"/>
+    <g  id="copper0" gorn="0.1.32">
+     <g cx="4.032" connectorname="1" r="1.512"  id="241" fill="none" gorn="0.1.32.0" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m4.032,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM2.88,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="242" fill="black" gorn="0.1.32.1" stroke="none" stroke-width="0"/>
+     <g cx="11.232" connectorname="2" r="1.512"  id="243" fill="none" gorn="0.1.32.2" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m11.232,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM10.08,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="244" fill="black" gorn="0.1.32.3" stroke="none" stroke-width="0"/>
+     <g cx="18.432" connectorname="3" r="1.512"  id="245" fill="none" gorn="0.1.32.4" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m18.432,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM17.28,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="246" fill="black" gorn="0.1.32.5" stroke="none" stroke-width="0"/>
+     <g cx="25.632" connectorname="4" r="1.512"  id="247" fill="none" gorn="0.1.32.6" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m25.632,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM24.48,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="248" fill="black" gorn="0.1.32.7" stroke="none" stroke-width="0"/>
+     <g cx="32.832" connectorname="5" r="1.512"  id="249" fill="none" gorn="0.1.32.8" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m32.832,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM31.68,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="250" fill="black" gorn="0.1.32.9" stroke="none" stroke-width="0"/>
+     <g cx="40.032" connectorname="6" r="1.512"  id="251" fill="none" gorn="0.1.32.10" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m40.032,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM38.88,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="252" fill="black" gorn="0.1.32.11" stroke="none" stroke-width="0"/>
+     <g cx="47.232" connectorname="7" r="1.512"  id="253" fill="none" gorn="0.1.32.12" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m47.232,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM46.08,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="254" fill="black" gorn="0.1.32.13" stroke="none" stroke-width="0"/>
+     <g cx="54.432" connectorname="8" r="1.512"  id="255" fill="none" gorn="0.1.32.14" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m54.432,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM53.28,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="256" fill="black" gorn="0.1.32.15" stroke="none" stroke-width="0"/>
+     <g cx="54.432" connectorname="9" r="1.512"  id="257" fill="none" gorn="0.1.32.16" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m54.432,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM53.28,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="258" fill="black" gorn="0.1.32.17" stroke="none" stroke-width="0"/>
+     <g cx="47.232" connectorname="10" r="1.512"  id="259" fill="none" gorn="0.1.32.18" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m47.232,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM46.08,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="260" fill="black" gorn="0.1.32.19" stroke="none" stroke-width="0"/>
+     <g cx="40.032" connectorname="11" r="1.512"  id="261" fill="none" gorn="0.1.32.20" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m40.032,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM38.88,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="262" fill="black" gorn="0.1.32.21" stroke="none" stroke-width="0"/>
+     <g cx="32.832" connectorname="12" r="1.512"  id="263" fill="none" gorn="0.1.32.22" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m32.832,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM31.68,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="264" fill="black" gorn="0.1.32.23" stroke="none" stroke-width="0"/>
+     <g cx="25.632" connectorname="13" r="1.512"  id="265" fill="none" gorn="0.1.32.24" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m25.632,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM24.48,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="266" fill="black" gorn="0.1.32.25" stroke="none" stroke-width="0"/>
+     <g cx="18.432" connectorname="14" r="1.512"  id="267" fill="none" gorn="0.1.32.26" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m18.432,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM17.28,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="268" fill="black" gorn="0.1.32.27" stroke="none" stroke-width="0"/>
+     <g cx="11.232" connectorname="15" r="1.512"  id="269" fill="none" gorn="0.1.32.28" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m11.232,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM10.08,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="270" fill="black" gorn="0.1.32.29" stroke="none" stroke-width="0"/>
+     <g cx="4.032" connectorname="16" r="1.512"  id="271" fill="none" gorn="0.1.32.30" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m4.032,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM2.88,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="272" fill="black" gorn="0.1.32.31" stroke="none" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="74752">
+  <g transform="translate(17.4792,43.5721)">
+   <g  id="copper1" gorn="0.1">
+    <g cx="4.032" connectorname="1" r="1.512"  id="273" fill="none" gorn="0.1.0" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m4.032,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM2.88,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="274" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="11.232" connectorname="2" r="1.512"  id="275" fill="none" gorn="0.1.2" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m11.232,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM10.08,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="276" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="18.432" connectorname="3" r="1.512"  id="277" fill="none" gorn="0.1.4" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m18.432,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM17.28,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="278" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="25.632" connectorname="4" r="1.512"  id="279" fill="none" gorn="0.1.6" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m25.632,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM24.48,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="280" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="32.832" connectorname="5" r="1.512"  id="281" fill="none" gorn="0.1.8" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m32.832,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM31.68,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="282" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="40.032" connectorname="6" r="1.512"  id="283" fill="none" gorn="0.1.10" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m40.032,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM38.88,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="284" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="47.232" connectorname="7" r="1.512"  id="285" fill="none" gorn="0.1.12" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m47.232,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM46.08,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="286" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="54.432" connectorname="8" r="1.512"  id="287" fill="none" gorn="0.1.14" stroke="black" stroke-width="0.72" cy="25.344"/>
+    <g d="m54.432,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM53.28,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="288" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="54.432" connectorname="9" r="1.512"  id="289" fill="none" gorn="0.1.16" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m54.432,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM53.28,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="290" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="47.232" connectorname="10" r="1.512"  id="291" fill="none" gorn="0.1.18" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m47.232,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM46.08,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="292" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="40.032" connectorname="11" r="1.512"  id="293" fill="none" gorn="0.1.20" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m40.032,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM38.88,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="294" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="32.832" connectorname="12" r="1.512"  id="295" fill="none" gorn="0.1.22" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m32.832,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM31.68,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="296" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="25.632" connectorname="13" r="1.512"  id="297" fill="none" gorn="0.1.24" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m25.632,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM24.48,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="298" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="18.432" connectorname="14" r="1.512"  id="299" fill="none" gorn="0.1.26" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m18.432,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM17.28,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="300" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="11.232" connectorname="15" r="1.512"  id="301" fill="none" gorn="0.1.28" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m11.232,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM10.08,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="302" fill="black" stroke="none" stroke-width="0"/>
+    <g cx="4.032" connectorname="16" r="1.512"  id="303" fill="none" gorn="0.1.30" stroke="black" stroke-width="0.72" cy="3.744"/>
+    <g d="m4.032,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM2.88,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="304" fill="black" stroke="none" stroke-width="0"/>
+    <g  id="copper0" gorn="0.1.32">
+     <g cx="4.032" connectorname="1" r="1.512"  id="305" fill="none" gorn="0.1.32.0" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m4.032,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM2.88,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="306" fill="black" gorn="0.1.32.1" stroke="none" stroke-width="0"/>
+     <g cx="11.232" connectorname="2" r="1.512"  id="307" fill="none" gorn="0.1.32.2" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m11.232,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM10.08,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="308" fill="black" gorn="0.1.32.3" stroke="none" stroke-width="0"/>
+     <g cx="18.432" connectorname="3" r="1.512"  id="309" fill="none" gorn="0.1.32.4" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m18.432,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM17.28,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="310" fill="black" gorn="0.1.32.5" stroke="none" stroke-width="0"/>
+     <g cx="25.632" connectorname="4" r="1.512"  id="311" fill="none" gorn="0.1.32.6" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m25.632,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM24.48,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="312" fill="black" gorn="0.1.32.7" stroke="none" stroke-width="0"/>
+     <g cx="32.832" connectorname="5" r="1.512"  id="313" fill="none" gorn="0.1.32.8" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m32.832,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM31.68,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="314" fill="black" gorn="0.1.32.9" stroke="none" stroke-width="0"/>
+     <g cx="40.032" connectorname="6" r="1.512"  id="315" fill="none" gorn="0.1.32.10" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m40.032,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM38.88,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="316" fill="black" gorn="0.1.32.11" stroke="none" stroke-width="0"/>
+     <g cx="47.232" connectorname="7" r="1.512"  id="317" fill="none" gorn="0.1.32.12" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m47.232,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM46.08,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="318" fill="black" gorn="0.1.32.13" stroke="none" stroke-width="0"/>
+     <g cx="54.432" connectorname="8" r="1.512"  id="319" fill="none" gorn="0.1.32.14" stroke="black" stroke-width="0.72" cy="25.344"/>
+     <g d="m54.432,21.6a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM53.28,25.344a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="320" fill="black" gorn="0.1.32.15" stroke="none" stroke-width="0"/>
+     <g cx="54.432" connectorname="9" r="1.512"  id="321" fill="none" gorn="0.1.32.16" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m54.432,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM53.28,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="322" fill="black" gorn="0.1.32.17" stroke="none" stroke-width="0"/>
+     <g cx="47.232" connectorname="10" r="1.512"  id="323" fill="none" gorn="0.1.32.18" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m47.232,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM46.08,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="324" fill="black" gorn="0.1.32.19" stroke="none" stroke-width="0"/>
+     <g cx="40.032" connectorname="11" r="1.512"  id="325" fill="none" gorn="0.1.32.20" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m40.032,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM38.88,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="326" fill="black" gorn="0.1.32.21" stroke="none" stroke-width="0"/>
+     <g cx="32.832" connectorname="12" r="1.512"  id="327" fill="none" gorn="0.1.32.22" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m32.832,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM31.68,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="328" fill="black" gorn="0.1.32.23" stroke="none" stroke-width="0"/>
+     <g cx="25.632" connectorname="13" r="1.512"  id="329" fill="none" gorn="0.1.32.24" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m25.632,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM24.48,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="330" fill="black" gorn="0.1.32.25" stroke="none" stroke-width="0"/>
+     <g cx="18.432" connectorname="14" r="1.512"  id="331" fill="none" gorn="0.1.32.26" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m18.432,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM17.28,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="332" fill="black" gorn="0.1.32.27" stroke="none" stroke-width="0"/>
+     <g cx="11.232" connectorname="15" r="1.512"  id="333" fill="none" gorn="0.1.32.28" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m11.232,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM10.08,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="334" fill="black" gorn="0.1.32.29" stroke="none" stroke-width="0"/>
+     <g cx="4.032" connectorname="16" r="1.512"  id="335" fill="none" gorn="0.1.32.30" stroke="black" stroke-width="0.72" cy="3.744"/>
+     <g d="m4.032,0a1.872,1.872,0,0,1,1.872,1.872l0,3.744a1.872,1.872,0,0,1,-1.872,1.872l0,0a1.872,1.872,0,0,1,-1.872,-1.872l0,-3.744a1.872,1.872,0,0,1,1.872,-1.872l0,0zM2.88,3.744a1.152,1.152,0,1,0,2.304,0,1.152,1.152,0,1,0,-2.304,0z"  id="336" fill="black" gorn="0.1.32.31" stroke="none" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="12100381">
+  <g transform="translate(176.894,37.0988)">
+   <g  id="copper1">
+    <g cx="3.01733" r="0.992124"  id="337" fill="none" stroke-width="0.850392" stroke="black" cy="3.01733"/>
+   </g>
+  </g>
+ </g>
+ <g partID="12100371">
+  <g transform="translate(245.294,37.0988)">
+   <g  id="copper1">
+    <g cx="3.01733" r="0.992124"  id="338" fill="none" stroke-width="0.850392" stroke="black" cy="3.01733"/>
+   </g>
+  </g>
+ </g>
+ <g partID="12089061">
+  <g transform="translate(104.894,37.0988)">
+   <g  id="copper1">
+    <g cx="3.01733" r="0.992124"  id="339" fill="none" stroke-width="0.850392" stroke="black" cy="3.01733"/>
+   </g>
+  </g>
+ </g>
+ <g partID="12080171">
+  <g transform="translate(32.8936,37.0988)">
+   <g  id="copper1">
+    <g cx="3.01733" r="0.992124"  id="340" fill="none" stroke-width="0.850392" stroke="black" cy="3.01733"/>
+   </g>
+  </g>
+ </g>
+ <g partID="12100401">
+  <g transform="translate(238.094,33.4988)">
+   <g  id="copper1">
+    <g cx="3.01733" r="0.992124"  id="341" fill="none" stroke-width="0.850392" stroke="black" cy="3.01733"/>
+   </g>
+  </g>
+ </g>
+ <g partID="12100391">
+  <g transform="translate(169.694,33.4988)">
+   <g  id="copper1">
+    <g cx="3.01733" r="0.992124"  id="342" fill="none" stroke-width="0.850392" stroke="black" cy="3.01733"/>
+   </g>
+  </g>
+ </g>
+ <g partID="12089071">
+  <g transform="translate(97.6936,33.4988)">
+   <g  id="copper1">
+    <g cx="3.01733" r="0.992124"  id="343" fill="none" stroke-width="0.850392" stroke="black" cy="3.01733"/>
+   </g>
+  </g>
+ </g>
+ <g partID="12080231">
+  <g transform="translate(25.6936,33.4988)">
+   <g  id="copper1">
+    <g cx="3.01733" r="0.992124"  id="344" fill="none" stroke-width="0.850392" stroke="black" cy="3.01733"/>
+   </g>
+  </g>
+ </g>
+ <g partID="12100421">
+  <g transform="translate(176.894,55.0988)">
+   <g  id="copper1">
+    <g cx="3.01733" r="0.992124"  id="345" fill="none" stroke-width="0.850392" stroke="black" cy="3.01733"/>
+   </g>
+  </g>
+ </g>
+ <g partID="12100411">
+  <g transform="translate(245.294,55.0988)">
+   <g  id="copper1">
+    <g cx="3.01733" r="0.992124"  id="346" fill="none" stroke-width="0.850392" stroke="black" cy="3.01733"/>
+   </g>
+  </g>
+ </g>
+ <g partID="12089081">
+  <g transform="translate(104.894,55.0988)">
+   <g  id="copper1">
+    <g cx="3.01733" r="0.992124"  id="347" fill="none" stroke-width="0.850392" stroke="black" cy="3.01733"/>
+   </g>
+  </g>
+ </g>
+ <g partID="12080621">
+  <g transform="translate(32.8936,55.0988)">
+   <g  id="copper1">
+    <g cx="3.01733" r="0.992124"  id="348" fill="none" stroke-width="0.850392" stroke="black" cy="3.01733"/>
+   </g>
+  </g>
+ </g>
+ <g partID="12086441">
+  <g transform="translate(84.1936,65.8988)">
+   <g  id="copper1">
+    <g cx="3.01733" r="0.992124"  id="349" fill="none" stroke-width="0.850392" stroke="black" cy="3.01733"/>
+   </g>
+  </g>
+ </g>
+ <g partID="12194052">
+  <g transform="translate(304.471,35.9761)">
+   <g  id="copper1">
+    <g  id="copper0">
+     <g cx="5.04" r="2.088"  id="350" fill="none" stroke="black" stroke-width="1.44" cy="5.04"/>
+     <g cx="5.04" r="2.088"  id="351" fill="none" stroke="black" stroke-width="1.44" cy="12.24"/>
+     <g cx="5.04" r="2.088"  id="352" fill="none" stroke="black" stroke-width="1.44" cy="19.44"/>
+     <g cx="5.04" r="2.088"  id="353" fill="none" stroke="black" stroke-width="1.44" cy="26.64"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="12206602">
+  <g transform="translate(2.0712,35.9761)">
+   <g  id="copper1">
+    <g  id="copper0">
+     <g cx="5.04" r="2.088"  id="354" fill="none" stroke="black" stroke-width="1.44" cy="5.04"/>
+     <g cx="5.04" r="2.088"  id="355" fill="none" stroke="black" stroke-width="1.44" cy="12.24"/>
+     <g cx="5.04" r="2.088"  id="356" fill="none" stroke="black" stroke-width="1.44" cy="19.44"/>
+     <g cx="5.04" r="2.088"  id="357" fill="none" stroke="black" stroke-width="1.44" cy="26.64"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="12114022">
+  <g transform="translate(314.011,18.5161)">
+   <g transform="matrix(0,1,-1,0,0,0)">
+    <g  id="copper1">
+     <!--  <rect width="55" x="10" y="35" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" /> -->
+     <g cx="2.7" r="1.98"  id="358" fill="none" stroke="black" stroke-width="1.44" cy="4.5"/>
+     <g cx="9.9" r="1.98"  id="359" fill="none" stroke="black" stroke-width="1.44" cy="4.5"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="12113992">
+  <g transform="translate(305.011,16.7161)">
+   <g transform="matrix(0,1,-1,0,0,0)">
+    <g  id="copper1">
+     <!-- <rect width="55" x="35" y="35" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" /> -->
+     <g cx="4.5" r="1.98"  id="360" fill="none" stroke="black" stroke-width="1.44" cy="4.5"/>
+     <g cx="11.7" r="1.98"  id="361" fill="none" stroke="black" stroke-width="1.44" cy="4.5"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="12127630">
+  <g transform="translate(247.611,74.5161)">
+   <g  id="copper1">
+    <rect width="7.2" x="1.6"  id="362" y="1.6" fill="black" fill-opacity="1" stroke="none" stroke-width="0" height="7.2"/>
+    <g width="7.2" x="1.6"  id="363" y="1.6" fill="none" stroke="none" stroke-width="0" height="7.2"/>
+   </g>
+  </g>
+ </g>
+ <g partID="12127540">
+  <g transform="translate(231.411,74.5161)">
+   <g  id="copper1">
+    <rect width="7.2" x="1.6"  id="364" y="1.6" fill="black" fill-opacity="1" stroke="none" stroke-width="0" height="7.2"/>
+    <g width="7.2" x="1.6"  id="365" y="1.6" fill="none" stroke="none" stroke-width="0" height="7.2"/>
+   </g>
+  </g>
+ </g>
+ <g partID="12458060">
+  <g transform="translate(239.511,74.5161)">
+   <g  id="copper1">
+    <rect width="7.2" x="1.6"  id="366" y="1.6" fill="black" fill-opacity="1" stroke="none" stroke-width="0" height="7.2"/>
+    <g width="7.2" x="1.6"  id="367" y="1.6" fill="none" stroke="none" stroke-width="0" height="7.2"/>
+   </g>
+  </g>
+ </g>
+</svg>
