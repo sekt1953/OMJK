@@ -22,6 +22,7 @@ Jeg bruger ofte et [stripboard](./Stripboard/README.md) til at bygge prototyper 
   * [I2C IO_Interface med PCF8574](./I2C%20IO_Interface/PCF8574/)
 * [I2C PWMOutput med PCA9685](./LEDDriverPWM/README.md)
 * [BlockDetection](./BlockDetection/README.md)
-  * [BlockDetection med NCE_BD20](./BlockDetection/NEC_BD20/BD20_InputInterface/)
+  * [BlockDetection med NCE_BD20](./BlockDetection/README.md#nec_bd20)
+  * [NEC_BD20 Prototype Hjulby](./BlockDetection/README.md#nec_bd20-prototype-hjulby)
 * [SporskifteDriver med TB6612FNG](./SporskifteDriver/README.md)
 * [Stripboard](./Stripboard/README.md)
