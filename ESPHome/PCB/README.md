@@ -24,6 +24,7 @@ Jeg bruger ofte et [stripboard](./Stripboard/README.md) til at bygge prototyper 
   * [BlockDetection med NCE_BD20](./BlockDetection/README.md#nec_bd20)
     * [NEC_BD20 Prototype Hjulby](./BlockDetection/README.md#nec_bd20-prototype-hjulby)
 * [SporskifteDriver med TB6612FNG](./SporskifteDriver/README.md)
-  * [SporskifteDriver_002](./SporskifteDriver/)
+  * [SporskifteDriver_002](./SporskifteDriver/README.md#sporskiftedriver_002-med-pwm-control)
+  * [Prototype](./SporskifteDriver/Prototype/README.md)
 * [LedStripDriver](./LedStripDriver/README.md)
 * [Stripboard for Prototype](./Stripboard/README.md)
