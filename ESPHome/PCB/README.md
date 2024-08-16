@@ -21,6 +21,7 @@ Jeg bruger ofte et [stripboard](./Stripboard/README.md) til at bygge prototyper 
   * [I2C IO_Interface med MCP23017](./I2C%20IO_Interface/PCF8574/)
   * [I2C IO_Interface med PCF8574](./I2C%20IO_Interface/PCF8574/)
 * [I2C PWMOutput med PCA9685](./LEDDriverPWM/README.md)
-* [BlockDetection med NCE_BD20](./BlockDetection/README.md)
+* [BlockDetection](./BlockDetection/README.md)
+  * [BlockDetection med NCE_BD20](./BlockDetection/NEC_BD20/BD20_InputInterface/)
 * [SporskifteDriver med TB6612FNG](./SporskifteDriver/README.md)
 * [Stripboard](./Stripboard/README.md)
