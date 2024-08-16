@@ -14,7 +14,7 @@
 
 Jeg bruger ofte et [stripboard](./Stripboard/README.md) til at bygge prototyper på, og mindre styk antal, skal jeg have fremstillet print bruger jeg [https://aisler.net/partners/fritzing](https://aisler.net/partners/fritzing), her kan jeg sende **fzz** filer til uden at skulle bekymre mig om **svg** filer, det er nemt.
 
-* CPU print
+* [CPU print](./CPU/README.md)
   * [Olimex ESP32-POE-ISO](./CPU/README.md#olimex-esp32-poe-iso-16mb)
   * [CPU ESP32-dev](./CPU/README.md#esp32-dev-30pin-med-i2c-interface)
 * [I2C IO_Interface med PCF8574](./I2C%20IO_Interface/README.md)
