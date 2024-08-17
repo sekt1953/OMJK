@@ -11,7 +11,7 @@
 |![schem](./mcp23017/MCP23017.png)|
 
 * Fritzing files:
-  * [I2C_IO_Interface.fzz](./mcp23017/mcp23017_300.fzz)
+  * [mcp23017_300.fzz](./mcp23017/mcp23017_300.fzz)
 * ESPHome
   * [MCP23017 Component](https://esphome.io/components/mcp230xx#mcp23017-label)
   * [Microchip MCP23017 Datasheet](https://ww1.microchip.com/downloads/en/devicedoc/20001952c.pdf)
