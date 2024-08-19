@@ -1,0 +1,33 @@
+# HubC
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 0
+    id: pwmC0
+    inverted: false
+    min_power: 0.00
+    max_power: 1.00
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 1
+    id: pwmC1
+    inverted: false
+    min_power: 0.00
+    max_power: 1.00
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 2
+    id: pwmC2
+    inverted: false
+    min_power: 0.00
+    max_power: 1.00
+    zero_means_zero: true
+  - platform: pca9685
+    pca9685_id: ${id_pca9685}C
+    channel: 3
+    id: pwmC3
+    inverted: false
+    min_power: 0.00
+    max_power: 1.00
+    zero_means_zero: true

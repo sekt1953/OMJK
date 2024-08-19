@@ -1,0 +1,7 @@
+# HubC
+  - platform: rgbw
+    name: 'RGBW_1'
+    red: pwmB0
+    green: pwmB1
+    blue: pwmB2
+    white: pwmB3
