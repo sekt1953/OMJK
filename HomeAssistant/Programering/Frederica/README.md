@@ -72,7 +72,7 @@ Kilde: [YAML Style Guide](https://developers.home-assistant.io/docs/documenting/
 
 ```yaml
 alias: Fa-BD
-description: Markering af hvornår toget til enden af sporet.
+description: Markering af hvornår toget når til enden af sporet.
 ```
 
 ### When (Trigger)
