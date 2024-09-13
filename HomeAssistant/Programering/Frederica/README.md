@@ -1,5 +1,12 @@
 # Programering af Fredericia Station
 
+## ESPHome Code for Frederica
+
+* Se ESPHome for ESP32 Code:
+  * [ESPHome/fa-spibg_0.yaml](./../../../ESPHome/fa-spibg_0.yaml)
+    * [ESPHome/Includes/Fa/Fa-Spibd/.pcf8574_ids_fa.yaml](./../../../ESPHome/Includes/Fa/Fa-SpIBD/.pcf8574_ids_fa.yaml)
+    * [ESPHome/Includes/Fa/Fa-Spibd/.pcf8574_input_fa.yaml](./../../../ESPHome/Includes/Fa/Fa-SpIBD/.pcf8574_input_fa.yaml)
+
 ## Fredericia Spor Isolations
 
 ![FredericiaSporIsolationsNummer.png](./Images/FredericiaSporIsolationsNummer.png)
