@@ -2,7 +2,7 @@
 
 ## ESPHome Code for Frederica
 
-* Se ESPHome for ESP32 Code:
+* Se ESPHome for ESP32 Firmware:
   * [/fa-spibg_0.yaml](./../../../ESPHome/fa-spibg_0.yaml)
     * [./Includes/Fa/Fa-Spibd/.pcf8574_ids_fa.yaml](./../../../ESPHome/Includes/Fa/Fa-SpIBD/.pcf8574_ids_fa.yaml)
     * [./Includes/Fa/Fa-Spibd/.pcf8574_input_fa.yaml](./../../../ESPHome/Includes/Fa/Fa-SpIBD/.pcf8574_input_fa.yaml)
