@@ -4,39 +4,39 @@
 
 ![FredericiaSporIsolationsNummer.png](./Images/FredericiaSporIsolationsNummer.png)
 
-### Spor Isolations Navn -> Entity_id
+### SporIsolations Navn -> Entity_id
 
-|Spor Isolation||BlockDetection Entity_id|Spor|Komentar|
-|---:|:---|:---:|:---:|:---:|
+|SporIsolation|Name|Entity_id|Komentar|
+|:---:|:---|:---|:---|
 |38|Fa-SpI-38||||
 |39|Fa-SpI-39||||
 |40|Fa-SpI-40||Spor1||
-|41|Fa-SpI-41|binary_sensor.fa_spi_047|Spor2||
+|41|Fa-SpI-41|binary_sensor.fa_spi_047|Spor2|
 |42|Fa-SpI-42||Spor3||
-|43|Fa-SpI-43|binary_sensor.fa_spi_043|Spor3|Grøn Led|
-|44|Fa-SpI-44|binary_sensor.fa_spi_044|Spor3|Rød Led|
-|45|Fa-SpI-45|binary_sensor.fa_spi_045|Spor2|Grøn Led|
-|46|Fa-SpI-46|binary_sensor.fa_spi_042|Spor2|Rød Led|
-|47|Fa-SpI-47|binary_sensor.fa_spi_041|Spor1|Grøn Led|
-|48|Fa-SpI-48|binary_sensor.fa_spi_040|Spor1|Rød Led|
+|43|Fa-SpI-43|binary_sensor.fa_spi_043|Spor3 Grøn Led|
+|44|Fa-SpI-44|binary_sensor.fa_spi_044|Spor3 Rød Led|
+|45|Fa-SpI-45|binary_sensor.fa_spi_045|Spor2 Grøn Led|
+|46|Fa-SpI-46|binary_sensor.fa_spi_042|Spor2 Rød Led|
+|47|Fa-SpI-47|binary_sensor.fa_spi_041|Spor1 Grøn Led|
+|48|Fa-SpI-48|binary_sensor.fa_spi_040|Spor1 Rød Led|
 
 ### Cap Frederica Spor Isolation Led -> Entity_id
 
 |Name|Light.Entity_id|Komentar|
-|:---:|:---:|:---:|
-|Cap-Fa-SpL-43|light.cap_fa_001|Fa-Spor3 Grøn|
-|Cap-Fa-SpL-44|light.cap_fa_000|Fa-Spor3 Rød|
-|Cap-Fa-SpL-45|light.cap_fa_003|Fa-Spor2 Grøn|
-|Cap-Fa-SpL-46|light.cap_fa_002|Fa-Spor2 Rød|
-|Cap-Fa-SpL-47|light.cap_fa_005|Fa-Spor1 Grøn|
-|Cap-Fa-SpL-48|light.cap_fa_004|Fa-Spor1 Rød|
+|:---|:---|:---|
+|Cap-Fa-SpIL-43|light.cap_fa_spil_001|Fa-Spor3 Grøn|
+|Cap-Fa-SpIL-44|light.cap_fa_spil_000|Fa-Spor3 Rød|
+|Cap-Fa-SpIL-45|light.cap_fa_spil_003|Fa-Spor2 Grøn|
+|Cap-Fa-SpIL-46|light.cap_fa_spil_002|Fa-Spor2 Rød|
+|Cap-Fa-SpIL-47|light.cap_fa_spil_005|Fa-Spor1 Grøn|
+|Cap-Fa-SpIL-48|light.cap_fa_spil_004|Fa-Spor1 Rød|
 
 ## Block Detections Light Group
 
 ### Group
 
 |Name|Entity_id|Komentar|
-|:---|:---:|:---:|
+|:---|:---|:---|
 |Fa-Splg-43|light.fa_splg_43|Fa-Spor3 Grøn|
 |Fa-Splg-44|light.fa_splg_44|Fa-Spor3 Rød|
 |Fa-Splg-45|light.fa_splg_45|Fa-Spor2 Grøn|
