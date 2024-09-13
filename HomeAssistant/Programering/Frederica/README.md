@@ -1,6 +1,6 @@
 # Programering af Fredericia Station
 
-## ESPHome Code for Frederica
+## ESPHome Firmware for Frederica
 
 * Se ESPHome for ESP32 Firmware:
   * [/fa-spibg_0.yaml](./../../../ESPHome/fa-spibg_0.yaml)
