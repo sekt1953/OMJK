@@ -1,68 +1,65 @@
 # Programering af Fredericia Station
 
-## Fredericia Spor Isolations Nummer
+## Fredericia Spor Isolations
 
 ![FredericiaSporIsolationsNummer.png](./Images/FredericiaSporIsolationsNummer.png)
 
-### Spor Isolations Nummer -> entity_id
+### Spor Isolations Navn -> Entity_id
 
-|Spor Isolation|BlockDetection entity_id|Spor|Komentar|
-|---:|:---|:---:|:---:|
-|38||||
-|39||||
-|40||||
-|41|binary_sensor.fa_bd_00_47|Spor2||
-|42|binary_sensor.fa_bd_00_xx|Spor3||
-|43|binary_sensor.fa_bd_00_43|Spor3|Grøn Led|
-|44|binary_sensor.fa_bd_00_44|Spor3|Rød Led|
-|45|binary_sensor.fa_bd_00_45|Spor2|Grøn Led|
-|46|binary_sensor.fa_bd_00_42|Spor2|Rød Led|
-|47|binary_sensor.fa_bd_00_41|Spor1|Grøn Led|
-|48|binary_sensor.fa_bd_00_40|Spor1|Rød Led|
+|Spor Isolation||BlockDetection Entity_id|Spor|Komentar|
+|---:|:---|:---:|:---:|:---:|
+|38|Fa-SpI-38||||
+|39|Fa-SpI-39||||
+|40|Fa-SpI-40||Spor1||
+|41|Fa-SpI-41|binary_sensor.fa_bd_00_47|Spor2||
+|42|Fa-SpI-42||Spor3||
+|43|Fa-SpI-43|binary_sensor.fa_bd_00_43|Spor3|Grøn Led|
+|44|Fa-SpI-44|binary_sensor.fa_bd_00_44|Spor3|Rød Led|
+|45|Fa-SpI-45|binary_sensor.fa_bd_00_45|Spor2|Grøn Led|
+|46|Fa-SpI-46|binary_sensor.fa_bd_00_42|Spor2|Rød Led|
+|47|Fa-SpI-47|binary_sensor.fa_bd_00_41|Spor1|Grøn Led|
+|48|Fa-SpI-48|binary_sensor.fa_bd_00_40|Spor1|Rød Led|
 
-## Cap Frederica Block Detections Light
+### Cap Frederica Spor Isolation Led -> Entity_id
 
-### Light.Entity_id
-
-|Spor|Led|Light.Entity_id|Komentar|
-|:---:|:---|:---:|:---:|
-|Spor1|Grøn|light.cap_fa_00_05||
-|Spor1|Rød|light.cap_fa_00_04||
-|Spor2|Grøn|light.cap_fa_00_03||
-|Spor2|Rød|light.cap_fa_00_02||
-|Spor3|Grøn|light.cap_fa_00_01||
-|Spor3|Rød|light.cap_fa_00_00||
+|Name|Light.Entity_id|Komentar|
+|:---:|:---:|:---:|
+|Cap-Fa-SpL-43|light.cap_fa_00_01|Fa-Spor3 Grøn|
+|Cap-Fa-SpL-44|light.cap_fa_00_00|Fa-Spor3 Rød|
+|Cap-Fa-SpL-45|light.cap_fa_00_03|Fa-Spor2 Grøn|
+|Cap-Fa-SpL-46|light.cap_fa_00_02|Fa-Spor2 Rød|
+|Cap-Fa-SpL-47|light.cap_fa_00_05|Fa-Spor1 Grøn|
+|Cap-Fa-SpL-48|light.cap_fa_00_04|Fa-Spor1 Rød|
 
 ## Block Detections Light Group
 
 ### Group
 
-|Entity_id|Area|Add label|
+|Name|Entity_id|Komentar|
 |:---|:---:|:---:|
-|light.fa_spor1_bd_lg_41|Fa|Fa_Spor1|
-|light.fa_spor1_bd_lg_40|Fa|Fa_Spor1|
-|light.fa_spor2_bd_lg_47|Fa|Fa_Spor2|
-|light.fa_spor2_bd_lg_45|Fa|Fa_Spor2|
-|light.fa_spor2_bd_lg_42|Fa|Fa_Spor2|
-|light.fa_spor3_bd_lg_43|Fa|Fa_Spor3|
-|light.fa_spor3_bd_lg_44|Fa|Fa_Spor3|
+|Fa-Splg-43|light.fa_splg_43|Fa-Spor3 Grøn|
+|Fa-Splg-44|light.fa_splg_44|Fa-Spor3 Rød|
+|Fa-Splg-45|light.fa_splg_45|Fa-Spor2 Grøn|
+|Fa-Splg-46|light.fa_splg_42|Fa-Spor2 Rød|
+|Fa-Splg-47|light.fa_splg_41|Fa-Spor1 Grøn|
+|Fa-Splg-48|light.fa_splg_40|Fa-Spor1 Rød|
 
 ### Group Options Members
 
-|Group|Members Entity_id||
-|:---:|:---|:---:|
-|light.fa_spor1_bd_lg_41|light.cap_fa_00_05||
-||light.xx||
-|light.fa_spor2_bd_lg_40|light.cap_fa_00_04||
-||light.xx||
-|light.fa_spor3_bd_lg_45|light.cap_fa_00_03||
-||light.xx||
-|light.fa_spor1_bd_lg_42|light.cap_fa_00_02||
-||light.xx||
-|light.fa_spor2_bd_lg_43|light.cap_fa_00_01||
-||light.xx||
-|light.fa_spor3_bd_lg_44|light.cap_fa_00_00||
-||light.xx||
+|Group|Members Name|Members Entity_id|Komentar|
+|:---|:---|:---|:---|
+|Fa-Splg-43|Cap-Fa-SpL-43|light.cap_fa_00_01|Fa-Spor3 Grøn|
+|||light.xx||
+|Fa-Splg-44|Cap-Fa-SpL-44|light.cap_fa_00_00|Fa-Spor3 Rød|
+|||light.xx||
+|Fa-Splg-45|Cap-Fa-SpL-45|light.cap_fa_00_03|Fa-Spor2 Grøn|
+|||light.xx||
+|Fa-Splg-46|Cap-Fa-SpL-46|light.cap_fa_00_02|Fa-Spor2 Rød|
+|||light.xx||
+|Fa-Splg-47|Cap-Fa-SpL-47|light.cap_fa_00_05|Fa-Spor1 Grøn|
+|||light.xx||
+|Fa-Splg-48|Cap-Fa-SpL-48|light.cap_fa_00_04|Fa-Spor1 Rød|
+|||light.xx||
 
 ## Automation Fa Block Detection (YAML)
 
