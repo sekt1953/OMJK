@@ -11,25 +11,25 @@
 |38|Fa-SpI-38||||
 |39|Fa-SpI-39||||
 |40|Fa-SpI-40||Spor1||
-|41|Fa-SpI-41|binary_sensor.fa_bd_00_47|Spor2||
+|41|Fa-SpI-41|binary_sensor.fa_spi_047|Spor2||
 |42|Fa-SpI-42||Spor3||
-|43|Fa-SpI-43|binary_sensor.fa_bd_00_43|Spor3|Grøn Led|
-|44|Fa-SpI-44|binary_sensor.fa_bd_00_44|Spor3|Rød Led|
-|45|Fa-SpI-45|binary_sensor.fa_bd_00_45|Spor2|Grøn Led|
-|46|Fa-SpI-46|binary_sensor.fa_bd_00_42|Spor2|Rød Led|
-|47|Fa-SpI-47|binary_sensor.fa_bd_00_41|Spor1|Grøn Led|
-|48|Fa-SpI-48|binary_sensor.fa_bd_00_40|Spor1|Rød Led|
+|43|Fa-SpI-43|binary_sensor.fa_spi_043|Spor3|Grøn Led|
+|44|Fa-SpI-44|binary_sensor.fa_spi_044|Spor3|Rød Led|
+|45|Fa-SpI-45|binary_sensor.fa_spi_045|Spor2|Grøn Led|
+|46|Fa-SpI-46|binary_sensor.fa_spi_042|Spor2|Rød Led|
+|47|Fa-SpI-47|binary_sensor.fa_spi_041|Spor1|Grøn Led|
+|48|Fa-SpI-48|binary_sensor.fa_spi_040|Spor1|Rød Led|
 
 ### Cap Frederica Spor Isolation Led -> Entity_id
 
 |Name|Light.Entity_id|Komentar|
 |:---:|:---:|:---:|
-|Cap-Fa-SpL-43|light.cap_fa_00_01|Fa-Spor3 Grøn|
-|Cap-Fa-SpL-44|light.cap_fa_00_00|Fa-Spor3 Rød|
-|Cap-Fa-SpL-45|light.cap_fa_00_03|Fa-Spor2 Grøn|
-|Cap-Fa-SpL-46|light.cap_fa_00_02|Fa-Spor2 Rød|
-|Cap-Fa-SpL-47|light.cap_fa_00_05|Fa-Spor1 Grøn|
-|Cap-Fa-SpL-48|light.cap_fa_00_04|Fa-Spor1 Rød|
+|Cap-Fa-SpL-43|light.cap_fa_001|Fa-Spor3 Grøn|
+|Cap-Fa-SpL-44|light.cap_fa_000|Fa-Spor3 Rød|
+|Cap-Fa-SpL-45|light.cap_fa_003|Fa-Spor2 Grøn|
+|Cap-Fa-SpL-46|light.cap_fa_002|Fa-Spor2 Rød|
+|Cap-Fa-SpL-47|light.cap_fa_005|Fa-Spor1 Grøn|
+|Cap-Fa-SpL-48|light.cap_fa_004|Fa-Spor1 Rød|
 
 ## Block Detections Light Group
 
