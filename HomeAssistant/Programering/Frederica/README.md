@@ -4,23 +4,23 @@
 
 ![FredericiaSporIsolationsNummer.png](./Images/FredericiaSporIsolationsNummer.png)
 
-### SporIsolations Navn -> Entity_id
+### SporIsolations BlockDetection --> Entity_id
 
 |SporIsolation|Name|Entity_id|Komentar|
 |:---:|:---|:---|:---|
-|38|Fa-SpI-38||||
-|39|Fa-SpI-39||||
-|40|Fa-SpI-40||Spor1||
-|41|Fa-SpI-41|binary_sensor.fa_spi_047|Spor2|
-|42|Fa-SpI-42||Spor3||
-|43|Fa-SpI-43|binary_sensor.fa_spi_043|Spor3 Grøn Led|
-|44|Fa-SpI-44|binary_sensor.fa_spi_044|Spor3 Rød Led|
-|45|Fa-SpI-45|binary_sensor.fa_spi_045|Spor2 Grøn Led|
-|46|Fa-SpI-46|binary_sensor.fa_spi_042|Spor2 Rød Led|
-|47|Fa-SpI-47|binary_sensor.fa_spi_041|Spor1 Grøn Led|
-|48|Fa-SpI-48|binary_sensor.fa_spi_040|Spor1 Rød Led|
+|38|Fa-SpI-38|||
+|39|Fa-SpI-39|||
+|40|Fa-SpI-40||Spor1|
+|41|Fa-SpI-41|binary_sensor.fa-spibd_007|Spor2|
+|42|Fa-SpI-42||Spor3|
+|43|Fa-SpI-43|binary_sensor.fa-spibd_003|Spor3 Grøn Led|
+|44|Fa-SpI-44|binary_sensor.fa-spibd_004|Spor3 Rød Led|
+|45|Fa-SpI-45|binary_sensor.fa-spibd_005|Spor2 Grøn Led|
+|46|Fa-SpI-46|binary_sensor.fa-spibd_002|Spor2 Rød Led|
+|47|Fa-SpI-47|binary_sensor.fa-spibd_001|Spor1 Grøn Led|
+|48|Fa-SpI-48|binary_sensor.fa-spibd_000|Spor1 Rød Led|
 
-### Cap Frederica Spor Isolation Led -> Entity_id
+### Cap Frederica SporIsolation Light --> Entity_id
 
 |Name|Light.Entity_id|Komentar|
 |:---|:---|:---|
@@ -31,18 +31,18 @@
 |Cap-Fa-SpIL-47|light.cap_fa_spil_005|Fa-Spor1 Grøn|
 |Cap-Fa-SpIL-48|light.cap_fa_spil_004|Fa-Spor1 Rød|
 
-## Block Detections Light Group
+## Frederica SporIsolation LightGroup --> Entity_id
 
 ### Group
 
 |Name|Entity_id|Komentar|
 |:---|:---|:---|
-|Fa-Splg-43|light.fa_splg_43|Fa-Spor3 Grøn|
-|Fa-Splg-44|light.fa_splg_44|Fa-Spor3 Rød|
-|Fa-Splg-45|light.fa_splg_45|Fa-Spor2 Grøn|
-|Fa-Splg-46|light.fa_splg_42|Fa-Spor2 Rød|
-|Fa-Splg-47|light.fa_splg_41|Fa-Spor1 Grøn|
-|Fa-Splg-48|light.fa_splg_40|Fa-Spor1 Rød|
+|Fa-Splg-43|light.fa_spilg_43|Fa-Spor3 Grøn|
+|Fa-Splg-44|light.fa_spilg_44|Fa-Spor3 Rød|
+|Fa-Splg-45|light.fa_spilg_45|Fa-Spor2 Grøn|
+|Fa-Splg-46|light.fa_spilg_42|Fa-Spor2 Rød|
+|Fa-Splg-47|light.fa_spilg_41|Fa-Spor1 Grøn|
+|Fa-Splg-48|light.fa_spilg_40|Fa-Spor1 Rød|
 
 ### Group Options Members
 
