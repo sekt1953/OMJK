@@ -6,6 +6,10 @@
   * [/fa-spibg_0.yaml](./../../../ESPHome/fa-spibg_0.yaml)
     * [./Includes/Fa/Fa-Spibd/.pcf8574_ids_fa.yaml](./../../../ESPHome/Includes/Fa/Fa-SpIBD/.pcf8574_ids_fa.yaml)
     * [./Includes/Fa/Fa-Spibd/.pcf8574_input_fa.yaml](./../../../ESPHome/Includes/Fa/Fa-SpIBD/.pcf8574_input_fa.yaml)
+  * [/fa-cap-spil_0.yaml](./../../../ESPHome/fa-cap-spil_0.yaml)
+    * [./Includes/Cap/Fa/Fa-Cap-SpIL_0/.pca9685_ids_cap_fa.yaml](./../../../ESPHome/Includes/Cap/Fa/Fa-Cap-SpIL_0/.pca9685_ids_cap_fa.yaml)
+    * [/Includes/Cap/Fa/Fa-SpIL_0/.pca9685_light_cap_fa.yaml](./../../../ESPHome/Includes/Cap/Fa/Fa-Cap-SpIL_0/ESPHome/Includes/Cap/Fa/Fa-SpIL_0/.pca9685_light_cap_fa.yaml)
+    * [./Includes/Cap/Fa/Fa-Cap-SpIL_0/.pca9685_output_cap_fa.yaml](./../../../ESPHome/Includes/Cap/Fa/Fa-Cap-SpIL_0/.pca9685_output_cap_fa.yaml)
 
 ## Fredericia Spor Isolations
 
@@ -27,7 +31,7 @@
 |47|Fa-SpI-47|binary_sensor.fa-spibd_001|Spor1 Grøn Led|
 |48|Fa-SpI-48|binary_sensor.fa-spibd_000|Spor1 Rød Led|
 
-### Cap Frederica SporIsolation Light --> Entity_id
+### Frederica Cap SporIsolation Light --> Entity_id
 
 |Name|Light.Entity_id|Komentar|
 |:---|:---|:---|

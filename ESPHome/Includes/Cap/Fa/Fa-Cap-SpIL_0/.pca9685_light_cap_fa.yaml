@@ -1,0 +1,89 @@
+# Light Component kilde: https://esphome.io/components/light/
+# Monochromatic Light Kilde: https://esphome.io/components/light/monochromatic#monochromatic-light
+#   Configuration variables:
+#     name (Required, string): The name of the light.
+#     output (Required, ID): The id of the float Output Component to use for this light.
+#     effects (Optional, list): A list of light effects to use for this light.
+#     id (Optional, ID): Manually specify the ID used for code generation.
+light:
+# Hub0
+  - platform: monochromatic
+    name: '00'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm00
+  - platform: monochromatic
+    name: '01'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm01
+  - platform: monochromatic
+    name: '02'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm02
+  - platform: monochromatic
+    name: '03'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm03
+  - platform: monochromatic
+    name: '04'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm04
+  - platform: monochromatic
+    name: '05'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm05
+  - platform: monochromatic
+    name: '06'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm06
+  - platform: monochromatic
+    name: '07'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm07
+  - platform: monochromatic
+    name: '08'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm08
+  - platform: monochromatic
+    name: '09'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm09
+  - platform: monochromatic
+    name: '0A'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm0a
+  - platform: monochromatic
+    name: '0B'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm0b
+  - platform: monochromatic
+    name: '0C'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm0c
+  - platform: monochromatic
+    name: '0D'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm0d
+  - platform: monochromatic
+    name: '0E'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm0e
+  - platform: monochromatic
+    name: '0F'
+    default_transition_length: ${light_default_transition}
+    flash_transition_length: ${light_flash_transition}
+    output: pwm0f

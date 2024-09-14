@@ -1,6 +1,6 @@
 substitutions:
-  esphome_name: "fa-spibg_0"
-  esphome_friendly_name: "Fredericia-Block-Detection"
+  esphome_name: "fa-spibd_0"
+  esphome_friendly_name: "Fredericia BlockDetection 0"
 
 # PCA9685 Kilde: https://esphome.io/components/output/pca9685
 # id (Optional, ID): 
