@@ -19,28 +19,28 @@
 
 |SporIsolation|Name|Entity_id|Komentar|
 |:---:|:---|:---|:---|
-|38|Fa-SpI-38|||
-|39|Fa-SpI-39|||
-|40|Fa-SpI-40||Spor1|
-|41|Fa-SpI-41|binary_sensor.fa-spibd_007|Spor2|
-|42|Fa-SpI-42||Spor3|
-|43|Fa-SpI-43|binary_sensor.fa-spibd_003|Spor3 Grøn Led|
-|44|Fa-SpI-44|binary_sensor.fa-spibd_004|Spor3 Rød Led|
-|45|Fa-SpI-45|binary_sensor.fa-spibd_005|Spor2 Grøn Led|
-|46|Fa-SpI-46|binary_sensor.fa-spibd_002|Spor2 Rød Led|
-|47|Fa-SpI-47|binary_sensor.fa-spibd_001|Spor1 Grøn Led|
-|48|Fa-SpI-48|binary_sensor.fa-spibd_000|Spor1 Rød Led|
+|38|Fredericia-Block-Detection|||
+|39|Fredericia-Block-Detection|||
+|40|Fredericia-Block-Detection||Spor1|
+|41|Fredericia-Block-Detection 07|binary_sensor.fa-spibd_007|Spor2|
+|42|Fredericia-Block-Detection||Spor3|
+|43|Fredericia-Block-Detection 03|binary_sensor.fa-spibd_003|Spor3 Grøn Led|
+|44|Fredericia-Block-Detection 04|binary_sensor.fa-spibd_004|Spor3 Rød Led|
+|45|Fredericia-Block-Detection 05|binary_sensor.fa-spibd_005|Spor2 Grøn Led|
+|46|Fredericia-Block-Detection 02|binary_sensor.fa-spibd_002|Spor2 Rød Led|
+|47|Fredericia-Block-Detection 01|binary_sensor.fa-spibd_001|Spor1 Grøn Led|
+|48|Fredericia-Block-Detection 00|binary_sensor.fa-spibd_000|Spor1 Rød Led|
 
-### Frederica Cap SporIsolation Light --> Entity_id
+### Cap-Fredericia-SporIsolation Light --> Entity_id
 
 |Name|Light.Entity_id|Komentar|
 |:---|:---|:---|
-|Cap-Fa-SpIL-43|light.cap_fa_spil_001|Fa-Spor3 Grøn|
-|Cap-Fa-SpIL-44|light.cap_fa_spil_000|Fa-Spor3 Rød|
-|Cap-Fa-SpIL-45|light.cap_fa_spil_003|Fa-Spor2 Grøn|
-|Cap-Fa-SpIL-46|light.cap_fa_spil_002|Fa-Spor2 Rød|
-|Cap-Fa-SpIL-47|light.cap_fa_spil_005|Fa-Spor1 Grøn|
-|Cap-Fa-SpIL-48|light.cap_fa_spil_004|Fa-Spor1 Rød|
+|Cap-Fa-Spil-43|light.cap_fa_spil_001|Fa-Spor3 Grøn|
+|Cap-Fa-SpiL-44|light.cap_fa_spil_000|Fa-Spor3 Rød|
+|Cap-Fa-SpiL-45|light.cap_fa_spil_003|Fa-Spor2 Grøn|
+|Cap-Fa-SpiL-46|light.cap_fa_spil_002|Fa-Spor2 Rød|
+|Cap-Fa-SpiL-47|light.cap_fa_spil_005|Fa-Spor1 Grøn|
+|Cap-Fa-SpiL-48|light.cap_fa_spil_004|Fa-Spor1 Rød|
 
 ## Frederica SporIsolation LightGroup --> Entity_id
 
@@ -48,28 +48,28 @@
 
 |Name|Entity_id|Komentar|
 |:---|:---|:---|
-|Fa-Splg-43|light.fa_spilg_43|Fa-Spor3 Grøn|
-|Fa-Splg-44|light.fa_spilg_44|Fa-Spor3 Rød|
-|Fa-Splg-45|light.fa_spilg_45|Fa-Spor2 Grøn|
-|Fa-Splg-46|light.fa_spilg_42|Fa-Spor2 Rød|
-|Fa-Splg-47|light.fa_spilg_41|Fa-Spor1 Grøn|
-|Fa-Splg-48|light.fa_spilg_40|Fa-Spor1 Rød|
+|Fa-Spilg-43|light.fa_spilg_43|Fa-Spor3 Grøn|
+|Fa-Spilg-44|light.fa_spilg_44|Fa-Spor3 Rød|
+|Fa-Spilg-45|light.fa_spilg_45|Fa-Spor2 Grøn|
+|Fa-Spilg-46|light.fa_spilg_46|Fa-Spor2 Rød|
+|Fa-Spilg-47|light.fa_spilg_47|Fa-Spor1 Grøn|
+|Fa-Spilg-48|light.fa_spilg_48|Fa-Spor1 Rød|
 
 ### Group Options Members
 
 |Group|Members Name|Members Entity_id|Komentar|
 |:---|:---|:---|:---|
-|Fa-Splg-43|Cap-Fa-SpL-43|light.cap_fa_00_01|Fa-Spor3 Grøn|
+|Fa-Spilg-43|Cap-Fa-SpiL-43|light.cap_fa_001|Fa-Spor3 Grøn|
 |||light.xx||
-|Fa-Splg-44|Cap-Fa-SpL-44|light.cap_fa_00_00|Fa-Spor3 Rød|
+|Fa-Spilg-44|Cap-Fa-SpiL-44|light.cap_fa_000|Fa-Spor3 Rød|
 |||light.xx||
-|Fa-Splg-45|Cap-Fa-SpL-45|light.cap_fa_00_03|Fa-Spor2 Grøn|
+|Fa-Spilg-45|Cap-Fa-SpiL-45|light.cap_fa_003|Fa-Spor2 Grøn|
 |||light.xx||
-|Fa-Splg-46|Cap-Fa-SpL-46|light.cap_fa_00_02|Fa-Spor2 Rød|
+|Fa-Spilg-46|Cap-Fa-SpiL-46|light.cap_fa_002|Fa-Spor2 Rød|
 |||light.xx||
-|Fa-Splg-47|Cap-Fa-SpL-47|light.cap_fa_00_05|Fa-Spor1 Grøn|
+|Fa-Spilg-47|Cap-Fa-SpiL-47|light.cap_fa_005|Fa-Spor1 Grøn|
 |||light.xx||
-|Fa-Splg-48|Cap-Fa-SpL-48|light.cap_fa_00_04|Fa-Spor1 Rød|
+|Fa-Spilg-48|Cap-Fa-SpiL-48|light.cap_fa_004|Fa-Spor1 Rød|
 |||light.xx||
 
 ## Automation Fa Block Detection (YAML)
@@ -94,57 +94,137 @@ trigger:
 #### Trigger Spor1
 
 ```yaml
-  # Spor1
-  - platform: state
+  - alias: Fa Spor1 SPI47 ændret til besat
     entity_id:
-      - binary_sensor.fa_bd_00_41
+      - binary_sensor.fa_spibd_0_01
     to: "on"
     for:
       hours: 0
       minutes: 0
       seconds: 0
     id: fa-spor1-grøn-on
-  - platform: state
+    trigger: state
+  - alias: Fa Spor1 SPI47 ændret til fri
     entity_id:
-      - binary_sensor.fa_bd_00_41
+      - binary_sensor.fa_spibd_0_01
     to: "off"
     for:
       hours: 0
       minutes: 0
       seconds: 0
     id: fa-spor1-grøn-off
-  - platform: state
+    trigger: state
+  - alias: FA Spor1 SPI48 ændret til besat
     entity_id:
-      - binary_sensor.fa_bd_00_40
+      - binary_sensor.fa_spibd_0_00
     to: "on"
     for:
       hours: 0
       minutes: 0
       seconds: 0
     id: fa-spor1-rød-on
-  - platform: state
+    trigger: state
+  - alias: Fa Spor1 SPI48 ændret til fri
     entity_id:
-      - binary_sensor.fa_bd_00_40
+      - binary_sensor.fa_spibd_0_00
     to: "off"
     for:
       hours: 0
       minutes: 0
       seconds: 0
     id: fa-spor1-rød-off
+    trigger: state
 ```
 
 #### Trigger Spor2
 
 ```yaml
-
+  - alias: Fa Spor2 SPI45 ændret til besat
+    entity_id:
+      - binary_sensor.fa_spibd_0_05
+    to: "on"
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 0
+    id: fa-spor2-grøn-on
+    trigger: state
+  - alias: Fa Spor2 SPI45 ændret til fri
+    entity_id:
+      - binary_sensor.fa_spibd_0_05
+    to: "off"
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 0
+    id: fa-spor2-grøn-off
+    trigger: state
+  - alias: Fa Spor2 SPI46 ændret til besat
+    entity_id:
+      - binary_sensor.fa_spibd_0_02
+    to: "on"
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 0
+    id: fa-spor2-rød-on
+    trigger: state
+  - alias: Fa Spor2 SPI46 ændret til fri
+    entity_id:
+      - binary_sensor.fa_spibd_0_02
+    to: "off"
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 0
+    id: fa-spor2-rød-off
+    trigger: state
 ```
 
 #### Trigger Spor3
 
 ```yaml
-
+  - alias: Fa Spor3 SPI43 ændret til besat
+    entity_id:
+      - binary_sensor.fa_spibd_0_03
+    to: "on"
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 0
+    id: fa-spor3-grøn-on
+    trigger: state
+  - alias: Fa Spor3 SPI43 ændret til fri
+    entity_id:
+      - binary_sensor.fa_spibd_0_03
+    to: "off"
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 0
+    id: fa-spor3-grøn-off
+    trigger: state
+  - alias: Fa Spor3 SPI44 ændret til besat
+    entity_id:
+      - binary_sensor.fa_spibd_0_04
+    to: "on"
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 0
+    id: fa-spor3-rød-on
+    trigger: state
+  - alias: Fa Spor3 SPI44 ændret til fri
+    entity_id:
+      - binary_sensor.fa_spibd_0_04
+    to: "off"
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 0
+    id: fa-spor3-rød-off
+    trigger: state
 ```
-
 ### And if
 
 ```yaml
@@ -156,16 +236,16 @@ condition:
 #### [action & choose](https://www.home-assistant.io/docs/automation/action/)
 
 ```yaml
-action:
+actions:
   - choose:
 ```
 
-[#### conditions (spor1)](https://www.home-assistant.io/docs/automation/condition/)
+#### Spor1
 
 ```yaml
-      # Spor1
       - conditions:
-          - condition: trigger
+          - alias: Når Fa Spor1 SPI47 ændret til besat
+            condition: trigger
             id:
               - fa-spor1-grøn-on
         sequence:
@@ -174,19 +254,21 @@ action:
             data:
               brightness_pct: 40
             target:
-              entity_id: light.fa_spor1_bd_lg_41
+              entity_id: light.fa_spilg_47
       - conditions:
           - condition: trigger
             id:
               - fa-spor1-grøn-off
+            alias: Når Fa Spor1 SPI47 ændret til fri
         sequence:
           - action: light.turn_off
             metadata: {}
-            data:{}
+            data: {}
             target:
-              entity_id: light.fa_spor1_bd_lg_41
+              entity_id: light.fa_spilg_47
       - conditions:
-          - condition: trigger
+          - alias: Når FA Spor1 SPI48 ændret til besat
+            condition: trigger
             id:
               - fa-spor1-rød-on
         sequence:
@@ -195,45 +277,158 @@ action:
             data:
               brightness_pct: 40
             target:
-              entity_id: light.fa_spor1_bd_lg_40
+              entity_id: light.fa_spilg_48
           - action: light.turn_off
             metadata: {}
-            data:{}
+            data: {}
             target:
-              entity_id: light.fa_spor1_bd_lg_41
+              entity_id: light.fa_spilg_47
       - conditions:
           - condition: trigger
             id:
               - fa-spor1-rød-off
+            alias: Når Fa Spor1 SPI48 ændret til fri
         sequence:
           - action: light.turn_off
             metadata: {}
-            data:{}
+            data: {}
             target:
-              entity_id: light.fa_spor1_bd_lg_40
+              entity_id: light.fa_spilg_48
           - action: light.turn_on
             metadata: {}
             data:
               brightness_pct: 40
             target:
-              entity_id: light.fa_spor1_bd_lg_41
+              entity_id: light.fa_spilg_47
 ```
 
-#### conditions (spor2)
+#### Spor2
 
 ```yaml
-
+      - conditions:
+          - alias: Når Fa Spor2 SPI45 ændret til besat
+            condition: trigger
+            id:
+              - fa-spor2-grøn-on
+        sequence:
+          - action: light.turn_on
+            metadata: {}
+            data:
+              brightness_pct: 40
+            target:
+              entity_id: light.fa_spilg_45
+      - conditions:
+          - alias: Når Fa Spor2 SPI45 ændret til fri
+            condition: trigger
+            id:
+              - fa-spor2-grøn-off
+        sequence:
+          - action: light.turn_off
+            metadata: {}
+            data: {}
+            target:
+              entity_id: light.fa_spilg_45
+      - conditions:
+          - alias: Når FA Spor2 SPI46 ændret til besat
+            condition: trigger
+            id:
+              - fa-spor2-rød-on
+        sequence:
+          - action: light.turn_on
+            metadata: {}
+            data:
+              brightness_pct: 40
+            target:
+              entity_id: light.fa_spilg_46
+          - action: light.turn_off
+            metadata: {}
+            data: {}
+            target:
+              entity_id: light.fa_spilg_45
+      - conditions:
+          - alias: Når Fa Spor2 SPI46 ændret til fri
+            condition: trigger
+            id:
+              - fa-spor2-rød-off
+        sequence:
+          - action: light.turn_off
+            metadata: {}
+            data: {}
+            target:
+              entity_id: light.fa_spilg_46
+          - action: light.turn_on
+            metadata: {}
+            data:
+              brightness_pct: 40
+            target:
+              entity_id: light.fa_spilg_45
 ```
 
-#### conditions (spor3)
+#### Spor3
 
 ```yaml
-
+      - conditions:
+          - alias: Når Fa Spor3 SPI43 ændret til besat
+            condition: trigger
+            id:
+              - fa-spor3-grøn-on
+        sequence:
+          - action: light.turn_on
+            metadata: {}
+            data:
+              brightness_pct: 40
+            target:
+              entity_id: light.fa_spilg_43
+      - conditions:
+          - alias: Når Fa Spor3 SPI43 ændret til fri
+            condition: trigger
+            id:
+              - fa-spor3-grøn-off
+        sequence:
+          - action: light.turn_off
+            metadata: {}
+            data: {}
+            target:
+              entity_id: light.fa_spilg_43
+      - conditions:
+          - alias: Når FA Spor3 SPI44 ændret til besat
+            condition: trigger
+            id:
+              - fa-spor3-rød-on
+        sequence:
+          - action: light.turn_on
+            metadata: {}
+            data:
+              brightness_pct: 40
+            target:
+              entity_id: light.fa_spilg_44
+          - action: light.turn_off
+            metadata: {}
+            data: {}
+            target:
+              entity_id: light.fa_spilg_43
+      - conditions:
+          - alias: Når Fa Spor3 SPI44 ændret til fri
+            condition: trigger
+            id:
+              - fa-spor3-rød-off
+        sequence:
+          - action: light.turn_off
+            metadata: {}
+            data: {}
+            target:
+              entity_id: light.fa_spilg_44
+          - action: light.turn_on
+            metadata: {}
+            data:
+              brightness_pct: 40
+            target:
+              entity_id: light.fa_spilg_43
 ```
 
 [### Mode](https://www.home-assistant.io/docs/automation/modes/)
 
 ```yaml
 mode: queued
-max: 10
+max: 12
 ```
