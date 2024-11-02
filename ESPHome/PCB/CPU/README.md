@@ -28,7 +28,7 @@ Jeg er nu begyndt at bruge Olimex ESP32-POE-ISO-16MB som min basis ESP for model
 
 ## Prototype
 
-### ESP32-Dev 30Pin med I2C Interface
+### ESP32-Dev 30Pin med I2C Interface - 5V PowerSupply
 
 |Schematic|
 |:---:|
