@@ -28,18 +28,32 @@ Jeg er nu begyndt at bruge Olimex ESP32-POE-ISO-16MB som min basis ESP for model
 
 ## Prototype
 
+### ESP32-Dev 30Pin med I2C Interface - 3V3 PowerSupply
+
+|Schematic|
+|:---:|
+|![schem](./ESP32_30Pin_I2C_Board_a/ESP32_30Pin_I2C_Board_3V3_schem.png)|
+
+|Breadboard|
+|:---:|
+|![Breadboard](./ESP32_30Pin_I2C_Board_a/ESP32_30Pin_I2C_Board_3V3_bb.png)|
+
+* Fritzing files:
+  * [ESP32_30Pin_I2C_Board_a.fzz](./ESP32_30Pin_I2C_Board_a/ESP32_30Pin_I2C_Board_3V3.fzz)
+
+
 ### ESP32-Dev 30Pin med I2C Interface - 5V PowerSupply
 
 |Schematic|
 |:---:|
-|![schem](./ESP32_30Pin_I2C_Board_a/ESP32_30Pin_I2C_Board_a_schem.png)|
+|![schem](./ESP32_30Pin_I2C_Board_a/ESP32_30Pin_I2C_Board_5V_schem.png)|
 
 |Breadboard|
 |:---:|
-|![Breadboard](./ESP32_30Pin_I2C_Board_a/ESP32_30Pin_I2C_Board_a_bb.png)|
+|![Breadboard](./ESP32_30Pin_I2C_Board_a/ESP32_30Pin_I2C_Board_5V_bb.png)|
 
 * Fritzing files:
-  * [ESP32_30Pin_I2C_Board_a.fzz](./ESP32_30Pin_I2C_Board_a/ESP32_30Pin_I2C_Board_a.fzz)
+  * [ESP32_30Pin_I2C_Board_a.fzz](./ESP32_30Pin_I2C_Board_a/ESP32_30Pin_I2C_Board_5V.fzz)
 
 #### Forskellige måder at bruge dette print på
 
