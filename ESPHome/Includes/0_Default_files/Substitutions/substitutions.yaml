@@ -29,6 +29,10 @@ substitutions:
   track_delayed_on: 12ms
   track_delayed_off: 1000ms
 
+# Delay before junction_switch on/off
+  junction_switch_delayed_on: 10ms
+  junction_switch_delayed_off: 10ms
+
 # I2C Port settings  
   i2c_sda: "21"
   i2c_scl: "22"
