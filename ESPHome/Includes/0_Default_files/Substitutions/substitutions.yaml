@@ -1,6 +1,6 @@
 substitutions:
-  esphome_name: "ju-pl-01"
-  esphome_friendly_name: "Hjulby-Pult-Led-01"
+  esphome_name: "ju-xx-xx"
+  esphome_friendly_name: "Hjulby-XX-XX"
 
 # PCA9685 Kilde: https://esphome.io/components/output/pca9685
 # id (Optional, ID): 
@@ -39,5 +39,3 @@ substitutions:
   i2c_scan: "true"
   i2c_id: "bus_a"
   i2c_frequency: "10kHz"
-
-

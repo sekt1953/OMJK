@@ -1,0 +1,506 @@
+# NeoPixelBus:
+#
+# NeoPixelBus Light            : https://esphome.io/components/light/neopixelbus#neopixelbus-light
+# Light Component              : https://esphome.io/components/light/#light-component
+# Light Partition              : https://esphome.io/components/light/partition#light-partition
+# Splitting a single LED strip : https://esphome.io/components/light/partition#splitting-a-single-led-strip
+# Power Supply Component       : https://esphome.io/components/power_supply#power-supply-component
+#
+# Chipset:
+# The number of LEDs attached : 50
+# The type of light           : GRBW
+# The chipset of the light    :  SK6812 
+# NeoPixelBus methods to transmit the pixel data to the light strip: esp32_i2s
+
+light:
+  - platform: neopixelbus
+    type: GRBW
+    variant: SK6812
+    pin: GPIO13
+    num_leds: 50
+    name: "NeoPixel Light"
+    id: Led_Bus
+    default_transition_length: 1s
+    method:
+      type: esp32_i2s
+      bus: 0
+    
+  - platform: partition
+    name: "Section_00"
+    id: section_00
+    segments:
+      - id: Led_Bus
+        from: 0
+        to: 0
+    
+  - platform: partition
+    name: "Section_01"
+    id: section_01
+    segments:
+      - id: Led_Bus
+        from: 1
+        to: 1
+    
+  - platform: partition
+    name: "Section_02"
+    id: section_02
+    segments:
+      - id: Led_Bus
+        from: 2
+        to: 2
+    
+  - platform: partition
+    name: "Section_03"
+    id: section_03
+    segments:
+      - id: Led_Bus
+        from: 3
+        to: 3
+    
+  - platform: partition
+    name: "Section_04"
+    id: section_04
+    segments:
+      - id: Led_Bus
+        from: 4
+        to: 4
+
+  - platform: partition
+    name: "Section_05"
+    id: section_05
+    segments:
+      - id: Led_Bus
+        from: 5
+        to: 5
+    
+  - platform: partition
+    name: "Section_06"
+    id: section_06
+    segments:
+      - id: Led_Bus
+        from: 6
+        to: 6
+    
+  - platform: partition
+    name: "Section_07"
+    id: section_07
+    segments:
+      - id: Led_Bus
+        from: 7
+        to: 7
+    
+  - platform: partition
+    name: "Section_08"
+    id: section_08
+    segments:
+      - id: Led_Bus
+        from: 8
+        to: 8
+    
+  - platform: partition
+    name: "Section_09"
+    id: section_09
+    segments:
+      - id: Led_Bus
+        from: 9
+        to: 9
+    
+  - platform: partition
+    name: "Section_10"
+    id: section_10
+    segments:
+      - id: Led_Bus
+        from: 10
+        to: 10
+    
+  - platform: partition
+    name: "Section_11"
+    id: section_11
+    segments:
+      - id: Led_Bus
+        from: 11
+        to: 11
+    
+  - platform: partition
+    name: "Section_12"
+    id: section_12
+    segments:
+      - id: Led_Bus
+        from: 12
+        to: 12
+    
+  - platform: partition
+    name: "Section_13"
+    id: section_13
+    segments:
+      - id: Led_Bus
+        from: 13
+        to: 13
+    
+  - platform: partition
+    name: "Section_14"
+    id: section_14
+    segments:
+      - id: Led_Bus
+        from: 14
+        to: 14
+
+  - platform: partition
+    name: "Section_15"
+    id: section_15
+    segments:
+      - id: Led_Bus
+        from: 15
+        to: 15
+    
+  - platform: partition
+    name: "Section_16"
+    id: section_16
+    segments:
+      - id: Led_Bus
+        from: 16
+        to: 16
+    
+  - platform: partition
+    name: "Section_17"
+    id: section_17
+    segments:
+      - id: Led_Bus
+        from: 17
+        to: 17
+    
+  - platform: partition
+    name: "Section_18"
+    id: section_18
+    segments:
+      - id: Led_Bus
+        from: 18
+        to: 18
+    
+  - platform: partition
+    name: "Section_19"
+    id: section_19
+    segments:
+      - id: Led_Bus
+        from: 19
+        to: 19
+    
+  - platform: partition
+    name: "Section_20"
+    id: section_20
+    segments:
+      - id: Led_Bus
+        from: 20
+        to: 20
+    
+  - platform: partition
+    name: "Section_21"
+    id: section_21
+    segments:
+      - id: Led_Bus
+        from: 21
+        to: 21
+    
+  - platform: partition
+    name: "Section_22"
+    id: section_22
+    segments:
+      - id: Led_Bus
+        from: 22
+        to: 22
+    
+  - platform: partition
+    name: "Section_23"
+    id: section_23
+    segments:
+      - id: Led_Bus
+        from: 23
+        to: 23
+    
+  - platform: partition
+    name: "Section_24"
+    id: section_24
+    segments:
+      - id: Led_Bus
+        from: 24
+        to: 24
+
+  - platform: partition
+    name: "Section_25"
+    id: section_25
+    segments:
+      - id: Led_Bus
+        from: 25
+        to: 25
+    
+  - platform: partition
+    name: "Section_26"
+    id: section_26
+    segments:
+      - id: Led_Bus
+        from: 26
+        to: 26
+    
+  - platform: partition
+    name: "Section_27"
+    id: section_27
+    segments:
+      - id: Led_Bus
+        from: 27
+        to: 27
+    
+  - platform: partition
+    name: "Section_28"
+    id: section_28
+    segments:
+      - id: Led_Bus
+        from: 28
+        to: 28
+    
+  - platform: partition
+    name: "Section_29"
+    id: section_29
+    segments:
+      - id: Led_Bus
+        from: 29
+        to: 29
+    
+  - platform: partition
+    name: "Section_30"
+    id: section_30
+    segments:
+      - id: Led_Bus
+        from: 30
+        to: 30
+    
+  - platform: partition
+    name: "Section_31"
+    id: section_31
+    segments:
+      - id: Led_Bus
+        from: 31
+        to: 31
+    
+  - platform: partition
+    name: "Section_32"
+    id: section_32
+    segments:
+      - id: Led_Bus
+        from: 32
+        to: 32
+    
+  - platform: partition
+    name: "Section_33"
+    id: section_33
+    segments:
+      - id: Led_Bus
+        from: 33
+        to: 33
+    
+  - platform: partition
+    name: "Section_34"
+    id: section_34
+    segments:
+      - id: Led_Bus
+        from: 34
+        to: 34
+
+  - platform: partition
+    name: "Section_35"
+    id: section_35
+    segments:
+      - id: Led_Bus
+        from: 35
+        to: 35
+    
+  - platform: partition
+    name: "Section_36"
+    id: section_36
+    segments:
+      - id: Led_Bus
+        from: 36
+        to: 36
+    
+  - platform: partition
+    name: "Section_37"
+    id: section_37
+    segments:
+      - id: Led_Bus
+        from: 37
+        to: 37
+    
+  - platform: partition    
+  - platform: partition
+    name: "Section_40"
+    id: section_40
+    segments:
+      - id: Led_Bus
+        from: 40
+        to: 40
+    
+  - platform: partition
+    name: "Section_41"
+    id: section_41
+    segments:
+      - id: Led_Bus
+        from: 41
+        to: 41
+    
+  - platform: partition
+    name: "Section_42"
+    id: section_42
+    segments:
+      - id: Led_Bus
+        from: 42
+        to: 42
+    
+  - platform: partition
+    name: "Section_43"
+    id: section_43
+    segments:
+      - id: Led_Bus
+        from: 43
+        to: 43
+    
+  - platform: partition
+    name: "Section_44"
+    id: section_44
+    segments:
+      - id: Led_Bus
+        from: 44
+        to: 44
+
+  - platform: partition
+    name: "Section_45"
+    id: section_45
+    segments:
+      - id: Led_Bus
+        from: 45
+        to: 45
+    
+  - platform: partition
+    name: "Section_46"
+    id: section_46
+    segments:
+      - id: Led_Bus
+        from: 46
+        to: 46
+    
+  - platform: partition
+    name: "Section_47"
+    id: section_47
+    segments:
+      - id: Led_Bus
+        from: 47
+        to: 47
+    
+  - platform: partition
+    name: "Section_48"
+    id: section_48
+    segments:
+      - id: Led_Bus
+        from: 48
+        to: 48
+    
+  - platform: partition
+    name: "Section_49"
+    id: section_49
+    segments:
+      - id: Led_Bus
+        from: 49
+        to: 49
+    
+
+      - id: Led_Bus
+        from: 38
+        to: 38
+    
+  - platform: partition
+    name: "Section_39"
+    id: section_39
+    segments:
+      - id: Led_Bus
+        from: 39
+        to: 39
+    
+  - platform: partition
+    name: "Section_40"
+    id: section_40
+    segments:
+      - id: Led_Bus
+        from: 40
+        to: 40
+    
+  - platform: partition
+    name: "Section_41"
+    id: section_41
+    segments:
+      - id: Led_Bus
+        from: 41
+        to: 41
+    
+  - platform: partition
+    name: "Section_42"
+    id: section_42
+    segments:
+      - id: Led_Bus
+        from: 42
+        to: 42
+    
+  - platform: partition
+    name: "Section_43"
+    id: section_43
+    segments:
+      - id: Led_Bus
+        from: 43
+        to: 43
+    
+  - platform: partition
+    name: "Section_44"
+    id: section_44
+    segments:
+      - id: Led_Bus
+        from: 44
+        to: 44
+
+  - platform: partition
+    name: "Section_45"
+    id: section_45
+    segments:
+      - id: Led_Bus
+        from: 45
+        to: 45
+    
+  - platform: partition
+    name: "Section_46"
+    id: section_46
+    segments:
+      - id: Led_Bus
+        from: 46
+        to: 46
+    
+  - platform: partition
+    name: "Section_47"
+    id: section_47
+    segments:
+      - id: Led_Bus
+        from: 47
+        to: 47
+    
+  - platform: partition
+    name: "Section_48"
+    id: section_48
+    segments:
+      - id: Led_Bus
+        from: 48
+        to: 48
+    
+  - platform: partition
+    name: "Section_49"
+    id: section_49
+    segments:
+      - id: Led_Bus
+        from: 49
+        to: 49
+    
+    
