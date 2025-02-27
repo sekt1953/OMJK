@@ -36,7 +36,7 @@ substitutions:
   i2c_id: "bus_a"
   i2c_frequency: "10kHz"
   
-  # ESP32 base config
+# ESP32 base config
 <<: !include ./Includes/ESP32/.esp32dev.yaml  
 
 # I2C_IO_Interface with mcp23017
