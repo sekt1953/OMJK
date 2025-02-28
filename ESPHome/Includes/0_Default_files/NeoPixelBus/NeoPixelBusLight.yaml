@@ -1,15 +1,18 @@
 # NeoPixelBus:
 #
+# 50 x SK6812 Pre-soldered Addressable Individully RGBW led string Neutral white WWA pixel module light panel mini Board 5V 
+#      https://a.aliexpress.com/_Exxo2ek
+#
 # NeoPixelBus Light            : https://esphome.io/components/light/neopixelbus#neopixelbus-light
 # Light Component              : https://esphome.io/components/light/#light-component
 # Light Partition              : https://esphome.io/components/light/partition#light-partition
 # Splitting a single LED strip : https://esphome.io/components/light/partition#splitting-a-single-led-strip
 # Power Supply Component       : https://esphome.io/components/power_supply#power-supply-component
 #
-# Chipset:
-# The number of LEDs attached : 50
+# Chipset                     : uses approximately 1 amp. max. for 50 LEDs
+# The number of LEDs attached : 50 
 # The type of light           : GRBW
-# The chipset of the light    :  SK6812 
+# The chipset of the light    : SK6812 
 # NeoPixelBus methods to transmit the pixel data to the light strip: esp32_i2s
 
 light:
