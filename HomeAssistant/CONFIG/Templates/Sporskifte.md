@@ -1,43 +1,43 @@
-# Sporskifte
+# Sporskifte styring
 
-## Enties
+## Hjulby HovedPult Entities
 
-### Sporskifte Hjulby Pult Tryk Entites:
+### Sporskifte Tryk
 
-```data
-101+	binary_sensor.ju_pl_01_07
-101-	binary_sensor.ju_pl_01_06
-A12	binary_sensor.ju_pl_01_17	Aktiv når sporskifte er betjent fra hovedpult
-B1	binary_sensor.ju_pl_01_50	Aktiv når sporskifte er betjent fra rangerpult
+|Sporskifte|Entity|Note|
+|:---:|:---|:---|
+|101+|binary_sensor.ju_pl_01_07||
+|101-|binary_sensor.ju_pl_01_06||
+|A12|binary_sensor.ju_pl_01_17|Aktiv når sporskifte er betjent fra hovedpult|
+|B1|binary_sensor.ju_pl_01_50|Aktiv når sporskifte er betjent fra rangerpult|
+||||
+|102+|binary_sensor.ju_pl_01_05||
+|102-|binary_sensor.ju_pl_01_04||
+|A13|binary_sensor.ju_pl_01_16|Aktiv når sporskifte er betjent fra hovedpult|
+|B2|binary_sensor.ju_pl_01_67|Aktiv når sporskifte er betjent fra rangerpult|
+||||
+|S3|||
+|A16|binary_sensor.ju_pl_01_13|Aktiv når sporskifte er betjent fra hovedpult|
+|B5|binary_sensor.ju_pl_01_64|Aktiv når sporskifte er betjent fra rangerpult|
+||||
+|104+|binary_sensor.ju_pl_01_02||
+|104-|binary_sensor.ju_pl_01_03||
+|A14|binary_sensor.ju_pl_01_15|Aktiv når sporskifte er betjent fra hovedpult|
+|B3|binary_sensor.ju_pl_01_66|Aktiv når sporskifte er betjent fra rangerpult|
+||||
+|105+|binary_sensor.ju_pl_01_01||
+|105-|binary_sensor.ju_pl_01_00||
+|A15|binary_sensor.ju_pl_01_14|Aktiv når sporskifte er betjent fra hovedpult|
+|B4|binary_sensor.ju_pl_01_65|Aktiv når sporskifte er betjent fra rangerpult|
 
-102+	binary_sensor.ju_pl_01_05
-102-	binary_sensor.ju_pl_01_04
-A13	binary_sensor.ju_pl_01_16	Aktiv når sporskifte er betjent fra hovedpult
-B2	binary_sensor.ju_pl_01_67
-
-S3
-A16	binary_sensor.ju_pl_01_13	Aktiv når sporskifte er betjent fra hovedpult
-B5	binary_sensor.ju_pl_01_64
-
-104+	binary_sensor.ju_pl_01_02
-104-	binary_sensor.ju_pl_01_03
-A14	binary_sensor.ju_pl_01_15	Aktiv når sporskifte er betjent fra hovedpult
-B3	binary_sensor.ju_pl_01_66
-
-105+	binary_sensor.ju_pl_01_01
-105-	binary_sensor.ju_pl_01_00
-A15	binary_sensor.ju_pl_01_14	Aktiv når sporskifte er betjent fra hovedpult
-B4	binary_sensor.ju_pl_01_65
-```
-
-### Sporskifte Hjulby Pult Led Entites:
+### Sporskifte Led
 
 ```data
 ```
 
 ## Template
 
-## triggerdelen
+### triggerdelen
 
 ```yaml
 - trigger:
@@ -94,7 +94,7 @@ B4	binary_sensor.ju_pl_01_65
         LocalPult_On_ent: binary_sensor.ju_pl_01_50
 ```
 
-## conditon delen
+### conditon delen
 
 ```yaml
   condition:
@@ -120,7 +120,7 @@ B4	binary_sensor.ju_pl_01_65
               value_template: "{{ trigger.to_state.state == 'on'}}"
 ```
 
-## Sensor delen
+### Sensor delen
 
 ```yaml
   sensor:
