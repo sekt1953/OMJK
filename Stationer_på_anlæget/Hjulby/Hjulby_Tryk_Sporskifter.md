@@ -7,8 +7,6 @@
 
 ## Tryk Sporskifter
 
-|Block|/|MCU Addr.|MCU Terminal Addr.|Entites Name|
-
 |Klemrække|Pin|Sporskifte|/|IO-Addr|Entites Name|
 |:---:|:---:|:---|:---:|:---:|:---|
 |A|1|GND|/|GND||
