@@ -126,54 +126,58 @@
 |C|54|K-Grøn|/|GND||
 |C|55|K-Hvid|/||ju-sl-00_K-Hvid|
 |C|56|K-Hvid|/|GND||
-|/|/|/|/|/|/|
-|D|1|Lampe ved Grøn knap R|/||ju-sl-_x0_15|
-|D|2|Lampe ved Grøn knap R|/|GND||
-|D|3||/|||
-|D|4||/|||
-|D|5||/|||
-|D|6||/|||
-|D|7||/|||
-|D|8||/|||
-|D|9||/|||
 
-## SporbesættelseLed
+## Klemrække D Hjulby pult
 
-|Klemrække|Pin|Signal Led|/|MCU Terminal Addr.|Entites Name|
+|Entites Name|/|Klemrække|Pin|/||
 |:---:|:---|:---|:---:|:---:|:---|
-|D|10|Sporbesættelse fældes +5V|/|Sporbesættelse fældes +5V||
-|D|11|B61-Rød|/|_x0_14||
-|D|12|A61-Rød|/|_x0_13||
-|D|13|K12-Rød|/|_x0_12||
-|D|14|M12-Rød|/|_x0_11||
-|D|15|01-Rød|/|_x0_10||
-|D|16|02-Rød|/|_x0_09||
-|D|17|03-Rød|/|NB! 5 led||
-|D|18|04-Rød|/|NB! 2 Led||
-|D|19|05-Rød|/|_x0_06||
-|D|20|06-Rød|/|_x0_05||
-|D|21|08-Rød|/|_x0_04||
-|D|22|09-Rød|/|_x0_03||
-|D|23|10-Rød|/|_x0_02||
-|D|24|11-Rød|/|NB! 5 led||
-|D|25|12-Rød|/|_x0_00||
-|D|26|13-Rød|/|_x1_15||
-|D|27|14-Rød|/|_x1_14||
-|D|28|15-Rød|/|_x1_13||
-|D|29|16-Rød|/|NB! 2 led||
-|D|30|17-Rød|/|_x1_11||
-|D|31|19-Rød|/|_x1_10||
-|D|32|A12-Rød|/|_x1_09||
-|D|33|D61-Rød|/|_x1_08||
-|D|34|C12-Rød|/|_x1_07||
-|D|35|C61-Rød|/|_x1_06||
-|D|36||/|||
-|D|37||/|||
+|+12V til CPU0|/|D|1|/|+12V til 3V3 Strømforsyning|
+|+12V|/|D|2|/||
+|+12V|/|D|3|/||
+|+12V Ind|/|D|4|/||
+|GND Ind|/|D|5|/|GND til 3v3 Strømforsyning|
+|GND til CPU0|/|D|6|/||
+|GND|/|D|7|/||
+|GND|/|D|8|/||
+||/|D|9|/||
+|D|10|Fældes +3V3|/|Fældes +3V3 fra Strømforsyning||
 
-## SporskifteLed
+### SporbesættelseLed
 
-|Entites Name|/|Klemrække|Pin|Signal Led|/|Enhed|
-|:---:|:---:|:---:|:---:|:---:|:---|:---|
+|Entites Name||Klemrække|Pin|Signal Led|/|MCU Terminal Addr.|
+|:---:|:---:|:---:|:---:|:---:|:---|:---:|
+||/|D|11|B61-Rød|/|_x0_14|
+||/|D|12|A61-Rød|/|_x0_13|
+||/|D|13|K12-Rød|/|_x0_12|
+||/|D|14|M12-Rød|/|_x0_11|
+||/|D|15|01-Rød|/|_x0_10|
+||/|D|16|02-Rød|/|_x0_09|
+||/|D|17|03-Rød|/|NB! 5 led|
+||/|D|18|04-Rød|/|NB! 2 Led|
+||/|D|19|05-Rød|/|_x0_06|
+||/|D|20|06-Rød|/|_x0_05|
+||/|D|21|08-Rød|/|_x0_04|
+||/|D|22|09-Rød|/|_x0_03|
+||/|D|23|10-Rød|/|_x0_02|
+||/|D|24|11-Rød|/|NB! 5 led|
+||/|D|25|12-Rød|/|_x0_00|
+||/|D|26|13-Rød|/|_x1_15|
+||/|D|27|14-Rød|/|_x1_14|
+||/|D|28|15-Rød|/|_x1_13|
+||/|D|29|16-Rød|/|NB! 2 led|
+||/|D|30|17-Rød|/|_x1_11|
+||/|D|31|19-Rød|/|_x1_10|
+||/|D|32|A12-Rød|/|_x1_09|
+||/|D|33|D61-Rød|/|_x1_08|
+||/|D|34|C12-Rød|/|_x1_07|
+||/|D|35|C61-Rød|/|_x1_06|
+||/|D|36||/||
+||/|D|37||/||
+
+### SporskifteLed
+
+|Entites Name|/|Klemrække|Pin|/|Signal Led|Enhed|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |ju-pl-00_45|/|D|38|/|101a||
 |ju-pl-00_44|/|D|39|/|101a||
 |ju-pl-00_43|/|D|40|/|101b||
@@ -192,9 +196,9 @@
 |ju-pl-00_36|/|D|53|/|105a||
 |ju-pl-00_35|/|D|54|/|105b||
 |ju-pl-00_34|/|D|55|/|105b||
-|||D|56||/||
+|||D|56|/|||
 
-## TogvejsLed
+### TogvejsLed
 
 |Klemrække|Pin|Signal Led|/|MCU Terminal Addr.|Entites Name|
 |:---:|:---|:---|:---:|:---:|:---|
