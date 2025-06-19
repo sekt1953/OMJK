@@ -2,7 +2,12 @@
 
 ## ULN2804A Prototype 2025-06-19
 
-Inspireret af [Moppe.dk](https://moppe.dk/besat.html) Sporbesatmelder version 2, jeg vil forbinde udgangenne fra [ULN2804A](https://www.st.com/resource/en/datasheet/uln2801a.pdf) til en [ESO32-POE-ISO-16MB](https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/open-source-hardware) fra Olimex.
+* Inspireret af [Moppe.dk](https://moppe.dk/besat.html) 
+* ![Moppe.dk](./ULN2804A/Skærmbillede%20fra%202025-06-19%2021-06-42.png)
+Sporbesatmelder version 2
+* Jeg vil forbinde udgangenne fra [ULN2804A](https://www.st.com/resource/en/datasheet/uln2801a.pdf) til en [ESO32-POE-ISO-16MB](https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/open-source-hardware) fra Olimex.
+
+
 
 |Schematic|
 |:---:|
