@@ -1,0 +1,99 @@
+views:
+  - title: Home
+  - type: sections
+    max_columns: 4
+    title: Spor 1
+    path: spor-besat
+    sections:
+      - type: grid
+        cards:
+          - type: heading
+            heading: Spor1
+            heading_style: title
+          - type: entities
+            entities:
+              - entity: binary_sensor.ju_sb_00_00
+                name: A61
+              - entity: binary_sensor.ju_sb_00_01
+                name: M12
+              - entity: binary_sensor.ju_sb_00_0f
+                name: T01
+              - entity: binary_sensor.ju_sb_00_02
+                name: T02/105b
+              - entity: binary_sensor.ju_sb_00_10
+                name: T03
+              - entity: binary_sensor.ju_sb_00_03
+                name: T04
+              - entity: binary_sensor.ju_sb_00_11
+                name: T05/101b
+              - entity: binary_sensor.ju_sb_00_04
+                name: T06
+              - entity: binary_sensor.ju_sb_00_0c
+                name: C12
+              - entity: binary_sensor.ju_sb_00_1a
+                name: C61
+            title: Isolation EntitID
+            state_color: true
+            show_header_toggle: false
+            grid_options:
+              columns: 6
+              rows: auto
+          - type: entities
+            entities:
+              - entity: light.ju_pl_00_5e
+                name: A61
+              - entity: light.ju_pl_00_5c
+                name: M12
+              - entity: light.ju_pl_00_5b
+                name: T01
+              - entity: light.ju_pl_00_5a
+                name: T02/105b
+              - entity: light.ju_pl_00_64
+                name: T03
+              - entity: light.ju_pl_00_65
+                name: T04
+              - entity: light.ju_pl_00_66
+                name: T05/101b
+              - entity: light.ju_pl_00_67
+                name: T06
+              - entity: light.ju_pl_00_68
+                name: C12
+              - entity: light.ju_pl_00_69
+                name: C61
+            state_color: true
+            grid_options:
+              columns: 6
+              rows: auto
+            show_header_toggle: false
+            title: Besat (Rød Led)
+          - type: entities
+            entities:
+              - entity: light.ju_pl_00_5e
+                name: A61
+              - entity: light.ju_pl_00_5c
+                name: M12
+              - entity: light.ju_pl_00_5b
+                name: T01
+              - entity: light.ju_pl_00_5a
+                name: T02/105b
+              - entity: light.ju_pl_00_64
+                name: T03
+              - entity: light.ju_pl_00_65
+                name: T04
+              - entity: light.ju_pl_00_66
+                name: T05/101b
+              - entity: light.ju_pl_00_67
+                name: T06
+              - entity: light.ju_pl_00_68
+                name: C12
+              - entity: light.ju_pl_00_69
+                name: C61
+            state_color: true
+            grid_options:
+              columns: 6
+              rows: auto
+            show_header_toggle: false
+            title: Togvej (Grøn Led)
+        column_span: 2
+    cards: []
+    header: {}
