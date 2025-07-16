@@ -2,47 +2,48 @@
 
 ## Sporisolationer: Navn, EntityID, Besat Led, Togvej Led
 
-|Stattion|Spor|SporIsolationer Navn|Lodeplint|SporIsolationer Entity_ID|Lodeplint|Besat_Rød Entity_ID|Lodeplint|Togvej_Grøn Entity_ID|Togvej Opløs|
-|:---|:---|:---|:---|:---|:---|:---:|:---:|:---:|:---:|
-|Hjulby|Spor1|A61||ju_sb_00_00||ju_pl_00_5e||ju_pl_00_||
-|Hjulby|Spor1|M12||ju_sb_00_01||ju_pl_00_5c||ju_pl_00_||
-|Hjulby|Spor1|01|j|u_sb_00_0F||ju_pl_00_5b||ju_pl_00_||
-|Hjulby|Spor1|02/105b||ju_sb_00_02||ju_pl_00_5a||ju_pl_00_||
-|Hjulby|Spor1|03||ju_sb_00_10||ju_pl_00_||ju_pl_00_||
-|||03||ju_sb_00_||ju_pl_00_||ju_pl_00_||
-|||03||ju_sb_00_||ju_pl_00_||ju_pl_00_||
-|||03||ju_sb_00_||ju_pl_00_||ju_pl_00_||
-|||03||ju_sb_00_||ju_pl_00_||ju_pl_00_||
-|Hjulby|Spor1|04||ju_sb_00_03||ju_pl_00_||ju_pl_00_||
-|||04||ju_sb_00_03||ju_pl_00_||ju_pl_00_||
-|Hjulby|Spor1|05/101b||ju_sb_00_11||ju_pl_00_||ju_pl_00_||
-|Hjulby|Spor1|06||ju_sb_00_04||ju_pl_00_||ju_pl_00_||
-|Hjulby|Spor1|C12||ju_sb_00_0C||ju_pl_00_||ju_pl_00_||
-|Hjulby|Spor1|C61||ju_sb_00_1A||ju_pl_00_||ju_pl_00_||
+|Spor|Isolationer Navn|Isolationer Entity_ID|RødLed Entity_ID|Lode plint|GrønLed Entity_ID|Lode plint|||
+|:---:|:---|:---|:---|:---|:---|:---|:---:|:---:|
+|xx|xx|ju_sb_00|ju_pl_00|xx|ju_pl_00|xx|||
+|Spor1|Ju_A61|_00|_5e|D12||xx|||
+|Spor1|Ju_M12|_01|_5c|E4||D14|||
+|Spor1|Ju_01|_0F|_5b|E5||D15|||
+|Spor1|Ju_02/105b|_02|_5a|E6||D16|||
+|Spor1|Ju_03|_10|_60|E37|_64|E45|||
+||Ju_03|--"--||E48||D17|||
+||Ju_03|--"--||E47||E33|||
+||Ju_03|--"--||E46||E36|||
+||Ju_03|--"--||E7||E38|||
+|Spor1|Ju_04|_03|_58|E8|_65|D18|||
+||Ju_04|--"--||E49||E37|||
+|Spor1|Ju_05/101b|_11|_57|E9||D19|||
+|Spor1|Ju_06|_04|_56|E10||D20|||
+|Spor1|Ju_C12|_0C|_48|E24|_7A|D34|||
+|Spor1|Ju_C61|_1A|_47|E25|_79|D35|||
 |||||||
-|Hjulby|Spor2|B61||ju_sb_00_0D|||
-|Hjulby|Spor2|K12||ju_sb_00_0E|||
-|Hjulby|Spor2|08||ju_sb_00_12|||
-|Hjulby|Spor2|09/105a||ju_sb_00_05|||
-|Hjulby|Spor2|10||ju_sb_00_13|||
-|Hjulby|Spor2|11||ju_sb_00_06|||
-|Hjulby|Spor2|12/102a||ju_sb_00_14|||
-|Hjulby|Spor2|13/101a||ju_sb_00_07|||
-|Hjulby|Spor2|14||ju_sb_00_15|||
-|Hjulby|Spor2|A12||ju_sb_00_0B|||
-|Hjulby|Spor2|D61||ju_sb_00_19|||
+|Spor2|B61|_0D|||
+|Spor2|K12|_0E|||
+|Spor2|08|_12|||
+|Spor2|09/105a|_05|||
+|Spor2|10|_13|||
+|Spor2|11|_06|||
+|Spor2|12/102a|_14|||
+|Spor2|13/101a|_07|||
+|Spor2|14|_15|||
+|Spor2|A12|_0B|||
+|Spor2|D61|_19|||
 |||||||
-|Hjulby|Spor3|15/104b||ju_sb_00_00|||
-|Hjulby|Spor3|16||ju_sb_00_00|||
-|Hjulby|Spor3|17/103a||ju_sb_00_00|||
-|Hjulby|Spor3|18/105a||ju_sb_00_00|||
-|Hjulby|Spor3|19/102b||ju_sb_00_00|||
-|Hjulby|Usikret|T21/103b||ju_sb_00_18|||
+|Spor3|15/104b|_00|||
+|Spor3|16|_00|||
+|Spor3|17/103a|_00|||
+|Spor3|18/105a|_00|||
+|Spor3|19/102b|_00|||
+|Usikret|T21/103b|_18|||
 |||||||
-|Hjulby|Usikret| 1B||ju_sb_00_1B|||
-|Hjulby|Usikret| 1C||ju_sb_00_1C|||
-|Hjulby|Usikret| 1D||ju_sb_00_1D|||
-|Hjulby|Usikret| 1E||ju_sb_00_1E|||
-|Hjulby|Usikret| 1F||ju_sb_00_1F|||
+|Usikret| 1B|_1B|||
+|Usikret| 1C|_1C|||
+|Usikret| 1D|_1D|||
+|Usikret| 1E|_1E|||
+|Usikret| 1F|_1F|||
 
 
