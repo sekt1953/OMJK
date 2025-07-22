@@ -5,3 +5,7 @@
 ## [Templates](./Templates.md)
 
 ## [Automations](./Automations.md)
+
+## [Lovelace](./Lovelace.md)
+
+
