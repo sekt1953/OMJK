@@ -1,0 +1,38 @@
+- trigger:
+    # 101L ju_udvendig_betjeningsskab_00
+    - trigger: state
+      entity_id:
+        - binary_sensor.ju_udvendig_betjeningsskab_00
+      to: null
+      id: Ju_101+
+      variables:
+        Ju-TiS_101:
+        Ju-Led_101a:
+        Ju-Led_101b:
+        Ju-Led_101-:
+        Ju_Mo+_101a:
+        Ju_Mo-_101a:
+        Ju_Mo+_101b:
+        Ju_Mo-_101b:
+        Ju_Tb+_101a:
+        Ju_Tb-_101a:
+        Ju_Tb+_101b:
+        ju_Tb-_101b:
+    # 101k ju_udvendig_betjeningsskab_02
+    - trigger: state
+      entity_id:
+        - binary_sensor.ju_udvendig_betjeningsskab_02
+      to: null
+      id: Ju_101-
+      variables:
+        red_ent: switch.iso1_02
+        green_ent: switch.iso1_03
+  sensor:
+    - name: ju-isolation
+      state: "{{ trigger.id }}, to: {{ trigger.to_state.state }}, from: {{ trigger.from_state.state }}"
+      attributes:
+        trigger-id: "{{ trigger.id }}"
+        event-to-map: "{{ trigger.to_state.state }}"
+        event-from-map: "{{ trigger.from_state.state }}"
+        target-red-map: "{{ red_ent }}"
+        target-green-map: "{{ green_ent }}"
