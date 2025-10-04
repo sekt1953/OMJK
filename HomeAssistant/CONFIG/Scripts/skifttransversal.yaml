@@ -1,0 +1,74 @@
+sequence:
+  - action: light.turn_off
+    metadata: {}
+    data: {}
+    target:
+      entity_id: "{{ led_off }}"
+  - action: switch.turn_off
+    metadata: {}
+    data: {}
+    target:
+      entity_id: "{{ motor_off }}"
+  - action: switch.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id: "{{ motor_on_a }}"
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 0
+      milliseconds: 500
+    enabled: false
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 3
+      milliseconds: 0
+  - action: switch.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id: "{{ motor_on_b }}"
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 2
+      milliseconds: 0
+  - action: light.turn_on
+    metadata: {}
+    data:
+      transition: 0
+      color_temp_kelvin: 6500
+      brightness_pct: 39
+    target:
+      entity_id: "{{ led_on }}"
+alias: SkiftTransversal
+description: ""
+fields:
+  led_off:
+    selector:
+      text: null
+    default: "{{ led_off }}"
+    required: true
+  motor_off:
+    selector:
+      text: null
+    default: "{{ motor_off }}"
+    required: true
+  motor_on_a:
+    selector:
+      text: null
+    default:
+      "[object Object]": null
+    required: true
+  motor_on_b:
+    selector:
+      text: null
+    name: motor_on_b
+    required: true
+  led_on:
+    selector:
+      text: null
+    name: led_on
+    required: true

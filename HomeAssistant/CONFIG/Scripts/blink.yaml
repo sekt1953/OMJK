@@ -1,0 +1,29 @@
+alias: Blink
+description: ""
+sequence:
+  - repeat:
+      until:
+        - condition: state
+          entity_id: binary_sensor.ju_udvendig_betjeningsskab_0f
+          state: "on"
+      sequence:
+        - action: homeassistant.turn_on
+          metadata: {}
+          data: {}
+          target:
+            entity_id: group.synkron_led_blink
+        - delay:
+            hours: 0
+            minutes: 0
+            seconds: 0
+            milliseconds: 700
+        - action: homeassistant.turn_off
+          metadata: {}
+          data: {}
+          target:
+            entity_id: group.synkron_led_blink
+        - delay:
+            hours: 0
+            minutes: 0
+            seconds: 0
+            milliseconds: 700

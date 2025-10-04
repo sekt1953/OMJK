@@ -1,0 +1,64 @@
+alias: Ju_Udvendig_betjeningsskab_Sporskifte
+description: ""
+triggers:
+  - trigger: state
+    entity_id:
+      - binary_sensor.ju_udvendig_betjeningsskab_00
+    from: "off"
+    to: "on"
+    id: 101+
+    variables:
+      led_off:
+        - light.ju_udvendig_betjeningsskab_section_01
+        - light.ju_udvendig_betjeningsskab_section_02
+        - light.ju_udvendig_betjeningsskab_section_03
+      led_on:
+        - light.ju_udvendig_betjeningsskab_section_01
+        - light.ju_udvendig_betjeningsskab_section_03
+      motor_off:
+        - switch.ju_sp_tp_101a1
+        - switch.ju_sp_tp_101a2
+        - switch.ju_sp_tp_101b2
+        - switch.ju_sp_tp_101b1
+      motor_on_a:
+        - switch.ju_sp_tp_101a2
+      motor_on_b:
+        - switch.ju_sp_tp_101b1
+  - trigger: state
+    entity_id:
+      - binary_sensor.ju_udvendig_betjeningsskab_02
+    from: "off"
+    to: "on"
+    id: 101-
+    variables:
+      led_off:
+        - light.ju_udvendig_betjeningsskab_section_01
+        - light.ju_udvendig_betjeningsskab_section_02
+        - light.ju_udvendig_betjeningsskab_section_03
+      led_on:
+        - light.ju_udvendig_betjeningsskab_section_02
+      motor_off:
+        - switch.ju_sp_tp_101a1
+        - switch.ju_sp_tp_101a2
+        - switch.ju_sp_tp_101b2
+        - switch.ju_sp_tp_101b1
+      motor_on_a:
+        - switch.ju_sp_tp_101a1
+      motor_on_b:
+        - switch.ju_sp_tp_101b2
+conditions: []
+actions:
+  - action: script.skifttransversal
+    data:
+      motor_on_a: "{{ motor_on_a }}"
+      motor_on_b: "{{ motor_on_b }}"
+      led_off: "{{ led_off }}"
+      led_on: "{{ led_on }}"
+      motor_off: "{{ motor_off }}"
+variables:
+  led_off: ""
+  led_blink: ""
+  led_on: ""
+  motor_off: ""
+  motor_on_a: ""
+  motor_on_b: ""

@@ -1,0 +1,9 @@
+sequence:
+  - action: group.set
+    metadata: {}
+    data:
+      object_id: synkron_led_blink
+      add_entities:
+        - light.ju_udvendig_betjeningsskab_section_05
+alias: Blink_Add_Entities
+description: ""

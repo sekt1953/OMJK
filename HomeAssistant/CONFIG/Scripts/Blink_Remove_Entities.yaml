@@ -1,0 +1,9 @@
+sequence:
+  - action: group.set
+    metadata: {}
+    data:
+      object_id: synkron_led_blink
+      remove_entities:
+        - light.ju_udvendig_betjeningsskab_section_05
+alias: Blink_Remove_Entities
+description: ""

@@ -33,7 +33,7 @@
 
 |Enhed|type|101+|101-|102+|102-|103+|103-|S1+|S1-|
 |:---|:---|:---|:---|:---|:---|:---|---|:---|:---|
-|Trigger|binary_sensor|ju_udvendig_betjeningsskab_00||||||||
+|Trigger|binary_sensor|ju_udvendig_betjeningsskab_00|ju_udvendig_betjeningsskab_02|||||||
 |Motor_A+|Switch|ju_sp_tp_101a1||||||||
 |Motor_A-|Switch|ju_sp_tp_101a2||||||||
 |Motor_A_SP+|binary_sensor|ju_sp_tp_28||||||||

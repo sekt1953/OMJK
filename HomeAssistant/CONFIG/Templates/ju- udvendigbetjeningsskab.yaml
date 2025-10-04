@@ -1,0 +1,64 @@
+- trigger:
+    # 101+ ju_udvendig_betjeningsskab_00
+    - trigger: state
+      entity_id:
+        - binary_sensor.ju_udvendig_betjeningsskab_00
+      from: "off"
+      to: "on"
+      id: Ju_101+
+      variables:
+        LedOff:
+          - light.ju_udvendig_betjeningsskab_section_01
+          - light.ju_udvendig_betjeningsskab_section_02
+          - light.ju_udvendig_betjeningsskab_section_03
+        LedBlink:
+          - light.ju_udvendig_betjeningsskab_section_01
+          - light.ju_udvendig_betjeningsskab_section_03
+        LedOn:
+          - light.ju_udvendig_betjeningsskab_section_01
+          - light.ju_udvendig_betjeningsskab_section_03
+        MororOff:
+          - switch.ju_sp_tp_101a1
+          - switch.ju_sp_tp_101a2
+          - switch.ju_sp_tp_101b2
+          - switch.ju_sp_tp_101b1
+        MororOnA:
+          - switch.ju_sp_tp_101a1
+        MororOnB:
+          - switch.ju_sp_tp_101b1
+    # 101+ ju_udvendig_betjeningsskab_00
+    - trigger: state
+      entity_id:
+        - binary_sensor.ju_udvendig_betjeningsskab_02
+      from: "off"
+      to: "on"
+      id: Ju_101-
+      variables:
+        LedOff:
+          - light.ju_udvendig_betjeningsskab_section_01
+          - light.ju_udvendig_betjeningsskab_section_02
+          - light.ju_udvendig_betjeningsskab_section_03
+        LedBlink:
+          - light.ju_udvendig_betjeningsskab_section_02
+        LedOn:
+          - light.ju_udvendig_betjeningsskab_section_02
+        MororOff:
+          - switch.ju_sp_tp_101a1
+          - switch.ju_sp_tp_101a2
+          - switch.ju_sp_tp_101b2
+          - switch.ju_sp_tp_101b1
+        MororOnA:
+          - switch.ju_sp_tp_101a2
+        MororOnB:
+          - switch.ju_sp_tp_101b2
+  sensor:
+    - name: Ju-ub-Sporskifte
+      state: "{{ trigger.id }},{{now().strftime('%H:%M:%S')}}"
+      attributes:
+        ju-ub-trigger-id: "{{ trigger.id }}"
+        ju-ub-led-off: "{{ LedOff }}"
+        ju-ub-led-blink: "{{ LedBlink }}"
+        ju-ub-led-on: "{{ LedOn }}"
+        ju-ub-motor-off: "{{ MororOff }}"
+        ju-ub-motor-ona: "{{ MororOnA }}"
+        ju-ub-motor-onb: "{{ MororOnB }}"
