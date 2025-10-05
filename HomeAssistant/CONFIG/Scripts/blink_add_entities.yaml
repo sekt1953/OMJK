@@ -3,7 +3,11 @@ sequence:
     metadata: {}
     data:
       object_id: synkron_led_blink
-      add_entities:
-        - light.ju_udvendig_betjeningsskab_section_05
+      add_entities: "{{ led_blink }}"
 alias: Blink_Add_Entities
 description: ""
+fields:
+  led_blink:
+    selector:
+      text: null
+    default: "{{ led_off }}"

@@ -9,6 +9,9 @@ sequence:
     data: {}
     target:
       entity_id: "{{ motor_off }}"
+  - action: script.blink_add_entities
+    data:
+      led_blink: "{{ led_off }}"
   - action: switch.turn_on
     metadata: {}
     data: {}
@@ -23,7 +26,7 @@ sequence:
   - delay:
       hours: 0
       minutes: 0
-      seconds: 3
+      seconds: 4
       milliseconds: 0
   - action: switch.turn_on
     metadata: {}
@@ -33,8 +36,11 @@ sequence:
   - delay:
       hours: 0
       minutes: 0
-      seconds: 2
+      seconds: 4
       milliseconds: 0
+  - action: script.1759602452553
+    data:
+      led_blink: "{{ led_off }}"
   - action: light.turn_on
     metadata: {}
     data:

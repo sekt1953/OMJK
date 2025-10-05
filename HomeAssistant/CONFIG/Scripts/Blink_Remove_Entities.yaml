@@ -3,7 +3,16 @@ sequence:
     metadata: {}
     data:
       object_id: synkron_led_blink
-      remove_entities:
-        - light.ju_udvendig_betjeningsskab_section_05
+      remove_entities: "{{ led_blink }}"
+  - action: light.turn_off
+    metadata: {}
+    data: {}
+    target:
+      entity_id: "{{ led_blink }}"
 alias: Blink_Remove_Entities
 description: ""
+fields:
+  led_blink:
+    selector:
+      text: null
+    default: "{{ led_off }}"
