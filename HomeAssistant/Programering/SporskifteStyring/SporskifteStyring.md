@@ -22,6 +22,28 @@
 
 ## Automations
 
+### Start_Blink.yaml
+
+```yaml
+alias: Start Blink
+description: ""
+triggers:
+  - trigger: state
+    entity_id:
+      - binary_sensor.ju_udvendig_betjeningsskab_07
+    from: "off"
+    to: "on"
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 0.1
+conditions: []
+actions:
+  - action: script.blink
+    data: {}
+mode: single
+```
+
 ### Ju_UdvendigBetjening.yaml
 
 ```yaml
@@ -202,7 +224,6 @@ fields:
     selector:
       text: null
     default: "{{ led_off }}"
-
 ```
 
 ### SkiftEtSporskifte.yaml
