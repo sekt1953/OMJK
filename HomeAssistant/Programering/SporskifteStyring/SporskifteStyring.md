@@ -4,7 +4,7 @@
 
 ## Kilder
 
-* [https://github.com/sekt1953/HomeAssistant/Programering/SporskifteStyring](https://github.com/sekt1953/OMJK/tree/main/HomeAssistant/Programering/SporskifteStyring)
+* [https://github.com/sekt1953/HomeAssistant/Programering/SporskifteStyring](https://github.com/sekt1953/OMJK/tree/main/HomeAssistant/Programering/SporskifteStyring "This Scripts")
 * [Using Response variable in a script](https://community.home-assistant.io/t/using-response-variable-in-a-script/738730)
 
 ## Helpers Light_Groups
@@ -209,7 +209,7 @@ fields:
 alias: SkiftEtSporskifte
 description: >-
   Ændre et sporskifte indstilling, 
-    return 'true' on sussess, else 'false' on failed.
+    return 'Ok' on sussess, else 'Error' on failed.
 sequence:
   - action: switch.turn_off
     metadata: {}
@@ -228,13 +228,11 @@ sequence:
       - condition: template
         value_template: "{{ wait.completed }}"
     then:
-      - variables:
-          response: Stop Then
+      - stop: Sporskifte Ok
+        response_variable: "Ok"
     else:
-      - variables:
-          response: Stop Else
-  - stop: Sporskifte tilstand
-    response_variable: response
+      - stop: Sporskifte Error
+        response_variable: "Error"
 fields:
   motor_off:
     selector:
@@ -254,8 +252,6 @@ fields:
     default: "{{ sporskifte_sensor_on }}"
     name: sporskifte_sensor_on
     required: true
-variables:
-  response: ""
 ```
 
 ### SkiftTransversal.yaml
