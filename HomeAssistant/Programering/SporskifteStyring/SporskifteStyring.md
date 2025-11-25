@@ -6,6 +6,8 @@
 
 * [https://github.com/sekt1953/HomeAssistant/Programering/SporskifteStyring](https://github.com/sekt1953/OMJK/tree/main/HomeAssistant/Programering/SporskifteStyring "This Scripts")
 * [Using Response variable in a script](https://community.home-assistant.io/t/using-response-variable-in-a-script/738730)
+* [Tortoise Slow-Motion Switch Machine](./../../../DataSheet/800-6000ins.pdf)
+  * ![Tortoise Slow-Motion Switch Machine](./Images/Skærmbillede%20fra%202025-11-25%2019-10-24.png)
 
 ## Helpers Light_Groups
 
