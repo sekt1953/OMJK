@@ -234,7 +234,7 @@ fields:
 alias: SkiftEtSporskifte
 description: >-
   Ændre et sporskifte indstilling, 
-    return 'Ok' on sussess, else 'Error' on failed.
+    return 'Ok' on success and 'TimeOut' on failure.
 sequence:
   - action: switch.turn_off
     metadata: {}
@@ -253,11 +253,11 @@ sequence:
       - condition: template
         value_template: "{{ wait.completed }}"
     then:
-      - stop: Sporskifte Ok
+      - stop: SkiftEtSporskifte Ok
         response_variable: "Ok"
     else:
-      - stop: Sporskifte Error
-        response_variable: "Error"
+      - stop: SkiftEtSporskifte TimeOut
+        response_variable: "TimeOut"
 fields:
   motor_off:
     selector:
