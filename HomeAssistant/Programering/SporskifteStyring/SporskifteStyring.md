@@ -4,6 +4,7 @@
 
 ## Kilder
 
+* [https://github.com/sekt1953/HomeAssistant/Programering/SporskifteStyring](https://github.com/sekt1953/OMJK/tree/main/HomeAssistant/Programering/SporskifteStyring)
 * [Using Response variable in a script](https://community.home-assistant.io/t/using-response-variable-in-a-script/738730)
 
 ## Helpers Light_Groups
