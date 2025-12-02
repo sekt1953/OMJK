@@ -448,3 +448,162 @@ fields:
       template: {}
     default: "{{ trigger_entity }}"
 ```
+
+### SkiftTransversal_002.yaml
+
+```yaml
+alias: SkiftTransversal_002
+description: "Skift transversal  kald Sporskifte script for hvert sporskifte"
+sequence:
+  - action: script.blink_remove_light_entities                                # Fjern sporskifte led fra blink
+    metadata: {}
+    data:
+      led_blink: "{{ led_off }}"
+  - action: light.turn_off                                                    # Sluk sporskifte led fra blink
+    metadata: {}
+    data:
+      transition: 0
+    target:
+      entity_id: "{{ led_off }}"
+  - wait_template: "{{ is_state(trigger_entity,'off') }}"       
+    continue_on_timeout: true
+    timeout: "00:00:00.700"
+  - if:                                                                       # Check for tøsetryk
+      - condition: template
+        value_template: "{{ not wait.completed }}"
+    then:                                                                     # Tryk er udført
+      - sequence:
+        - action: script.SkiftEtSporskifte                                    # Indtil Sporskifte A 
+          data:
+            motor_on: "{{ motor_on_a }}"
+            motor_off: "{{ motor_a_off }}"
+            sporskifte_sensor_on: "{{ sporskifte_a_sensor_on }}"
+          response_variable: sposkifte_a_response
+        - if:                                                                 # Check for timeOut A
+            - condition: template
+              value_template: "{{ sposkifte_a_response.text }}"
+          then:
+            - sequence:
+              - action: script.SkiftEtSporskifte                              # Indstil Sporskifte B
+                data:
+                  motor_on: "{{ motor_on_b }}"
+                  motor_off: "{{ motor_b_off }}"
+                  sporskifte_sensor_on: "{{ sporskifte_b_sensor_on }}"
+                response_variable: sposkifte_b_response
+              - if:                                                           # Check for timeOut B
+                  - condition: template
+                    value_template: "{{ sposkifte_b_response.text }}"
+                then:                                                         # Alt Ok, Stop Blink, Tænd Sporskifte_LED
+                  - sequence:
+                    - action: script.blink_remove_light_entities              # Fjern sporskifte led fra blink
+                      metadata: {}
+                      data:
+                        led_blink: "{{ led_off }}"
+                    - action: light.turn_on
+                      metadata: {}
+                      data:
+                        transition: 0
+                      target:
+                        entity_id: "{{ led_on }}"
+                    - stop: SkiftTransversal Alt Ok
+                      response_variable: "true"
+                else:                                                         # Sporskift B Timeout, Stop Blink, Sluk Sporskifte_LED
+                  - sequence:
+                    - action: script.blink_remove_light_entities              # Fjern sporskifte led fra blink
+                      metadata: {}
+                      data:
+                        led_blink: "{{ led_off }}"
+                    - action: light.turn_off
+                      metadata: {}
+                      data:
+                        transition: 0
+                      target:
+                        entity_id: "{{ led_off }}"
+                    - stop: SkiftTransversal Sporskift B Timeout
+                      response_variable: "false"
+          else:                                                                # Sporskift A Timeout, Stop Blink, Sluk Sporskifte_LED
+            - sequence:
+              - action: script.blink_remove_light_entities                     # Fjern sporskifte led fra blink
+                metadata: {}
+                data:
+                  led_blink: "{{ led_off }}"
+              - action: light.turn_off
+                metadata: {}
+                data:
+                  transition: 0
+                target:
+                  entity_id: "{{ led_off }}"
+              - stop: SkiftTransversal Sporskift A Timeout
+                response_variable: "false"
+    else:                                                                     # Tøsetryk,  Stop Blink, Sluk Sporskifte_LED
+      - sequence:
+        - action: script.blink_remove_light_entities                          # Fjern sporskifte led fra blink
+          metadata: {}
+          data:
+            led_blink: "{{ led_off }}"
+        - action: light.turn_off
+          metadata: {}
+          data:
+            transition: 0
+          target:
+            entity_id: "{{ led_off }}"
+        - stop: SkiftTransversal Tøsetryk
+          response_variable: "false"
+# -----------------------------------------------------------------------------------------
+fields:
+  led_off:
+    selector:
+      text: null
+    default: "{{ led_off }}"
+    required: true
+  led_on:
+    selector:
+      text: null
+    name: led_on
+    default: "{{ led_on }}"
+    required: true
+  motor_a_off:
+    selector:
+      text: null
+    default: "{{ motor_a_off }}"
+    required: true
+  motor_b_off:
+    selector:
+      text: null
+    default: "{{ motor_b_off }}"
+    required: true
+  motor_on_a:
+    selector:
+      text: null
+    default: "{{ motor_on_a }}"
+    required: true
+  motor_on_b:
+    selector:
+      text: null
+    default: "{{ motor_on_a }}"
+    required: true
+  sporskifte_a_sensor_on:
+    selector:
+      object: {}
+    default:
+      "[object Object]": null
+  sporskifte_a_sensor_off:
+    selector:
+      text: {}
+    default: "{{ sporskifte_a_sensor_off }}"
+    required: true
+  sporskifte_b_sensor_on:
+    selector:
+      text: null
+    name: sporskifte_b_sensor_on
+    required: true
+  sporskifte_b_sensor_off:
+    selector:
+      text: null
+    name: sporskifte_a_sensor_off
+    required: true
+  trigger_entity:
+    selector:
+      template: {}
+    default: "{{ trigger_entity }}"
+```
