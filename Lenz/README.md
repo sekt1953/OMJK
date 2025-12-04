@@ -8,7 +8,7 @@
 ## Ændringer til VORES LENZ installation
 
 * Ændringer til LENZ installation:
-  * Se velledning i [LV102 DCC Power Station Manual](https://as.rumia.edu.pl/tt/dcc/Lenz/LV102.pdf) afsnit 5.2, 5.3 & 5.4.
+  * Se velledning i [LV102 DCC Power Station Manual](./Images/LV102.pdf) afsnit 5.2, 5.3 & 5.4.
     * ![Connection to the command station: terminals C,D,E](./Images/Skærmbillede%20fra%202025-12-04%2013-07-25.png)
     * **5.2 Track connection:**  
     terminals J,K Connect the J and K wires to the track. The K wire represents the positive DCC polarity. Only use wires with sufficiently large cross-sections to connect the tracks and then twist this cable (we recommend 14-16 gauge wire). For best operation the J/K wires should be connected to your tracks at regular intervals.  
