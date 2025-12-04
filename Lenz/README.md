@@ -11,7 +11,8 @@
   * Se velledning i [LV102 DCC Power Station Manual](./Images/LV102.pdf) afsnit 5.2, 5.3 & 5.4.
     * ![Connection to the command station: terminals C,D,E](./Images/Skærmbillede%20fra%202025-12-04%2013-07-25.png)
     * **5.2 Track connection:**  
-    terminals J,K Connect the J and K wires to the track. The K wire represents the positive DCC polarity. Only use wires with sufficiently large cross-sections to connect the tracks and then twist this cable (we recommend 14-16 gauge wire). For best operation the J/K wires should be connected to your tracks at regular intervals.  
+    terminals J,K Connect the J and K wires to the track. The K wire represents the positive DCC polarity. Only use wires with sufficiently large cross-sections to connect the tracks and then twist this cable ***(we recommend 14-16 gauge wire)***  
+    ![What size is 14 gauge wire in mm?](./Images/Skærmbillede%20fra%202025-12-04%2013-34-44.png). For best operation the J/K wires should be connected to your tracks at regular intervals.  
     **Note:** No radio interference suppression capacitor may be installed in the track system. This capacitor, if used with the Digital plus by Lenz ® system, will distort the data format and interfere with the fault-free transmission of data.  
     **Important:**  
     A mixed digital operation using overhead and track lines is not permitted. In this type of operational mode, the installed locomotive decoder can be destroyed by overvoltage if the locomotive is sitting on the track in the wrong direction (which might be the case e.g. after having driven through a terminal-loop)! We recommend operation using track pick-up, because the reliability of contact (and therefore the transmission of digital signals to the locomotive decoder) is substantially greater than it is when operating with overhead lines.  
