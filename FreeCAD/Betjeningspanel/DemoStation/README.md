@@ -14,6 +14,12 @@
 
 ## FreeCAD
 
+||||
+| :---: |:---: |:---: |
+|![](./Images/Skærmbillede%20fra%202025-12-05%2022-02-04.png)|![](./Images/Skærmbillede%20fra%202025-12-05%2022-02-46.png)|![](./Images/Skærmbillede%20fra%202025-12-05%2022-03-12.png)|
+|![](./Images/Skærmbillede%20fra%202025-12-05%2022-04-54.png)|![](./Images/Skærmbillede%20fra%202025-12-05%2022-05-36.png)|![](./Images/Skærmbillede%20fra%202025-12-05%2022-06-09.png)
+
+
 * Filer
   * [DemoStation.FCStd](./DemoStation.FCStd)
   * [DemoStation.3mf](./DemoStation.3mf)
