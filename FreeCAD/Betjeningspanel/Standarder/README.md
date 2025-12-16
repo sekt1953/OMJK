@@ -49,6 +49,8 @@ Den Klones i **FreCAD Part Design** med **Clone** funktionen
 Anbringes det rigtige sted på sporplanen,  
 i **FreeCAD Part** kan bruges sammen med **Union** & **Cut** funktionen.
 
+### Blok indikering v1
+
 |Track|Led Layer|Glas Layer|Layer 3D|Total|
 |:---:|:---:|:---:|:---:|:---:|
 |![BlockSignal_Track](./Images/Block/BlockSignal_Track.png)|![BlockSignal_Led](./Images/Block/BlockSignal_Led_3.png)|![BlockSignal_Glas](./Images/Block/BlockSignal_Glas.png)|![BlockSignal_Layer3D](./Images/Block/BlockSignal_Layer3D.png)|![BlockSignal_3D_Model](./Images/Block/BlockSignal_3D_Model.png)|
@@ -77,4 +79,44 @@ i **FreeCAD Part** kan bruges sammen med **Union** & **Cut** funktionen.
     * AdditiveLoft:
       * Layer:
         * Led
+        * Glas
+
+### Blok indikering v2
+
+|PCB|Led Layer|Led Layer2|Glas Layer|Layer 3D|Total|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|![BlockSignal_Pcb](./Images/Block/BlockSignal_PCB_v2.png)|![BlockSignal_Led](./Images/Block/BlockSignal_Led_v2.png)|![BlockSignal_Led](./Images/Block/BlockSignal_Led2_v2.png)|![BlockSignal_Glas](./Images/Block/BlockSignal_Glas_v2.png)|![BlockSignal_Layer3D](./Images/Block/BlockSignal_Layer3D_v2.png)|![BlockSignal_3D_Model](./Images/Block/BlockSignal_3D_Model2.png)|
+
+* FreeCAD File: 
+  * [BlockSignal.FCStd](./BlockSignal.FCStd) 
+* How to
+  * Belysning:
+    * LED: SK6812_5050_RGBWW
+    * Montage: hjemmelavet print
+  * Layer
+    * Position Z:  
+      * Base: 0,00mm
+      * PCB: 0,00mm
+      * Led: 3,00mm
+      * Led2: 3,00mm
+      * Glas: 5,00mm
+    * Pad
+      * Base:
+        * Length: 6,00mm
+        * Reversed: No
+      * PCB:
+        * Length: 1,50mm
+        * Reversed: No
+      * Led:
+        * Length: 1,50mm
+        * Reversed: Yes
+      * Led:
+        * Length: 1,50mm
+        * Reversed: Yes
+      * Glas:
+        * Length: 0,00mm
+        * Reversed: No
+    * AdditiveLoft:
+      * Layer:
+        * Led2
         * Glas
