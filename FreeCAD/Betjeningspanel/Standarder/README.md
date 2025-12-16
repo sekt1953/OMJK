@@ -34,6 +34,8 @@
 |:---:|:---:|:---:|:---:|:---:|
 |![](./Images/Trykknap/Trykknap6x6_Knap.png)|![](./Images/Trykknap/Trykknap6x6_Octogon.png)|![](./Images/Trykknap/Trykknap6x6_Tryk.png)|![](./Images/Trykknap/Trykknap6x6_3D_Layer.png)|![](./Images/Trykknap/Trykknap6x6_3D_Model.png)|
 
+* FreeCAD File:
+  * [Trykknapper.FCStd](./Trykknapper.FCStd)
 * Firkantet tact
   * 6x6mm
     * Trykknap
