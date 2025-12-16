@@ -44,9 +44,14 @@
 
 ## Blok indikering
 
-||||||
+Denne model bruges til at lave hul i frontpladen for blok indikering.  
+Den Klones i **FreCAD Part Design** med **Clone** funktionen  
+Anbringes det rigtige sted på sporplanen,  
+i **FreeCAD Part** kan bruges sammen med **Union** & **Cut** funktionen.
+
+|Track|Led Layer|Glas Layer|Layer 3D|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|![BlockSignal_Track](./Images/BlockSignal_Track.png)|![BlockSignal_Led](./Images/BlockSignal_Led.png)|![BlockSignal_Glas](./Images/BlockSignal_Glas.png)|![BlockSignal_Layer3D](./Images/BlockSignal_Layer3D.png)|![BlockSignal_3D_Model](./Images/BlockSignal_3D_Model.png)|
+|![BlockSignal_Track](./Images/Block/BlockSignal_Track.png)|![BlockSignal_Led](./Images/Block/BlockSignal_Led.png)|![BlockSignal_Glas](./Images/Block/BlockSignal_Glas.png)|![BlockSignal_Layer3D](./Images/Block/BlockSignal_Layer3D.png)|![BlockSignal_3D_Model](./Images/Block/BlockSignal_3D_Model.png)|
 
 * How to
   * Belysning:
