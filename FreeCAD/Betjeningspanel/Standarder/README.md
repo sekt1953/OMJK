@@ -27,6 +27,13 @@
     * Hul diameter: 6,5
   * 5mm 
     * Hul diameter: 4,2
+
+### Trykknap 6x6
+
+|Knap|Octogon|Tryk|3D Layer|Total|
+|:---:|:---:|:---:|:---:|:---:|
+|![](./Images/Trykknap/Trykknap6x6_Knap.png)|![](./Images/Trykknap/Trykknap6x6_Octogon.png)|![](./Images/Trykknap/Trykknap6x6_Tryk.png)|![](./Images/Trykknap/Trykknap6x6_3D_Layer.png)|![](./Images/Trykknap/Trykknap6x6_3D_Model.png)|
+
 * Firkantet tact
   * 6x6mm
     * Trykknap
