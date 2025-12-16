@@ -41,3 +41,33 @@
       * Bredde: 6,2mm
       * Pad: -2,0mm
       * Z: -4,0mm
+
+## Blok indikering
+
+||||||
+|:---:|:---:|:---:|:---:|:---:|
+|![BlockSignal_Track](./Images/BlockSignal_Track.png)|![BlockSignal_Led](./Images/BlockSignal_Led.png)|![BlockSignal_Glas](./Images/BlockSignal_Glas.png)|![BlockSignal_Layer3D](./Images/BlockSignal_Layer3D.png)|![BlockSignal_3D_Model](./Images/BlockSignal_3D_Model.png)|
+
+* How to
+  * Belysning:
+    * LED: SK6812_5050_RGBWW
+    * Montage: hjemmelavet print
+  * Layer
+    * Position Z:  
+      * Base: 0,00mm
+      * Led: 3,00mm
+      * Glas: 5,00mm
+    * Pad
+      * Base:
+        * Length: 6,00mm
+        * Reversed: No
+      * Led:
+        * Length: 3,00mm
+        * Reversed: Yes
+      * Glas:
+        * Length: 1,00mm
+        * Reversed: No
+    * AdditiveLoft:
+      * Layer:
+        * Led
+        * Glas
