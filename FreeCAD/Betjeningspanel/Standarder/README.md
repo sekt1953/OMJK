@@ -140,6 +140,6 @@ i **FreeCAD Part** kan bruges sammen med **Union** & **Cut** funktionen.
 
 ### Led SK6812_5050
 
-|PCB|Led Layer|Led Layer2|Glas Layer|3D|
+|PCB|Binder|Sketch001|Sketch002|3D|
 |:---:|:---:|:---:|:---:|:---:|
 |![pcb](./Images/PU/)|![PU_Led_Binder](./Images/PU/PU_Led_Binder.png)|![PU_Led_Sketch001](./Images/PU/PU_Led_Sketch001.png)|![PU_Led_Sketch002](./Images/PU/PU_Led_Sketch002.png)|![PU_Led_3D](./Images/PU/PU_Led_3D.png)|
