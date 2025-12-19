@@ -2,7 +2,7 @@
 
 |Tommerup (Tp) & Hjulby (Ju)||
 |:---:|:---:|
-|![ØstFyn](./Images//Skærmbillede%20fra%202025-12-19%2016-44-36.png)||
+|![ØstFyn](./Images/Skærmbillede%20fra%202025-12-19%2019-37-39.png)||
 
 * Body
   * Black PET-G
