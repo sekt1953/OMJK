@@ -129,3 +129,17 @@ i **FreeCAD Part** kan bruges sammen med **Union** & **Cut** funktionen.
       * Layer:
         * Led2
         * Glas
+
+## PU-Signal
+
+### Symbol
+
+|Sketch001|Sketch002|Body|3D|
+|:---:|:---:|:---:|:---:|
+|![](./Images/PU/PU_Symbol_Sketch001.png)|![](./Images/PU/PU_Symbol_Sketch002.png)|![](./Images/PU/PU_Symbol_Body.png)|![](./Images/PU/PU_Symbol_3D.png)|
+
+### Led SK6812_5050
+
+|PCB|Led Layer|Led Layer2|Glas Layer|Layer 3D|
+|:---:|:---:|:---:|:---:|:---:|
+|![pcb](./Images/PU/)|![PU_Led_Binder](./Images/PU/PU_Led_Binder.png)|![PU_Led_Sketch001](./Images/PU/PU_Led_Sketch001.png)|![PU_Led_Sketch002](./Images/PU/PU_Led_Sketch002.png)|![PU_Led_3D](./Images/PU/PU_Led_3D.png)|
