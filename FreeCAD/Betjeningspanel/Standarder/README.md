@@ -138,7 +138,7 @@ i **FreeCAD Part** kan bruges sammen med **Union** & **Cut** funktionen.
 |:---:|:---:|:---:|:---:|
 |![](./Images/PU/PU_Symbol_Sketch001.png)|![](./Images/PU/PU_Symbol_Sketch002.png)|![](./Images/PU/PU_Symbol_Body.png)|![](./Images/PU/PU_Symbol_3D.png)|
 
-### Led SK6812_5050
+### Led SK6812_5050 RGBWW
 
 |PCB|Binder|Sketch001|Sketch002|3D|
 |:---:|:---:|:---:|:---:|:---:|
