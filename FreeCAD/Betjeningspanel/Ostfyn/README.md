@@ -1,8 +1,8 @@
 # ØstFyn's Centralbetjeningspanel
 
-|Tommerup (Tp) & Hjulby (Ju)||
+|Tommerup (Tp)|Hjulby (Ju)|
 |:---:|:---:|
-|![ØstFyn](./Images/Skærmbillede%20fra%202025-12-19%2020-31-52.png)||
+|![Tommerup](./Images/Skærmbillede%20fra%202025-12-20%2018-47-34.png)|![Hjulby](./Images/Skærmbillede%20fra%202025-12-20%2018-49-41.png)|
 
 * Body
   * Black PET-G
