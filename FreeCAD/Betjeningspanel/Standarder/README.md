@@ -1,32 +1,6 @@
 # Standarder for Centrabetjeningspanel tegning
 
-## LED
-
-* SK6812_5050
-  * Glas Sporskifte stilling
-    * Længde: 5,5mm
-    * Højde: 4,2mm
-    * Pocket: 2,0mm
-    * Pad: 1,5mm
-    * Z: 0,0mm
-  * Glas SporIsolation
-    * Længde: 5,5mm
-    * Højde: 5,5mm
-    * Pocket: 2,0mm
-    * Z: -2,0mm
-  * Led 
-    * Længde: 5,5mm
-    * Højde: 5,5mm
-    * Pocket: 2,0mm
-    * Z: -4,0mm
-
 ## Trykknapper
-
-* Rund trykkanp
-  * 7mm
-    * Hul diameter: 6,5
-  * 5mm 
-    * Hul diameter: 4,2
 
 ### Trykknap 6x6
 
@@ -51,14 +25,25 @@
       * Pad: -2,0mm
       * Z: -4,0mm
 
-## Blok indikering
+## LED
+
+* SK6812_5050
+  * [DataSheet](https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf "Adafruit.com")
+
+|Mechanical Dimensions|Pin Configuration|Typical Application Circuit|
+|:---:|:---:|:---:|
+|![SK6812_MechanicalDimensions](./Images/SK6812_MechanicalDimensions.png)|![SK6812_PinConfiguration](./Images/SK6812_PinConfiguration%20.png)|![SK6812_TypicalApplicationCircuit](./Images/SK6812_TypicalApplicationCircuit.png)
+
+
+
+### Blok indikering
 
 Denne model bruges til at lave hul i frontpladen for blok indikering.  
 Den Klones i **FreCAD Part Design** med **Clone** funktionen  
 Anbringes det rigtige sted på sporplanen,  
 i **FreeCAD Part** kan bruges sammen med **Union** & **Cut** funktionen.
 
-### Blok indikering v1
+#### Blok indikering v1
 
 |Track|Led Layer|Glas Layer|Layer 3D|Total|
 |:---:|:---:|:---:|:---:|:---:|
@@ -90,7 +75,7 @@ i **FreeCAD Part** kan bruges sammen med **Union** & **Cut** funktionen.
         * Led
         * Glas
 
-### Blok indikering v2
+#### Blok indikering v2
 
 |PCB|Led Layer|Led Layer2|Glas Layer|Layer 3D|Total|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -130,15 +115,15 @@ i **FreeCAD Part** kan bruges sammen med **Union** & **Cut** funktionen.
         * Led2
         * Glas
 
-## PU-Signal
+### PU-Signal
 
-### Symbol
+#### Symbol
 
 |Sketch|Body|3D|
 |:---:|:---:|:---:|
 |![Sketch](./Images/PU/Skærmbillede%20fra%202025-12-21%2010-05-36.png)|![Body](./Images/PU/Skærmbillede%20fra%202025-12-21%2010-06-34.png)|![3D](./Images/PU/Skærmbillede%20fra%202025-12-21%2010-06-46.png)|
 
-### Led SK6812_5050 RGBWW
+#### Led SK6812_5050 RGBWW
 
 |PCB|Led 5050|Glas|3D|
 |:---:|:---:|:---:|:---:|
