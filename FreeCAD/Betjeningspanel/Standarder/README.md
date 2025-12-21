@@ -47,7 +47,10 @@ i **FreeCAD Part** kan bruges sammen med **Union** & **Cut** funktionen.
 
 |PCB Layer|Led Layer|Frirum|Glas Layer|Layer 3D|Total|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-![](./Images/Block/Skærmbillede%20fra%202025-12-21%2016-17-17.png)|![](./Images/Block/Skærmbillede%20fra%202025-12-21%2011-34-02.png)|![](./Images/Block/Skærmbillede%20fra%202025-12-21%2016-17-30.png)|![](./Images/Block/Skærmbillede%20fra%202025-12-21%2016-18-21.png)|![](./Images/Block/Skærmbillede%20fra%202025-12-21%2016-36-34.png)|![](./Images/Block/Skærmbillede%20fra%202025-12-21%2016-38-03.png)|
+![PCB](./Images/Block/Skærmbillede%20fra%202025-12-21%2016-17-17.png)|![SK6812](./Images/Block/Skærmbillede%20fra%202025-12-21%2011-34-02.png)|![Frirum](./Images/Block/Skærmbillede%20fra%202025-12-21%2016-17-30.png)|![Glas](./Images/Block/Skærmbillede%20fra%202025-12-21%2016-58-28.png)|![3D](./Images/Block/Skærmbillede%20fra%202025-12-21%2016-36-34.png)|![Total](./Images/Block/Skærmbillede%20fra%202025-12-21%2016-38-03.png)|
+|Z: 0,0mm|Z: 1,5mm|Z: 3,0mm|Z: 5,0mm|||
+|Pad: 1,5mm|Pad: 1,5mm|AdditiveLoft|Pad: 1,0mm|||
+|||Frirum/Glas||||
 
 * FreeCAD File: 
   * [BlokIndikering_v1.FCStd](./BlokIndikering_v1.FCStd)
