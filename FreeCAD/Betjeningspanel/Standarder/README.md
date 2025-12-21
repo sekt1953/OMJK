@@ -134,15 +134,15 @@ i **FreeCAD Part** kan bruges sammen med **Union** & **Cut** funktionen.
 
 ### Symbol
 
-|Sketch001|Sketch002|Body|3D|
-|:---:|:---:|:---:|:---:|
-|![](./Images/PU/PU_Symbol_Sketch001.png)|![](./Images/PU/PU_Symbol_Sketch002.png)|![](./Images/PU/PU_Symbol_Body.png)|![](./Images/PU/PU_Symbol_3D.png)|
+|Sketch|Body|3D|
+|:---:|:---:|:---:|
+|![Sketch](./Images/PU/Skærmbillede%20fra%202025-12-21%2010-05-36.png)|![Body](./Images/PU/Skærmbillede%20fra%202025-12-21%2010-06-34.png)|![3D](./Images/PU/Skærmbillede%20fra%202025-12-21%2010-06-46.png)|
 
 ### Led SK6812_5050 RGBWW
 
-|PCB|Sketch001|Sketch002|3D|
+|PCB|Led 5050|Glas|3D|
 |:---:|:---:|:---:|:---:|
-|![PU_Led_PCB](./Images/PU/PU_Led_PCB.png)|![PU_Led_Sketch001](./Images/PU/PU_Led_Sketch001.png)|![PU_Led_Sketch002](./Images/PU/PU_Led_Sketch002.png)|![PU_Led_3D](./Images/PU/PU_Led_3D_2.png)|
+|![PU_Led_PCB](./Images/PU/Skærmbillede%20fra%202025-12-21%2008-28-14.png)|![PU_Led_Sketch001](./Images/PU/Skærmbillede%20fra%202025-12-21%2008-28-46.png)|![PU_Led_Sketch002](./Images/PU/Skærmbillede%20fra%202025-12-21%2008-29-07.png)|![PU_Led_3D](./Images/PU/Skærmbillede%20fra%202025-12-21%2008-29-33.png)|
 
 * FreeCAD File:
   * [Pu.FCStd](./Pu.FCStd)
