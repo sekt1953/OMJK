@@ -14,6 +14,10 @@
 
 ## Trykknapper
 
+|6x6mm|12x12mm|
+|:---:|:---:|
+|![6x6mm](./Images/Trykknap/Skærmbillede%20fra%202025-12-21%2020-34-37.png)|![12x12mm](./Images/Trykknap/Skærmbillede%20fra%202025-12-21%2020-37-30.png)|
+
 ### Trykknap 6x6
 
 |Knap|Octogon|Tryk|3D Layer|Total|
