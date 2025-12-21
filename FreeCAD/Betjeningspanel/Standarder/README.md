@@ -1,5 +1,17 @@
 # Standarder for Centrabetjeningspanel tegning
 
+## Tavle
+
+|Tavle|Sporplan|Sporplan Cut|Track Binder|Track Pad|Tavle med Track|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|![](./Images/Tavle/Skærmbillede%20fra%202025-12-21%2019-10-54.png)|![](./Images/Tavle/Skærmbillede%20fra%202025-12-21%2019-11-07.png)|![](./Images/Tavle/Skærmbillede%20fra%202025-12-21%2019-11-48.png)|![](./Images/Tavle/Skærmbillede%20fra%202025-12-21%2019-12-43.png)|![](./Images/Tavle/Skærmbillede%20fra%202025-12-21%2019-13-20.png)|![](./Images/Tavle/Skærmbillede%20fra%202025-12-21%2019-13-58.png)|
+|Z: 0,0mm|z: 0,0mm|Z: 6,0mm||||
+|Pad: 6,0 mm||Pocket: 0,6mm||Pad: -0,6mm||
+|||||||
+
+* FreeCAD File:
+  * [Tavle.FCStd](./Tavle.FCStd)
+
 ## Trykknapper
 
 ### Trykknap 6x6
@@ -7,6 +19,7 @@
 |Knap|Octogon|Tryk|3D Layer|Total|
 |:---:|:---:|:---:|:---:|:---:|
 |![](./Images/Trykknap/Trykknap6x6_Knap.png)|![](./Images/Trykknap/Trykknap6x6_Octogon.png)|![](./Images/Trykknap/Trykknap6x6_Tryk.png)|![](./Images/Trykknap/Trykknap6x6_3D_Layer.png)|![](./Images/Trykknap/Trykknap6x6_3D_Model.png)|
+||||||
 
 * FreeCAD File:
   * [Trykknapper.FCStd](./Trykknapper.FCStd)
@@ -33,6 +46,8 @@
 |Mechanical Dimensions|Pin Configuration|Typical Application Circuit|
 |:---:|:---:|:---:|
 |![SK6812_MechanicalDimensions](./Images/SK6812_MechanicalDimensions.png)|![SK6812_PinConfiguration](./Images/SK6812_PinConfiguration%20.png)|![SK6812_TypicalApplicationCircuit](./Images/SK6812_TypicalApplicationCircuit.png)
+||||||
+
 
 
 
@@ -51,6 +66,8 @@ i **FreeCAD Part** kan bruges sammen med **Union** & **Cut** funktionen.
 |Z: 0,0mm|Z: 1,5mm|Z: 3,0mm|Z: 5,0mm|||
 |Pad: 1,5mm|Pad: 1,5mm|AdditiveLoft|Pad: 1,0mm|||
 |||Frirum/Glas||||
+||||||
+
 
 * FreeCAD File: 
   * [BlokIndikering_v1.FCStd](./BlokIndikering_v1.FCStd)
@@ -60,6 +77,8 @@ i **FreeCAD Part** kan bruges sammen med **Union** & **Cut** funktionen.
 |PCB|Led Layer|Led Layer2|Glas Layer|Layer 3D|Total|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |![BlockSignal_Pcb](./Images/Block/BlockSignal_PCB_v2.png)|![BlockSignal_Led](./Images/Block/BlockSignal_Led_v2.png)|![BlockSignal_Led](./Images/Block/BlockSignal_Led2_v2.png)|![BlockSignal_Glas](./Images/Block/BlockSignal_Glas_v2.png)|![BlockSignal_Layer3D](./Images/Block/BlockSignal_Layer3D_v2.png)|![BlockSignal_3D_Model](./Images/Block/BlockSignal_3D_Model2.png)|
+||||||
+
 
 * FreeCAD File: 
   * [BlockSignal.FCStd](./BlockSignal.FCStd) 
@@ -108,6 +127,8 @@ i **FreeCAD Part** kan bruges sammen med **Union** & **Cut** funktionen.
 |PCB|Led 5050|Glas|3D|
 |:---:|:---:|:---:|:---:|
 |![PU_Led_PCB](./Images/PU/Skærmbillede%20fra%202025-12-21%2008-28-14.png)|![PU_Led_Sketch001](./Images/PU/Skærmbillede%20fra%202025-12-21%2008-28-46.png)|![PU_Led_Sketch002](./Images/PU/Skærmbillede%20fra%202025-12-21%2008-29-07.png)|![PU_Led_3D](./Images/PU/Skærmbillede%20fra%202025-12-21%2008-29-33.png)|
+||||||
+
 
 * FreeCAD File:
   * [Pu.FCStd](./Pu.FCStd)
