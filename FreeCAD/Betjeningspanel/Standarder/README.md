@@ -45,35 +45,12 @@ i **FreeCAD Part** kan bruges sammen med **Union** & **Cut** funktionen.
 
 #### Blok indikering v1
 
-|Track|Led Layer|Glas Layer|Layer 3D|Total|
-|:---:|:---:|:---:|:---:|:---:|
-|![BlockSignal_Track](./Images/Block/BlockSignal_Track.png)|![BlockSignal_Led](./Images/Block/BlockSignal_Led_3.png)|![BlockSignal_Glas](./Images/Block/BlockSignal_Glas.png)|![BlockSignal_Layer3D](./Images/Block/BlockSignal_Layer3D.png)|![BlockSignal_3D_Model](./Images/Block/BlockSignal_3D_Model.png)|
+|PCB Layer|Led Layer|Frirum|Glas Layer|Layer 3D|Total|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+![](./Images/Block/Skærmbillede%20fra%202025-12-21%2016-17-17.png)|![](./Images/Block/Skærmbillede%20fra%202025-12-21%2011-34-02.png)|![](./Images/Block/Skærmbillede%20fra%202025-12-21%2016-17-30.png)|![](./Images/Block/Skærmbillede%20fra%202025-12-21%2016-18-21.png)|![](./Images/Block/Skærmbillede%20fra%202025-12-21%2016-36-34.png)|![](./Images/Block/Skærmbillede%20fra%202025-12-21%2016-38-03.png)|
 
 * FreeCAD File: 
-  * [BlockSignal.FCStd](./BlockSignal.FCStd) 
-* How to
-  * Belysning:
-    * LED: SK6812_5050_RGBWW
-    * Montage: hjemmelavet print
-  * Layer
-    * Position Z:  
-      * Base: 0,00mm
-      * Led: 3,00mm
-      * Glas: 5,00mm
-    * Pad
-      * Base:
-        * Length: 6,00mm
-        * Reversed: No
-      * Led:
-        * Length: 3,00mm
-        * Reversed: Yes
-      * Glas:
-        * Length: 1,00mm
-        * Reversed: No
-    * AdditiveLoft:
-      * Layer:
-        * Led
-        * Glas
+  * [BlokIndikering_v1.FCStd](./BlokIndikering_v1.FCStd)
 
 #### Blok indikering v2
 
