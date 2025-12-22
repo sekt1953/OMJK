@@ -69,12 +69,12 @@
 
 ### Sporskifte indikering
 
-|PCB|SK6812 5050|Glas|
-|:---:|:---:|:---:|
-|![](./Images/SporskifteLed/Skærmbillede%20fra%202025-12-22%2011-41-23.png)|![](./Images/SporskifteLed/Skærmbillede%20fra%202025-12-22%2011-42-02.png)|![](./Images/SporskifteLed/Skærmbillede%20fra%202025-12-22%2011-42-19.png)
+|PCB|SK6812 5050|Frirum|Glas|
+|:---:|:---:|:---:|:---:|
+|![](./Images/SporskifteLed/Skærmbillede%20fra%202025-12-22%2011-41-23.png)|![](./Images/SporskifteLed/Skærmbillede%20fra%202025-12-22%2011-42-02.png)|![](./Images/SporskifteLed/Skærmbillede%20fra%202025-12-22%2013-39-30.png)|![](./Images/SporskifteLed/Skærmbillede%20fra%202025-12-22%2011-42-19.png)
 |Z: 0,0mm|Z: 3,0mm|Z: 5,4mm|
 |Pad: 1,5mm|Pad: -1,5mm|Pad: 0,6mm|
-||||
+|||||
 
 ### Blok indikering
 
