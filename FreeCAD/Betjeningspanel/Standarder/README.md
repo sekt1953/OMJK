@@ -1,5 +1,20 @@
 # Standarder for Centrabetjeningspanel tegning
 
+## YouTube videoer til denne serie
+
+* [OMJK](https://www.youtube.com/playlist?list=PLIsjLuvJr7uht_yYsS1T3RD3FGsFQwwR1)
+  * [1. Betjenings panel for OMJK's modelbane - Grundtavle med Sporplan](https://www.youtube.com/watch?v=dZjwpv8QaRw&list=PLIsjLuvJr7uht_yYsS1T3RD3FGsFQwwR1&index=1&pp=gAQBiAQBsAgC)
+  * [2. Betjenings panel for OMJK's modelbane - Huller for trykknapper 6x6 mm](https://youtu.be/PbYgpnhis6A?list=PLIsjLuvJr7uht_yYsS1T3RD3FGsFQwwR1)
+  * [3. Betjenings panel for OMJK's modelbane - Huller for trykknapper i sporplan](https://youtu.be/MnVt9wKIBpA?list=PLIsjLuvJr7uht_yYsS1T3RD3FGsFQwwR1)
+  * [4. Betjenings panel for OMJK's modelbane - Gruppering af huller for taster](https://youtu.be/W9_LvfxgKT4?list=PLIsjLuvJr7uht_yYsS1T3RD3FGsFQwwR1)
+  * [5. Betjeningspanel for OMJK modelbane - Fejlretning & tips](https://youtu.be/yiMUdccn0jY?list=PLIsjLuvJr7uht_yYsS1T3RD3FGsFQwwR1)
+  * []()
+  * []()
+  * []()
+  * []()
+  * []()
+  * []()
+
 ## Tavle
 
 |Tavle|Sporplan|Sporplan Cut|Track Binder|Track Pad|Tavle med Track|
