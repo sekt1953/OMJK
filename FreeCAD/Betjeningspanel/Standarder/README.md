@@ -67,7 +67,7 @@
 |![SK6812_MechanicalDimensions](./Images/SK6812_MechanicalDimensions.png)|![SK6812_PinConfiguration](./Images/SK6812_PinConfiguration%20.png)|![SK6812_TypicalApplicationCircuit](./Images/SK6812_TypicalApplicationCircuit.png)
 ||||
 
-### Sporskifte lys
+### Sporskifte indikering
 
 |PCB|SK6812 5050|Glas|
 |:---:|:---:|:---:|
