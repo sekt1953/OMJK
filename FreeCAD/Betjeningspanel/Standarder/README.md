@@ -65,11 +65,15 @@
 |Mechanical Dimensions|Pin Configuration|Typical Application Circuit|
 |:---:|:---:|:---:|
 |![SK6812_MechanicalDimensions](./Images/SK6812_MechanicalDimensions.png)|![SK6812_PinConfiguration](./Images/SK6812_PinConfiguration%20.png)|![SK6812_TypicalApplicationCircuit](./Images/SK6812_TypicalApplicationCircuit.png)
-||||||
+||||
 
+### Sporskifte lys
 
-
-
+|PCB|SK6812 5050|Glas|
+|:---:|:---:|:---:|
+|![](./Images/SporskifteLed/Skærmbillede%20fra%202025-12-22%2011-41-23.png)|![](./Images/SporskifteLed/Skærmbillede%20fra%202025-12-22%2011-42-02.png)|![](./Images/SporskifteLed/Skærmbillede%20fra%202025-12-22%2011-42-19.png)
+|Z: 0,0mm|Z: 3,0mm|Z: 5,4mm|
+|Pad: 1,5mm|Pad: -1,5mm||
 ### Blok indikering
 
 Denne model bruges til at lave hul i frontpladen for blok indikering.  
