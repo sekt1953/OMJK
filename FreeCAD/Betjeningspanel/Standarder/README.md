@@ -76,6 +76,15 @@
 |Pad: 1,5mm|Pad: -1,5mm||Pad: 0,6mm|
 ||||||
 
+### Spor besat indikering
+
+|PCB|SK6812 5050|Frirum|Glas|3D|
+|:---:|:---:|:---:|:---:|:---:|
+|![PCB](./Images/SporBesatIndikering/Skærmbillede%20fra%202025-12-22%2014-08-22.png)|![Led](./Images/SporBesatIndikering/Skærmbillede%20fra%202025-12-22%2014-09-00.png)|![Frirum](./Images/SporskifteLed/Skærmbillede%20fra%202025-12-22%2013-39-30.png)|![Glas](./Images/SporBesatIndikering/Skærmbillede%20fra%202025-12-22%2014-09-46.png)|![3D](./Images/SporBesatIndikering/Skærmbillede%20fra%202025-12-22%2014-18-34.png)|
+|Z: 0,0mm|Z: 1,5mm|z; 3,0mm|Z: 5,4mm|
+|Pad: 1,5mm|Pad: -1,5mm||Pad: 0,6mm|
+||||||
+
 ### Blok indikering
 
 Denne model bruges til at lave hul i frontpladen for blok indikering.  
