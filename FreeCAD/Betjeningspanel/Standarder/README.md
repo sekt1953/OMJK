@@ -10,8 +10,8 @@
   * [5. Betjeningspanel for OMJK's modelbane - Fejlretning & tips](https://youtu.be/yiMUdccn0jY?list=PLIsjLuvJr7uht_yYsS1T3RD3FGsFQwwR1)
   * [6. Betjeningspanel for OMJK's modelbane - Sporskifte indikering](https://youtu.be/EQ77ScgAZLI?list=PLIsjLuvJr7uht_yYsS1T3RD3FGsFQwwR1)
   * [7. Betjeningspanel for OMJK's modelbane - Lidt oprydning i file structure](https://youtu.be/y3KCOYk5IV0?list=PLIsjLuvJr7uht_yYsS1T3RD3FGsFQwwR1)
-  * []()
-  * []()
+  * [8. Betjeningspanel for OMJK's modelbane - Oprettelse af glas lag](https://www.youtube.com/watch?v=QGmV05KzxUo&list=PLIsjLuvJr7uht_yYsS1T3RD3FGsFQwwR1&index=8&pp=gAQBiAQBsAgC)
+  * [9. Betjeningspanel for OMJK's modelbane - Block Indikering](https://www.youtube.com/watch?v=_Z1_MICDw74&list=PLIsjLuvJr7uht_yYsS1T3RD3FGsFQwwR1&index=9&pp=gAQBiAQBsAgC)
   * []()
   * []()
 
