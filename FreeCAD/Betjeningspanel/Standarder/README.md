@@ -98,6 +98,46 @@
 * FreeCAD File: 
   * [BlokIndikering_v1.FCStd](./BlokIndikering_v1.FCStd)
 
+## Signal
+
+### Indkørsel
+
+#### Symbol
+
+|Sketch|Body|3D|
+|:---:|:---:|:---:|
+|![Sketch](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2013-15-08.png)|![Body](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2013-15-55.png)|![3D](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2013-16-35.png)|
+||||
+
+#### Led SK6812_5050 RGBWW
+
+|PCB|Led 5050|Glas|3D|
+|:---:|:---:|:---:|:---:|
+|![PCB](./Images/)|![Sketch001](./Images/)|![Sketch002](./Images/)|![3D](./Images/)|
+|||||
+
+* FreeCAD File:
+  * [.FCStd](./)
+
+### Udkørsel
+
+#### Symbol
+
+|Sketch|Body|3D|
+|:---:|:---:|:---:|
+|![Sketch](./Images/)|![Body](./Images/)|![3D](./Images/)|
+||||
+
+#### Led SK6812_5050 RGBWW
+
+|PCB|Led 5050|Glas|3D|
+|:---:|:---:|:---:|:---:|
+|![PCB](./Images/)|![Sketch001](./Images/)|![Sketch002](./Images/)|![3D](./Images/)|
+|||||
+
+* FreeCAD File:
+  * [.FCStd](./)
+
 ### PU-Signal
 
 #### Symbol
