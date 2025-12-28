@@ -109,26 +109,31 @@
 |![Sketch](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2013-15-08.png)|![Body](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2013-15-55.png)|![3D](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2013-16-35.png)|
 ||||
 
-#### Signal Led SK6812_5050 RGBWW
+#### Signal Led Sketch
 
 |PCB|Led 5050|Glas|3D|
 |:---:|:---:|:---:|:---:|
 |![PCB](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2017-02-38.png)|![Sketch001](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2017-03-26.png)|![Sketch002](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2017-03-50.png)|![3D](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2017-07-30.png)|
 |||||
 
+#### Signal Led Pad's
+
 |Sketchs|PCB|Led 5050|Glas|AdditiveLoft|
 |:---:|:---:|:---:|:---:|:---:|
 |![Sketchs](./Images/IndKorsel/Sketchs.png)|![Pad_PCB](./Images/IndKorsel/Pad_PCB.png)|![Pad_Led](./Images/IndKorsel/Pad_Led.png)|![Pad_Glas](./Images/IndKorsel/Pad_Glas.png)|![AdditiveLoft](./Images/IndKorsel/AdditiveLoft.png)|
 ||||||
 
-#### Hastighedsviser Led SK6812_5050 RGBWW
+#### Hastighedsviser Pil Sketch
 
-![]()
-
-|PCB|Led 5050|Glas|3D|
+|Frirum|Pil_Glas|AdditiveLoft|Pad_Glas|
 |:---:|:---:|:---:|:---:|
-|![PCB](./Images/)|![Sketch001](./Images/)|![Sketch002](./Images/)|![3D](./Images/)|
+|![Pil_Frirum](./Images/IndKorsel/Sketch_Pil_Frirum.png)|![Pil_Glas](./Images/IndKorsel/Sketch_Pil.png)|![AdditiveLoft](./Images/IndKorsel/Pil_AdditiveLoft.png)|![Pad_Glas](./Images/IndKorsel/Pil_Pad_Glas.png)|
+|Z: 3mm|z: 5,4mm||Pad: 0,60mm|
 |||||
+
+#### Indkørsel med hastigsviser
+
+![Fusion](./Images/IndKorsel/Skærmbillede%20fra%202025-12-28%2019-29-35.png)
 
 * FreeCAD File:
   * [Indkørsel.FCStd](./Indkørsel.FCStd)
