@@ -116,7 +116,14 @@
 |![PCB](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2017-02-38.png)|![Sketch001](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2017-03-26.png)|![Sketch002](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2017-03-50.png)|![3D](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2017-07-30.png)|
 |||||
 
+|Sketchs|PCB|Led 5050|Glas|AdditiveLoft|
+|:---:|:---:|:---:|:---:|:---:|
+|![Sketchs](./Images/IndKorsel/Sketchs.png)|![Pad_PCB](./Images/IndKorsel/Pad_PCB.png)|![Pad_Led](./Images/IndKorsel/Pad_Led.png)|![Pad_Glas](./Images/IndKorsel/Pad_Glas.png)|![AdditiveLoft](./Images/IndKorsel/AdditiveLoft.png)|
+||||||
+
 #### Hastighedsviser Led SK6812_5050 RGBWW
+
+![]()
 
 |PCB|Led 5050|Glas|3D|
 |:---:|:---:|:---:|:---:|
