@@ -4,6 +4,11 @@
 
 * FreeCAD
   * [Betjeningspanel](./Betjeningspanel/)
+    * [Standarder for Centrabetjeningspanel tegning](./Betjeningspanel/Standarder/README.md)
+      * [Videos](./Betjeningspanel/Standarder/README.md#youtube-videoer-til-denne-serie)
+      * [Tavle](./Betjeningspanel/Standarder/README.md#tavle)
+      * [Trykknapper](./Betjeningspanel/Standarder/README.md#trykknapper)
+      * [Trykknap 6x6](./Betjeningspanel/Standarder/README.md#trykknap-6x6)
     * [Images](./Betjeningspanel/Images/)
     * [Elmer](./Betjeningspanel/Elmer/)
     * [Hjulby (Ju)](./Betjeningspanel/Hjulby/)
