@@ -137,9 +137,9 @@
 
 #### Led SK6812_5050 RGBWW
 
-|PCB|Led 5050|Glas|3D|
-|:---:|:---:|:---:|:---:|
-|![PCB](./Images/)|![Sketch001](./Images/)|![Sketch002](./Images/)|![3D](./Images/)|
+|Sketchs|PCB|Led 5050|Glas|AdditiveLoft|
+|:---:|:---:|:---:|:---:|:---:|
+|![Sketchs](./Images/Udkorsel/Layer.png)|![PCB](./Images/Udkorsel/Pad_PCB.png)|![Led](./Images/Udkorsel/Pad_Led.png)|![Glas](./Images/Udkorsel/Pad_Glas.png)|![AdditiveLoft](./Images/Udkorsel/AdditiveLoft.png)|
 |||||
 
 * FreeCAD File:
