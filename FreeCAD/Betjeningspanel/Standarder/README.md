@@ -98,9 +98,9 @@
 * FreeCAD File: 
   * [BlokIndikering_v1.FCStd](./BlokIndikering_v1.FCStd)
 
-## Signal
+## Signaler
 
-### Indkørsel
+### Indkørselsignal med hastighedsviser
 
 #### Symbol
 
@@ -109,7 +109,14 @@
 |![Sketch](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2013-15-08.png)|![Body](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2013-15-55.png)|![3D](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2013-16-35.png)|
 ||||
 
-#### Led SK6812_5050 RGBWW
+#### Signal Led SK6812_5050 RGBWW
+
+|PCB|Led 5050|Glas|3D|
+|:---:|:---:|:---:|:---:|
+|![PCB](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2017-02-38.png)|![Sketch001](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2017-03-26.png)|![Sketch002](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2017-03-50.png)|![3D](./Images/IndKorsel/Skærmbillede%20fra%202025-12-26%2017-07-30.png)|
+|||||
+
+#### Hastighedsviser Led SK6812_5050 RGBWW
 
 |PCB|Led 5050|Glas|3D|
 |:---:|:---:|:---:|:---:|
@@ -123,9 +130,9 @@
 
 #### Symbol
 
-|Sketch|Body|3D|
-|:---:|:---:|:---:|
-|![Sketch](./Images/)|![Body](./Images/)|![3D](./Images/)|
+|Sketch|3D|
+|:---:|:---:|
+|![Sketch](./Images/Udkorsel/Skærmbillede%20fra%202025-12-27%2013-42-26.png)|![3D](./Images/Udkorsel/Skærmbillede%20fra%202025-12-27%2013-48-23.png)|
 ||||
 
 #### Led SK6812_5050 RGBWW
