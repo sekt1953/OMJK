@@ -8,3 +8,10 @@
   * [0053 Making a DCC decoder from scratch - part 3](https://youtu.be/6RE70QYFSb0)
   * [0057 Home-made DCC decoder - part 4](https://youtu.be/XgUUQQwzfhY)
   * [0058 Making a decoder from scratch - part 5](https://www.youtube.com/watch?v=qRdpY-hrx-0)
+* [Digital Town](https://www.youtube.com/@digitaltown5442/playlists)
+  * [3D Printing](https://www.youtube.com/playlist?list=PLIJ8TUBQdHKEyCLDMDB3uKRW0tBJfj9c7)
+  * []()
+  * []()
+  * []()
+  * []()
+  
