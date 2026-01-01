@@ -30,7 +30,12 @@
 |![2017-20-47.png](./Images/Skærmbillede%20fra%202026-01-01%2017-20-47.png)|![17-21-03.png](./Images/Skærmbillede%20fra%202026-01-01%2017-21-03.png)|
 |||
 
-## FreeCAD Files
+## FreeCAD
+
+|Sketch|Sketch001|
+|:---:|:---:|
+|![](./Images/Skærmbillede%20fra%202026-01-01%2017-30-24.png)|![](./Images/Skærmbillede%20fra%202026-01-01%2017-31-22.png)|
+|![](./Images/Skærmbillede%20fra%202026-01-01%2017-34-36.png)|![](./Images/Skærmbillede%20fra%202026-01-01%2017-34-53.png)|
 
 * Files:
   * [Mo_TagKoler.FCStd](./Mo_TagKoler.FCStd)
