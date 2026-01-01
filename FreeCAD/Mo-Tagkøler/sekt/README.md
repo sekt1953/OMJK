@@ -4,7 +4,7 @@
 
 * [OMJK](https://www.youtube.com/watch?v=dZjwpv8QaRw&list=PLIsjLuvJr7uht_yYsS1T3RD3FGsFQwwR1&pp=gAQB)
   * [1. Ltr. MO Tagkøler](https://youtu.be/H_GuELwM5dY?list=PLIsjLuvJr7uht_yYsS1T3RD3FGsFQwwR1)
-  * []()
+  * [2. Ltr. MO Tagkøler](https://youtu.be/QPyB44fzYPA)
 
 ## Tegninger fra DSB
 
