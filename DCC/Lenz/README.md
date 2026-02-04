@@ -6,7 +6,8 @@
   * [LZV100 Command/Power Station Operations Manual Version 3.6R](./Manuals/Lenz-LZV100-Manual-v3.6.pdf)
   * [Lenz-LZV200-Manual](./Manuals/LZV200-Manual.pdf)
   * [LV102 DCC Power Station Manual](./Manuals/Lenz-LV102.pdf)
-  
+  * [Centrale LZV200](https://gertvanvoorst.nl/lenzlzv200.html)
+
 ## Ændringer til VORES LENZ installation
 
 * Ændringer til LENZ installation:
