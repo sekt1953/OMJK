@@ -1,4 +1,4 @@
-# how to calculate train speed in km scale 1:45
+# How to calculate train speed in km scale 1:45
 
 ## AI
 
