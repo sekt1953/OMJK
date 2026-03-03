@@ -48,7 +48,7 @@ Her er en oversigt over, hvor lang tid det bør tage din model at køre 1 meter,
   * Mange modeltogs-entusiaster synes faktisk, at skalahastighed ser "for hurtigt" ud for det menneskelige øje. Man vælger ofte at køre lidt langsommere end den matematiske skalahastighed for at give toget mere tyngde og realisme.
   * Vil du have hjælp til at lave en tabel, der passer præcis til længden på din skinne-strækning?
 
-## Home Assistant
+## Home Assistant AI
 
 * To calculate the time between two events in Home Assistant, use a Trigger-based Template Sensor to compare the .last_changed timestamps of two entities. Calculate the difference using Jinja2 templates, such as {{ (states.sensor.end.last_changed - states.sensor.start.last_changed).total_seconds() }}.
 
