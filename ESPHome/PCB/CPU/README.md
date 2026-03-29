@@ -32,6 +32,8 @@ Jeg er nu begyndt at bruge Olimex ESP32-POE-ISO-16MB som min basis ESP for model
 
 ![ESP32DevKitV1.png](./Image/ESP32DevKitV1.png)
 
+* [ESP32 Pinout Reference: Which GPIO pins should you use?](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)
+
 |Schematic|
 |:---:|
 |![schem](./ESP32_30Pin_I2C_Board_a/ESP32_30Pin_I2C_Board_3V3_schem.png)|
