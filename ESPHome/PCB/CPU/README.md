@@ -30,6 +30,8 @@ Jeg er nu begyndt at bruge Olimex ESP32-POE-ISO-16MB som min basis ESP for model
 
 ### ESP32-Dev 30Pin med I2C Interface - 3V3 PowerSupply
 
+![ESP32DevKitV1.png](./Image/ESP32DevKitV1.png)
+
 |Schematic|
 |:---:|
 |![schem](./ESP32_30Pin_I2C_Board_a/ESP32_30Pin_I2C_Board_3V3_schem.png)|
@@ -40,7 +42,6 @@ Jeg er nu begyndt at bruge Olimex ESP32-POE-ISO-16MB som min basis ESP for model
 
 * Fritzing files:
   * [ESP32_30Pin_I2C_Board_a.fzz](./ESP32_30Pin_I2C_Board_a/ESP32_30Pin_I2C_Board_3V3.fzz)
-
 
 ### ESP32-Dev 30Pin med I2C Interface - 5V PowerSupply
 
