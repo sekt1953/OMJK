@@ -81,3 +81,7 @@ Jeg er nu begyndt at bruge Olimex ESP32-POE-ISO-16MB som min basis ESP for model
   * [Esp32-MiniPow_Dev-Body.3mf](./ESP32_30Pin_I2C_Board_a/FreeCAD-Files/Esp32-MiniPow_Dev-Body.3mf)
   * [Esp32-Dev.FCStd](./ESP32_30Pin_I2C_Board_a/FreeCAD-Files/Esp32-Dev.FCStd)
   * [Esp32-Dev-Body.3mf](./ESP32_30Pin_I2C_Board_a/FreeCAD-Files/Esp32-Dev-Body.3mf)
+
+### CPU-LightDriver
+
+![2013-39-43.png](./CPU_LightDriver/Images/Skærmbillede%20fra%202026-04-01%2013-39-43.png)
