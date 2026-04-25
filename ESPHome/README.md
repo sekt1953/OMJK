@@ -3,7 +3,27 @@
 ## Kilder
 
 * [ESPHome](https://esphome.io/)
-  * [ESPHome Docs](https://esphome.io/components/)
+  * [ESPHome Configuration](https://esphome.io/components/#esphome-configuration)
+    * [YAML Configuration in ESPHome](https://esphome.io/guides/yaml/)
+    * [Packages](https://esphome.io/components/packages/)
+    * [Substitutions](https://esphome.io/components/substitutions/)
+    * [External Components](https://esphome.io/components/external_components/)
+  * [ESPHome Automations](https://esphome.io/components/#esphome-automations)
+    * [Actions, Triggers, Conditions](https://esphome.io/automations/actions/)
+    * [Templates](https://esphome.io/automations/templates/)
+      * [All Lambda Calls](https://esphome.io/automations/templates/#all-lambda-calls)
+      * Component
+        * [Sensor Component](https://esphome.io/components/sensor/)
+        * [Binary Sensor Component](https://esphome.io/components/binary_sensor/)
+        * [Switch Component](https://esphome.io/components/switch/)
+        * [Display Component](https://esphome.io/components/display/)
+        * [Cover Component](https://esphome.io/components/cover/)
+        * [Text Sensor Component](https://esphome.io/components/text_sensor/)
+        * [Stepper Component](https://esphome.io/components/stepper/)
+        * [Number Component](https://esphome.io/components/number/)
+    * [Global Variables](https://esphome.io/components/globals/)
+    * [Script Component](https://esphome.io/components/script/)
+    * [Interval Component](https://esphome.io/components/interval/)
 * YouTube videos
   * [Playduino](https://www.youtube.com/@playduino)
     * [Stop Coding ESP32 Sensors! Do THIS Instead... (ESPHome)](https://youtu.be/fLLV6e7BVJ0)
