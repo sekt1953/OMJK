@@ -25,7 +25,7 @@
     * [Script Component](https://esphome.io/components/script/)
     * [Interval Component](https://esphome.io/components/interval/)
 * YouTube videos
-  * [Playduino](https://www.youtube.com/@playduino)
+  * [Playduino](https://www.youtube.com/@playduino/videos)
     * [Stop Coding ESP32 Sensors! Do THIS Instead... (ESPHome)](https://youtu.be/fLLV6e7BVJ0)
   * [Let's Automate](https://www.youtube.com/@lets-automate)
     * [ESPHome Guide for Advanced and Intermediate Users](https://youtu.be/XIY1xOzM3fs)
