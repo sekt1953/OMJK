@@ -12,5 +12,5 @@
   * [DroneBot Workshop](https://www.youtube.com/@Dronebotworkshop)
     * [Ethernet & Power-over-Ethernet with ESP32 - Build a PoE Camera and a Web Server](https://youtu.be/JgwjGeAqW8E)
     * [Article with code: Using Ethernet with ESP32](https://dronebotworkshop.com/esp32-ethernet/)
-  * []()
+    * [Driving DC Motors with Microcontrollers](https://dronebotworkshop.com/dc-motor-drivers/)
   * []()
