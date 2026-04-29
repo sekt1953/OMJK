@@ -30,6 +30,8 @@
   * [Let's Automate](https://www.youtube.com/@lets-automate)
     * [ESPHome Guide for Advanced and Intermediate Users](https://youtu.be/XIY1xOzM3fs)
   * [DroneBot Workshop](https://www.youtube.com/@Dronebotworkshop)
+    * [ESP32 Guide 2026](https://youtu.be/CfIjInYch7U)
+      * [ESP32 Selection Guide – 2026](https://dronebotworkshop.com/esp32-2026/)
     * [Ethernet & Power-over-Ethernet with ESP32 - Build a PoE Camera and a Web Server](https://youtu.be/JgwjGeAqW8E)
     * [Article with code: Using Ethernet with ESP32](https://dronebotworkshop.com/esp32-ethernet/)
     * [Driving DC Motors with Microcontrollers](https://dronebotworkshop.com/dc-motor-drivers/)
