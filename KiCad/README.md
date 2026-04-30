@@ -14,6 +14,6 @@
     * [KiCad 10 and FreeCAD 1.1 are substantial](https://youtu.be/RrsPh7PYMvw)
     * Making your own ESP32 PCB:
       * [Making your own ESP32 PCB: Part 1 - Planning](https://youtu.be/U1wLDvrBLVI)
-      * []()
-      * []()
+  * []()
+    * []()
       * []()
