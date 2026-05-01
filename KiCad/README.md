@@ -8,6 +8,7 @@
     * [KiCad 9 Hardware Design Tutorial (TI MSPM0) (2/2 PCB) - Phil's Lab #166](https://youtu.be/igQWdVGZGpI)
   * [Predictable Designs with John Teel](https://www.youtube.com/@PredictableDesigns)
     * [How to design an ESP32 PCB with KiCad (in less than 25 minutes)](https://youtu.be/jiJGbWOSdMo)
+    * [How to order assembled PCB boards using KiCad](https://youtu.be/xtjz5a2VKNY)
   * [made by morten](https://www.youtube.com/@made.by.morten.laboratories)
     * [iCad 9: Design of a Raspberry PICO IoT device on 4-layer PCB with sensors and more. Complete Guide.](https://youtu.be/tCulctQqdhM)
   * [Rob Frohne](https://www.youtube.com/@RobFrohne)
