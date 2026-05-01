@@ -2,7 +2,17 @@
 
 ## Kilder
 
-* Youtube videos
+* [**KiCad Docs v.10.0**](https://docs.kicad.org/)
+  * [introduction](https://docs.kicad.org/10.0/en/introduction/introduction.html)
+  * [Getting Started in KiCad](https://docs.kicad.org/10.0/en/getting_started_in_kicad/getting_started_in_kicad.html)
+  * [KiCad 10.0 Reference Manual](https://docs.kicad.org/10.0/en/kicad/kicad.html)
+  * [Schematic Editor](https://docs.kicad.org/10.0/en/eeschema/eeschema.html)
+  * [PCB Editor](https://docs.kicad.org/10.0/en/pcbnew/pcbnew.html)
+  * [Gerber Viewer](https://docs.kicad.org/10.0/en/gerbview/gerbview.html)
+  * [Drawing Sheet Editor](https://docs.kicad.org/10.0/en/pl_editor/pl_editor.html)
+  * [Calculator Tools](https://docs.kicad.org/10.0/en/pcb_calculator/pcb_calculator.html)
+  * [KiCad Command-Line Interface](https://docs.kicad.org/10.0/en/cli/cli.html)
+* **Youtube videos**
   * [Phil’s Lab](https://www.youtube.com/@PhilsLab/videos)
     * [KiCad 9 Hardware Design Tutorial (TI MSPM0) (1/2 Schematic) - Phil's Lab #165](https://youtu.be/O-zNn5k5Bn4)
     * [KiCad 9 Hardware Design Tutorial (TI MSPM0) (2/2 PCB) - Phil's Lab #166](https://youtu.be/igQWdVGZGpI)
