@@ -22,3 +22,4 @@
       * [Making your own ESP32 PCB: Part 2 - Schematic](https://youtu.be/l0SyRu5H_q8)
       * [Making your own ESP32 PCB: Part 3 - PCB Layout](https://youtu.be/rO79X10tKIA)
       * [Save Money on PCB Assembly: KiCad Tips for JLC PCB](https://youtu.be/OnsE6SVHsNc)
+        * [KiCAD JLCPCB tools](https://github.com/bouni/kicad-jlcpcb-tools)
