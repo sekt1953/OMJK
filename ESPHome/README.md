@@ -23,6 +23,12 @@
       * [Number Component](https://esphome.io/components/number/)
     * [Global Variables](https://esphome.io/components/globals/)
     * [Script Component](https://esphome.io/components/script/)
+      * [ESPHome Script Component passing Parameters](https://community.home-assistant.io/t/esphome-script-component-passing-parameters/581705)
+      * [How do I run an ESPHome script from Home Assistant?](https://community.home-assistant.io/t/how-do-i-run-an-esphome-script-from-home-assistant/765950)
+      * [Parameters in esphome script lambdas](https://community.home-assistant.io/t/parameters-in-esphome-script-lambdas/825193)
+      * [Script string parameter no longer works #12748](https://github.com/esphome/esphome/issues/12748)
+      * [Scripts erstellen und verwenden (Wie geht eigentlich ESPHome? | #16)](https://www.youtube.com/watch?v=2lUQxCSEWaA&pp=ygUOZXNwaG9tZSBzY3JpcHTSBwkJ3goBhyohjO8%3D "SmartHome yourself")
+      * [SKRIPTE in ESPHome mit Parametern flexibel einsetzen](https://www.youtube.com/watch?v=Z4arC0u1QCA "SmartHome yourself")
     * [Interval Component](https://esphome.io/components/interval/)
 * YouTube videos
   * [Playduino](https://www.youtube.com/@playduino/videos)
