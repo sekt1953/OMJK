@@ -24,6 +24,9 @@
     * [Global Variables](https://esphome.io/components/globals/)
     * [Script Component](https://esphome.io/components/script/)
       * [ESPHome Script Component passing Parameters](https://community.home-assistant.io/t/esphome-script-component-passing-parameters/581705)
+      * Access Home Assistant helpers in ESPHome
+        * [How to access helper text or helper number in esphome](https://community.home-assistant.io/t/how-to-access-helper-text-or-helper-number-in-esphome/394709)
+        * [Access Home Assistant helpers in ESPHome AI svar](./AccessHomeAssistantHelpersInESPHome.md)
       * [How do I run an ESPHome script from Home Assistant?](https://community.home-assistant.io/t/how-do-i-run-an-esphome-script-from-home-assistant/765950)
       * [Parameters in esphome script lambdas](https://community.home-assistant.io/t/parameters-in-esphome-script-lambdas/825193)
       * [Script string parameter no longer works #12748](https://github.com/esphome/esphome/issues/12748)
