@@ -16,5 +16,8 @@
   * the MRH Forum
     * [SMA20 Low Cost 17 Channel DCC Decoders Ver 6.01 with Sound,Triggered Sound,Stepper,Dual Motor,LED and Servo Control](https://forum.mrhmag.com/post/sma20-low-cost-17-channel-dcc-decoders-ver-6-01-with-soundtriggered-soundstepperdual-motorled-and-12201920)
     * [SMA34 More Power to SMA20 Decoders with Tips and Additions](https://forum.mrhmag.com/post/sma34-more-power-to-sma20-decoders-with-tips-and-additions-12215355)
-* []()
+* [IoTT -integrating the model railroad control system with smart home components](https://www.youtube.com/@IoTT/videos)
+  * [Smart Layout (Video#155)](https://youtu.be/TouON_NWqOw)
+  * [Smart Layout II (Video#156)](https://youtu.be/2dl8RcAl3hU)
+  * [Smart Block Detector (Video#157)](https://youtu.be/0ymPrF2NjzE)
   
