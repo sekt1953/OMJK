@@ -44,4 +44,9 @@
     * [Ethernet & Power-over-Ethernet with ESP32 - Build a PoE Camera and a Web Server](https://youtu.be/JgwjGeAqW8E)
     * [Article with code: Using Ethernet with ESP32](https://dronebotworkshop.com/esp32-ethernet/)
     * [Driving DC Motors with Microcontrollers](https://dronebotworkshop.com/dc-motor-drivers/)
-  * []()
+  * [SmartHome yourself](https://www.youtube.com/@Smarthomeyourself/playlists)
+    * [Wie geht eigentlich ESPHome? | Einfache ...](https://www.youtube.com/playlist?list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z)
+    * [Aktionen bei BOOT, LOOP und SHUTDOWN ausführen (Wie geht eigentlich ESPHome? | #12)](https://youtu.be/n9lW2Q849UE?list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z)
+    * [Scripts erstellen und verwenden (Wie geht eigentlich ESPHome? | #16)](https://youtu.be/2lUQxCSEWaA?list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z)
+    * []()
+        
