@@ -45,8 +45,13 @@
     * [Article with code: Using Ethernet with ESP32](https://dronebotworkshop.com/esp32-ethernet/)
     * [Driving DC Motors with Microcontrollers](https://dronebotworkshop.com/dc-motor-drivers/)
   * [SmartHome yourself](https://www.youtube.com/@Smarthomeyourself/playlists)
-    * [Wie geht eigentlich ESPHome? | Einfache ...](https://www.youtube.com/playlist?list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z)
-    * [Aktionen bei BOOT, LOOP und SHUTDOWN ausführen (Wie geht eigentlich ESPHome? | #12)](https://youtu.be/n9lW2Q849UE?list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z)
-    * [Scripts erstellen und verwenden (Wie geht eigentlich ESPHome? | #16)](https://youtu.be/2lUQxCSEWaA?list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z)
+    * [1. Wie geht eigentlich ESPHome? | Einfache ...](https://www.youtube.com/playlist?list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z)
+      * [04:36 - Wörterbücher (Dictionary) bzw. Maps](https://youtu.be/rHxqFkNqkM0?list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z&t=276)
+    * [6. GPIO Binary Sensoren in ESPHome](https://youtu.be/lDG9u0Gk1zs?list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z)
+      * [06:04 - Geräte Klassen (device_class)](https://youtu.be/lDG9u0Gk1zs?list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z&t=365)
+      * [07:52 - Beeinflussen des Verhaltens mit Filtern (filters)](https://youtu.be/lDG9u0Gk1zs?list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z&t=472)
+    * [12. Aktionen bei BOOT, LOOP und SHUTDOWN ausführen](https://youtu.be/n9lW2Q849UE?list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z)
+
+    * [16. Scripts erstellen und verwenden](https://youtu.be/2lUQxCSEWaA?list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z)
     * []()
         
