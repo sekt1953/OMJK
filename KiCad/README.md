@@ -42,3 +42,8 @@
       * [Making your own ESP32 PCB: Part 3 - PCB Layout](https://youtu.be/rO79X10tKIA)
       * [Save Money on PCB Assembly: KiCad Tips for JLC PCB](https://youtu.be/OnsE6SVHsNc)
         * [KiCAD JLCPCB tools](https://github.com/bouni/kicad-jlcpcb-tools)
+  * [Tech Record](https://www.youtube.com/@techrecord4203)
+    * [From Schematic Creation to PCB Design Excellence](https://www.youtube.com/playlist?list=PLbWc6Q71G_qVIYH-0KMxji5h0zoH3rU0g)
+    * [Custom Symbol & Custom Footprint in Symbol and ](https://www.youtube.com/playlist?list=PLbWc6Q71G_qVXdEbigNWAe_tfZb_5D0LY)
+    * [Multi-Sheet Schematic for Complex Circuits](https://www.youtube.com/playlist?list=PLbWc6Q71G_qUj61f3i4J7IM265hVGCO4v)
+      * [31 Multi-sheet Schematic Hierarchy for designing complex schematic.](https://youtu.be/A1mXvNfhVHs)

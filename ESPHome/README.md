@@ -53,5 +53,8 @@
     * [12. Aktionen bei BOOT, LOOP und SHUTDOWN ausführen](https://youtu.be/n9lW2Q849UE?list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z)
 
     * [16. Scripts erstellen und verwenden](https://youtu.be/2lUQxCSEWaA?list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z)
-    * []()
-        
+    * [28. ESPHome Code auslagern / aufteilen mit Packages](https://youtu.be/PtnPEU6I7cs?list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z)
+      * [02:34 - Projekteinstellungen mit Substitutions](https://www.youtube.com/watch?v=PtnPEU6I7cs&list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z&index=28&t=154s)
+      * [05:05 - Datei einlesen mit !include und Merge Key](https://www.youtube.com/watch?v=PtnPEU6I7cs&list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z&index=28&t=305s)
+      * [08:48 - Lokale Packages](https://www.youtube.com/watch?v=PtnPEU6I7cs&list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z&index=28&t=528s)
+      * [10:37 - Remote Packages (öffentlich auf GitHub)](https://www.youtube.com/watch?v=PtnPEU6I7cs&list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z&index=28&t=637s)
