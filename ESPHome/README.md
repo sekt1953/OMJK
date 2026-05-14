@@ -14,7 +14,18 @@
       * [All Lambda Calls](https://esphome.io/automations/templates/#all-lambda-calls)
     * Component
       * [Sensor Component](https://esphome.io/components/sensor/)
+        * Automations:
+          * [on_value](https://esphome.io/components/sensor/#sensor-on_value)
+          * [on_value_range](https://esphome.io/components/sensor/#sensor-on_value_range)
+          * [on_raw_value](https://esphome.io/components/sensor/#sensor-on_raw_value)
       * [Binary Sensor Component](https://esphome.io/components/binary_sensor/)
+        * Automations:
+          * [on_press](https://esphome.io/components/binary_sensor/#binary_sensor-on_press)
+          * [on_release](https://esphome.io/components/binary_sensor/#binary_sensor-on_release)
+          * [on_state](https://esphome.io/components/binary_sensor/#binary_sensor-on_state)
+          * [on_click](https://esphome.io/components/binary_sensor/#binary_sensor-on_click)
+          * [on_double_click](https://esphome.io/components/binary_sensor/#binary_sensor-on_double_click)
+          * [on_multi_click](https://esphome.io/components/binary_sensor/#binary_sensor-on_multi_click)
       * [Switch Component](https://esphome.io/components/switch/)
       * [Display Component](https://esphome.io/components/display/)
       * [Cover Component](https://esphome.io/components/cover/)
