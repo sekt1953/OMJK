@@ -2,6 +2,8 @@
 
 ## Kilder
 
+### ESPHome Dokumentation
+
 * [ESPHome](https://esphome.io/)
   * [ESPHome Configuration](https://esphome.io/components/#esphome-configuration)
     * [YAML Configuration in ESPHome](https://esphome.io/guides/yaml/)
@@ -45,7 +47,7 @@
       * [SKRIPTE in ESPHome mit Parametern flexibel einsetzen](https://www.youtube.com/watch?v=Z4arC0u1QCA "SmartHome yourself")
     * [Interval Component](https://esphome.io/components/interval/)
 
-## ESP32 Development Boards
+### ESP32 Development Boards
 
 * [ESP32 Development Boards](https://www.espboards.dev/esp32/)
   * Aliexpress
@@ -55,20 +57,19 @@
     * [OLIMEX ESP32-PoE-ISO](https://www.espboards.dev/esp32/esp32-poe-iso/)
     * [OLIMEX ESP32-PoE](https://www.espboards.dev/esp32/esp32-poe/)
 
-## YouTube videos
+### YouTube videos
 
 * [Home Automator](https://www.youtube.com/@homeautomatorza/featured)
   * [ESPHome Basic Setup For All ESP Devices](https://www.youtube.com/watch?v=LeeDXzEbvXc&list=PLJ3MNJX_MOUlHMxasBPg7WvOgEfboejmG&index=2)
     * [ESPHome June 2024 Breaking change](https://www.youtube.com/watch?v=wcUDYzLFjQ0&list=PLJ3MNJX_MOUlHMxasBPg7WvOgEfboejmG&index=1)
-  * Coding_Practices_Tips_and_Tricks
-    * [ESPHome Coding practices, tips and tricks, Tutorial 1, Foundation Part 1](https://youtu.be/Qx6hqZh4Y9s)
+  * ESPHome Coding Practices Tips and Tricks:
+    * [Tutorial 1, Foundation Part 1](https://youtu.be/Qx6hqZh4Y9s)
       * [GitHub: 1_Foundation](https://github.com/homeautomatorza/esphome/tree/main/Coding_Practices_Tips_and_Tricks/1_Foundation)
-    * [ESPHome Coding practices, tips and tricks, Tutorial 1, Foundation Part 2](https://youtu.be/G9WRg6jk7xk)
-    * [ESPHome Coding Practices, Tips and Tricks - Tutorial 2 - Standard Board Configurations](https://youtu.be/___CvvfPEt4)
+    * [Tutorial 1, Foundation Part 2](https://youtu.be/G9WRg6jk7xk)
+    * [Tutorial 2, Standard Board Configurations](https://youtu.be/___CvvfPEt4)
       * [GitHub: 2_standard_board_configurations](https://github.com/homeautomatorza/esphome/tree/main/Coding_Practices_Tips_and_Tricks/2_standard_board_configurations)
-    * [ESPHome Coding Practices, Tips and Tricks - Tutorial 3 - Our First Device
-  ](https://youtu.be/eyEGK1eKyDM)
-      * [GitHub: Coding_Practices_Tips_and_Tricks/3_our_first_device](https://github.com/homeautomatorza/esphome/tree/main/Coding_Practices_Tips_and_Tricks/3_our_first_device)
+    * [Tutorial 3 - Our First Device](https://youtu.be/eyEGK1eKyDM)
+      * [GitHub: 3_our_first_device](https://github.com/homeautomatorza/esphome/tree/main/Coding_Practices_Tips_and_Tricks/3_our_first_device)
       * [Pictogrammers](https://pictogrammers.com/library/mdi/)
 * [Playduino](https://www.youtube.com/@playduino/videos)
   * [Stop Coding ESP32 Sensors! Do THIS Instead... (ESPHome)](https://youtu.be/fLLV6e7BVJ0)
@@ -95,3 +96,10 @@
     * [08:48 - Lokale Packages](https://www.youtube.com/watch?v=PtnPEU6I7cs&list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z&index=28&t=528s)
     * [10:37 - Remote Packages (öffentlich auf GitHub)](https://www.youtube.com/watch?v=PtnPEU6I7cs&list=PLtEjuZQyAkqGAvHjsM6G295CsKXetm-_Z&index=28&t=637s)
 * []()
+
+### Artikler
+
+* olegtarasov
+  * [ESPHome packages and substitutions tutorial: managing complex configurations effectively](https://olegtarasov.me/esphome-packages-substitutions-tutorial/)
+* [Cossid](https://github.com/Cossid)
+  * [ESPHome-package-examples](https://github.com/Cossid/ESPHome-package-examples/tree/main)
