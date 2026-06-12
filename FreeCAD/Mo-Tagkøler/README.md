@@ -14,3 +14,4 @@
 | -------- | ------- |
 |![2017-32-44.png](./v3_Images/Skærmbillede%20fra%202026-06-12%2017-32-44.png)|![2017-25-42.png](./v3_Images/Skærmbillede%20fra%202026-06-12%2017-25-42.png)
 
+[FreeCAD File: ./Mo_Tagkoler_v3.FCStd](./Mo_Tagkoler_v3.FCStd)
