@@ -1,0 +1,45 @@
+# AI-oversigt
+# A basic working ESPHome configuration YAML file for the 
+# Olimex ESP32-P4-DevKit requires the esp-idf framework and 
+# experimental IDF features enabled, because the ESP32-P4 
+# chip relies on RISC-V architecture and lacks native onboard
+# Wi-Fi/Bluetooth.
+
+# yaml
+
+esphome:
+  name: olimex-esp32-p4
+  friendly_name: Olimex ESP32 P4 DevKit
+
+esp32:
+  board: esp32-p4-evboard
+  variant: esp32p4
+  flash_size: 16MB
+  framework:
+    type: esp-idf
+  advanced:
+    enable_idf_experimental_features: true
+
+logger:
+  hardware_uart: UART0
+
+api:
+  encryption:
+    key: "YOUR_32_BYTE_BASE64_KEY_HERE"
+
+ota:
+  - platform: esphome
+
+# Note: ESP32-P4 has no built-in wireless. 
+# If you are using an add-on wireless coprocessor (like an ESP32-C6 via ESP-Hosted) 
+# or an Ethernet module, configure your connection method below:
+
+ethernet:
+  type: IP101
+  mdc_pin: GPIO31
+  mdio_pin: GPIO52
+  clk:
+    pin: GPIO50
+    mode: CLK_EXT_IN
+  phy_addr: 1
+  power_pin: GPIO51

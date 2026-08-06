@@ -1,0 +1,43 @@
+# AI-oversigt !!
+# Here is a basic, working ESPHome YAML configuration file for the 
+# Waveshare ESP32-S3-ETH board, utilizing its onboard W5500 Ethernet controller.
+
+# yaml
+
+esphome:
+  name: waveshare-s3-eth
+  friendly_name: Waveshare S3 ETH
+
+esp32:
+  board: esp32-s3-devkitc-1
+  variant: esp32s3
+  flash_size: 16MB
+  framework:
+    type: esp-idf
+    platform_version: 6.9.0
+    advanced:
+      ignore_efuse_mac_crc_check: false
+
+logger:
+  baud_rate: 115200
+
+api:
+  encryption:
+    key: "YOUR_API_ENCRYPTION_KEY_HERE"
+
+ota:
+  - platform: esphome
+
+# Ethernet configuration using the onboard W5500 chip pinout
+ethernet:
+  type: W5500
+  clk_pin: GPIO13
+  mosi_pin: GPIO11
+  miso_pin: GPIO12
+  cs_pin: GPIO14
+  interrupt_pin: GPIO10
+  reset_pin: GPIO9
+
+# Optional: Keep Wi-Fi disabled or use as fallback if preferred
+wifi:
+  enabled: false
