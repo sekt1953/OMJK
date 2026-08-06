@@ -14,14 +14,14 @@
 
 ## AI-genereret Config files:
 
-* Waveshare ESP32-S3-ETH
+* [Waveshare ESP32-S3-ETH](https://www.waveshare.com/esp32-s3-eth.htm?srsltid=AfmBOoquH_gwIqmhh33OhDhZphzOZIgQlENh6ChBgzdErHBRXzQI3UgG)
   * [waveshare-esp32-s3-eth.yaml](./waveshare-esp32-s3-eth.yaml)
   * Key Setup Details
     * First Install: Connect the board to your computer via the onboard USB-C port to perform the initial compilation and USB flash.
     * Network: Subsequent updates can be done over-the-air (OTA) via your wired Ethernet connection.
     * Wi-Fi: Wi-Fi is disabled by default in this configuration to force hardwired Ethernet operation.
     * If you plan to attach peripherals like the OV2640/OV5640 camera, an SD card, or industrial relays/inputs, tell me which expansions you are using so I can add them to your configuration file.
-* Olimex ESP32-P4-ETH
+* [Olimex ESP32-P4-ETH](https://www.olimex.com/Products/IoT/ESP32-P4/ESP32-P4-DevKit/open-source-hardware)
   * [Olimex_ESP32-P4-DevKit.yaml](./Olimex_ESP32-P4-DevKit.yaml)
   * Essential Setup Notes
     * Framework Constraint: The ESP32-P4 architecture requires the esp-idf framework. The legacy Arduino framework is not supported for this chip.
