@@ -9,6 +9,8 @@
   * [USR-ES1 W5500 Ethernet Module](https://ardustore.dk/produkt/usr-es1-w5500-ethernet-module)
   * [ESP32-WROOM WT32-ETH01 Udviklingsboard](https://ardustore.dk/produkt/esp32-wroom-wt32-eth01-udviklingsboard)
   * [ESP32-C3 WT32-ETH01-EVO PoE](https://ardustore.dk/produkt/esp32-c3-wt32-eth01-poe-udviklingsboard)
+* Waveshare
+  * [ESP32 Basic Tutorials](https://docs.waveshare.com/ESP32-Tutorials-Intro)
 
 ## AI-genereret Config files:
 
