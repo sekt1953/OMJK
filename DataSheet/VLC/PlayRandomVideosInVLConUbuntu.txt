@@ -1,0 +1,25 @@
+Mente du: ubuntu how to select random files for playing video with vlc
+
+AI-oversigt
+To play random videos in VLC on Ubuntu, you can use the built-in random playback flag via the command line, use a terminal shuffle command, or enable shuffle mode directly in the VLC graphical interface. 
+Using the VLC Command Line
+Open your terminal (Ctrl + Alt + T).
+Type vlc --random followed by the path to your video folder.
+Example command: vlc --random ~/Videos/
+This loads all files in the folder and plays them in random order. 
+
+Super User
+ +1
+Shuffling via Terminal (shuf)
+If you want the terminal to pick a single random video file and launch VLC for just that file, combine find and shuf:
+Run: vlc "$(find ~/Videos -type f -name '*.mp4' | shuf -n 1)"
+Change *.mp4 to match your format (like *.mkv) if needed. 
+
+Ask Ubuntu
+ +1
+Using the VLC Graphical Interface (GUI)
+Open VLC Media Player from your Ubuntu application menu.
+Click Media > Open Folder and select your video folder.
+Look at the bottom playback control bar.
+Click the Shuffle icon (two crossing arrows) until it is highlighted or shows as active. 
+If you want to play random videos recursively including subfolders or need a continuous loop, let me know your preferred method (GUI or terminal) and I can give you the exact tailored command.
