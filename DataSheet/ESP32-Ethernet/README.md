@@ -11,7 +11,10 @@
   * [ESP32-C3 WT32-ETH01-EVO PoE](https://ardustore.dk/produkt/esp32-c3-wt32-eth01-poe-udviklingsboard)
 * Waveshare
   * [ESP32 Basic Tutorials](https://docs.waveshare.com/ESP32-Tutorials-Intro)
-
+  * [Waveshare ESP32-S3-ETH](https://www.waveshare.com/esp32-s3-eth.htm?srsltid=AfmBOoquH_gwIqmhh33OhDhZphzOZIgQlENh6ChBgzdErHBRXzQI3UgG)
+* Olimex
+  * [Olimex ESP32-P4-ETH](https://www.olimex.com/Products/IoT/ESP32-P4/ESP32-P4-DevKit/open-source-hardware)
+  
 ## AI-genereret Config files
 
 * [Waveshare ESP32-S3-ETH](https://www.waveshare.com/esp32-s3-eth.htm?srsltid=AfmBOoquH_gwIqmhh33OhDhZphzOZIgQlENh6ChBgzdErHBRXzQI3UgG)
