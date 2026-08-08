@@ -1,0 +1,40 @@
+################################################################################
+# Stacic IP Address for WiFi & Ethernet
+################################################################################
+# Usage:
+#   Add the following code to package section in the device file
+# ------------------------------------------------------------------------------
+# Include for WiFi:
+# wifi:
+#   <<: !include common/network/static_ip.yaml
+# 
+# Include for Ethernet:
+# ethernet:
+#   <<: !include common/network/static_ip.yaml
+# ------------------------------------------------------------------------------
+# Requirement: 
+#   - Requires the following substitution in the device file:
+#       - device_static_ip:
+#
+#   - Requires the following from the secrets file:
+#       - gateway_address
+#       - subnet_address
+#
+################################################################################
+# Author: Svenn-Erik K. Thomsen
+# YouTube: https://www.youtube.com/@sekt1953
+# Version: 1.0.0
+# Licence: CCO 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+################################################################################
+# Notes:
+#     - ikke Tested OK
+# ------------------------------------------------------------------------------
+# WARNING:
+# This code carries a "It works on my setup" disclaimer!
+# Meaning that it works on my setup but it may not work on yours.
+################################################################################
+# Optional manual IP
+manual_ip:
+  static_ip: ${device_static_ip}
+  gateway: !secret gateway_address
+  subnet: !secret subnet_address

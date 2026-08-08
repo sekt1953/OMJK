@@ -1,0 +1,37 @@
+################################################################################
+# Olimex ESP32-POE
+################################################################################
+# DataSheet:
+#   - https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware
+# PinOut:
+#   - https://www.espboards.dev/img/kOK_j1XET7-1917.webp
+#  
+################################################################################
+# Important Setup Notes:
+#   Board Choice: The configuration above uses esp32-poe-iso. If you have the
+#   older non-ISO version, change the board: to esp32-poe.
+#
+#   WROVER Module Exception: If your specific board uses the WROVER chip instead
+#   of the standard WROOM, GPIO17 is used internally. You will need to change 
+#   the Ethernet clock to clk_mode: GPIO0_OUT.
+#
+#   Ethernet vs. Wi-Fi: The Olimex board uses an Ethernet PHY chip. You cannot
+#   run both Wi-Fi and Ethernet simultaneously. Once this YAML is compiled and 
+#   flashed, the board will only communicate via the wired Ethernet cable.
+################################################################################
+# Usage:
+#   Add the following code to package section in the device file
+# ------------------------------------------------------------------------------
+# packages:
+#   board: !include 
+#     file: boards/esp32/.yaml
+#     vars:
+#       i2c_scan: true
+#       uart_baud_rate: 15200
+#       esp32_version: latest
+# ------------------------------------------------------------------------------
+# substitutions from the project file:
+#   - device_internal_name
+#   - device_sampling_time
+#
+################################################################################
