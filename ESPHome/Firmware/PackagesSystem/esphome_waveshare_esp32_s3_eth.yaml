@@ -1,0 +1,61 @@
+###############################################################################
+# Substitution Variables
+################################################################################
+substitutions:
+  # Waveshare ESP32-S3-ETH
+  device_internal_name: esphome_waveshare_esp32_s3_eth
+  device_friendly_name: ESPHome Waveshare ESP32-S3-ETH
+  # W5500 Lan
+  w5500_mosi: GPIO11
+  w5500_miso: GPIO12
+  w5500_clk:  GPIO13
+  w5500_cs: GPIO14
+  w5500_int: GPIO10
+  w5500_rst: GPIO9
+  
+  comment: "Wavwshare ESP32-S3 ETH"
+
+################################################################################
+# Common Packages
+################################################################################
+packages:
+  # Include ESPHome Board Configuration 
+  # version: 2.0.9
+  board: !include 
+    file: boards/esp32/ESP32-S3-ETH-Waveshare.yaml
+    vars:
+      i2c_scan: true
+      uart_baud_rate: 115200
+      framework_version: recommended 
+
+  # Include Common Core ESPHome definitions
+  settings: !include 
+    file: common/core/settings.yaml
+    vars:
+      time_region: Europe/Copenhagen
+
+  # Include Common Network Definition
+  wifi: !include common/network/ethernet_lanw5500.yaml
+  
+  webserver: !include common/network/webserver.yaml
+
+  ##############################################################################
+  # Peripherals Package
+  ##############################################################################
+
+
+  ##############################################################################
+  # Sensors Package
+  ##############################################################################
+  bh1750: !include 
+    file: sensors/environment/bh1750.yaml
+    vars:
+      i2c_address: 0x23
+
+################################################################################
+# Parameter Change
+################################################################################
+i2c:
+#  sda: GPIO14
+#  scl: GPIO15
+#  scan: false

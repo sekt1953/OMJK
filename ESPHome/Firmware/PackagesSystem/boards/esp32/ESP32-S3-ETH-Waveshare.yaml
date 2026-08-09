@@ -1,12 +1,12 @@
 ################################################################################
-# ESP32D-Wroom-HW-394 used USB-C
+# ESP32-S3-ETH-Waveshare
 ################################################################################
 # Usage:
 #   Add the following code to package section in the device file
 # ------------------------------------------------------------------------------
 # packages:
 #   board: !include 
-#     file: boards/esp32/wroom_32d_hw_394.yaml
+#     file: boards/esp32/ESP32-S3-ETH-Waveshare.yaml
 #     vars:
 #       i2c_scan: true
 #       uart_baud_rate: 115200
@@ -25,25 +25,30 @@
 #
 ################################################################################
 # PinOut; 
-#   https://www.espboards.dev/img/S36MIHQRiM-900.png
+#   https://www.waveshare.com/img/devkit/ESP32-S3-ETH/ESP32-S3-ETH-details-15.jpg
 #
-# Safe Pins to Use:
-#  -GPIO13	avoid using as GPIO if JTAG is needed.
-#   GPIO14	produce spurious signals at boot.
-#   GPIO16	
-#   GPIO17	
-#  -GPIO18  SPI/CLK
-#  -GPIO19  SPI/MISO
-#  -GPIO21  I2C/SDA
-#  -GPIO22  I2C/SCL
-#  -GPIO23  SPI/MOSI
-#  -GPIO25
-#  -GPIO26
-#  -GPIO27
-#  -GPIO32
-#  -GPIO33
-#   GPIO34	only suitable for analog/digital input.
-#   GPIO35	only suitable for input.
+# Safe Pins to Use:             SD Card:
+#   Pin4  - GPIO48              SD_MOSI - GPIO6
+#   Pin5  - GPIO47              SD_MISO - GPIO5
+#   Pin6  - GPIO46              SD_CLK  - GPIO7
+#   Pin7  - GPIO45              SD_CS   - GPIO4
+#   Pin9  - GPIO42
+#   Pin10 - GPIO41              W5500 Ethernet:
+#   Pin11 - GPIO40              ETH_MOSI - GPIO11
+#   Pin12 - GPIO39              ETH_MISO - GPIO12
+#   Pin14 - GPIO38              ETH_CLK  - GPIO13
+#   Pin15 - GPIO37              ETH_CS   - GPIO14
+#   Pin16 - GPIO36              ETH_INT  - GPIO10
+#   Pin17 - GPIO35              ETH_RST  - GPIO9
+#   Pin19 - GPIO34
+#   Pin20 - GPIO33              RGB DataIn:
+#   Pin25 - GPIO1               Pin35    - GPIO21 
+#   Pin26 - GPIO2 
+#   Pin27 - GPIO3               BOOT:
+#   Pin29 - GPIO15              Pin24    - GPIO0
+#   Pin31 - GPIO18
+#   Pin32 - GPIO16              RESET:
+#   Pin34 - GPIO17              Pin30    - CHIP_UP
 #
 ################################################################################
 # Author: Svenn-Erik K. Thomsen
@@ -60,10 +65,14 @@
 # Do not try to use another!
 # ------------------------------------------------------------------------------
 esp32:
-  board: esp32dev
+  board: esp32-s3-devkitc-1
+  variant: esp32s3
+  flash_size: 16MB
   framework:
-    type: arduino
-    version: ${framework_version}
+    type: esp-idf
+    platform_version: 6.9.0
+    advanced:
+      ignore_efuse_mac_crc_check: false
 
 # Status led
 status_led:
@@ -71,36 +80,3 @@ status_led:
   pin:
     number: GPIO2
     inverted: false
-
-# I2C settings
-i2c:
-  id: ${device_internal_name}_i2c_bus0
-  sda: GPIO21
-  scl: GPIO22
-  scan: ${i2c_scan}
-
-# UART
-uart:
-  id: ${device_internal_name}_uart_bus0
-  tx_pin: GPIO1
-  rx_pin: GPIO3
-  baud_rate: ${uart_baud_rate}
-  parity: NONE
-  stop_bits: 1
-
-# SPI
-spi:
-  id: ${device_internal_name}_spi_bus0
-  clk_pin: GPIO18
-  mosi_pin: GPIO23
-  miso_pin: GPIO19
-  interface: hardware
-
-# Sensors
-sensor:
-  # Internal Temperature Sensor
-  - platform: internal_temperature
-    id: ${device_internal_name}_internal_temperature
-    name: "Internal Temperature"
-    update_interval: ${device_sampling_time}
-    disabled_by_default: true

@@ -1,0 +1,112 @@
+################################################################################
+# Seeed Studio XIAO ESP32-S3
+################################################################################
+# Usage:
+#   Add the following code to package section in the device file
+# ------------------------------------------------------------------------------
+# packages:
+#   board: !include boards/esp32/S3_Seeed_Studio_XIAO.yaml
+# ------------------------------------------------------------------------------
+# substitutions from the project file:
+#   - device_internal_name
+#   - device_sampling_time
+################################################################################
+# Referance:
+#   https://nuttx.apache.org/docs/latest/platforms/xtensa/esp32s3/boards/esp32s3-xiao/index.html
+# ------------------------------------------------------------------------------
+# Spec: 
+#   ESP32-S3R8 Xtensa LX7 dual-core, 32-bit processor that operates at up to 240 MHz
+#   On-chip 8M PSRAM & 8MB Flash
+#   USB Type-C interface
+#   Wireless: Complete 2.4GHz Wi-Fi subsystem;
+#   BLE: Bluetooth 5.0, Bluetooth mesh
+#   1x UART, 1x I2C, 1x I2S, 1x SPI, 11x GPIOs (PWM), 9x ADC
+#   1 user LED, 1 power LED
+#   1 RESET button, 1 BOOT button
+# ------------------------------------------------------------------------------
+# Pinout:
+#   Pad Signal  Notes
+#   ------------------
+#    0  GPIO01  D0/A0
+#    1  GPIO02  D1/A1
+#    2  GPIO03  D2/A2
+#    3  GPIO04  D3/A3
+#    4  GPIO05  D4/SDA
+#    5  GPIO06  D5/SCL
+#    6  GPIO43  D6/Default TX for UART0 serial console
+#    7  GPIO44  D7/Default RX for UART0 serial console
+#    8  GPIO07  D8/SCK
+#    9  GPIO08  D9/MISO
+#   10  GPIO09  D10/MOSI
+#   11  3V3     Power output to peripherals
+#   12  Ground
+#   13  VIN     +5V Supply to board
+################################################################################
+# Author: Svenn-Erik K. Thomsen
+# YouTube: https://www.youtube.com/@sekt1953
+# Version: 1.0.0
+# Licence: CCO 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+# ------------------------------------------------------------------------------
+# Notes:
+#     - ikke Tested OK
+################################################################################
+# Board Specific Configurations
+# ------------------------------------------------------------------------------
+# This specification file is specific to the ESP32 S3 N16R8 development board!
+# Do not try to use another!
+# ------------------------------------------------------------------------------
+esp32:
+  board: esp32-s3-devkitc-1
+  framework:
+    type: arduino
+    version: latest
+  flash_size: 16MB
+
+# Captive Portal
+captive_portal:
+
+# PSRAM
+psram:
+  mode: octal
+  speed: 80MHz
+
+# Status led
+status_led:
+  id: ${device_internal_name}_status_led
+  pin:
+    number: GPIO21
+    inverted: false
+
+# I2C settings
+i2c:
+  - id: ${device_internal_name}_i2c
+    sda: GPIO5
+    scl: GPIO6
+    scan: ${i2c_scan}
+
+# UART
+uart:
+  - id: ${device_internal_name}_uart
+    tx_pin: GPIO43
+    rx_pin: GPIO44
+    baud_rate: 115200
+    parity: NONE
+    stop_bits: 1
+
+# SPI
+spi:
+  id: ${device_internal_name}_spi
+  clk_pin: GPIO07
+  miso_pin: GPIO8
+  mosi_pin: GPIO9
+
+  interface: hardware
+
+# Sensors
+sensor:
+  # Internal Temperature Sensor
+  - platform: internal_temperature
+    id: ${device_internal_name}_internal_temperature
+    name: "Internal Temperature"
+    update_interval: ${device_sampling_time}
+    disabled_by_default: true
