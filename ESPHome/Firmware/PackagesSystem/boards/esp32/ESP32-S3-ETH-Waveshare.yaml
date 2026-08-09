@@ -90,8 +90,15 @@ esp32:
       ignore_efuse_mac_crc_check: false
 
 # Status led
-status_led:
-  id: ${device_internal_name}_status_led
-  pin:
-    number: GPIO21
-    inverted: false
+# Styring af den indbyggede NeoPixel RGB LED
+light:
+  - platform: esp32_rmt_led_strip
+    id: ${device_internal_name}_status_led
+    name: ${device_internal_name}_status_led
+    pin: GPIO21
+    num_leds: 1
+    chipset: WS2812
+    rgb_order: GRB
+    effects:
+      - rainbow:
+      - pulse:

@@ -35,7 +35,8 @@ packages:
       time_region: Europe/Copenhagen
 
   # Include Common Network Definition
-  wifi: !include common/network/ethernet_lanw5500.yaml
+  wifi: !include 
+    file: common/network/ethernet_lanw5500_rst.yaml
   
   webserver: !include common/network/webserver.yaml
 

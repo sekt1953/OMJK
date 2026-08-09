@@ -16,7 +16,7 @@
 # ------------------------------------------------------------------------------
 # packages:
 #   board: !include 
-#     file: common/network/ethernet_lanw5500.yaml
+#     file: common/network/ethernet_lanw5500_rst.yaml
 #     vars:
 #       ethernet_lanw5500_clk_pin: GPIO12
 #       ethernet_lanw5500_mosi_pin: GPIO11
@@ -24,15 +24,6 @@
 #       ethernet_lanw5500_cs_pin: GPIO10
 #       ethernet_lanw5500_interrupt_pin: GPIO9
 #       ethernet_lanw5500_reset_pin: GPIO3
-#
-#   Seeed Studio XIAO ESP32-S3
-#     vars:
-#       ethernet_lanw5500_clk_pin: GPIO7
-#       ethernet_lanw5500_mosi_pin: GPIO9
-#       ethernet_lanw5500_miso_pin: GPIO8
-#       ethernet_lanw5500_cs_pin: GPIO4
-#       ethernet_lanw5500_reset_pin: GPIO3
-#
 ################################################################################
 # Author: Svenn-Erik K. Thomsen
 # YouTube: https://www.youtube.com/@sekt1953
@@ -48,10 +39,10 @@
 ################################################################################
 ethernet:
   type: W5500
-  clk_pin: ${ethernet_lanw5500_clk_pin}
-  mosi_pin: ${ethernet_lanw5500_mosi_pin}
-  miso_pin: ${ethernet_lanw5500_miso_pin}
-  cs_pin: ${ethernet_lanw5500_cs_pin}
-#  interrupt_pin: GPIOXX
-  reset_pin: ${ethernet_lanw5500_reset_pin}
+  mosi_pin: ${w5500_mosi}
+  miso_pin: ${w5500_miso}
+  clk_pin: ${w5500_clk}
+  cs_pin: ${w5500_cs}
+  interrupt_pin: ${w5500_int}
+  reset_pin: ${5500_rst}
   
