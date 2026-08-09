@@ -93,5 +93,5 @@ esp32:
 status_led:
   id: ${device_internal_name}_status_led
   pin:
-    number: GPIO2
+    number: GPIO21
     inverted: false
