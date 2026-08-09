@@ -1,6 +1,21 @@
 ################################################################################
 # ESP32-S3-ETH-Waveshare
 ################################################################################
+# Source:
+#   https://www.waveshare.com/esp32-s3-eth.htm?srsltid=AfmBOopikBak8QwEWdt9f0DMsj--HAiIWbsdRocID29ZegQRO9xj3I5B
+#   https://www.waveshare.com/wiki/ESP32-S3-ETH#Schematic_Diagram
+# 
+# Key features include:
+#   * Adopts ESP32-S3R8 high-performance chip with Xtensa 32-bit LX7 dual-core processor, capable of running at 240 MHz
+#   * Integrated 512KB SRAM, 384KB ROM, 8MB PSRAM and 16MB Flash memory
+#   * Integrated 2.4GHz Wi-Fi and Bluetooth 5 (LE) wireless communication, with an onboard antenna. Supports switching to use external antenna
+#   * Onboard W5500 Ethernet chip for extending 10/100Mbps network port through SPI interface
+#   * Optional for PoE module to realize Power over Ethernet function (IEEE 802.3af-compliant)
+#   * Onboard camera interface, supports OV5640 and other mainstream cameras for image and video capture
+#   * Onboard USB Type-C port for power supply, program downloading, and debugging, more convenient for development use
+#   * Onboard TF card slot for external TF card storage of pictures or files
+#   * Compatible with Pico header, onboard multiple peripheral interfaces, offering strong compatibility and expandability
+# ------------------------------------------------------------------------------
 # Usage:
 #   Add the following code to package section in the device file
 # ------------------------------------------------------------------------------
