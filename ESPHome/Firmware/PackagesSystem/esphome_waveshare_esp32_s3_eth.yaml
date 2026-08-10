@@ -37,6 +37,8 @@ packages:
   # Include Common Network Definition
   wifi: !include 
     file: common/network/ethernet_lanw5500_rst.yaml
+    vars:
+      
   
   webserver: !include common/network/webserver.yaml
 
