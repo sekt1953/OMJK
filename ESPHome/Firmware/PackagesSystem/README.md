@@ -10,6 +10,7 @@
     * [ESPHome Web Server and Web Server Updates in ESPHome 2024.10](https://youtu.be/7xuKtR4a6c4)
     * GitHub Repositorie
       * [Code from the Home Automator YouTube Channel](https://github.com/homeautomatorza/esphome/tree/main)
+      * [ESPHome Modules](https://github.com/homeautomatorza/ESPHome-Modules/tree/main)
 * ESPHome
   * [Packages](https://esphome.io/components/packages/)
 * AI
