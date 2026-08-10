@@ -17,7 +17,7 @@
 * AI
   * [The Substitution Default Overriding Pattern](../../AI-Input/The%20Substitution%20Default%20Overriding%20Pattern.md)
 
-## [Substitutions](https://esphome.io/components/substitutions/)
+## Substitutions
 
 ### The Substitution Default Overriding Pattern
 
