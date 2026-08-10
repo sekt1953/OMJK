@@ -13,6 +13,7 @@
       * [ESPHome Modules](https://github.com/homeautomatorza/ESPHome-Modules/tree/main)
 * ESPHome.io
   * [Packages](https://esphome.io/components/packages/)
+  * [Substitutions](https://esphome.io/components/substitutions/)
 * AI
   * [The Substitution Default Overriding Pattern](../../AI-Input/The%20Substitution%20Default%20Overriding%20Pattern.md)
 
