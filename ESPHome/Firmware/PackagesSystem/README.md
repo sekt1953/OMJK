@@ -11,7 +11,7 @@
     * GitHub Repositorie
       * [Code from the Home Automator YouTube Channel](https://github.com/homeautomatorza/esphome/tree/main)
       * [ESPHome Modules](https://github.com/homeautomatorza/ESPHome-Modules/tree/main)
-* ESPHome
+* ESPHome.io
   * [Packages](https://esphome.io/components/packages/)
 * AI
   * [The Substitution Default Overriding Pattern](../../AI-Input/The%20Substitution%20Default%20Overriding%20Pattern.md)
