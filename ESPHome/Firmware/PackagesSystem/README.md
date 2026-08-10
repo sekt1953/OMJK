@@ -10,6 +10,8 @@
     * [ESPHome Web Server and Web Server Updates in ESPHome 2024.10](https://youtu.be/7xuKtR4a6c4)
 * ESPHome
   * [Packages](https://esphome.io/components/packages/)
+* AI
+  * [The Substitution Default Overriding Pattern](../../AI-Input/The%20Substitution%20Default%20Overriding%20Pattern.md)
 
 ## Substitutions
 
@@ -30,7 +32,8 @@ wifi:
   # If left as an empty comment placeholder, it does nothing.
   $fast_connect_setting 
 ```
-* 
+
+*
   * device.yaml (Your Main File):
 
 ```yaml  
@@ -40,4 +43,3 @@ substitutions:
 
 <<: !include common_wifi.yaml
 ```
- 
