@@ -19,7 +19,7 @@
 
 ## Substitutions
 
-### The Substitution Default Overriding Pattern
+### What do AI say about "The Substitution Default Overriding Pattern"
 
 * ESPHome does not support native if statements:
   * ESPHome does not support native if statements or conditional logic inside a YAML !include statement. Because YAML is purely a static descriptive language and lacks a built-in preprocessor engine,
@@ -47,3 +47,38 @@ substitutions:
 
 <<: !include common_wifi.yaml
 ```
+
+### My Substitution Variables for Wavwshare ESP32-S3 ETH
+
+```yaml
+substitutions:
+# ...
+# W5500 Lan with RST Pin.
+  w5500_mosi: GPIO11
+  w5500_miso: GPIO12
+  w5500_clk:  GPIO13
+  w5500_cs: GPIO14
+  w5500_int: GPIO10
+  w5500_rst: GPIO9
+```
+
+#Lan Package for Olimex-ESP32-P4-Devkit
+ethernet:
+  type: IP101
+  mdc_pin: GPIO31
+  mdio_pin: GPIO52
+  clk:
+    pin: GPIO50
+    mode: CLK_EXT_IN
+  phy_addr: 1
+  power_pin: GPIO51
+  
+#Lan Package for Wavwshare ESP32-S3 ETH
+  ethernet:
+  type: W5500
+  clk_pin: GPIO13
+  mosi_pin: GPIO11
+  miso_pin: GPIO12
+  cs_pin: GPIO14
+  interrupt_pin: GPIO10
+  reset_pin: GPIO9
