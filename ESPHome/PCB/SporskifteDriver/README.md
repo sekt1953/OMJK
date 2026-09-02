@@ -1,5 +1,9 @@
 # Sporskifte Driver med TB6612FNG for Tortoise Point Motors
 
+## Youtube Video
+
+* [POINTS FAILURE at Highley! S&T to the RESCUE!](https://youtu.be/z0vZb4QCIHU)
+
 ## SporskifteDriver_002 med PWM control
 
 |Fritzing Schematic|
