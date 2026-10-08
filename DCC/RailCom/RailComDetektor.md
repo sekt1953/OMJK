@@ -803,3 +803,60 @@ class RailcomDecoder : public esphome::Component, public esphome::uart::UARTDevi
 4. Klik på Konfigurer, og du har nu sensoren sensor.railcom_aktuelt_lokomotiv direkte i dit system.
 
 Vil du have tilføjet en timeout-funktion i C++ koden, så sensoren automatisk skifter tilbage til 0 (eller unknown), hvis lokomotivet forlader sporstykket, og der ikke modtages RailCom data i f.eks. 3 sekunder?
+
+## Decodering af RailCom
+
+* Decodering af RailCom (en NMRA-standard til tovejskommunikation i modeltog/DCC) kræver, at hardwaren registrerer de små strømimpulser, som lokomotivdekoderen sender tilbage under DCC-signalets " RailCom cutout"-periode.
+* Fordi RailCom-data sendes som strømimpulser (typisk over en 250 Ω modstand under cut-out vinduet), konverteres dette strømsignal til et spændingssignal og føres ind i en hurtig komparator eller operationsforstærker (Op-Amp) inden det sendes til en af ESP32-S3's UART RX-pins.
+
+Blokdiagram over et RailCom-modtagersystem med ESP32-S3
+
+```txt
+     DCC-Signal (Fra Booster / Skinner)
+                │
+                ▼
+     ┌─────────────────────────────────────┐
+     │  RailCom Cutout Detektor &          │
+     │  Strøm-til-Spænding Konverter       │
+     │  (F.eks. via 250 Ohm modstand &     │
+     │   Hurtig Op-Amp / Komparator)       │
+     └──────────────────┬──────────────────┘
+                        │
+                        │ (Digitaliseret 250 kBaud signal)
+                        ▼
+            ┌──────────────────────┐
+            │ Optokobbler (Hurtig) │  <-- Valgfrit, men stærkt anbefalet
+            └───────────┬──────────┘      for galvanisk isolation!
+                        │
+                        ▼ 3.3V TTL Signal
+     ┌─────────────────────────────────────┐
+     │             ESP32-S3                │
+     │                                     │
+     │  [ GPIO 18 (UART1 RX) ] ◄───────────┤  <-- Modtager RailCom data
+     │                                     │      (8-N-1, 250.000 baud)
+     │  [ GPIO 17 (Cutout-vindue) ] ◄──────┤  <-- Valgfri DCC-synkronisering
+     └─────────────────────────────────────┘
+```
+Typisk Skematisk Hardware-interface (Principskitse)
+
+For at omsætte RailCom-strømmen (skinnerne kortsluttes kortvarigt med en strøm på 10-30 mA af lokomotivet under "cutout") anvendes typisk et kredsløb som følger:
+
+```txt
+Fra Skinne A  ───[ Hovedstrøm / Diodebro ]─── To Booster / Central
+                      │
+                      ├──[ 250 Ohm Modstand ]───┐
+                      │                         ▼
+               [ Fast Op-Amp / ]─────────► [ Hurtig Optokobler ] ───► Til ESP32-S3 GPIO 18 (RX)
+               [  Komparator   ]            (f.eks. 6N137)
+                      ▲
+Fra Skinne B  ────────┴──────────────────────────────────────────────► GND (Isoleret side)
+```
+
+* Vigtige implementeringsdetaljer for ESP32-S3:
+  1. UART Konfiguration: RailCom benytter en baudrate på præcis 250.000 baud. ESP32-S3 har fleksible UART-enheder (f.eks. UART1 eller UART2), som uden problemer kan konfigureres til denne hastighed på stort set alle ledige GPIO-pins (f.eks. GPIO 18).
+  2. DCC Cutout Timing: Togdekoderen sender kun data, når DCC-boosteren laver en "cutout" (en pause i DCC-spændingen). Det anbefales at føre DCC-signalet ind på en anden GPIO (f.eks. GPIO 17) sat op som en interrupt-indgang. ESP32-S3 kan derved detektere starten af cutout-vinduet, nulstille UART-bufferen og kun lytte efter RailCom-bytes, når vinduet er åbent for at undgå støj.
+
+### Hvis du ønsker det, kan vi gå dybere ned i:
+
+*  En specifik kildekode-skabelon i ESP-IDF eller Arduino til opsætning af 250 kBaud UART.
+*  Valg af de bedste komponenter (f.eks. præcise op-amps eller egnede 6N137 optokoblere) til RailCom-detektering.
