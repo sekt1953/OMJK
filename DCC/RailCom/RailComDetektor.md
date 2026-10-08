@@ -5,12 +5,12 @@
 * Her er en komplet og fuldt funktionel ESP32-kode skrevet til Arduino IDE, som læser, validerer og afkoder RailCom-data (kanal 1) for at hente en lokomotivadresse.
 * Koden er baseret på Locoduinos RailCom-implementering og udnytter FreeRTOS-opgaver til asynkront at fange og behandle de lynhurtige serielle data (250.000 bps), som genereres under DCC-signalets "cutout"-periode.
 
-## 🛠️ Hardwareopsætning
+### 🛠️ Hardwareopsætning
 
 * RailCom-modtagerkort (detektor): Skal forbindes til en ledig hardware-seriel port (f.eks. UART1).
 * Pinforbindelse: Forbind detektorens TX-linje til ESP32 GPIO 4 (RX-pin). Husk fælles stel (GND).
 
-## 💻 ESP32 RailCom Afkodningskode
+### 💻 ESP32 RailCom Afkodningskode
 
 ```cpp
 cpp
@@ -174,7 +174,7 @@ void loop() {
 }
 ```
 
-## 🔍 Hvordan fungerer koden?
+### 🔍 Hvordan fungerer koden?
 
 1. 250.000 Baud Rate: RailCom-hardwaren sender data med en usædvanlig hastighed på nøjagtig 250 Kbps. Standard HardwareSerial på ESP32 konfigureres specifikt til dette i setup().
 2. 4/8 bit validering: For at sikre mod støj og transmissionsfejl, skal alle gyldige RailCom-bytes indeholde præcis fire 1-taller og fire 0-taller. decodeArray[] tjekker dette øjeblikkeligt; hvis værdien slår ud som 255, kasseres pakken som støj.
@@ -185,27 +185,25 @@ Hvis du har brug for det, kan jeg hjælpe dig med at udvide koden.
   * Vil du sende adressen videre via WiFi, MQTT eller en OLED-skærm?
   *  Har din DCC-central allerede en indbygget RailCom cutout-generator?
 
-• 
-Loco.Engineering
-Tutorial: How to make an Arduino / ESP32 wireless DCC decoder?
-Upload SimpleDCC/WCC on a decoder It's time to upload the SimpleDCC/WCC firmware to your DCC decoder. All the steps below will wor...
-• 
-TrainBoard.com
-DCC loco decoder that works with ESP32? - TrainBoard.com
-Hello. ESP32 have no EEPROM embedded, so saving data directly in the controller itself is not possible. The ESP32 normally runs it...
-• 
-Model Electronics Railway Group
-glossary:glossary_r [Knowledgebase]
-470uS, during the inter-message idle packet and is known as the “cutout”, then the decoder generates a 30 mA serial encoded signal...
+* Loco.Engineering
+  * Tutorial: How to make an Arduino / ESP32 wireless DCC decoder?
+  * Upload SimpleDCC/WCC on a decoder It's time to upload the SimpleDCC/WCC firmware to your DCC decoder. All the steps below will wor...
+* TrainBoard.com
+  * DCC loco decoder that works with ESP32? - TrainBoard.com
+  * Hello. ESP32 have no EEPROM embedded, so saving data directly in the controller itself is not possible. The ESP32 normally runs it...
+* Model Electronics Railway Group
+  * glossary:glossary_r [Knowledgebase]
+  * 470uS, during the inter-message idle packet and is known as the “cutout”, then the decoder generates a 30 mA serial encoded signal...
 
-jeg vil bruge esp32-s3
+## jeg vil bruge esp32-s3
 
 Når du skifter til en ESP32-S3, er der et par vigtige hardware-ændringer, du skal være opmærksom på:
+
 1. USB/Seriel: ESP32-S3 bruger ofte den interne USB-JTAG-enhed som primær seriel port til computeren. Det betyder, at Serial (monitoren) nogle gange initialiseres anderledes.
 2. UART-konfiguration: ESP32-S3 har 3 hardware-UARTS (UART0, UART1, og UART2). Vi bruger Serial1 til RailCom, men vi skal sikre os, at vi mapper den til de korrekte GPIO-pins, da S3 har et mere fleksibelt pin-matrix-system.
 Her er den opdaterede kode, som er optimeret specifikt til ESP32-S3 (f.eks. ESP32-S3 DevKitC-1):
 
-💻 Opdateret ESP32-S3 RailCom Kode
+### 💻 Opdateret ESP32-S3 RailCom Kode
 
 ```cpp
 cpp
@@ -362,13 +360,12 @@ void loop() {
 }
 ```
 
-### 💡 Indstillinger i Arduino IDE for ESP32-S3:
+### 💡 Indstillinger i Arduino IDE for ESP32-S3
 
-Når du uploader til dit board, skal du sikre dig disse indstillinger under Tools (Værktøjer) menuen:
-• Board: "ESP32S3 Dev Module" (eller dit specifikke S3-board)
-• USB CDC On Boot: Sæt til "Enabled" (dette sikrer, at Serial.print() virker med det samme over det indbyggede USB-stik).
-Vil du have, at ESP32-S3'eren også sender denne adresse videre til et styresystem via Wi-Fi (f.eks. via MQTT eller Wi-Fi Throttle-protokollen), eller skal den blot køre lokalt?
-
+* Når du uploader til dit board, skal du sikre dig disse indstillinger under Tools (Værktøjer) menuen:
+  * Board: "ESP32S3 Dev Module" (eller dit specifikke S3-board)
+  * USB CDC On Boot: Sæt til "Enabled" (dette sikrer, at Serial.print() virker med det samme over det indbyggede USB-stik).
+* Vil du have, at ESP32-S3'eren også sender denne adresse videre til et styresystem via Wi-Fi (f.eks. via MQTT eller Wi-Fi Throttle-protokollen), eller skal den blot køre lokalt?
 
 ## jeg vil have data send via mqtt til homeassistant
 
@@ -629,21 +626,20 @@ void loop() {
 
 ### 🔮 Hvad sker der i Home Assistant nu?
 
-Når koden kører og ESP32-S3 forbinder til dit Wi-Fi og din MQTT-broker, vil følgende ske automatisk:
-
-1. Automatisk Enhed: Under Indstillinger -> Enheder og integrationer -> MQTT vil du se en ny enhed dukke op, som hedder "RailCom Detektor".
-2. Sensor: Enheden vil have en sensor kaldet sensor.railcom_aktuelt_lokomotiv.
-3. Værdi: Sensorens tilstand (State) vil ændre sig til lokomotivets DCC-adresse (f.eks. 37 eller 4021) i det sekund, toget kører ind på dit RailCom-isolerede sporstykke. Hvis den mister forbindelsen, sørger "Last Will"-funktionen for at sætte enheden til unavailable i Home Assistant.
-Vil du have tilføjet en timeout-funktion, så sensorens værdi automatisk nulstilles (f.eks. ændres til "0" eller "Ingen"), hvis der ikke er modtaget RailCom-data fra et lokomotiv i f.eks. 5 sekunder?
+* Når koden kører og ESP32-S3 forbinder til dit Wi-Fi og din MQTT-broker, vil følgende ske automatisk:
+  1. Automatisk Enhed: Under Indstillinger -> Enheder og integrationer -> MQTT vil du se en ny enhed dukke op, som hedder "RailCom Detektor".
+  2. Sensor: Enheden vil have en sensor kaldet sensor.railcom_aktuelt_lokomotiv.
+  3. Værdi: Sensorens tilstand (State) vil ændre sig til lokomotivets DCC-adresse (f.eks. 37 eller 4021) i det sekund, toget kører ind på dit RailCom-isolerede sporstykke. Hvis den mister forbindelsen, sørger "Last Will"-funktionen for at sætte enheden til unavailable i Home Assistant.
+* Vil du have tilføjet en timeout-funktion, så sensorens værdi automatisk nulstilles (f.eks. ændres til "0" eller "Ingen"), hvis der ikke er modtaget RailCom-data fra et lokomotiv i f.eks. 5 sekunder?
 
 ## kan du skrive dette til ESPHome og droppe mqtt
 
-Her er en komplet ESPHome YAML-konfiguration. Ved at skifte fra MQTT til ESPHome dropper du helt behovet for en MQTT broker. I stedet forbinder din ESP32-S3 direkte til Home Assistant via ESPHome Native API, og den dukker automatisk op som en enhed med en sensor, så snart du tænder den.
-Da ESPHome ikke har en indbygget "NMRA RailCom 4/8 afkoder", bruger vi ESPHomes Custom UART Component skrevet i C++ direkte inde i YAML-filen.
+* Her er en komplet ESPHome YAML-konfiguration. Ved at skifte fra MQTT til ESPHome dropper du helt behovet for en MQTT broker. I stedet forbinder din ESP32-S3 direkte til Home Assistant via ESPHome Native API, og den dukker automatisk op som en enhed med en sensor, så snart du tænder den.
+* Da ESPHome ikke har en indbygget "NMRA RailCom 4/8 afkoder", bruger vi ESPHomes Custom UART Component skrevet i C++ direkte inde i YAML-filen.
 
 ### 📝 railcom_detector.yaml til ESPHome
 
-Opret en ny enhed i dit ESPHome dashboard, skift til YAML-redigering (Edit), og indsæt følgende kode. Husk at rette Wi-Fi-oplysningerne.
+* Opret en ny enhed i dit ESPHome dashboard, skift til YAML-redigering (Edit), og indsæt følgende kode. Husk at rette Wi-Fi-oplysningerne.
 
 ```yaml
 esphome:
@@ -703,11 +699,10 @@ sensor:
 
 ### 📄 Opret C++ hjælpefilen (railcom_decoder.h)
 
-For at ESPHome kan forstå koden, skal du oprette en fil ved siden af din YAML-fil.
-
-1. Hvis du bruger Home Assistant ESPHome add-on, skal du bruge en fil-editor (f.eks. File Editor eller Studio Code Server) og gå til mappen /config/esphome/.
-2. Opret en ny fil i den mappe og kald den nøjagtigt: railcom_decoder.h
-3. Indsæt følgende kode i filen:
+* For at ESPHome kan forstå koden, skal du oprette en fil ved siden af din YAML-fil.
+  1. Hvis du bruger Home Assistant ESPHome add-on, skal du bruge en fil-editor (f.eks. File Editor eller Studio Code Server) og gå til mappen /config/esphome/.
+  2. Opret en ny fil i den mappe og kald den nøjagtigt: railcom_decoder.h
+  3. Indsæt følgende kode i filen:
 
 ```cpp
 cpp
@@ -808,4 +803,3 @@ class RailcomDecoder : public esphome::Component, public esphome::uart::UARTDevi
 4. Klik på Konfigurer, og du har nu sensoren sensor.railcom_aktuelt_lokomotiv direkte i dit system.
 
 Vil du have tilføjet en timeout-funktion i C++ koden, så sensoren automatisk skifter tilbage til 0 (eller unknown), hvis lokomotivet forlader sporstykket, og der ikke modtages RailCom data i f.eks. 3 sekunder?
-
