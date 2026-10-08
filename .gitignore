@@ -32,4 +32,8 @@
 *.app
 
 # KiCad
-.history
+*.history
+
+# FreeCAD
+*.FCBak
+
